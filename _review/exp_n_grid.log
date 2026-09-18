@@ -1,0 +1,94 @@
+{
+ "label": "CAD-Recode v1 val",
+ "programs": 968,
+ "parse_failures": 0,
+ "programs_without_numeric_args": 0,
+ "programs_evaluated": 968,
+ "unique_programs": 967,
+ "exact_duplicates": 1,
+ "numeric_values": 28563,
+ "name_arguments": 0,
+ "value_classes": {
+  "integer": 28066,
+  "half": 497
+ },
+ "value_class_pct": {
+  "integer": 98.26,
+  "half": 1.74
+ },
+ "values_from_expressions": 11852,
+ "expression_classes": {
+  "integer": 11464,
+  "half": 388
+ },
+ "value_range": [
+  -100.0,
+  100.0
+ ],
+ "programs_all_on_half_grid": 968,
+ "pct_all_on_half_grid": 100.0,
+ "ci95_all_on_half_grid": [
+  99.605,
+  100.0
+ ],
+ "programs_all_integer": 667,
+ "pct_all_integer": 68.905,
+ "ci95_all_integer": [
+  65.919,
+  71.741
+ ],
+ "unique_programs_all_on_half_grid": 967,
+ "seconds": 0.5
+}
+  CAD-Recode v1.5 train 100000 programs, 47s
+  CAD-Recode v1.5 train 200000 programs, 90s
+  CAD-Recode v1.5 train 300000 programs, 137s
+  CAD-Recode v1.5 train 400000 programs, 182s
+  CAD-Recode v1.5 train 500000 programs, 226s
+  CAD-Recode v1.5 train 600000 programs, 266s
+  CAD-Recode v1.5 train 700000 programs, 308s
+  CAD-Recode v1.5 train 800000 programs, 349s
+  CAD-Recode v1.5 train 900000 programs, 391s
+{
+ "label": "CAD-Recode v1.5 train",
+ "programs": 981865,
+ "parse_failures": 0,
+ "programs_without_numeric_args": 0,
+ "programs_evaluated": 981865,
+ "unique_programs": 952099,
+ "exact_duplicates": 29766,
+ "numeric_values": 30835635,
+ "name_arguments": 0,
+ "value_classes": {
+  "integer": 30368236,
+  "half": 467399
+ },
+ "value_class_pct": {
+  "integer": 98.484,
+  "half": 1.516
+ },
+ "values_from_expressions": 13006133,
+ "expression_classes": {
+  "integer": 12639594,
+  "half": 366539
+ },
+ "value_range": [
+  -268.0,
+  200.0
+ ],
+ "programs_all_on_half_grid": 981865,
+ "pct_all_on_half_grid": 100.0,
+ "ci95_all_on_half_grid": [
+  100.0,
+  100.0
+ ],
+ "programs_all_integer": 685056,
+ "pct_all_integer": 69.771,
+ "ci95_all_integer": [
+  69.68,
+  69.862
+ ],
+ "unique_programs_all_on_half_grid": 952099,
+ "seconds": 425.5
+}
+written E:/3005/data/_review/exp_n_grid.json

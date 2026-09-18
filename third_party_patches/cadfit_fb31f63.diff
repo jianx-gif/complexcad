@@ -1,0 +1,42 @@
+diff --git a/cadquery_ops.py b/cadquery_ops.py
+index aaf4670..1a1b7dd 100644
+--- a/cadquery_ops.py
++++ b/cadquery_ops.py
+@@ -20,6 +20,16 @@ import pickle
+ import glob
+ import time
+ import signal
++# --- Windows compat: SIGALRM is Unix-only; degrade per-op timeout to a no-op ---
++if not hasattr(signal, "SIGALRM"):
++    signal.SIGALRM = 0
++    signal.alarm = lambda *a, **k: 0
++    _real_signal_signal = signal.signal
++    def _win_safe_signal(sig, handler):
++        if sig == 0:  # our stubbed SIGALRM
++            return None
++        return _real_signal_signal(sig, handler)
++    signal.signal = _win_safe_signal
+ import subprocess
+ import tempfile
+ import multiprocessing as mp
+diff --git a/greedy_search.py b/greedy_search.py
+index f6dc747..795be2e 100644
+--- a/greedy_search.py
++++ b/greedy_search.py
+@@ -19,6 +19,16 @@ import trimesh
+ from pathlib import Path
+ from typing import List, Dict, Any, Optional, Tuple
+ import signal
++# --- Windows compat: SIGALRM is Unix-only; degrade per-op timeout to a no-op ---
++if not hasattr(signal, "SIGALRM"):
++    signal.SIGALRM = 0
++    signal.alarm = lambda *a, **k: 0
++    _real_signal_signal = signal.signal
++    def _win_safe_signal(sig, handler):
++        if sig == 0:  # our stubbed SIGALRM
++            return None
++        return _real_signal_signal(sig, handler)
++    signal.signal = _win_safe_signal
+ import multiprocessing as mp
+ from functools import partial
+ from fit_primitives import build_action_instances_from_entry

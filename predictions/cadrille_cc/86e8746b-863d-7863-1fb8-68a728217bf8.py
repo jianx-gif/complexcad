@@ -1,0 +1,81 @@
+import cadquery as cq
+outer_radius = 15
+wall_thickness = 5
+inner_radius = outer_radius - wall_thickness
+rib_height = 8
+rib_width = 10
+rib_length = 30
+rib_thickness = wall_thickness
+rib_length = 100
+rib_spacing = 20
+rib_count = 6
+chamfer_size = 0.5
+base = (
+    cq.Workplane("XY")
+    .circle(outer_radius)
+    .extrude(rib_length)
+)
+rib = (
+    cq.Workplane("XY")
+    .circle(outer_radius)
+    .extrude(rib_length)
+)
+rib = rib.translate((0, 0, rib_length))
+rib = rib.translate((0, 0, rib_length))
+rib = rib.translate((0, 0, rib_length))
+rib = rib.translate((0, 0, rib_length))
+rib = rib.translate((0, 0, rib_length))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0, 0))
+rib = rib.translate((0, 0

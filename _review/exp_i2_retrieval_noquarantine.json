@@ -1,0 +1,9 @@
+{
+ "pool_size_with_quarantine": 9600,
+ "pool_size_without": 9329,
+ "quarantined_removed": 271,
+ "test_items_whose_neighbour_changed": 31,
+ "n_test": 400,
+ "descriptor": "10^3 voxel occupancy, cosine",
+ "pred_dir": "E:/3005/data\\predictions\\retrieval_noq"
+}

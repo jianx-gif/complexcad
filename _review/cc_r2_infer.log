@@ -1,0 +1,31 @@
+device: cuda 68 C
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+LoRA adapter merged: E:/3005/data/_review/cc_full_lora_r2/final_adapter
+模型已加载
+待推理 400 / 400 (mode=pc)
+  16/400 ok16 fail0 12.5s/件 GPU 67C ETA80.0min
+  32/400 ok32 fail0 11.3s/件 GPU 65C ETA69.5min
+  48/400 ok48 fail0 11.4s/件 GPU 65C ETA66.6min
+  64/400 ok64 fail0 11.1s/件 GPU 65C ETA62.3min
+  80/400 ok80 fail0 10.8s/件 GPU 65C ETA57.4min
+  96/400 ok96 fail0 11.0s/件 GPU 65C ETA55.7min
+  112/400 ok112 fail0 10.7s/件 GPU 65C ETA51.4min
+  128/400 ok128 fail0 10.7s/件 GPU 65C ETA48.7min
+  144/400 ok144 fail0 10.8s/件 GPU 65C ETA46.1min
+  160/400 ok160 fail0 10.7s/件 GPU 64C ETA42.7min
+  176/400 ok176 fail0 10.5s/件 GPU 63C ETA39.1min
+  192/400 ok192 fail0 10.5s/件 GPU 65C ETA36.5min
+  208/400 ok208 fail0 10.5s/件 GPU 64C ETA33.5min
+  224/400 ok224 fail0 10.5s/件 GPU 65C ETA30.9min
+  240/400 ok240 fail0 10.5s/件 GPU 65C ETA28.1min
+  256/400 ok256 fail0 10.5s/件 GPU 65C ETA25.3min
+  272/400 ok272 fail0 10.6s/件 GPU 64C ETA22.7min
+  288/400 ok288 fail0 10.6s/件 GPU 65C ETA19.7min
+  304/400 ok304 fail0 10.6s/件 GPU 64C ETA17.0min
+  320/400 ok320 fail0 10.7s/件 GPU 65C ETA14.3min
+  336/400 ok336 fail0 10.8s/件 GPU 70C ETA11.5min
+  352/400 ok352 fail0 10.7s/件 GPU 66C ETA8.6min
+  368/400 ok368 fail0 10.8s/件 GPU 66C ETA5.8min
+  384/400 ok384 fail0 10.8s/件 GPU 65C ETA2.9min
+  400/400 ok400 fail0 10.8s/件 GPU 65C ETA0.0min
+完成: ok 400 fail 0 用时 71.7min -> E:\3005\data\predictions\cadrille_cc_r2

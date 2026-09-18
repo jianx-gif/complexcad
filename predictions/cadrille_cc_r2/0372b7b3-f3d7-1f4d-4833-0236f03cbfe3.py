@@ -1,0 +1,19 @@
+import cadquery as cq
+outer_radius = 45
+inner_radius = 30
+wall_thickness = 5
+inner_radius = outer_radius - wall_thickness
+inner_radius = inner_radius - wall_thickness
+inner_radius = inner_radius - wall_thickness
+inner_radius = inner_radius - wall_thickness
+inner_radius = inner_radius - inner_radius
+inner_radius = inner_radius - inner_radius
+inner_radius = inner_radius - inner_radius
+inner_radius = inner_radius - inner_radius
+inner_radius = inner_radius - inner_radius
+inner = cq.Workplane('XY').circle(inner_radius).extrude(inner_radius)
+inner = cq.Workplane('XY').circle(inner_radius).extrude(inner_radius).translate((inner_radius, inner_radius, 0))
+inner = cq.Workplane('XY').circle(inner_radius).extrude(inner_radius).translate((inner_radius, inner_radius, 0))
+result = inner.union(inner)
+result = result.edges().chamfer(outer_radius)
+result = result.faces('>Z').workplane().hole(inner_radius * 2)

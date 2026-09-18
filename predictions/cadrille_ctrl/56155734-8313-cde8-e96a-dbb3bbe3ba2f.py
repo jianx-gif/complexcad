@@ -1,0 +1,58 @@
+import cadquery as cq
+w0=cq.Workplane('XY',origin=(36 ( ( (36 (67,10). (33 ( (30 T (30 T (33 ( (30 tent piece T con head.
+
+r=w0 con head Next N to The A with uniform's ( (30,0))
+w1 For (30,0))
+w1 For (33 (30 appearance (33 (67,100))
+ without as con head. ( (30,0)).segment((-33,10).segment((-33,10))
+w1 For construct nun
+import cadquery as cq
+w0=cq.Workplane('ZX',origin=(0,0))
+w1 For construct nun
+import cadquery as cq
+w0=cq.Workplane('XY',origin=(0,0,3))
+w1 For constructo (30,0))
+w1 For construct nun
+import cadquery as cq
+w0=cq.Workplane('XY',origin=(0,0,3))
+w1 For combinesal's (30,0))
+r=w0 be ( (33,10))
+w1 For construct d sym as con head. (33,0))
+r=w0 be ( (33,0))
+w1 For construct d sym as con con con con con con con con con con con con con con con con con con con con con con con con con con con con con con con con con to (30,0))
+w1 For (33,0))
+w1 For constructo con con con to be (33 (67,0))
+r=w0.sketch().segment((-31,100))
+ without as con (33,0)).segment((-33,10)).segment((-33,10))
+r=w0.sketch().segment((-33,100))
+close().assemble().push([(36,10)]).circle(3).push([(36,10)]).circle(3).finalize().extrude(-17).union(w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+w1 Formode='s').reset().face(w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+w1 Formode='s').reset().face(w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10))
+r=w0.sketch().segment((-33,10

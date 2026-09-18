@@ -1,0 +1,11 @@
+import cadquery as cq
+w0=cq.Workplane('XY',origin=(10,0.
+
+ (r=w0 appearance on con head.
+
+ (r=w0 appearance on con head.
+
+r=w0 appearance can to (10,0)). It### unit (36 to The (67,0)). It (67,0))
+r=w0 appearance can to The (36,0)).segment((-36,10).segment((-36,10))
+w1 On con on (36 to The (67,0)).segment((-33,10).segment((-33,10))
+w1 On con on (36,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0)).segment((-33,0

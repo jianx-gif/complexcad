@@ -1,0 +1,11 @@
+{
+ "n_test": 400,
+ "n_train": 9212,
+ "test_with_code_duplicate_in_train": 0,
+ "test_with_parameter_and_operation_duplicate_in_train": 0,
+ "train_models_with_same_operation_multiset_per_test_model": {
+  "median": 0,
+  "zero": 265,
+  "max": 28
+ }
+}

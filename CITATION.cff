@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code or the ComplexCAD data, please cite the thesis."
+title: "ComplexCAD: a multi-modal augmentation of complex CAD programs"
+type: software
+authors:
+  - family-names: Xiong
+    given-names: Jian
+    affiliation: "Technische Universität Berlin"
+year: 2026
+license: MIT
+repository-code: "https://github.com/jianx-gif/complexcad"
+keywords:
+  - CAD
+  - point cloud
+  - CadQuery
+  - dataset
+  - reverse engineering
+references:
+  - type: thesis
+    title: "Investigation of Dataset Construction Methods for Point Cloud to CAD Reconstruction with Complex Modeling Operations"
+    authors:
+      - family-names: Xiong
+        given-names: Jian
+    institution:
+      name: "Technische Universität Berlin"
+    year: 2026
+    thesis-type: "Master's thesis"
+  - type: article
+    title: "Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data"
+    authors:
+      - family-names: Ataei
+        given-names: Mohammadmehdi
+      - family-names: Askari
+        given-names: Farzaneh
+      - family-names: Malekshan
+        given-names: Kamal Rahimi
+      - family-names: Jayaraman
+        given-names: Pradeep Kumar
+    journal: "arXiv preprint arXiv:2604.24479"
+    year: 2026

@@ -1,0 +1,22 @@
+import cadquery as cq
+outer_radius = 30.0
+wall_thickness = 5.0
+inner_radius = outer_radius - wall_thickness
+rib_height = 12.0
+rib_thickness = 2.0
+rib_height = 10.0
+rib_spacing = 12.0
+chamfer_size = 1.0
+mount_hole_diameter = 5.0
+mount_hole_offset = 10.0
+outer = cq.Workplane('XY').circle(outer_radius).extrude(outer_radius)
+inner = cq.Workplane('XY').circle(inner_radius).extrude(inner_radius)
+rib = outer.cut(inner)
+rib = rib.faces('>Z').workplane().hole(inner_radius)
+rib = rib.faces('<Z').workplane().rect(rib_thickness, rib_height).extrude(rib_height)
+rib = rib.faces('>Z').workplane().rect(rib_thickness, rib_height).extrude(rib_height)
+rib = rib.union(rib)
+rib = rib.faces('>Z').workplane().hole(mount_hole_diameter)
+rib = rib.faces('>Z').workplane().rect(rib_thickness, rib_height).extrude(rib_height)
+rib = rib.faces('>Z').workplane().rect(rib_thickness, rib_height).extrude(rib_height)
+result = rib

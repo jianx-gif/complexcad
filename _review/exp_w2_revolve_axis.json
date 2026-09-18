@@ -1,0 +1,2754 @@
+{
+ "population_models": 1844,
+ "sample_size": 1844,
+ "seed": null,
+ "n_models_ok": 1844,
+ "n_models_error": 0,
+ "errors": {},
+ "tolerances": {
+  "abs_cos_min": 0.999,
+  "line_dist_max_mm": 0.01
+ },
+ "n_calls_per_model": {
+  "1": 1700,
+  "2": 134,
+  "3": 9,
+  "4": 1
+ },
+ "models_without_revolved_faces": 5,
+ "principal_face_type": {
+  "cone": 239,
+  "cylinder": 1364,
+  "torus": 135,
+  "revolution": 101
+ },
+ "coaxial_count_hist": {
+  "6": 251,
+  "5": 240,
+  "9": 86,
+  "3": 225,
+  "10": 56,
+  "4": 290,
+  "12": 50,
+  "8": 83,
+  "2": 177,
+  "7": 116,
+  "19": 8,
+  "11": 37,
+  "20": 70,
+  "1": 72,
+  "16": 9,
+  "13": 18,
+  "17": 6,
+  "0": 5,
+  "14": 22,
+  "18": 8,
+  "15": 15
+ },
+ "coaxial_all_faces_models": 695,
+ "plane_named": {
+  "XZ": 1421,
+  "XY": 268,
+  "YZ": 77,
+  "ZY": 1
+ },
+ "n_plane_ops_hist": {
+  "0": 1734,
+  "1": 33
+ },
+ "pure_relaxed_models": 85,
+ "pure_strict_models": 24,
+ "all_calls": {
+  "subset": "all revolve calls",
+  "counts": {
+   "attempted_calls": 1999,
+   "resolvable_calls": 1767,
+   "compared_calls": 1763,
+   "dir_match_calls": 1713,
+   "line_match_calls": 1687,
+   "any_face_line_match_calls": 1717,
+   "any_face_dir_match_calls": 1742,
+   "axis_explicit_calls": 108,
+   "not_resolvable_calls": 232,
+   "dir_match_line_mismatch_calls": 26,
+   "dir_mismatch_calls": 50,
+   "no_candidate_calls": 4,
+   "axisend_quirk_calls": 10,
+   "axis_perp_to_plane_calls": 17,
+   "post_transform_calls": 64
+  },
+  "models": {
+   "attempted_models": 1844,
+   "resolvable_models": 1642,
+   "dir_match_models": 1593,
+   "line_match_models": 1569,
+   "no_candidate_models": 3
+  },
+  "rates": {
+   "dir_match_pct_of_resolvable": 96.944,
+   "line_match_pct_of_resolvable": 95.473,
+   "no_candidate_pct_of_resolvable": 0.226,
+   "dir_match_pct_of_compared": 97.164,
+   "line_match_pct_of_compared": 95.689,
+   "dir_match_models_pct": 97.016,
+   "line_match_models_pct": 95.554
+  },
+  "not_resolvable_reasons": {
+   "revolve_nested": 173,
+   "name_not_unique_or_not_toplevel": 22,
+   "chain_op": 16,
+   "attribute": 14,
+   "root_call": 7
+  },
+  "angle_deviation_deg_of_dir_mismatches": {
+   "bins": {
+    "[0,0.1)": 0,
+    "[0.1,1)": 0,
+    "[1,5)": 0,
+    "[5,30)": 0,
+    "[30,60)": 1,
+    "[60,89)": 0,
+    "[89,89.999)": 0,
+    ">=89.999": 49
+   },
+   "stats": {
+    "n": 50,
+    "min": 30.0,
+    "median": 90.0,
+    "max": 90.0,
+    "mean": 88.8
+   },
+   "top_values": [
+    [
+     90.0,
+     49
+    ],
+    [
+     30.0,
+     1
+    ]
+   ]
+  },
+  "line_offset_mm_of_dir_match_line_mismatches": {
+   "bins": {
+    "[0,0.01)": 0,
+    "[0.01,0.1)": 0,
+    "[0.1,1)": 0,
+    "[1,10)": 4,
+    "[10,100)": 22,
+    ">=100": 0
+   },
+   "stats": {
+    "n": 26,
+    "min": 4.0,
+    "median": 28.666667,
+    "max": 70.0,
+    "mean": 27.292421
+   },
+   "top_values": [
+    [
+     15.0,
+     3
+    ],
+    [
+     30.0,
+     3
+    ],
+    [
+     20.0,
+     2
+    ],
+    [
+     40.0,
+     2
+    ],
+    [
+     4.0,
+     1
+    ],
+    [
+     6.0,
+     1
+    ],
+    [
+     8.0,
+     1
+    ],
+    [
+     8.5,
+     1
+    ]
+   ]
+  },
+  "line_offset_mm_of_all_dir_matches": {
+   "bins": {
+    "[0,1e-06)": 1687,
+    "[1e-06,0.001)": 0,
+    "[0.001,0.01)": 0,
+    "[0.01,0.1)": 0,
+    "[0.1,1)": 0,
+    "[1,10)": 4,
+    "[10,100)": 22,
+    ">=100": 0
+   },
+   "stats": {
+    "n": 1713,
+    "min": 0.0,
+    "median": 0.0,
+    "max": 70.0,
+    "mean": 0.414246
+   },
+   "top_values": [
+    [
+     0.0,
+     1687
+    ],
+    [
+     15.0,
+     3
+    ],
+    [
+     30.0,
+     3
+    ],
+    [
+     20.0,
+     2
+    ],
+    [
+     40.0,
+     2
+    ],
+    [
+     4.0,
+     1
+    ],
+    [
+     6.0,
+     1
+    ],
+    [
+     8.0,
+     1
+    ]
+   ]
+  },
+  "mismatch_attribution": {
+   "direction:no_face_on_declared_axis": 21,
+   "direction:declared_axis_is_smaller_face": 21,
+   "parallel_offset:no_face_on_declared_line": 17,
+   "parallel_offset:declared_axis_is_smaller_face": 9,
+   "direction:parallel_face_exists_but_offset": 8
+  },
+  "mismatch_attribution_prioritized": {
+   "C_principal_face_is_another_feature(declared_axis_present_on_smaller_face)": 25,
+   "B_body_translated_or_rotated_after_revolve": 25,
+   "A_declared_axis_perpendicular_to_sketch_plane(degenerate_revolve)": 15,
+   "D_no_face_on_declared_line(parallel_face_elsewhere)": 6,
+   "E_no_face_on_declared_axis": 5
+  },
+  "mismatch_examples": [
+   {
+    "uuid": "086a91f8-f18c-c9e8-e203-1760c6282f06",
+    "line": 45,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 15.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 2450.4423,
+    "any_face_line_match": true,
+    "best_face_rank": 1,
+    "best_face_type": "cylinder",
+    "best_face_area": 1826.0806
+   },
+   {
+    "uuid": "09ca1f98-4171-5d92-ec10-80f8e696d8de",
+    "line": 44,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 34.669872,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     10.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 358.1416,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "0c9c6c24-5b81-f36f-e456-692553bedc5c",
+    "line": 30,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 42.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     -20.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 376.9911,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "0fe9294b-41eb-b64d-dd33-f07d7cd8ddfc",
+    "line": 52,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 452.3893,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "14136598-ec3b-cc9d-af86-50156e289acd",
+    "line": 34,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 150.7964,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "17151444-36a4-41a0-3ffc-cccdf91b74ae",
+    "line": 20,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 6998.5902,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "179cf50c-aa4a-79bd-50b1-01a70260b36e",
+    "line": 61,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 4.0,
+    "declared_dir": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 1248.7831,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "1936ef65-0da2-5dbb-6ad1-fecf2b190f37",
+    "line": 26,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 40.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 1470.2654,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "1be276db-1b21-37f1-ced0-264b28d6e7c5",
+    "line": 22,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 25.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 812.2283,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "261dee9f-575b-f8c8-e24d-2e2ae9fef2ce",
+    "line": 38,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [],
+    "line_offset_mm": 40.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     40.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 992.5094,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "2dea4b6f-b13d-5d7c-619b-2024641194f4",
+    "line": 26,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 2513.2741,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "338223ce-158f-3f94-857a-1d59458201e5",
+    "line": 44,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 26.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 226.1947,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "376f4b35-af27-bf74-7175-4efe5ad6a078",
+    "line": 66,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "rotate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 3769.9112,
+    "any_face_line_match": true,
+    "best_face_rank": 17,
+    "best_face_type": "cone",
+    "best_face_area": 49.512
+   },
+   {
+    "uuid": "39d74980-b183-55f2-d3d1-aa5a32e6eabe",
+    "line": 26,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 12.940952,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 495.9396,
+    "any_face_line_match": true,
+    "best_face_rank": 1,
+    "best_face_type": "cone",
+    "best_face_area": 130.4833
+   },
+   {
+    "uuid": "3a4cd6ca-47de-54ea-9ff0-ccd5b04b4d7c",
+    "line": 25,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "rotate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cone",
+    "principal_area": 18859.741,
+    "any_face_line_match": true,
+    "best_face_rank": 3,
+    "best_face_type": "cylinder",
+    "best_face_area": 493.763
+   },
+   {
+    "uuid": "3fbbd8a5-2754-5d7a-cb79-aff4f29d7264",
+    "line": 63,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 15.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     15.0,
+     0.0,
+     12.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cone",
+    "principal_area": 13241.4609,
+    "any_face_line_match": true,
+    "best_face_rank": 7,
+    "best_face_type": "cone",
+    "best_face_area": 521.4788
+   },
+   {
+    "uuid": "4619d634-95b4-1fa7-bc39-3d55e42088e5",
+    "line": 60,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 61.032778,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "YZ",
+    "principal_type": "torus",
+    "principal_area": 7722.4309,
+    "any_face_line_match": true,
+    "best_face_rank": 3,
+    "best_face_type": "cylinder",
+    "best_face_area": 150.7964
+   },
+   {
+    "uuid": "4a226868-543c-e3d8-ce6c-3d9198a614d8",
+    "line": 19,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     40.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 74.154,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "542f0a78-5c3c-25b4-56c6-ee59aecef67d",
+    "line": 31,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 2513.2741,
+    "any_face_line_match": true,
+    "best_face_rank": 3,
+    "best_face_type": "cylinder",
+    "best_face_area": 30.5952
+   },
+   {
+    "uuid": "5590f6ca-5a10-dfd3-a2c8-87a70899fd51",
+    "line": 41,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 10.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 117.2861,
+    "any_face_line_match": true,
+    "best_face_rank": 1,
+    "best_face_type": "cylinder",
+    "best_face_area": 75.3982
+   },
+   {
+    "uuid": "592a8bbc-1d96-f210-68c3-030570a49bb1",
+    "line": 30,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 3015.9289,
+    "any_face_line_match": true,
+    "best_face_rank": 6,
+    "best_face_type": "cone",
+    "best_face_area": 67.1758
+   },
+   {
+    "uuid": "5fe6d970-d590-0b8e-58ca-6be7ed6d187f",
+    "line": 16,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 30.094242,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 278.8006,
+    "any_face_line_match": true,
+    "best_face_rank": 1,
+    "best_face_type": "cylinder",
+    "best_face_area": 189.7033
+   },
+   {
+    "uuid": "652fd238-c5cf-c946-f734-2ce34368ef6e",
+    "line": 29,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 5.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "YZ",
+    "principal_type": "cylinder",
+    "principal_area": 141.3717,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "64aa45c6-53f9-7888-05e7-fd88320626cc",
+    "line": 29,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 3767.2105,
+    "any_face_line_match": true,
+    "best_face_rank": 3,
+    "best_face_type": "cylinder",
+    "best_face_area": 185.8934
+   },
+   {
+    "uuid": "64aa45c6-53f9-7888-05e7-fd88320626cc",
+    "line": 30,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 3767.2105,
+    "any_face_line_match": true,
+    "best_face_rank": 3,
+    "best_face_type": "cylinder",
+    "best_face_area": 185.8934
+   },
+   {
+    "uuid": "65aa566a-61dc-fff1-273d-df2196f3d5a1",
+    "line": 25,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 622.0353,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "65aa566a-61dc-fff1-273d-df2196f3d5a1",
+    "line": 34,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 622.0353,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "663e16f9-cf76-d96d-2fc7-a277336547f1",
+    "line": 23,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 3760.6806,
+    "any_face_line_match": true,
+    "best_face_rank": 5,
+    "best_face_type": "cone",
+    "best_face_area": 83.7592
+   },
+   {
+    "uuid": "67f1403e-da9b-bf56-399f-ae8d1c77168d",
+    "line": 55,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 20.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "torus",
+    "principal_area": 1182.1822,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "6a8c9b4a-077f-1781-c7ce-e9285d70984f",
+    "line": 37,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 5529.2031,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "6ac88000-5be7-190a-5ba3-a5d01469a647",
+    "line": 42,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 968.6608,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "6a8416e3-8e66-0db2-51f3-1bf675d08f39",
+    "line": 61,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 15.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 1209.5132,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "6c9e27f2-b5bb-4ef8-dde6-370586642823",
+    "line": 28,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 5.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 229.951,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "6c9ef025-e3e8-3d54-d574-aea0a74e3f4d",
+    "line": 43,
+    "angle_dev_deg": 30.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 866.9167,
+    "any_face_line_match": true,
+    "best_face_rank": 1,
+    "best_face_type": "cone",
+    "best_face_area": 423.0507
+   },
+   {
+    "uuid": "76d019d9-f97f-0a68-c909-6a513076ada1",
+    "line": 30,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 35.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "revolution",
+    "principal_area": 2157.6149,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "77373dbc-bc60-5d40-0686-819e6e700abb",
+    "line": 33,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 42.5,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 628.3185,
+    "any_face_line_match": true,
+    "best_face_rank": 1,
+    "best_face_type": "torus",
+    "best_face_area": 94.6062
+   },
+   {
+    "uuid": "77373dbc-bc60-5d40-0686-819e6e700abb",
+    "line": 58,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 42.5,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "YZ",
+    "principal_type": "cylinder",
+    "principal_area": 628.3185,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "7af3cbab-b6a2-182b-e9f2-d5f09870d11d",
+    "line": 48,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cone",
+    "principal_area": 1034.3338,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "80669862-1d52-aa10-b016-cfbb206f9a53",
+    "line": 45,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "rotate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     35.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 1382.3008,
+    "any_face_line_match": true,
+    "best_face_rank": 12,
+    "best_face_type": "cylinder",
+    "best_face_area": 19.7392
+   },
+   {
+    "uuid": "8405b865-a055-55f2-99ff-5657e22a5c34",
+    "line": 41,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     7.5
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 395.2628,
+    "any_face_line_match": true,
+    "best_face_rank": 1,
+    "best_face_type": "cylinder",
+    "best_face_area": 141.0337
+   }
+  ]
+ },
+ "single_call_models": {
+  "subset": "models with exactly one revolve call",
+  "counts": {
+   "attempted_calls": 1700,
+   "resolvable_calls": 1515,
+   "compared_calls": 1513,
+   "dir_match_calls": 1470,
+   "line_match_calls": 1447,
+   "any_face_line_match_calls": 1470,
+   "any_face_dir_match_calls": 1494,
+   "axis_explicit_calls": 95,
+   "not_resolvable_calls": 185,
+   "dir_match_line_mismatch_calls": 23,
+   "dir_mismatch_calls": 43,
+   "no_candidate_calls": 2,
+   "axisend_quirk_calls": 9,
+   "axis_perp_to_plane_calls": 15,
+   "post_transform_calls": 53
+  },
+  "models": {
+   "attempted_models": 1700,
+   "resolvable_models": 1515,
+   "dir_match_models": 1470,
+   "line_match_models": 1447,
+   "no_candidate_models": 2
+  },
+  "rates": {
+   "dir_match_pct_of_resolvable": 97.03,
+   "line_match_pct_of_resolvable": 95.512,
+   "no_candidate_pct_of_resolvable": 0.132,
+   "dir_match_pct_of_compared": 97.158,
+   "line_match_pct_of_compared": 95.638,
+   "dir_match_models_pct": 97.03,
+   "line_match_models_pct": 95.512
+  },
+  "not_resolvable_reasons": {
+   "revolve_nested": 133,
+   "name_not_unique_or_not_toplevel": 18,
+   "chain_op": 16,
+   "attribute": 12,
+   "root_call": 6
+  },
+  "angle_deviation_deg_of_dir_mismatches": {
+   "bins": {
+    "[0,0.1)": 0,
+    "[0.1,1)": 0,
+    "[1,5)": 0,
+    "[5,30)": 0,
+    "[30,60)": 1,
+    "[60,89)": 0,
+    "[89,89.999)": 0,
+    ">=89.999": 42
+   },
+   "stats": {
+    "n": 43,
+    "min": 30.0,
+    "median": 90.0,
+    "max": 90.0,
+    "mean": 88.604651
+   },
+   "top_values": [
+    [
+     90.0,
+     42
+    ],
+    [
+     30.0,
+     1
+    ]
+   ]
+  },
+  "line_offset_mm_of_dir_match_line_mismatches": {
+   "bins": {
+    "[0,0.01)": 0,
+    "[0.01,0.1)": 0,
+    "[0.1,1)": 0,
+    "[1,10)": 3,
+    "[10,100)": 20,
+    ">=100": 0
+   },
+   "stats": {
+    "n": 23,
+    "min": 4.0,
+    "median": 28.666667,
+    "max": 70.0,
+    "mean": 27.982737
+   },
+   "top_values": [
+    [
+     30.0,
+     3
+    ],
+    [
+     15.0,
+     2
+    ],
+    [
+     20.0,
+     2
+    ],
+    [
+     40.0,
+     2
+    ],
+    [
+     4.0,
+     1
+    ],
+    [
+     6.0,
+     1
+    ],
+    [
+     8.0,
+     1
+    ],
+    [
+     10.0,
+     1
+    ]
+   ]
+  },
+  "line_offset_mm_of_all_dir_matches": {
+   "bins": {
+    "[0,1e-06)": 1447,
+    "[1e-06,0.001)": 0,
+    "[0.001,0.01)": 0,
+    "[0.01,0.1)": 0,
+    "[0.1,1)": 0,
+    "[1,10)": 3,
+    "[10,100)": 20,
+    ">=100": 0
+   },
+   "stats": {
+    "n": 1470,
+    "min": 0.0,
+    "median": 0.0,
+    "max": 70.0,
+    "mean": 0.437825
+   },
+   "top_values": [
+    [
+     0.0,
+     1447
+    ],
+    [
+     30.0,
+     3
+    ],
+    [
+     15.0,
+     2
+    ],
+    [
+     20.0,
+     2
+    ],
+    [
+     40.0,
+     2
+    ],
+    [
+     4.0,
+     1
+    ],
+    [
+     6.0,
+     1
+    ],
+    [
+     8.0,
+     1
+    ]
+   ]
+  },
+  "mismatch_attribution": {
+   "direction:no_face_on_declared_axis": 19,
+   "parallel_offset:no_face_on_declared_line": 16,
+   "direction:declared_axis_is_smaller_face": 16,
+   "direction:parallel_face_exists_but_offset": 8,
+   "parallel_offset:declared_axis_is_smaller_face": 7
+  },
+  "mismatch_attribution_prioritized": {
+   "B_body_translated_or_rotated_after_revolve": 24,
+   "C_principal_face_is_another_feature(declared_axis_present_on_smaller_face)": 18,
+   "A_declared_axis_perpendicular_to_sketch_plane(degenerate_revolve)": 13,
+   "D_no_face_on_declared_line(parallel_face_elsewhere)": 6,
+   "E_no_face_on_declared_axis": 5
+  },
+  "mismatch_examples": [
+   {
+    "uuid": "086a91f8-f18c-c9e8-e203-1760c6282f06",
+    "line": 45,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 15.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 2450.4423,
+    "any_face_line_match": true,
+    "best_face_rank": 1,
+    "best_face_type": "cylinder",
+    "best_face_area": 1826.0806
+   },
+   {
+    "uuid": "09ca1f98-4171-5d92-ec10-80f8e696d8de",
+    "line": 44,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 34.669872,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     10.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 358.1416,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "0c9c6c24-5b81-f36f-e456-692553bedc5c",
+    "line": 30,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 42.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     -20.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 376.9911,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "0fe9294b-41eb-b64d-dd33-f07d7cd8ddfc",
+    "line": 52,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 452.3893,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "14136598-ec3b-cc9d-af86-50156e289acd",
+    "line": 34,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 150.7964,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "17151444-36a4-41a0-3ffc-cccdf91b74ae",
+    "line": 20,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 6998.5902,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "179cf50c-aa4a-79bd-50b1-01a70260b36e",
+    "line": 61,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 4.0,
+    "declared_dir": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 1248.7831,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "1936ef65-0da2-5dbb-6ad1-fecf2b190f37",
+    "line": 26,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 40.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 1470.2654,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "1be276db-1b21-37f1-ced0-264b28d6e7c5",
+    "line": 22,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 25.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 812.2283,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "261dee9f-575b-f8c8-e24d-2e2ae9fef2ce",
+    "line": 38,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [],
+    "line_offset_mm": 40.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     40.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 992.5094,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "2dea4b6f-b13d-5d7c-619b-2024641194f4",
+    "line": 26,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 2513.2741,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "338223ce-158f-3f94-857a-1d59458201e5",
+    "line": 44,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 26.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 226.1947,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "376f4b35-af27-bf74-7175-4efe5ad6a078",
+    "line": 66,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "rotate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 3769.9112,
+    "any_face_line_match": true,
+    "best_face_rank": 17,
+    "best_face_type": "cone",
+    "best_face_area": 49.512
+   },
+   {
+    "uuid": "39d74980-b183-55f2-d3d1-aa5a32e6eabe",
+    "line": 26,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 12.940952,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 495.9396,
+    "any_face_line_match": true,
+    "best_face_rank": 1,
+    "best_face_type": "cone",
+    "best_face_area": 130.4833
+   },
+   {
+    "uuid": "3a4cd6ca-47de-54ea-9ff0-ccd5b04b4d7c",
+    "line": 25,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "rotate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cone",
+    "principal_area": 18859.741,
+    "any_face_line_match": true,
+    "best_face_rank": 3,
+    "best_face_type": "cylinder",
+    "best_face_area": 493.763
+   },
+   {
+    "uuid": "4619d634-95b4-1fa7-bc39-3d55e42088e5",
+    "line": 60,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 61.032778,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "YZ",
+    "principal_type": "torus",
+    "principal_area": 7722.4309,
+    "any_face_line_match": true,
+    "best_face_rank": 3,
+    "best_face_type": "cylinder",
+    "best_face_area": 150.7964
+   },
+   {
+    "uuid": "4a226868-543c-e3d8-ce6c-3d9198a614d8",
+    "line": 19,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     40.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 74.154,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "542f0a78-5c3c-25b4-56c6-ee59aecef67d",
+    "line": 31,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 2513.2741,
+    "any_face_line_match": true,
+    "best_face_rank": 3,
+    "best_face_type": "cylinder",
+    "best_face_area": 30.5952
+   },
+   {
+    "uuid": "5590f6ca-5a10-dfd3-a2c8-87a70899fd51",
+    "line": 41,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 10.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 117.2861,
+    "any_face_line_match": true,
+    "best_face_rank": 1,
+    "best_face_type": "cylinder",
+    "best_face_area": 75.3982
+   },
+   {
+    "uuid": "592a8bbc-1d96-f210-68c3-030570a49bb1",
+    "line": 30,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 3015.9289,
+    "any_face_line_match": true,
+    "best_face_rank": 6,
+    "best_face_type": "cone",
+    "best_face_area": 67.1758
+   },
+   {
+    "uuid": "5fe6d970-d590-0b8e-58ca-6be7ed6d187f",
+    "line": 16,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 30.094242,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 278.8006,
+    "any_face_line_match": true,
+    "best_face_rank": 1,
+    "best_face_type": "cylinder",
+    "best_face_area": 189.7033
+   },
+   {
+    "uuid": "652fd238-c5cf-c946-f734-2ce34368ef6e",
+    "line": 29,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 5.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "YZ",
+    "principal_type": "cylinder",
+    "principal_area": 141.3717,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "663e16f9-cf76-d96d-2fc7-a277336547f1",
+    "line": 23,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 3760.6806,
+    "any_face_line_match": true,
+    "best_face_rank": 5,
+    "best_face_type": "cone",
+    "best_face_area": 83.7592
+   },
+   {
+    "uuid": "67f1403e-da9b-bf56-399f-ae8d1c77168d",
+    "line": 55,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 20.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "torus",
+    "principal_area": 1182.1822,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "6a8c9b4a-077f-1781-c7ce-e9285d70984f",
+    "line": 37,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 5529.2031,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "6ac88000-5be7-190a-5ba3-a5d01469a647",
+    "line": 42,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 968.6608,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "6a8416e3-8e66-0db2-51f3-1bf675d08f39",
+    "line": 61,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 15.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 1209.5132,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "6c9e27f2-b5bb-4ef8-dde6-370586642823",
+    "line": 28,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 5.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 229.951,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "6c9ef025-e3e8-3d54-d574-aea0a74e3f4d",
+    "line": 43,
+    "angle_dev_deg": 30.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 866.9167,
+    "any_face_line_match": true,
+    "best_face_rank": 1,
+    "best_face_type": "cone",
+    "best_face_area": 423.0507
+   },
+   {
+    "uuid": "76d019d9-f97f-0a68-c909-6a513076ada1",
+    "line": 30,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 35.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "revolution",
+    "principal_area": 2157.6149,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "7af3cbab-b6a2-182b-e9f2-d5f09870d11d",
+    "line": 48,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": true,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cone",
+    "principal_area": 1034.3338,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "80669862-1d52-aa10-b016-cfbb206f9a53",
+    "line": 45,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "rotate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     35.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 1382.3008,
+    "any_face_line_match": true,
+    "best_face_rank": 12,
+    "best_face_type": "cylinder",
+    "best_face_area": 19.7392
+   },
+   {
+    "uuid": "8405b865-a055-55f2-99ff-5657e22a5c34",
+    "line": 41,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     7.5
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 395.2628,
+    "any_face_line_match": true,
+    "best_face_rank": 1,
+    "best_face_type": "cylinder",
+    "best_face_area": 141.0337
+   },
+   {
+    "uuid": "87e90cb8-672d-5359-a0d7-4b293c4d80d5",
+    "line": 44,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 2400.7308,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "8c72565f-d3e8-2c8b-dbd1-d9c827ffb112",
+    "line": 35,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 16.5,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     16.5,
+     0.0
+    ],
+    "plane": "YZ",
+    "principal_type": "cylinder",
+    "principal_area": 7928.603,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "974c1e42-c296-0099-8ec1-7c900747fd8c",
+    "line": 32,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 8.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     -1.0
+    ],
+    "declared_point": [
+     0.0,
+     -8.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 2010.6193,
+    "any_face_line_match": true,
+    "best_face_rank": 1,
+    "best_face_type": "cone",
+    "best_face_area": 1939.7759
+   },
+   {
+    "uuid": "9a569c41-4260-7da4-bd07-a3bff2d39174",
+    "line": 32,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 6.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "revolution",
+    "principal_area": 4990.4462,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "a1204e07-1a2c-f35a-e1b7-c06fc660e622",
+    "line": 22,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 28.666667,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 125.6637,
+    "any_face_line_match": true,
+    "best_face_rank": 2,
+    "best_face_type": "cylinder",
+    "best_face_area": 125.6637
+   },
+   {
+    "uuid": "a2ca1724-cdac-6881-8285-9a2030c0add7",
+    "line": 33,
+    "angle_dev_deg": 90.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 0.0,
+    "declared_dir": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XY",
+    "principal_type": "cylinder",
+    "principal_area": 1130.9734,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   },
+   {
+    "uuid": "aa0375be-65c8-aef5-54df-82c5b5a9f843",
+    "line": 62,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [],
+    "line_offset_mm": 29.154759,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     -20.0
+    ],
+    "plane": "XZ",
+    "principal_type": "cylinder",
+    "principal_area": 12.5664,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   }
+  ]
+ },
+ "pure_relaxed": {
+  "subset": "single revolve, no circle/hole/cbore/csk/cylinder/sphere/ellipse/slot/sweep/loft/shell/text outside the chain (fillet/chamfer allowed)",
+  "counts": {
+   "attempted_calls": 85,
+   "resolvable_calls": 85,
+   "compared_calls": 84,
+   "dir_match_calls": 84,
+   "line_match_calls": 83,
+   "any_face_line_match_calls": 83,
+   "any_face_dir_match_calls": 84,
+   "axis_explicit_calls": 6,
+   "no_candidate_calls": 1,
+   "dir_match_line_mismatch_calls": 1,
+   "axisend_quirk_calls": 1,
+   "axis_perp_to_plane_calls": 0,
+   "post_transform_calls": 1
+  },
+  "models": {
+   "attempted_models": 85,
+   "resolvable_models": 85,
+   "dir_match_models": 84,
+   "line_match_models": 83,
+   "no_candidate_models": 1
+  },
+  "rates": {
+   "dir_match_pct_of_resolvable": 98.824,
+   "line_match_pct_of_resolvable": 97.647,
+   "no_candidate_pct_of_resolvable": 1.176,
+   "dir_match_pct_of_compared": 100.0,
+   "line_match_pct_of_compared": 98.81,
+   "dir_match_models_pct": 98.824,
+   "line_match_models_pct": 97.647
+  },
+  "not_resolvable_reasons": {},
+  "angle_deviation_deg_of_dir_mismatches": {
+   "bins": {
+    "[0,0.1)": 0,
+    "[0.1,1)": 0,
+    "[1,5)": 0,
+    "[5,30)": 0,
+    "[30,60)": 0,
+    "[60,89)": 0,
+    "[89,89.999)": 0,
+    ">=89.999": 0
+   },
+   "stats": {
+    "n": 0
+   },
+   "top_values": []
+  },
+  "line_offset_mm_of_dir_match_line_mismatches": {
+   "bins": {
+    "[0,0.01)": 0,
+    "[0.01,0.1)": 0,
+    "[0.1,1)": 0,
+    "[1,10)": 0,
+    "[10,100)": 1,
+    ">=100": 0
+   },
+   "stats": {
+    "n": 1,
+    "min": 15.0,
+    "median": 15.0,
+    "max": 15.0,
+    "mean": 15.0
+   },
+   "top_values": [
+    [
+     15.0,
+     1
+    ]
+   ]
+  },
+  "line_offset_mm_of_all_dir_matches": {
+   "bins": {
+    "[0,1e-06)": 83,
+    "[1e-06,0.001)": 0,
+    "[0.001,0.01)": 0,
+    "[0.01,0.1)": 0,
+    "[0.1,1)": 0,
+    "[1,10)": 0,
+    "[10,100)": 1,
+    ">=100": 0
+   },
+   "stats": {
+    "n": 84,
+    "min": 0.0,
+    "median": 0.0,
+    "max": 15.0,
+    "mean": 0.178571
+   },
+   "top_values": [
+    [
+     0.0,
+     83
+    ],
+    [
+     15.0,
+     1
+    ]
+   ]
+  },
+  "mismatch_attribution": {
+   "parallel_offset:no_face_on_declared_line": 1
+  },
+  "mismatch_attribution_prioritized": {
+   "B_body_translated_or_rotated_after_revolve": 1
+  },
+  "mismatch_examples": [
+   {
+    "uuid": "d5e9404a-8eb0-23f4-ef9b-639ab91f4717",
+    "line": 47,
+    "angle_dev_deg": 0.0,
+    "axis_perp_to_plane": false,
+    "post_transform": [
+     "translate"
+    ],
+    "line_offset_mm": 15.0,
+    "declared_dir": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "declared_point": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "plane": "XZ",
+    "principal_type": "revolution",
+    "principal_area": 533.7392,
+    "any_face_line_match": false,
+    "best_face_rank": null,
+    "best_face_type": null,
+    "best_face_area": null
+   }
+  ]
+ },
+ "pure_strict": {
+  "subset": "pure_relaxed and also no fillet/chamfer",
+  "counts": {
+   "attempted_calls": 24,
+   "resolvable_calls": 24,
+   "compared_calls": 23,
+   "dir_match_calls": 23,
+   "line_match_calls": 23,
+   "any_face_line_match_calls": 23,
+   "any_face_dir_match_calls": 23,
+   "axis_explicit_calls": 2,
+   "no_candidate_calls": 1,
+   "axisend_quirk_calls": 1,
+   "axis_perp_to_plane_calls": 0,
+   "post_transform_calls": 0
+  },
+  "models": {
+   "attempted_models": 24,
+   "resolvable_models": 24,
+   "dir_match_models": 23,
+   "line_match_models": 23,
+   "no_candidate_models": 1
+  },
+  "rates": {
+   "dir_match_pct_of_resolvable": 95.833,
+   "line_match_pct_of_resolvable": 95.833,
+   "no_candidate_pct_of_resolvable": 4.167,
+   "dir_match_pct_of_compared": 100.0,
+   "line_match_pct_of_compared": 100.0,
+   "dir_match_models_pct": 95.833,
+   "line_match_models_pct": 95.833
+  },
+  "not_resolvable_reasons": {},
+  "angle_deviation_deg_of_dir_mismatches": {
+   "bins": {
+    "[0,0.1)": 0,
+    "[0.1,1)": 0,
+    "[1,5)": 0,
+    "[5,30)": 0,
+    "[30,60)": 0,
+    "[60,89)": 0,
+    "[89,89.999)": 0,
+    ">=89.999": 0
+   },
+   "stats": {
+    "n": 0
+   },
+   "top_values": []
+  },
+  "line_offset_mm_of_dir_match_line_mismatches": {
+   "bins": {
+    "[0,0.01)": 0,
+    "[0.01,0.1)": 0,
+    "[0.1,1)": 0,
+    "[1,10)": 0,
+    "[10,100)": 0,
+    ">=100": 0
+   },
+   "stats": {
+    "n": 0
+   },
+   "top_values": []
+  },
+  "line_offset_mm_of_all_dir_matches": {
+   "bins": {
+    "[0,1e-06)": 23,
+    "[1e-06,0.001)": 0,
+    "[0.001,0.01)": 0,
+    "[0.01,0.1)": 0,
+    "[0.1,1)": 0,
+    "[1,10)": 0,
+    "[10,100)": 0,
+    ">=100": 0
+   },
+   "stats": {
+    "n": 23,
+    "min": 0.0,
+    "median": 0.0,
+    "max": 0.0,
+    "mean": 0.0
+   },
+   "top_values": [
+    [
+     0.0,
+     23
+    ]
+   ]
+  },
+  "mismatch_attribution": {},
+  "mismatch_attribution_prioritized": {},
+  "mismatch_examples": []
+ },
+ "runtime_s": 52.7
+}

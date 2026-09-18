@@ -1,0 +1,10 @@
+import cadquery as cq
+w0=cq.Workplane('ZX',origin=(0,10))
+w1=cq.Workplane('XY',origin=(0,0,16))
+r=w0 ( (10,0))
+w1 On (10,0))
+w1 On N to (10,0))
+r=w0 topun (10,0))
+w1 On con (10,0))
+w1 On con (10,0))
+r=w0.sketch().segment((-100,62),(-99,61)).segment((-99,62)).close().assemble().finalize().extrude(-12).union(w0.sketch().segment((-11,10),(-10,10)).segment((-10,11)).segment((-11,11)).segment((-11,10)).segment((-12,10)).segment((-12,11)).segment((-11,11)).segment((-11,12)).segment((-10,12)).segment((-10,13)).segment((-11,13)).segment((-11,14)).segment((-12,14)).segment((-12,13)).segment((-13,13)).segment((-13,12)).segment((-14,12)).segment((-14,11)).segment((-13,11)).segment((-13,10)).segment((-12,10)).segment((-12,9)).segment((-11,9)).segment((-11,10)).segment((-10,10)).segment((-10,11)).segment((-11,11)).segment((-11,12)).segment((-12,12)).segment((-12,11)).segment((-13,11)).segment((-13,12)).segment((-14,12)).segment((-14,13)).segment((-13,13)).segment((-13,14)).segment((-14,14)).segment((-14,15)).segment((-13,15)).segment((-13,16)).segment((-12,16)).segment((-12,17)).segment((-13,17)).segment((-13,18)).segment((-12,18)).segment((-12,19)).segment((-13,19)).segment((-13,20)).segment((-12,20)).segment((-12,21)).segment((-13,21)).segment((-13,22)).segment((-12,22)).segment((-12,23)).segment((-13,23)).segment((-13,24)).segment((-12,24)).segment((-12,25)).segment((-13,25)).segment((-13,26)).segment((-12,26)).segment((-12,27)).segment((-13,27)).segment((-13,28)).segment((-12,28)).segment((-12,29)).segment((-13,29)).segment((-13,30)).segment((-12,30)).segment((-12,31)).segment((-13,31)).segment((-13,32)).segment((-12,32)).segment((-12,33)).segment((-13,33)).segment((-13,34)).segment((-12,34)).segment((-12,35)).segment((-13,35)).segment((-13,36)).segment((-12,36)).segment((-12,37)).segment((-13,37)).segment((-13,38)).segment((-12,38)).segment((-12,39)).segment((-13,39)).segment((-13,40)).segment((-12,40)).segment((-12,41)).segment((-13,41)).segment((-13,42)).segment((-12,42)).segment((-

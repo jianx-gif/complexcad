@@ -1,0 +1,37 @@
+200 / 1838
+400 / 1838
+600 / 1838
+800 / 1838
+1000 / 1838
+1200 / 1838
+1400 / 1838
+1600 / 1838
+1800 / 1838
+{
+ "n_models": 1838,
+ "n_errors": 0,
+ "by_group": {
+  "full": {
+   "attempted": 1808,
+   "exact": 1759,
+   "off": 43,
+   "no_candidate": 6,
+   "median_err_deg": 0.0
+  },
+  "partial": {
+   "attempted": 118,
+   "exact": 63,
+   "off": 54,
+   "no_candidate": 1,
+   "median_err_deg": 0.0
+  },
+  "unresolved": {
+   "attempted": 67,
+   "no_candidate": 67,
+   "median_err_deg": null
+  }
+ },
+ "coaxial_models": 1290,
+ "coaxial_total": 1833,
+ "coaxial_rate": 0.7038
+}

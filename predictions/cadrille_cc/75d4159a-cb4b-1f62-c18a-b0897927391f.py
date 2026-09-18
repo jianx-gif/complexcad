@@ -1,0 +1,26 @@
+import cadquery as cq
+outer_radius = 40.0
+inner_radius = 20.0
+thickness = 20.0
+wall_thickness = 2.0
+rib_height = 12.0
+rib_width = 6.0
+rib_spacing = 12.0
+rib_count = 4
+chamfer_size = 0.5
+base = cq.Workplane('XY').box(outer_radius, outer_radius, thickness)
+base = base.edges().chamfer(chamfer_size)
+rib_count = int((outer_radius - rib_spacing) // rib_spacing) + 1
+rib_count = int((outer_radius - rib_spacing) // rib_spacing) + 1
+rib_count = int((outer_radius - rib_spacing) // rib_count)
+base = base.faces('>Z').workplane().center(0, 0).rect(rib_width, rib_height).extrude(thickness)
+rib = base.faces('>Z').workplane().center(0, 0).rect(rib_width, rib_height).extrude(rib_height)
+rib = rib.translate((0, 0, thickness/2 + rib_height/2))
+rib = rib.translate((0, 0, thickness/2 + rib_height/2))
+rib = rib.translate((0, 0, thickness/2 + rib_height/2))
+rib = rib.translate((0, 0, thickness/2 + rib_height/2))
+rib = rib.translate((0, 0, thickness/2 + rib_height/2))
+rib = rib.translate((0, 0, thickness/2 + rib_height/2))
+rib = rib.translate((0, 0, thickness/2 + rib_height/2))
+rib = rib.translate((0, 0, thickness/2 + rib_height/2))
+result = base.union(rib)

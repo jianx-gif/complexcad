@@ -1,0 +1,91 @@
+{
+ "summary": {
+  "n": 8,
+  "errors": 0,
+  "dxf_bytes_equal": 0,
+  "svg_bytes_equal": 0,
+  "dxf_entities_equal": 8
+ },
+ "records": [
+  {
+   "uuid": "2df046c6-9a54-7ed1-7be8-9c4d05feef39",
+   "dxf_bytes_equal": false,
+   "svg_bytes_equal": false,
+   "dxf_entities_equal": true,
+   "dxf_entities": [
+    6798,
+    6798
+   ]
+  },
+  {
+   "uuid": "099261af-f2da-9adb-50d3-3c32b590382a",
+   "dxf_bytes_equal": false,
+   "svg_bytes_equal": false,
+   "dxf_entities_equal": true,
+   "dxf_entities": [
+    266,
+    266
+   ]
+  },
+  {
+   "uuid": "725d2f3b-d86d-0b7f-1657-623b2a02af2d",
+   "dxf_bytes_equal": false,
+   "svg_bytes_equal": false,
+   "dxf_entities_equal": true,
+   "dxf_entities": [
+    1435,
+    1435
+   ]
+  },
+  {
+   "uuid": "658c5554-4541-223a-1778-fb311e0a4e04",
+   "dxf_bytes_equal": false,
+   "svg_bytes_equal": false,
+   "dxf_entities_equal": true,
+   "dxf_entities": [
+    3158,
+    3158
+   ]
+  },
+  {
+   "uuid": "5cfba41f-55df-98f9-fb8a-b725af5172a4",
+   "dxf_bytes_equal": false,
+   "svg_bytes_equal": false,
+   "dxf_entities_equal": true,
+   "dxf_entities": [
+    1843,
+    1843
+   ]
+  },
+  {
+   "uuid": "39b17d0b-a09b-d166-f4fd-f37e3746929f",
+   "dxf_bytes_equal": false,
+   "svg_bytes_equal": false,
+   "dxf_entities_equal": true,
+   "dxf_entities": [
+    383,
+    383
+   ]
+  },
+  {
+   "uuid": "2a86093b-82be-e7e5-0866-d8ca000d9292",
+   "dxf_bytes_equal": false,
+   "svg_bytes_equal": false,
+   "dxf_entities_equal": true,
+   "dxf_entities": [
+    1149,
+    1149
+   ]
+  },
+  {
+   "uuid": "e47fb996-5c63-c32b-09a6-6e0ed851849e",
+   "dxf_bytes_equal": false,
+   "svg_bytes_equal": false,
+   "dxf_entities_equal": true,
+   "dxf_entities": [
+    1112,
+    1112
+   ]
+  }
+ ]
+}

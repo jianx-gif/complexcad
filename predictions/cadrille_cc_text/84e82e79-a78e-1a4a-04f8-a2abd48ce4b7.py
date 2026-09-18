@@ -1,0 +1,24 @@
+import cadquery as cq
+cover_diameter = 80.0
+cover_thickness = 5.0
+flange_height = 8.0
+clearance_hole_diameter = 20.0
+chamfer_size = 0.5
+rib_thickness = 2.0
+rib_width = 8.0
+mount_hole_diameter = 4.0
+mount_hole_count = 6
+mount_hole_radius = cover_diameter / 2.0
+base = cq.Workplane('XY').circle(cover_diameter / 2.0).extrude(cover_thickness)
+flange = cq.Workplane('XY').circle(flange_diameter / 2.0).extrude(flange_height)
+flange = flange.union(flange)
+flange = flange.edges('|Z').chamfer(chamfer_size)
+flange = flange.faces('>Z').workplane().hole(clearance_hole_diameter)
+rib = cq.Workplane('XY').center(0, 0).circle(rib_thickness).extrude(rib_width)
+flange = rib.translate((0, 0, flange_thickness))
+flange = flange.union(flange)
+flange = flange.faces('>Z').workplane().hole(clearance_hole_diameter)
+flange = flange.faces('>Z').edges().chamfer(chamfer_size)
+flange = flange.faces('>Z').workplane().hole(clearance_hole_diameter)
+flange = flange.faces('>Z').edges().chamfer(chamfer_size)
+result = flange

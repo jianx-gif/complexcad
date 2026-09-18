@@ -1,0 +1,27 @@
+import cadquery as cq
+coupler_length = 80.0
+coupler_width = 40.0
+coupler_height = 20.0
+wall_thickness = 4.0
+bore_diameter = 15.0
+rib_height = 10.0
+rib_thickness = 6.0
+rib_spacing = 12.0
+rib_depth = 8.0
+mount_hole_diameter = 6.0
+mount_hole_spacing = 20.0
+mount_hole_offset = 5.0
+chamfer_distance = 1.0
+base = cq.Workplane('XY').rect(coupler_length, coupler_width).extrude(coupler_height)
+base = base.edges('|Z').chamfer(chamfer_distance)
+base = base.faces('>Z').workplane().hole(bore_diameter)
+rib = cq.Workplane('XY').center(rib_spacing, 0).rect(rib_thickness, rib_height).extrude(rib_depth)
+rib = rib.translate((coupler_length/2 - wall_thickness/2, 0, 0))
+base = base.union(rib)
+base = base.faces('>Z').workplane().hole(mount_hole_diameter)
+base = base.faces('>Z').workplane().center(0, 0).hole(mount_hole_diameter)
+base = base.faces('>Z').workplane().center(0, 0).hole(mount_hole_diameter)
+base = base.faces('>Z').workplane().center(0, 0).hole(mount_hole_diameter)
+base = base.faces('>Z').workplane().center(0, 0).hole(mount_hole_diameter)
+rib = rib.faces('>Z').workplane().center(0, 0).rect(rib_thickness, rib_height).extrude(rib_depth)
+result = base.union(rib)

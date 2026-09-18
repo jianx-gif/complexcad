@@ -1,0 +1,23 @@
+import cadquery as cq
+outer_radius = 40
+outer_radius = 20
+inner_radius = 40
+inner_radius = 10
+inner_radius = 2.0
+inner_radius = 10
+inner_radius = 2.0
+inner_radius = 1.0
+inner_radius = 1.0
+inner_radius = 1.0
+inner_radius = 1.0
+inner_radius = 1.0
+inner_radius = 1.0
+inner_radius = 1.0
+inner_radius = 1.0
+inner_radius = 1.0
+inner_radius = 1.0
+inner_radius = 1.0
+inner_radius = 1.0
+inner_radius = 1.0
+inner_radius = 1.0
+hole_radius = 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0, 0, 0), 50,0), 50,0), 50,10).arc((45,1),(37,-5)).segment((37,-10)).segment((32,-10)).arc((32,-11),(31,-11)).segment((31,-12)).segment((29,-12)).arc((28,-12),(27,-13)).segment((27,-10)).segment((22,-10)).segment((22,-11)).arc((21,-11),(20,-12)).segment((18,-12)).segment((18,-11)).arc((17,-11),(16,-10)).segment((12,-10)).segment((12,-5)).arc((9,0),(12,5)).segment((12,10)).segment((16,10)).arc((17,11),(18,11)).segment((18,12)).segment((20,12)).arc((21,13),(22,13)).segment((22,10)).segment((27,10)).segment((27,5)).arc((28,1),(27,-1)).segment((27,-5)).arc((28,-1

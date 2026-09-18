@@ -1,0 +1,2 @@
+{"uuid": "a6e5bb98-655e-75ec-434d-1ad09cc31d70", "complex": false, "op_type_recall": 1.0, "op_count_recall": 1.0, "op_exact": true, "valid": true, "chamfer": 0.022707522227600467, "fscore": 0.9144273904941937, "precision": 0.91552734375, "recall": 0.913330078125, "status": "ok"}
+{"uuid": "a6e7c57f-9c39-3f5f-ed5b-e01aba1a1ff0", "complex": false, "op_type_recall": 1.0, "op_count_recall": 1.0, "op_exact": true, "valid": true, "chamfer": 0.014633705354412194, "fscore": 0.9970092731072849, "precision": 0.9970703125, "recall": 0.9969482421875, "status": "ok"}

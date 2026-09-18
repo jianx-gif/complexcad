@@ -1,0 +1,19 @@
+  0 done, ok 1, fail 0, 3s
+  500 done, ok 501, fail 0, 9s
+  1000 done, ok 1001, fail 0, 15s
+  1500 done, ok 1501, fail 0, 21s
+  2000 done, ok 2001, fail 0, 28s
+  2500 done, ok 2501, fail 0, 34s
+  3000 done, ok 3001, fail 0, 40s
+  3500 done, ok 3501, fail 0, 47s
+  4000 done, ok 4001, fail 0, 54s
+  4500 done, ok 4501, fail 0, 60s
+  5000 done, ok 5001, fail 0, 67s
+  5500 done, ok 5501, fail 0, 73s
+  6000 done, ok 6001, fail 0, 79s
+  6500 done, ok 6501, fail 0, 85s
+  7000 done, ok 7001, fail 0, 91s
+  7500 done, ok 7501, fail 0, 97s
+train 7768
+val 100
+DONE

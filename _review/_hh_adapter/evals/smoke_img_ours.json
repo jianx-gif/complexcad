@@ -1,0 +1,64 @@
+{
+ "summary": {
+  "n": 2,
+  "valid_pct": 100.0,
+  "chamfer_mean": 0.07023782247803022,
+  "chamfer_median": 0.07023782247803022,
+  "fscore_mean": 0.4038308591507208,
+  "op_type_recall_mean": 1.0,
+  "op_count_recall_mean": 1.0,
+  "op_exact_pct": 100.0,
+  "n_with_gt_program": 2,
+  "status_counts": {
+   "ok": 2
+  },
+  "n_timeout": 0,
+  "eval_seconds": 4.2
+ },
+ "per_item": [
+  {
+   "uuid": "00130553",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.10387648605319902,
+   "fscore": 0.22095353551400126,
+   "precision": 0.2244873046875,
+   "recall": 0.217529296875,
+   "status": "ok",
+   "seconds": 0.14
+  },
+  {
+   "uuid": "00631214",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.03659915890286142,
+   "fscore": 0.5867081827874404,
+   "precision": 0.5457763671875,
+   "recall": 0.63427734375,
+   "status": "ok",
+   "seconds": 0.08
+  }
+ ]
+}

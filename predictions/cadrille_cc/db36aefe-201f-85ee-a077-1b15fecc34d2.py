@@ -1,0 +1,56 @@
+import cadquery as cq
+import math
+outer_diameter = 30.0
+wall_thickness = 2.0
+inner_diameter = outer_diameter - 2 * wall_thickness
+inner_radius = inner_diameter / 2
+outer_radius = outer_diameter / 2
+inner_radius = inner_radius - wall_thickness
+base = (
+    cq.Workplane("XY")
+    .circle(outer_radius)
+    .extrude(base)
+)
+inner_cyl = (
+    cq.Workplane("XY")
+    .circle(inner_radius)
+    .extrude(base)
+)
+base = base.cut(inner_cyl)
+base = base.edges().fillet(inner_radius)
+base = base.edges().fillet(inner_radius)
+base = base.faces(">Z").workplane().hole(inner_diameter)
+base = base.faces(">Z").workplane().hole(inner_diameter)
+base = base.faces(">Z").workplane().hole(inner_diameter)
+base = base.faces(">Z").workplane().hole(inner_diameter)
+base = base.faces(">Z").workplane().hole(inner_diameter)
+base = base.faces(">Z").workplane().hole(inner_diameter)
+base = base.faces("<Z").workplane().hole(inner_diameter)
+base = base.faces("<Z").workplane().center(0, 0).rect(outer_radius, outer_radius).cutBlind(-outer_radius)
+base = base.faces("<Z").workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces("<Z").workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces("<Z").workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces("<Z").workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces("<Z").workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces("<Z").workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces("<Z").workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces("<Z").workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces("<Z").workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces("<Z").workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces("<Z").workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces("<Z").workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces("<Z").workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces("<Z").workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces("<Z").edges().fillet(inner_radius)
+base = base.faces("<Z").edges().fillet(inner_radius)
+base = base.faces("<Z").edges().fillet(inner_radius)
+base = base.faces("<Z").edges().fillet(inner_radius)
+base = base.faces("<Z").edges().fillet(inner_radius)
+base = base.faces("<Z").edges().fillet(inner_radius)
+base = base.faces("<Z").edges().fillet(inner_radius)
+base = base.faces("<Z").edges().fillet(inner_radius)
+base = base.faces(">Z").edges().fillet(inner_radius)
+base = base.faces(">Z").edges().fillet(inner_radius)
+base = base.faces(">Z").edges().fillet(inner_radius)
+base = base.faces(">Z").edges().fillet(inner_radius)
+base = base.faces(">Z").edges().fillet(inner_radius)

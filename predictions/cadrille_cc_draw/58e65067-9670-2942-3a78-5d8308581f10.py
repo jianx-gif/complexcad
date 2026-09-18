@@ -1,0 +1,27 @@
+import cadquery as cq
+outer_diameter = 80.0
+wall_thickness = 5.0
+inner_diameter = outer_diameter - 2 * wall_thickness
+inner_radius = outer_diameter / 2.0
+rib_width = 4.0
+rib_height = 3.0
+rib_thickness = 2.0
+rib_spacing = 12.0
+chamfer_size = 0.5
+rib_count = int((inner_radius - rib_spacing) // rib_spacing) + 1
+base = cq.Workplane('XY').circle(outer_diameter / 2.0).extrude(wall_thickness)
+rib = cq.Workplane('XY').circle(inner_radius).extrude(wall_thickness)
+rib = rib.translate((inner_radius + rib_thickness / 2.0, 0, 0))
+rib = rib.translate((inner_radius + rib_thickness / 2.0, 0, 0))
+rib = rib.translate((inner_radius + rib_thickness / 2.0, 0, 0))
+rib = rib.translate((inner_radius + rib_thickness / 2.0, 0, 0))
+rib = rib.translate((inner_radius + rib_thickness / 2.0, 0, 0))
+rib = rib.translate((inner_radius + rib_thickness / 2.0, 0, 0))
+rib = rib.translate((inner_radius, 0, 0))
+rib = rib.translate((inner_radius, 0, 0))
+rib = rib.translate((inner_radius, 0, 0))
+rib = rib.translate((inner_radius, 0, 0))
+rib = rib.translate((inner_radius, 0, 0))
+rib = rib.translate((inner_radius, 0, 0))
+rib = rib.translate((inner_radius, 0, 0))
+result = base.union(rib)

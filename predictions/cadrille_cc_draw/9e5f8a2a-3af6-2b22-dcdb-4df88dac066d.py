@@ -1,0 +1,20 @@
+import cadquery as cq
+plate_length = 90
+plate_width = 90
+plate_thickness = 5
+rib_width = 6
+rib_height = 2
+rib_spacing = 12
+hole_diameter = 5
+hole_spacing = 12
+hole_offset_from_edge = 5
+chamfer_size = 0.5
+base = cq.Workplane('XY').rect(plate_length, plate_width).extrude(plate_thickness)
+rib = cq.Workplane('XY').rect(rib_width, plate_width).extrude(rib_height)
+rib = rib.translate((0, 0, plate_thickness))
+rib = rib.translate((0, 0, plate_thickness))
+rib = rib.translate((0, 0, plate_thickness))
+combined = base.union(rib)
+combined = combined.faces('>Z').workplane().hole(hole_diameter)
+combined = combined.faces('>Z').workplane().center(0, 0).hole(hole_diameter)
+result = combined

@@ -1,0 +1,24 @@
+import cadquery as cq
+total_length = 70.0
+base_diameter = 60.0
+hub_diameter = 20.0
+hub_radius = hub_diameter / 2.0
+hub_radius = hub_radius + hub_diameter / 2.0
+shaft_diameter = 40.0
+shaft_diameter = 10.0
+shaft_angle_deg = 3.0
+mounting_hole_diameter = 6.0
+mounting_hole_offset = 5.0
+rib_thickness = 2.0
+rib_height = 5.0
+rib_length = 30.0
+rib_length = hub_radius * 0.6
+hub_radius = hub_radius + hub_diameter / 2.0
+hub = cq.Workplane("XY").circle(hub_radius).extrude(hub_radius)
+hub = hub.faces(">Z").workplane().hole(shaft_diameter)
+hub = hub.faces(">Z").workplane().hole(hub_diameter)
+hub = hub.faces(">Z").workplane().rect(rib_length, rib_thickness).extrude(rib_height)
+hub = hub.faces(">Z").workplane().polarArray(hub_radius, 0, 360, 2).hole(mounting_hole_diameter)
+hub = hub.faces(">Z").workplane().polarArray(hub_radius, 0, 360, 4).hole(mounting_hole_diameter)
+hub = hub.faces(">Z").edges().chamfer(chamfer_size)
+result = hub

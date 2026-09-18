@@ -1,0 +1,11 @@
+import cadquery as cq
+w0=cq.Workplane('XY',origin=(36,0 For ( (30 tent piece's ( N to. ( (30 tent piece's (30 tent piece ( N A with sym as con on con to be ( ( (30 tent piece ( (30 tent ( (30 tent ( (30 tent (30 tent For sym's (30 appearance (30 tent con on con sym as con on con For (30 tent (30 tent (30 tent (30 tent (30 tent ( (30,0)). ( (33,0))
+w1 On con con con to sym as After sym with having ( (30,0))
+r=w0 tent with (30,0)).segment((-33,10))
+w1 On con con with sym as con on H.
+
+r=w0 meters's (30,0)).segment((-33,10))
+w1 On con con The (36,10))
+r=w0 meters or's (33 (33,0)).segment((-33,10))
+w1 On con con con to (33,0)).segment((-33,10))
+r=w0.sketch().segment((-33,100),(-10,39)).segment((-10,39)).segment((-10,38)).segment((-9,38)).segment((-9,39)).segment((-3,39)).segment((-3,40)).segment((-3,40)).segment((-3,41)).segment((-3,43)).segment((-3,44)).segment((-3,45)).segment((-3,47)).segment((-3,48)).segment((-3,49)).segment((-3,49)).segment((-3,48)).segment((-3,49)).segment((-3,48)).segment((-3,47)).segment((-3,43)).segment((-3,42)).segment((-3,40)).segment((-3,39)).segment((-3,38)).segment((-3,37)).segment((-3,39)).segment((-3,38)).segment((-3,37)).segment((-3,39)).segment((-3,38)).segment((-3,36)).segment((-3,37)).segment((-3,39)).segment((-3,38)).segment((-3,37)).segment((-3,39)).segment((-3,38)).segment((-3,35)).segment((-3,36)).segment((-3,37)).segment((-3,39)).segment((-3,38)).segment((-3,35)).segment((-3,36)).segment((-3,37)).segment((-3,39)).segment((-3,38)).segment((-3,37)).segment((-3,36)).segment((-3,37)).segment((-3,39)).segment((-3,38)).segment((-3,35)).segment((-3,36)).segment((-3,37)).segment((-3,39)).segment((-3,38)).segment((-3,37)).segment((-3,36)).segment((-3,37)).segment((-3,39)).segment((-3,38)).segment((-3,37)).segment((-3,36)).segment((-3,37)).segment((-3,38)).segment((-3,39)).segment((-3,37)).segment((-3,36)).segment((-3,37)).segment((-3,38)).segment((-3,39)).segment((-3,38)).segment((-3,37)).segment((-3,36)).segment((-3,35)).segment((-3,36)).segment((-3,37)).segment((-3,38)).segment((-3,39)).segment((-3,37)).segment((-3,36)).segment((-3,37)).segment((-3,38)).segment((-3,39)).segment((-3,37)).segment((-3,36)).segment((-3,

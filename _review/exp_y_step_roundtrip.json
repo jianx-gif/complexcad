@@ -1,0 +1,13 @@
+{
+ "n_models": 10000,
+ "n_ok": 9999,
+ "n_errors": 1,
+ "bbox_dev_max_mm": 25.495094124250947,
+ "bbox_dev_median_mm": 0.0,
+ "bbox_dev_p99_mm": 5.17630383001233e-12,
+ "within_1e_9": 9916,
+ "within_1e_6": 9990,
+ "within_1e_3": 9993,
+ "fev_unchanged": 9842,
+ "fev_unchanged_rate": 0.9843
+}

@@ -1,0 +1,44 @@
+import cadquery as cq
+
+outer_radius = 80.0
+outer_radius = 40.0
+outer_radius = 10.0
+inner_radius = 2.0
+inner_radius = 1.0
+inner_radius = 2.0
+inner_radius = 0.5
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_radius = inner_radius + 0.8
+inner_hole = cq.Workplane('YZ').circle(outer_radius).circle(outer_radius).circle(outer_radius)
+inner_radius = inner_radius - inner_radius)
+inner_radius = inner_radius - inner_radius - inner_radius)
+inner_offset = inner_radius - inner_radius - inner_radius)
+inner_offset = inner_radius - inner_radius - inner_radius)
+inner_offset = inner_radius - inner_radius - inner_radius)
+inner_offset = inner_radius - inner_radius)
+inner_offset = inner_radius - inner_radius)
+result = inner_center(inner = inner_offset)
+result = result.faces('>Z').workplane().pushPoints(points).circle(outer_radius).circle(outer_radius).circle(outer_radius)
+result = result.faces('>Z').circle(outer_radius)
+result = result.faces('>Z').circle(outer_radius)
+result = result.faces('>Z').edges().chamfer(chamfer_distance)

@@ -1,0 +1,12 @@
+{
+ "n_a": 1000,
+ "n_b": 1000,
+ "n_common_ok": 988,
+ "exec_errors_a_ocp781": 5,
+ "exec_errors_b_ocp772": 12,
+ "agree_gt_ocp781": 0.8998,
+ "agree_gt_ocp772": 0.8988,
+ "agree_between_kernels": 0.996,
+ "gt_mismatch_ocp781": 99,
+ "of_those_both_kernels_identical": 97
+}

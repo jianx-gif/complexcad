@@ -1,0 +1,10 @@
+[18:41:02] START img
+qwen_vl_utils from E:\3005\data\_review\_hh_adapter\pylib_qvu010\qwen_vl_utils\__init__.py
+[20:15:11] END img rc=0
+[20:15:11] START img_text
+[21:35:45] END img_text rc=0
+[21:35:45] START eval_cadrille_img_qvu010
+[21:36:01] END eval_cadrille_img_qvu010 rc=0
+[21:36:01] START eval_cadrille_img_text_qvu010
+[21:36:14] END eval_cadrille_img_text_qvu010 rc=0
+[21:36:14] QVU010_CC_DONE

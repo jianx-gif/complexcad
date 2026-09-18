@@ -1,0 +1,77 @@
+{
+  "dataset": "本毕设自建数据集 (Zero-To-CAD 衍生 + 多模态扩展 + 精度GT)",
+  "total": 10000,
+  "L1_geometry_validity": {
+    "code_exec_success_pct": 99.82,
+    "invalidity_ratio_pct": 0.18,
+    "geom_valid_pct": 100.0,
+    "topo_reproduce_pct": 87.59
+  },
+  "L2_parameter_precision": {
+    "param_gt": "continuous_float (CadQuery源码命名参数, 无量化)",
+    "vs_deepcad": "DeepCAD 量化到 256级/8-bit",
+    "vs_cadrecode": "CAD-Recode 无参数GT"
+  },
+  "L3_operation_complexity": {
+    "complex_op_coverage_pct": 95.01,
+    "op_coverage_pct": {
+      "extrude": 86.22,
+      "hole": 61.99,
+      "cutBlind": 40.18,
+      "chamfer": 74.62,
+      "fillet": 36.82,
+      "revolve": 18.44,
+      "shell": 15.17,
+      "sweep": 4.0,
+      "loft": 3.79,
+      "spline": 1.17
+    },
+    "complex_op_bucket": {
+      "loft": {
+        "n": 379,
+        "exec_ok_pct": 99.74,
+        "valid_pct": 99.74
+      },
+      "revolve": {
+        "n": 1844,
+        "exec_ok_pct": 99.89,
+        "valid_pct": 99.89
+      },
+      "sweep": {
+        "n": 400,
+        "exec_ok_pct": 99.0,
+        "valid_pct": 99.0
+      },
+      "chamfer": {
+        "n": 7462,
+        "exec_ok_pct": 99.81,
+        "valid_pct": 99.81
+      },
+      "fillet": {
+        "n": 3682,
+        "exec_ok_pct": 99.84,
+        "valid_pct": 99.84
+      }
+    },
+    "ops_per_model": {
+      "min": 3,
+      "mean": 24.9,
+      "median": 24,
+      "max": 83
+    },
+    "faces_per_model": {
+      "min": 7,
+      "mean": 44.76,
+      "median": 30,
+      "p90": 78,
+      "max": 1914
+    }
+  },
+  "status_dist": {
+    "ok": 9982,
+    "exec_error": 18
+  },
+  "exec_ms": {
+    "mean": 663.5
+  }
+}

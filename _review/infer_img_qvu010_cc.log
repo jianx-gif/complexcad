@@ -1,0 +1,25 @@
+device: cuda 69 C
+'(ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: 50a32d63-ccee-4522-b82c-337b2a0039a8)')' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/resolve/main/processor_config.json
+Retrying in 1s [Retry 1/5].
+'(ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: acc64f4e-f923-4bb8-a7c6-aecadafa80be)')' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/resolve/main/preprocessor_config.json
+Retrying in 1s [Retry 1/5].
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+模型已加载
+待推理 400 / 400 (mode=img)
+  25/400 ok25 fail0 19.5s/件 GPU 73C ETA121.7min
+  50/400 ok50 fail0 19.6s/件 GPU 75C ETA114.1min
+  75/400 ok75 fail0 18.2s/件 GPU 67C ETA98.6min
+  100/400 ok100 fail0 16.8s/件 GPU 67C ETA83.8min
+  125/400 ok125 fail0 16.0s/件 GPU 66C ETA73.4min
+  150/400 ok150 fail0 15.7s/件 GPU 69C ETA65.5min
+  175/400 ok175 fail0 15.5s/件 GPU 66C ETA58.3min
+  200/400 ok200 fail0 15.2s/件 GPU 66C ETA50.7min
+  225/400 ok225 fail0 15.1s/件 GPU 67C ETA43.9min
+  250/400 ok250 fail0 14.8s/件 GPU 66C ETA36.9min
+  275/400 ok275 fail0 14.6s/件 GPU 68C ETA30.5min
+  300/400 ok300 fail0 14.5s/件 GPU 66C ETA24.2min
+  325/400 ok325 fail0 14.4s/件 GPU 66C ETA18.0min
+  350/400 ok350 fail0 14.2s/件 GPU 67C ETA11.8min
+  375/400 ok375 fail0 14.2s/件 GPU 66C ETA5.9min
+  400/400 ok400 fail0 14.1s/件 GPU 66C ETA0.0min
+完成: ok 400 fail 0 用时 93.8min -> E:\3005\data\predictions\cadrille_img_qvu010

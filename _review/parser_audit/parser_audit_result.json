@@ -1,0 +1,36 @@
+{
+ "n_programs": 40,
+ "n_cells": 200,
+ "human_regex_agree": 199,
+ "human_ast_agree": 200,
+ "regex_precision": 0.9804,
+ "regex_recall": 1.0,
+ "disagreements": [
+  [
+   "13_ztc_f09_393.py",
+   "chamfer",
+   "human",
+   "1",
+   "regex",
+   "1",
+   "ast",
+   "0",
+   "code-scan",
+   "0"
+  ]
+ ],
+ "per_source": {
+  "Zero-To-CAD": [
+   150,
+   150
+  ],
+  "CAD-Recode": [
+   50,
+   50
+  ]
+ },
+ "date": "2026-09-14",
+ "regex_false_positives": 1,
+ "regex_false_negatives": 0,
+ "note": "Row 13_ztc_f09_393 chamfer corrected by the author to 0 on 2026-09-14 after re-inspection (chamfer_size identifier, no chamfer() call)."
+}

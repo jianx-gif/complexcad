@@ -1,0 +1,19 @@
+import cadquery as cq
+hub_diameter = 30.0
+hub_height = 15.0
+arm_length = 40.0
+arm_width = 20.0
+arm_thickness = hub_height
+hole_diameter = 4.0
+hole_spacing = 10.0
+hole_count = 6
+chamfer_dist = 0.5
+base = cq.Workplane('XY').rect(hub_diameter, hub_height).extrude(hub_height)
+arm = base.faces('>Z').workplane().center(0, 0).rect(arm_width, arm_length).extrude(arm_thickness)
+arm = arm.faces('>Z').workplane().center(0, 0).rect(arm_width, arm_length).extrude(arm_thickness)
+arm = arm.faces('>Z').workplane().center(0, 0).rect(arm_width, arm_length).extrude(arm_thickness).translate((0, 0, hub_height/2))
+arm = arm.union(arm)
+arm = arm.faces('>Z').workplane().center(0, 0).circle(hole_diameter/2).extrude(hub_height + 2)
+arm = arm.faces('>Z').workplane().center(0, 0).hole(hole_diameter)
+arm = arm.faces('>Z').edges().chamfer(chamfer_dist)
+result = arm

@@ -1,0 +1,32 @@
+import cadquery as cq
+import math
+outer_diameter = 30.0
+wall_thickness = 2.0
+inner_diameter = outer_diameter - 2 * wall_thickness
+inner_radius = outer_diameter / 2.0
+inner_radius = inner_diameter / 2.0
+base = cq.Workplane('XY').circle(outer_diameter / 2.0).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+result = inner_cyl.cut(inner_cyl)

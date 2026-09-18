@@ -1,0 +1,20 @@
+import cadquery as cq
+outer_diameter = 60.0
+wall_thickness = 5.0
+height = 15.0
+cavity_radius = 12.0
+cavity_height = 8.0
+chamfer_distance = 1.5
+mount_hole_diameter = 4.0
+mount_offset = 10.0
+outer_radius = outer_diameter / 2.0
+inner_radius = outer_radius - wall_thickness
+outer_cyl = cq.Workplane('XY').circle(outer_radius).extrude(height)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(height)
+cavity = cq.Workplane('XY').circle(inner_radius).extrude(height)
+cavity = cavity.cut(cavity)
+cavity = cq.Workplane('XY').center(outer_radius - wall_thickness/2.0, 0).circle(cavity_radius).extrude(height)
+cavity = cavity.cut(cavity)
+cavity = cq.Workplane('XY').center(outer_radius - wall_thickness/2.0, 0).circle(cavity_radius).extrude(height)
+cavity = cavity.cut(cavity)
+result = cavity

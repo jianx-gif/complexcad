@@ -1,0 +1,19 @@
+import cadquery as cq
+flange_length = 80.0
+flange_width = 60.0
+flange_thickness = 6.0
+rib_thickness = 4.0
+rib_height = 8.0
+rib_count = 12
+rib_length = flange_length - 2 * rib_thickness
+rib_count = 12
+rib_spacing = flange_width / rib_count
+base = cq.Workplane('XY').rect(flange_length, flange_width).extrude(flange_thickness)
+base = base.edges('|Z').chamfer(rib_count)
+base = base.edges('|Z').chamfer(rib_count)
+base = base.faces('>Z').workplane().rect(flange_length - 2 * rib_thickness, flange_width - 2 * rib_thickness).extrude(rib_height)
+rib = base.faces('>Z').workplane().rect(rib_thickness, rib_height).extrude(rib_length)
+rib = rib.translate((0, 0, flange_thickness - rib_height/2))
+rib = rib.translate((0, 0, flange_thickness - rib_height/2))
+base = base.union(rib)
+result = base

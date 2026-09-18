@@ -1,0 +1,26 @@
+import cadquery as cq
+outer_width = 80.0
+outer_depth = 50.0
+outer_height = 30.0
+wall_thickness = 2.0
+rib_width = 12.0
+rib_height = 10.0
+rib_spacing = 12.0
+rib_count = 6
+rib_spacing = 15.0
+rib_offset = 5.0
+chamfer_size = 0.5
+outer = cq.Workplane('XY').rect(outer_width, outer_depth).extrude(outer_height)
+inner = cq.Workplane('XY').rect(outer_width - 2 * wall_thickness, outer_depth - 2 * wall_thickness).extrude(outer_height)
+rib = outer.cut(inner)
+rib = rib.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_width)
+rib = rib.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_width)
+rib = rib.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_width)
+rib = rib.translate((outer_width/2 - rib_offset, 0, 0))
+rib = rib.translate((outer_width/2 - rib_offset, 0, 0))
+rib = rib.translate((outer_width/2 - rib_offset, 0, 0))
+rib = rib.translate((outer_width/2 - rib_offset, 0, 0))
+rib = rib.translate((outer_width/2 - rib_offset, 0, 0))
+combined = rib.union(rib)
+combined = combined.edges('|Z').chamfer(chamfer_size)
+result = combined

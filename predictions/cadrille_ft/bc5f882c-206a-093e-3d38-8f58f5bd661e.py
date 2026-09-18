@@ -1,0 +1,59 @@
+import cadquery as cq
+
+outer_radius = 80.0
+outer_radius = 30.0
+wall_thickness = 40.0
+wall_thickness = 2.0
+wall_thickness = 3.0
+wall_thickness = 4.0
+hole_count = 20.0
+hole_count = 15.0
+hole_count = 15.0
+hole_count = 15.0
+hole_count = 15.0
+hole_count = 12.0
+hole_count = 15.0
+hole_offset = 0.5
+
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+
+hole_offset = 0.5
+
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = cq.Workplane('XY').circle(outer_radius).circle(outer_radius).circle(outer_radius)
+result = cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(cylinder=cq.Workplane('XY').circle(hole=cq.Workplane('XY').circle(hole_radius).extrude(hole_depth)
+result = cq.Workplane('XY').circle(hole_radius).extrude(hole_depth)
+result = result.faces('>Z').edges().fillet(outer_radius)
+result = result.faces('>Z').edges().fillet(outer_radius)
+result = result.faces('>Z').edges().fillet(outer_radius)
+result = result.faces('>Z').edges().fillet(outer_radius)
+result = result.faces('>Z').edges().fillet(outer_radius)
+result = result.faces('>Z').edges().fillet(outer_radius)
+result = result.faces('>Z').edges().fillet(outer_radius)
+result = result.faces('>Z').edges().fillet(outer_radius)
+result = result.faces('>Z').edges().fillet(outer_radius)
+result = result.faces('>Z').edges().fillet(outer_radius)
+result = result.faces('>Z').fillet(outer_radius)
+result = result.faces('>Z').fillet(outer_radius)
+result = result.faces('>Z').fillet(outer_radius)
+result = result.faces('>

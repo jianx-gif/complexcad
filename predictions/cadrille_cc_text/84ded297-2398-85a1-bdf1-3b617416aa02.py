@@ -1,0 +1,25 @@
+import cadquery as cq
+plate_length = 80.0
+plate_width = 40.0
+plate_thickness = 8.0
+spline_offset = 6.0
+pin_hole_radius = 4.0
+pocket_depth = 2.0
+chamfer_dist = 1.0
+rib_width = 12.0
+rib_height = plate_thickness - 2.0
+rib_length = plate_length - 2 * spline_offset
+mount_hole_radius = 3.0
+mount_hole_count = 4
+mount_hole_radius = 3.0
+mount_hole_count = 4
+mount_hole_radius = 3.0
+base = cq.Workplane('XY').box(plate_length, plate_width, plate_thickness)
+base = base.edges('|Z').chamfer(chamfer_dist)
+base = base.faces('>Z').workplane().hole(spline_offset)
+base = base.faces('>Z').workplane().hole(pin_hole_radius * 2)
+base = base.faces('>Z').workplane().center(0, 0).hole(mount_hole_radius * 2)
+base = base.faces('>Z').workplane().center(0, 0).hole(mount_hole_radius * 2)
+rib = cq.Workplane('XY').center(0, 0).rect(rib_width, rib_length).extrude(rib_height)
+rib = rib.translate((0, 0, plate_thickness - rib_height/2))
+result = base.union(rib)

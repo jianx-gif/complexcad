@@ -1,0 +1,27 @@
+import cadquery as cq
+import_length = 80.0
+wall_thickness = 12.0
+inner_radius = 15.0
+inner_radius = 12.0
+chamfer_size = 2.0
+hole_diameter = 5.0
+hole_count = 8
+hole_radius = hole_diameter / 2.0
+chamfer_size = 1.0
+base = cq.Workplane('XY').circle(inner_radius).extrude(inner_radius)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(inner_radius)
+base = base.cut(inner_cyl)
+base = base.edges('>Z').chamfer(chamfer_size)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().rect(inner_radius - 2 * wall_thickness, inner_radius - 2 * wall_thickness).cutBlind(-wall_thickness)
+base = base.faces('>Z').workplane().rect(inner_radius - 2 * wall_thickness, inner_radius - 2 * wall_thickness).cutBlind(-wall_thickness)
+base = base.faces('>Z').workplane().rect(inner_radius - 2 * wall_thickness, inner_radius - 2 * wall_thickness).cutBlind(-wall_thickness)
+base = base.faces('>Z').workplane().rect(inner_radius - 2 * wall_thickness, inner_radius - 2 * wall_thickness).cutBlind(-wall_thickness)
+base = base.faces('>Z').workplane().rect(inner_radius - 2 * wall_thickness, inner_radius - 2 * wall_thickness).cutBlind(-wall_thickness)
+base = base.faces('>Z').workplane().rect(inner_radius - 2 * wall_thickness, inner_radius - 2 * wall_thickness).cutBlind(-wall_thickness)
+base = base.faces('>Z').workplane().rect(inner_radius - 2 * wall_thickness, inner_radius - 2 * wall_thickness).cutBlind(-wall_thickness)
+base = base.faces('>Z').workplane().rect(inner_radius - 2 * wall_thickness, inner_radius - 2 * wall_thickness).cutBlind(-wall_thickness)
+base = base.faces('<Z').edges().chamfer(chamfer_size)
+result = base

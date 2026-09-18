@@ -1,0 +1,264 @@
+[1] Zero-To-CAD parquet hashes + load ...
+    rows with code 10000 empty 0
+[2] Zero-To-CAD regex-vs-AST cross-check ...
+    any-complex regex 95.29%  ast 95.03%
+[3] CAD-Recode v1.5 git identity + 20000-sample cross-check ...
+[4] DeepCAD + Fusion360 identities ...
+[5] audit sample ...
+{
+ "hf_repo": "ADSKAILab/Zero-To-CAD-1m",
+ "split": "test",
+ "n_files": 24,
+ "n_rows_with_code": 10000,
+ "n_rows_empty_code": 0,
+ "cross_check": {
+  "label": "Zero-To-CAD test (all rows with code)",
+  "n_models": 10000,
+  "n_ast_syntax_error": 0,
+  "n_compared": 10000,
+  "per_category": {
+   "extrude": {
+    "agree": 9378,
+    "regex_only": 0,
+    "ast_only": 622,
+    "agreement_pct": 93.78
+   },
+   "revolve": {
+    "agree": 9999,
+    "regex_only": 1,
+    "ast_only": 0,
+    "agreement_pct": 99.99
+   },
+   "loft": {
+    "agree": 9999,
+    "regex_only": 1,
+    "ast_only": 0,
+    "agreement_pct": 99.99
+   },
+   "sweep": {
+    "agree": 9994,
+    "regex_only": 6,
+    "ast_only": 0,
+    "agreement_pct": 99.94
+   },
+   "chamfer": {
+    "agree": 9957,
+    "regex_only": 43,
+    "ast_only": 0,
+    "agreement_pct": 99.57
+   },
+   "fillet": {
+    "agree": 9966,
+    "regex_only": 34,
+    "ast_only": 0,
+    "agreement_pct": 99.66
+   },
+   "shell": {
+    "agree": 9842,
+    "regex_only": 158,
+    "ast_only": 0,
+    "agreement_pct": 98.42
+   },
+   "boolean_union": {
+    "agree": 9738,
+    "regex_only": 262,
+    "ast_only": 0,
+    "agreement_pct": 97.38
+   },
+   "boolean_cut": {
+    "agree": 9292,
+    "regex_only": 708,
+    "ast_only": 0,
+    "agreement_pct": 92.92
+   },
+   "boolean_intersect": {
+    "agree": 9947,
+    "regex_only": 53,
+    "ast_only": 0,
+    "agreement_pct": 99.47
+   },
+   "pattern": {
+    "agree": 9981,
+    "regex_only": 19,
+    "ast_only": 0,
+    "agreement_pct": 99.81
+   }
+  },
+  "any_complex": {
+   "both": 9503,
+   "regex_only": 26,
+   "ast_only": 0
+  },
+  "examples_regex_only": {
+   "chamfer": [
+    "ztc_f00#9",
+    "ztc_f00#83",
+    "ztc_f00#281",
+    "ztc_f00#340",
+    "ztc_f02#161"
+   ],
+   "boolean_cut": [
+    "ztc_f00#17",
+    "ztc_f00#19",
+    "ztc_f00#51",
+    "ztc_f00#62",
+    "ztc_f00#93"
+   ],
+   "boolean_union": [
+    "ztc_f00#48",
+    "ztc_f00#115",
+    "ztc_f00#189",
+    "ztc_f00#190",
+    "ztc_f00#244"
+   ],
+   "shell": [
+    "ztc_f00#85",
+    "ztc_f00#86",
+    "ztc_f00#255",
+    "ztc_f00#272",
+    "ztc_f00#304"
+   ],
+   "fillet": [
+    "ztc_f00#259",
+    "ztc_f01#202",
+    "ztc_f01#421",
+    "ztc_f02#60",
+    "ztc_f02#83"
+   ],
+   "boolean_intersect": [
+    "ztc_f01#105",
+    "ztc_f01#146",
+    "ztc_f01#386",
+    "ztc_f02#22",
+    "ztc_f02#306"
+   ],
+   "sweep": [
+    "ztc_f03#31",
+    "ztc_f07#163",
+    "ztc_f13#280",
+    "ztc_f13#286",
+    "ztc_f17#301"
+   ],
+   "revolve": [
+    "ztc_f04#66"
+   ],
+   "pattern": [
+    "ztc_f05#21",
+    "ztc_f05#294",
+    "ztc_f06#327",
+    "ztc_f06#329",
+    "ztc_f07#78"
+   ],
+   "loft": [
+    "ztc_f10#230"
+   ]
+  },
+  "examples_ast_only": {
+   "extrude": [
+    "ztc_f00#13",
+    "ztc_f00#63",
+    "ztc_f00#111",
+    "ztc_f00#117",
+    "ztc_f00#118"
+   ]
+  }
+ },
+ "any_complex_pct": {
+  "regex": 95.29,
+  "ast": 95.03,
+  "denominator": 10000
+ }
+}
+{
+ "hf_repo": "filapro/cad-recode-v1.5",
+ "split": "train",
+ "git_head": "4696421935de9e9a71f1e092d8eee8b341d04619",
+ "git_head_date": "2025-03-16 14:18:49 +0100",
+ "remote": "https://huggingface.co/datasets/filapro/cad-recode-v1.5",
+ "n_train_py_in_tree": 981865,
+ "sample_n": 20000,
+ "sample_seed": 0,
+ "cross_check": {
+  "label": "CAD-Recode v1.5 train (20000-sample)",
+  "n_models": 20000,
+  "n_ast_syntax_error": 0,
+  "n_compared": 20000,
+  "per_category": {
+   "extrude": {
+    "agree": 20000,
+    "regex_only": 0,
+    "ast_only": 0,
+    "agreement_pct": 100.0
+   },
+   "revolve": {
+    "agree": 20000,
+    "regex_only": 0,
+    "ast_only": 0,
+    "agreement_pct": 100.0
+   },
+   "loft": {
+    "agree": 20000,
+    "regex_only": 0,
+    "ast_only": 0,
+    "agreement_pct": 100.0
+   },
+   "sweep": {
+    "agree": 20000,
+    "regex_only": 0,
+    "ast_only": 0,
+    "agreement_pct": 100.0
+   },
+   "chamfer": {
+    "agree": 20000,
+    "regex_only": 0,
+    "ast_only": 0,
+    "agreement_pct": 100.0
+   },
+   "fillet": {
+    "agree": 20000,
+    "regex_only": 0,
+    "ast_only": 0,
+    "agreement_pct": 100.0
+   },
+   "shell": {
+    "agree": 20000,
+    "regex_only": 0,
+    "ast_only": 0,
+    "agreement_pct": 100.0
+   },
+   "boolean_union": {
+    "agree": 20000,
+    "regex_only": 0,
+    "ast_only": 0,
+    "agreement_pct": 100.0
+   },
+   "boolean_cut": {
+    "agree": 20000,
+    "regex_only": 0,
+    "ast_only": 0,
+    "agreement_pct": 100.0
+   },
+   "boolean_intersect": {
+    "agree": 20000,
+    "regex_only": 0,
+    "ast_only": 0,
+    "agreement_pct": 100.0
+   },
+   "pattern": {
+    "agree": 20000,
+    "regex_only": 0,
+    "ast_only": 0,
+    "agreement_pct": 100.0
+   }
+  },
+  "any_complex": {
+   "both": 0,
+   "regex_only": 0,
+   "ast_only": 0
+  },
+  "examples_regex_only": {},
+  "examples_ast_only": {}
+ }
+}
+deepcad {'source': 'github rundiwu/DeepCAD (Google-Drive data release)', 'split': 'test', 'parser': 'h5 "vec" command-type column (structured; no text parsing)', 'split_json_sha256': '8ab1793d286a3064eb9a8a0e80892b44f9817a21f7cdb31349556ef705d76afd', 'n_test_ids': 8052, 'n_test_h5_missing': 0, 'test_h5_concat_sha256': '185a0333f9451efbe72e944570d2578581946a78e6ff2d9701d0d3a8ce555c3f'}
+fusion {'source': 'S3 reconstruction/r1.0.1/r1.0.1.zip', 'split': 'reconstruction (all)', 'parser': 'json sequence[].type + entities[].type (structured; no text parsing)', 'zip': 'r1.0.1.zip', 'zip_bytes': 2103449157, 'zip_sha256': '485601de3d23e25a5d63a75588ca780fa7881d7a0bea1ab6c24dbcefa57ad5c9', 'n_json': 8625}

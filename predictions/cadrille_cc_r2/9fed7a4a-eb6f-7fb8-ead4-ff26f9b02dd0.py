@@ -1,0 +1,20 @@
+import cadquery as cq
+outer_radius = 45
+inner_radius = 30
+height = 80
+wall_thickness = 2
+fillet_radius = 2
+chamfer_distance = 1
+hole_diameter = 5
+hole_spacing = 12
+hole_count = 4
+hole_spacing = 12
+hole_offset = 10
+base = cq.Workplane('XY').circle(outer_radius).extrude(height)
+inner_cylinder = cq.Workplane('XY').circle(inner_radius).extrude(height)
+inner_cylinder = cq.Workplane('XY').circle(inner_radius).extrude(height)
+inner_cylinder = cq.Workplane('XY').circle(inner_radius).extrude(height)
+inner_cylinder = cq.Workplane('XY').circle(inner_radius).extrude(height)
+inner_cylinder = inner_cylinder.cut(inner_cylinder)
+result = base.cut(inner_cylinder)
+result = result.faces('>Z').edges().fillet(fillet_radius)

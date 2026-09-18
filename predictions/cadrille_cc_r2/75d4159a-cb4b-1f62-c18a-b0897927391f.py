@@ -1,0 +1,35 @@
+import cadquery as cq
+import math
+outer_diameter = 80.0
+inner_diameter = 30.0
+thickness = 10.0
+chamfer_size = 1.0
+hole_diameter = 5.0
+hole_spacing = 20.0
+hole_count = 8
+hole_radius = hole_diameter / 2.0
+hole_offset = 15.0
+chamfer_distance = 0.5
+base = cq.Workplane('XY').circle(outer_diameter / 2.0).extrude(thickness)
+inner_cut = cq.Workplane('XY').circle(inner_diameter / 2.0).extrude(thickness)
+base = base.cut(inner_cut)
+base = base.edges().chamfer(chamfer_size)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().rect(outer_diameter - 2*hole_offset, outer_diameter - 2*hole_offset).cutBlind(-hole_diameter)
+result = base

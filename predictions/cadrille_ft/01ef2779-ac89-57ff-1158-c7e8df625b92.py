@@ -1,0 +1,50 @@
+import cadquery as cq
+outer_length = 80.0
+outer_height = 200.0
+outer_height = 25.0
+outer_height = 20.0
+outer_height = 0.5
+outer_height = 0.5
+outer_height = 0.5
+
+outer_height = outer_height + outer_height + outer_height + outer_height + outer_height + outer_height + outer_height + outer_height + outer_height + outer_height + outer_height + outer_height + wall_thickness + wall_thickness + wall_thickness + wall_thickness + wall_thickness + wall_thickness + wall_thickness + wall_thickness + wall_thickness + tab_thickness + tab_thickness)
+outer_center = (outer_radius - inner_outer_radius), (outer_radius - inner_offset_depth), (outer_radius - inner_offset_depth), (outer_radius - outer_length, hole_offset_depth), (outer_radius - outer_length, hole_offset_depth), (0, 0), (0, 0), (0, 0.5).hole(offset = (outer_radius, 0), (0, 0.50, block_height + wall_thickness, (0, 0.50, thickness(offset=0, 0, 0), (0, 0.50, (0, 0.52,, (0, 200).push_points).cylinder(100,outer_radius).extrude(outer_radius).union(thickness/2 + wall_thickness, hole_depth), (0, 0), (0, 0.52)., hole_depth), (0, 0.52000)
+    hole_offset = 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0.5)
+    hole_offset, 0)
+    hole_offset, 0)
+    hole_offset, 0)
+)
+result = hole not wall_thickness)

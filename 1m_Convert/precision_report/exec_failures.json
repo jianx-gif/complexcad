@@ -1,0 +1,294 @@
+{
+ "description": "The 18 of 9980 models (0.18%) whose cadquery.py fails to execute (status=exec_error in metrics.jsonl). error_current_kernel is re-probed under the pinned cadquery 2.6.1 / OCP 7.8 environment; OK_UNDER_CURRENT_KERNEL marks kernel-version-dependent failures.",
+ "total_models": 9980,
+ "failed": 18,
+ "rate_percent": 0.18,
+ "records": [
+  {
+   "uuid": "09c6de66-4c70-e182-83fc-d27955e0439a",
+   "ops_count": 17,
+   "ops_first10": [
+    "loft",
+    "cboreHole",
+    "chamfer",
+    "cutBlind",
+    "circle",
+    "rect",
+    "polygon"
+   ],
+   "error_current_kernel": "StdFail_NotDone|BRep_API: command not done"
+  },
+  {
+   "uuid": "16ce17df-41d9-447b-3922-73fb7ce4d423",
+   "ops_count": 38,
+   "ops_first10": [
+    "extrude",
+    "extrude",
+    "union",
+    "cutBlind",
+    "fillet",
+    "chamfer",
+    "hole",
+    "cutBlind",
+    "cutBlind",
+    "union"
+   ],
+   "error_current_kernel": "StdFail_NotDone|BRep_API: command not done"
+  },
+  {
+   "uuid": "31e029fa-520d-5a55-a26d-b110e538bd06",
+   "ops_count": 24,
+   "ops_first10": [
+    "fillet",
+    "cutThruAll",
+    "sweep",
+    "circle",
+    "rect",
+    "extrude",
+    "rect",
+    "union"
+   ],
+   "error_current_kernel": "StdFail_NotDone|BRep_API: command not done"
+  },
+  {
+   "uuid": "5ac9a936-9365-9888-af4c-80c3fbb7e1dc",
+   "ops_count": 25,
+   "ops_first10": [
+    "extrude",
+    "extrude",
+    "chamfer",
+    "hole",
+    "hole",
+    "rect",
+    "circle"
+   ],
+   "error_current_kernel": "OK_UNDER_CURRENT_KERNEL"
+  },
+  {
+   "uuid": "5cc8d613-9523-88c2-a152-2feea25204a8",
+   "ops_count": 32,
+   "ops_first10": [
+    "extrude",
+    "hole",
+    "chamfer",
+    "extrude",
+    "union",
+    "rect",
+    "union",
+    "hole",
+    "rect"
+   ],
+   "error_current_kernel": "OK_UNDER_CURRENT_KERNEL"
+  },
+  {
+   "uuid": "5f0455d0-d8d8-57c7-007f-377e67336a67",
+   "ops_count": 28,
+   "ops_first10": [
+    "spline",
+    "sweep",
+    "extrude",
+    "union",
+    "chamfer",
+    "hole",
+    "extrude",
+    "union",
+    "circle",
+    "rect"
+   ],
+   "error_current_kernel": "Standard_OutOfRange|NCollection_Sequence::ChangeValue"
+  },
+  {
+   "uuid": "6dbbe855-c220-52d0-4087-c8488fc57ceb",
+   "ops_count": 27,
+   "ops_first10": [
+    "extrude",
+    "cut",
+    "union",
+    "cskHole",
+    "rect",
+    "extrude",
+    "extrude",
+    "extrude",
+    "extrude",
+    "rect"
+   ],
+   "error_current_kernel": "OK_UNDER_CURRENT_KERNEL"
+  },
+  {
+   "uuid": "744d3e90-b604-bec3-4ee0-9e306177bb0a",
+   "ops_count": 13,
+   "ops_first10": [
+    "extrude",
+    "extrude",
+    "union",
+    "chamfer",
+    "rect",
+    "rect",
+    "fillet",
+    "shell"
+   ],
+   "error_current_kernel": "ValueError|Null TopoDS_Shape object"
+  },
+  {
+   "uuid": "7e379710-3f57-52b9-49c4-6402a33cea8d",
+   "ops_count": 23,
+   "ops_first10": [
+    "extrude",
+    "chamfer",
+    "circle",
+    "extrude",
+    "circle",
+    "hole",
+    "cutBlind",
+    "circle",
+    "cutBlind",
+    "circle"
+   ],
+   "error_current_kernel": "OK_UNDER_CURRENT_KERNEL"
+  },
+  {
+   "uuid": "8502de34-6f22-ba03-a824-5dc44d243e42",
+   "ops_count": 34,
+   "ops_first10": [
+    "rect",
+    "chamfer",
+    "hole",
+    "extrude",
+    "cskHole",
+    "fillet",
+    "extrude",
+    "circle",
+    "rect",
+    "rect"
+   ],
+   "error_current_kernel": "OK_UNDER_CURRENT_KERNEL"
+  },
+  {
+   "uuid": "857aa8fb-7f83-b35f-9f21-6111bc2fedaf",
+   "ops_count": 34,
+   "ops_first10": [
+    "revolve",
+    "fillet",
+    "cut",
+    "extrude",
+    "hole",
+    "union",
+    "hole",
+    "chamfer",
+    "extrude",
+    "circle"
+   ],
+   "error_current_kernel": "StdFail_NotDone|BRep_API: command not done"
+  },
+  {
+   "uuid": "894794d7-d619-d668-66bc-7c94da56490c",
+   "ops_count": 31,
+   "ops_first10": [
+    "cylinder",
+    "union",
+    "cylinder",
+    "cut",
+    "hole",
+    "chamfer",
+    "union",
+    "cylinder",
+    "extrude",
+    "rect"
+   ],
+   "error_current_kernel": "OK_UNDER_CURRENT_KERNEL"
+  },
+  {
+   "uuid": "ae4e68e3-fd30-08a0-aa28-ff7436cc049f",
+   "ops_count": 26,
+   "ops_first10": [
+    "revolve",
+    "extrude",
+    "cut",
+    "chamfer",
+    "revolve",
+    "cut",
+    "union",
+    "circle",
+    "cylinder"
+   ],
+   "error_current_kernel": "StdFail_NotDone|BRep_API: command not done"
+  },
+  {
+   "uuid": "b242cf27-55e1-3ebb-fe27-363939568060",
+   "ops_count": 19,
+   "ops_first10": [
+    "extrude",
+    "cutBlind",
+    "extrude",
+    "hole",
+    "rect",
+    "circle",
+    "rect"
+   ],
+   "error_current_kernel": "OK_UNDER_CURRENT_KERNEL"
+  },
+  {
+   "uuid": "d5dae9ed-2dba-5e20-de6a-a49f326e2531",
+   "ops_count": 24,
+   "ops_first10": [
+    "extrude",
+    "extrude",
+    "union",
+    "chamfer",
+    "circle",
+    "hole"
+   ],
+   "error_current_kernel": "StdFail_NotDone|BRep_API: command not done"
+  },
+  {
+   "uuid": "e47aebac-75f6-179e-52f9-2173401b7f3d",
+   "ops_count": 19,
+   "ops_first10": [
+    "extrude",
+    "extrude",
+    "union",
+    "shell",
+    "cutBlind",
+    "chamfer",
+    "rect",
+    "rect",
+    "circle"
+   ],
+   "error_current_kernel": "OK_UNDER_CURRENT_KERNEL"
+  },
+  {
+   "uuid": "88f6ad2d-eb13-4fb9-7da1-cd06e7ab6f2c",
+   "ops_count": 29,
+   "ops_first10": [
+    "circle",
+    "sweep",
+    "union",
+    "cut",
+    "box",
+    "union",
+    "circle",
+    "spline",
+    "extrude",
+    "circle"
+   ],
+   "error_current_kernel": "TIMEOUT>240s (kernel hangs on this geometry)"
+  },
+  {
+   "uuid": "a6e5652a-99ef-288b-3f7f-3b35f41135fc",
+   "ops_count": 33,
+   "ops_first10": [
+    "sweep",
+    "extrude",
+    "fillet",
+    "union",
+    "cboreHole",
+    "union",
+    "rect",
+    "rect",
+    "extrude",
+    "chamfer"
+   ],
+   "error_current_kernel": "TIMEOUT>240s (kernel hangs on this geometry)"
+  }
+ ]
+}

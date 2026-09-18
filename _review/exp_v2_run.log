@@ -1,0 +1,42 @@
+{
+ "n_invalid": 61,
+ "first_failing_level": {
+  "shell": 60,
+  "solid-level": 1
+ },
+ "status_counts": {
+  "BRepCheck_UnorientableShape": 83,
+  "BRepCheck_SelfIntersectingWire": 33,
+  "BRepCheck_BadOrientationOfSubshape": 6,
+  "BRepCheck_InvalidImbricationOfWires": 4,
+  "BRepCheck_IntersectingWires": 3
+ },
+ "operations_in_invalid": {
+  "extrude": 47,
+  "chamfer": 44,
+  "revolve": 38,
+  "circle": 36,
+  "rect": 34,
+  "hole": 32,
+  "union": 31,
+  "cut": 31,
+  "cutblind": 16,
+  "fillet": 16,
+  "shell": 11,
+  "box": 9
+ },
+ "tolerances": {
+  "n_models": 9980,
+  "max_mm": {
+   "face": 1e-07,
+   "edge": 72.9123435010402,
+   "vertex": 72.9123435010402
+  },
+  "models_above": {
+   "edge_1e-4": 255,
+   "vertex_1e-4": 286,
+   "edge_1e-3": 182,
+   "vertex_1e-3": 203
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "n_models": 300,
+ "n_with_matched_fillet_faces": 266,
+ "fillet_area_fraction_median": 0.0264,
+ "fillet_surface_coverage": {
+  "1024": {
+   "median": 1.0,
+   "p5": 0.9174,
+   "min": 0.0119
+  },
+  "2048": {
+   "median": 1.0,
+   "p5": 0.9932,
+   "min": 0.0238
+  },
+  "4096": {
+   "median": 1.0,
+   "p5": 1.0,
+   "min": 0.0469
+  },
+  "8192": {
+   "median": 1.0,
+   "p5": 1.0,
+   "min": 0.0917
+  }
+ },
+ "smallest_face_coverage": {
+  "1024": {
+   "median": 0.3117,
+   "p5": 0.0203,
+   "min": 0.0
+  },
+  "2048": {
+   "median": 0.5262,
+   "p5": 0.0403,
+   "min": 0.0
+  },
+  "4096": {
+   "median": 0.7755,
+   "p5": 0.0789,
+   "min": 0.0
+  },
+  "8192": {
+   "median": 0.9496,
+   "p5": 0.1516,
+   "min": 0.0
+  }
+ },
+ "empirical_vs_analytic_mean_abs_err": 0.044
+}

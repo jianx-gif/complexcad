@@ -1,0 +1,27 @@
+{
+ "programs": 10000,
+ "totals": {
+  "op_calls": 14870,
+  "op_calls_on_selector": 11618,
+  "has_funcdef": 1413,
+  "op_word_in_comment_or_string": 3930,
+  "op_inside_funcdef": 989,
+  "wrapper_called": 989,
+  "op_calls_in_funcdef": 1423,
+  "alias_attribute_access": 603,
+  "op_calls_in_loop": 42,
+  "op_calls_in_if": 10
+ },
+ "programs_with": {
+  "op_calls": 9503,
+  "op_calls_on_selector": 8984,
+  "has_funcdef": 1413,
+  "op_word_in_comment_or_string": 3930,
+  "op_inside_funcdef": 989,
+  "wrapper_called": 989,
+  "op_calls_in_funcdef": 989,
+  "alias_attribute_access": 456,
+  "op_calls_in_loop": 37,
+  "op_calls_in_if": 6
+ }
+}

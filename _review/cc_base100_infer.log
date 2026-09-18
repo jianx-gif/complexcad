@@ -1,0 +1,43 @@
+device: cuda 72 C
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+模型已加载
+待推理 400 / 400 (mode=pc)
+  16/400 ok16 fail0 7.3s/件 GPU 81C ETA46.9min
+  32/400 ok32 fail0 7.6s/件 GPU 82C ETA46.5min
+  ⚠ GPU 82C, 冷却 60s ...
+  48/400 ok48 fail0 8.8s/件 GPU 83C ETA51.8min
+  ⚠ GPU 83C, 冷却 60s ...
+  64/400 ok64 fail0 9.5s/件 GPU 81C ETA53.3min
+  80/400 ok80 fail0 9.3s/件 GPU 80C ETA49.5min
+  96/400 ok96 fail0 9.1s/件 GPU 79C ETA46.3min
+  112/400 ok112 fail0 9.2s/件 GPU 82C ETA44.2min
+  ⚠ GPU 82C, 冷却 60s ...
+  128/400 ok128 fail0 9.6s/件 GPU 82C ETA43.5min
+  ⚠ GPU 82C, 冷却 60s ...
+  144/400 ok144 fail0 10.2s/件 GPU 80C ETA43.6min
+  160/400 ok160 fail0 9.8s/件 GPU 75C ETA39.3min
+  176/400 ok176 fail0 9.8s/件 GPU 77C ETA36.4min
+  192/400 ok192 fail0 9.6s/件 GPU 82C ETA33.4min
+  ⚠ GPU 82C, 冷却 60s ...
+  208/400 ok208 fail0 9.6s/件 GPU 77C ETA30.8min
+  224/400 ok224 fail0 9.5s/件 GPU 77C ETA27.7min
+  240/400 ok240 fail0 9.4s/件 GPU 82C ETA25.1min
+  ⚠ GPU 82C, 冷却 60s ...
+  256/400 ok256 fail0 9.5s/件 GPU 81C ETA22.8min
+  272/400 ok272 fail0 9.4s/件 GPU 81C ETA20.1min
+  288/400 ok288 fail0 9.4s/件 GPU 83C ETA17.5min
+  ⚠ GPU 83C, 冷却 60s ...
+  304/400 ok304 fail0 9.6s/件 GPU 82C ETA15.3min
+  ⚠ GPU 82C, 冷却 60s ...
+  320/400 ok320 fail0 9.6s/件 GPU 84C ETA12.7min
+  ⚠ GPU 84C, 冷却 60s ...
+  336/400 ok336 fail0 9.7s/件 GPU 83C ETA10.3min
+  ⚠ GPU 83C, 冷却 60s ...
+  352/400 ok352 fail0 9.8s/件 GPU 83C ETA7.8min
+  ⚠ GPU 83C, 冷却 60s ...
+  368/400 ok368 fail0 9.8s/件 GPU 82C ETA5.2min
+  ⚠ GPU 82C, 冷却 60s ...
+  384/400 ok384 fail0 9.8s/件 GPU 83C ETA2.6min
+  ⚠ GPU 83C, 冷却 60s ...
+  400/400 ok400 fail0 9.8s/件 GPU 81C ETA0.0min
+完成: ok 400 fail 0 用时 65.1min -> E:\3005\data\predictions\cadrille_scale100

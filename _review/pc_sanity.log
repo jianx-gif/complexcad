@@ -1,0 +1,6 @@
+[06:42:49] START pc inference
+[06:45:40] END pc inference rc=0
+[06:45:49] eval official rc=0
+[06:45:55] eval ours rc=0
+exp_hh updated with pc: {'IoU_mean_pct': 86.46, 'CD_median_x1000': 0.173, 'IR_pct': 2.0, 'n_valid_iou': 98}
+[06:45:55] PC_SANITY_DONE

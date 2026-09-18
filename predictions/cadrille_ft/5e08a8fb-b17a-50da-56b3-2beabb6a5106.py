@@ -1,0 +1,35 @@
+import cadquery as cq
+base = 40
+base = 20
+hole = 40
+hole = 20
+hole = 20
+hole = 20
+hole = 20
+hole = 20
+hole_offset = 20
+hole_offset = 20
+hole_offset = 20
+hole_offset = 20
+hole_offset = 20
+hole_offset = 20
+hole_offset = 20
+hole_offset = 20
+hole_offset = 20 - 20)
+   hole_offset = 20)
+    hole_offset = 20 - hole_offset)
+    hole_depth = 20 - hole_depth) for hole_depth - hole_depth) for x in hole_depth - hole_depth) for x in hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_depth - hole_length - hole_depth - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_offset = 20 - hole_depth, hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole+ hole+X),(-hole_center_x,0),(-hole_center_x,0),(-hole_offset_x,0),(-hole_offset_x,0),(-hole孔ange_length,0),(-hole孔ange_length, - hole_depth),(-hole孔ange_length, - hole_depth),(-hole孔x - hole_depth),(-hole孔x - hole_depth),(-hole孔x - hole_length)
+hole_spacing = ( hole_depth - hole_depth - hole_length - hole_depth - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_height, hole_height),(-hole孔x - hole_length)
+hole = hole_width - hole_height)
+hole = hole_width - hole_height)
+    hole = hole_width - hole_height)
+    hole = hole_width - hole_height)
+    hole = hole_width - hole_height)
+    hole = hole_width - hole_height)
+    hole = hole_width - hole_height - hole_height)
+    hole = hole_width - hole_height - hole_height)
+    hole = hole_width - hole_length - hole_length - hole_height)
+    hole = hole_length - hole_length - hole_length - hole_length - hole_length - hole_height)
+    hole = hole_width - hole_length - hole_length - hole_length - hole_height)
+    hole = hole_width - hole_length - hole_length - hole_width - hole_height)
+    hole = hole_width - hole_length - hole_length - hole_width -

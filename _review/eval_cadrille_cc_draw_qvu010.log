@@ -1,0 +1,17 @@
+待评 400 件 (method=cadrille_cc_draw_qvu010, self_test=False, jobs=4)
+  50/400  3.7件/s
+  100/400  6.8件/s
+  150/400  9.5件/s
+  200/400  11.2件/s
+  250/400  13.2件/s
+  300/400  14.5件/s
+  350/400  4.9件/s
+  400/400  1.1件/s
+状态分布: {'exec_error': 144, 'ok': 207, 'syntax_error': 46, 'invalid_geom': 2, 'timeout_or_killed': 1}
+
+===== 方法 [cadrille_cc_draw_qvu010] 汇总 (n=400) =====
+  ALL       N=400  valid=51.7%  CD=0.1803  F=0.221  opType=0.51 opCount=0.48 exact=0.3%
+  simple    N=201  valid=63.7%  CD=0.1441  F=0.258  opType=0.57 opCount=0.53 exact=0.5%
+  complex   N=199  valid=39.7%  CD=0.2388  F=0.163  opType=0.46 opCount=0.42 exact=0.0%
+
+每件指标 -> E:\3005\data\1m_Convert\precision_report\pred_metrics_cadrille_cc_draw_qvu010.jsonl  用时 6.2min

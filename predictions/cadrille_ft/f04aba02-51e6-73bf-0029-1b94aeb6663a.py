@@ -1,0 +1,26 @@
+import cadquery as cq
+outer_radius = 20
+rib_height = 40
+rib_height = 2.0
+rib_height = 2.0
+rib_height = 1.0
+rib_height = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib_depth = 2.0
+rib = rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height + rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_length - rib_height - rib_length - rib_height - rib_height - rib - rib_height - rib - rib - rib_height - rib_height - rib - rib_height - rib_height - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib - rib_length - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height - rib_height -

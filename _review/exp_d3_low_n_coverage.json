@@ -1,0 +1,89 @@
+{
+ "fillet": {
+  "n_models": 300,
+  "median_part_area_mm2": 12865.5,
+  "smallest_face_area_mm2": {
+   "median": 4.7124,
+   "p5": 0.26496
+  },
+  "fillet_cov": {
+   "256": {
+    "median": 0.999,
+    "p5": 0.4638,
+    "min": 0.003
+   },
+   "512": {
+    "median": 1.0,
+    "p5": 0.7125,
+    "min": 0.006
+   },
+   "1024": {
+    "median": 1.0,
+    "p5": 0.9174,
+    "min": 0.0119
+   },
+   "2048": {
+    "median": 1.0,
+    "p5": 0.9932,
+    "min": 0.0238
+   },
+   "4096": {
+    "median": 1.0,
+    "p5": 1.0,
+    "min": 0.0469
+   },
+   "8192": {
+    "median": 1.0,
+    "p5": 1.0,
+    "min": 0.0917
+   }
+  }
+ },
+ "chamfer": {
+  "n_models": 300,
+  "median_part_area_mm2": 12840.4,
+  "smallest_face_area_mm2": {
+   "median": 4.1897,
+   "p5": 0.11941
+  },
+  "fillet_cov": null,
+  "n_with_matched_chamfer_faces": 267,
+  "chamfer_surface_coverage": {
+   "256": {
+    "median": 0.9826,
+    "p5": 0.2565,
+    "min": 0.0407
+   },
+   "512": {
+    "median": 0.9997,
+    "p5": 0.4473,
+    "min": 0.0798
+   },
+   "1024": {
+    "median": 1.0,
+    "p5": 0.6945,
+    "min": 0.1532
+   },
+   "2048": {
+    "median": 1.0,
+    "p5": 0.9067,
+    "min": 0.2829
+   },
+   "4096": {
+    "median": 1.0,
+    "p5": 0.9913,
+    "min": 0.4858
+   },
+   "8192": {
+    "median": 1.0,
+    "p5": 0.9999,
+    "min": 0.7356
+   }
+  }
+ },
+ "reliable_coverage_at_8192": {
+  "min_area_fraction": 0.0005619965844467778,
+  "median_part_area_mm2": 12865.5,
+  "min_face_area_mm2_at_median_part": 7.23
+ }
+}

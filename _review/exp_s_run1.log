@@ -1,0 +1,169 @@
+  GT probed ok 399
+  predictions probed ok 399 / 400
+{
+ "method": "selftest_s",
+ "n_pairs": 399,
+ "holes_gt": 1892,
+ "holes_matched": 1892,
+ "hole_match_rate": 1.0,
+ "hole_pos_err_median_mm": 0.0,
+ "hole_pos_within_0p5mm": 1.0,
+ "angle_params": 61,
+ "angle_hit_1deg": 0.377,
+ "angle_err_median_deg": 2.95,
+ "edge_chamfer_median_mm": 0.0,
+ "vertex_err_median_mm": 0.0,
+ "vertex_within_0p5mm": 1.0,
+ "vertices_gt": 22051,
+ "relation_coverage": {
+  "concentric": {
+   "gt": 213,
+   "covered": 213,
+   "rate": 1.0
+  },
+  "equal_radius": {
+   "gt": 6926,
+   "covered": 6926,
+   "rate": 1.0
+  },
+  "parallel_axis": {
+   "gt": 6677,
+   "covered": 6677,
+   "rate": 1.0
+  },
+  "perpendicular_planes": {
+   "gt": 2349,
+   "covered": 2349,
+   "rate": 1.0
+  }
+ },
+ "edit_tested": 343,
+ "edit_executes": 0.9708,
+ "edit_geometry_changes": 0.9475
+}
+  predictions probed ok 383 / 400
+{
+ "method": "cadrille",
+ "n_pairs": 382,
+ "holes_gt": 1828,
+ "holes_matched": 332,
+ "hole_match_rate": 0.1816,
+ "hole_pos_err_median_mm": 0.161,
+ "hole_pos_within_0p5mm": 0.6024,
+ "angle_params": 58,
+ "angle_hit_1deg": 0.069,
+ "angle_err_median_deg": 13.12,
+ "edge_chamfer_median_mm": 2.598,
+ "vertex_err_median_mm": 5.105,
+ "vertex_within_0p5mm": 0.0685,
+ "vertices_gt": 20486,
+ "relation_coverage": {
+  "concentric": {
+   "gt": 206,
+   "covered": 118,
+   "rate": 0.5728
+  },
+  "equal_radius": {
+   "gt": 6699,
+   "covered": 109,
+   "rate": 0.0163
+  },
+  "parallel_axis": {
+   "gt": 6534,
+   "covered": 718,
+   "rate": 0.1099
+  },
+  "perpendicular_planes": {
+   "gt": 2205,
+   "covered": 1016,
+   "rate": 0.4608
+  }
+ },
+ "edit_tested": 0,
+ "edit_executes": null,
+ "edit_geometry_changes": null
+}
+  predictions probed ok 181 / 400
+{
+ "method": "cadrille_cc",
+ "n_pairs": 180,
+ "holes_gt": 899,
+ "holes_matched": 90,
+ "hole_match_rate": 0.1001,
+ "hole_pos_err_median_mm": 0.0,
+ "hole_pos_within_0p5mm": 0.8444,
+ "angle_params": 26,
+ "angle_hit_1deg": 0.0385,
+ "angle_err_median_deg": 19.35,
+ "edge_chamfer_median_mm": 9.298,
+ "vertex_err_median_mm": 21.175,
+ "vertex_within_0p5mm": 0.0004,
+ "vertices_gt": 10333,
+ "relation_coverage": {
+  "concentric": {
+   "gt": 88,
+   "covered": 27,
+   "rate": 0.3068
+  },
+  "equal_radius": {
+   "gt": 3849,
+   "covered": 131,
+   "rate": 0.034
+  },
+  "parallel_axis": {
+   "gt": 3507,
+   "covered": 173,
+   "rate": 0.0493
+  },
+  "perpendicular_planes": {
+   "gt": 1118,
+   "covered": 659,
+   "rate": 0.5894
+  }
+ },
+ "edit_tested": 175,
+ "edit_executes": 1.0,
+ "edit_geometry_changes": 0.9943
+}
+  predictions probed ok 291 / 400
+{
+ "method": "cadrille_ctrl",
+ "n_pairs": 291,
+ "holes_gt": 1461,
+ "holes_matched": 193,
+ "hole_match_rate": 0.1321,
+ "hole_pos_err_median_mm": 0.024,
+ "hole_pos_within_0p5mm": 0.6062,
+ "angle_params": 40,
+ "angle_hit_1deg": 0.225,
+ "angle_err_median_deg": 8.08,
+ "edge_chamfer_median_mm": 4.54,
+ "vertex_err_median_mm": 10.247,
+ "vertex_within_0p5mm": 0.0243,
+ "vertices_gt": 16516,
+ "relation_coverage": {
+  "concentric": {
+   "gt": 170,
+   "covered": 100,
+   "rate": 0.5882
+  },
+  "equal_radius": {
+   "gt": 5568,
+   "covered": 88,
+   "rate": 0.0158
+  },
+  "parallel_axis": {
+   "gt": 5761,
+   "covered": 684,
+   "rate": 0.1187
+  },
+  "perpendicular_planes": {
+   "gt": 1531,
+   "covered": 683,
+   "rate": 0.4461
+  }
+ },
+ "edit_tested": 0,
+ "edit_executes": null,
+ "edit_geometry_changes": null
+}

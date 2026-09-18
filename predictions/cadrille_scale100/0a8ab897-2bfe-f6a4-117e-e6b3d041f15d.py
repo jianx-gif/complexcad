@@ -1,0 +1,5 @@
+import cadquery as cq
+w0=cq.Workplane('XY',origin=(0,0,5))
+w1=cq.Workplane('YZ',origin=(38,0))
+r=w0 top (36,0))
+w1(w0.sketch().segment((-40,-10),(-38,-10)).segment((-38,-10),(-37,-10)).segment((-37,-1)).segment((-40,-1)).segment((-40,-2)).segment((-39,-2)).segment((-39,0)).segment((-40,0)).segment((-40,1)).segment((-40,2)).segment((-41,2)).segment((-41,1)).segment((-41,-1)).segment((-40,-1)).segment((-40,-2)).segment((-39,-2)).segment((-39,2)).segment((-40,2)).segment((-40,1)).segment((-41,1)).segment((-41,2)).segment((-40,2)).segment((-40,1)).segment((-41,1)).segment((-41,2)).segment((-40,2)).segment((-40,1)).segment((-41,1)).segment((-41,2)).segment((-42,2)).segment((-41,2)).segment((-41,1)).segment((-40,1)).segment((-40,2)).segment((-41,2)).segment((-41,1)).segment((-42,1)).segment((-41,1)).segment((-41,2)).close().assemble().finalize().extrude(-3).union(w0.sketch().segment((-3,-1),(-1,-1)).segment((-3,-1)).close().assemble().finalize().extrude(-11)).union(w0.sketch().segment((-3,-1),(-1,-1)).segment((-3,1)).close().assemble().finalize().extrude(11)).union(w0.sketch().segment((-3,-1),(-1,-1)).segment((-3,1)).close().assemble().finalize().extrude(-11))

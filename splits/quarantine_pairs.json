@@ -1,0 +1,1357 @@
+{
+ "4f98b779-54b4-ca70-ad7a-6dae009b8fbb": {
+  "test_uuid": "890b37d3-37be-19a7-367f-c668f58328d0",
+  "cosine": 0.9415,
+  "chamfer": 0.01794
+ },
+ "8480081b-42ba-3500-ab65-4c9a5d9d505b": {
+  "test_uuid": "890b37d3-37be-19a7-367f-c668f58328d0",
+  "cosine": 0.9485,
+  "chamfer": 0.01999
+ },
+ "adde6a92-c2ab-77da-74ed-62d3f4cadb04": {
+  "test_uuid": "890b37d3-37be-19a7-367f-c668f58328d0",
+  "cosine": 0.964,
+  "chamfer": 0.01759
+ },
+ "da06655b-4713-68ce-a171-744ba3f240a4": {
+  "test_uuid": "890b37d3-37be-19a7-367f-c668f58328d0",
+  "cosine": 0.9645,
+  "chamfer": 0.01968
+ },
+ "dba2a816-1440-94dc-748f-56bc7989b8c1": {
+  "test_uuid": "890b37d3-37be-19a7-367f-c668f58328d0",
+  "cosine": 0.9911,
+  "chamfer": 0.01965
+ },
+ "e867e9cb-4b95-c22d-642a-4e1f8e6ecea6": {
+  "test_uuid": "890b37d3-37be-19a7-367f-c668f58328d0",
+  "cosine": 0.9911,
+  "chamfer": 0.01779
+ },
+ "5bdb55b5-cb7d-26d7-037c-1bf9f1726638": {
+  "test_uuid": "e662f15a-4d55-7e93-ebb8-10bf5c25872b",
+  "cosine": 0.95,
+  "chamfer": 0.01976
+ },
+ "015d6c40-d20f-dd54-614b-b38f4fb8814b": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9767,
+  "chamfer": 0.01739
+ },
+ "040d6f0a-00ca-ddf1-d949-c2513020cc83": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9736,
+  "chamfer": 0.01846
+ },
+ "06b04263-48cb-fdd4-0a73-6b0c57fec32d": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9901,
+  "chamfer": 0.01646
+ },
+ "08a4601e-4a25-8f61-85db-033734cb26dc": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9631,
+  "chamfer": 0.01995
+ },
+ "0acf8694-7219-ca0f-2333-6a1fc5746ff9": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9984,
+  "chamfer": 0.01974
+ },
+ "0c634697-2f58-a23c-ae4b-56f81f34ef42": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.989,
+  "chamfer": 0.01842
+ },
+ "0ec66bc7-814f-fb98-5bc8-8d4b3824b786": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.01988
+ },
+ "0f6f745f-82bd-6e01-a0b8-a95dc6c5a1d5": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9973,
+  "chamfer": 0.01981
+ },
+ "0fb7cec4-5cc6-ba82-4ba1-fb3e6cd28a06": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.01498
+ },
+ "12cde6d5-1a8b-fe17-7936-e57a067ef073": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9671,
+  "chamfer": 0.01983
+ },
+ "1533abe8-e093-1574-41ae-31d955543981": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.01787
+ },
+ "1583773e-81ed-f390-0c0e-3c796154fa18": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9878,
+  "chamfer": 0.01969
+ },
+ "1a4a9622-a00f-96ec-b765-ec8ee1cb6c4a": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9961,
+  "chamfer": 0.01577
+ },
+ "1a63ce73-0438-d571-8584-3ea97d4103c0": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9984,
+  "chamfer": 0.0197
+ },
+ "1b43ada3-724a-b969-a78e-92e59430cff9": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.0199
+ },
+ "1d0aa86a-145f-93b2-55b2-20eb775ec698": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.01504
+ },
+ "22fea407-7043-bdf8-0205-b87764113a80": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9725,
+  "chamfer": 0.0177
+ },
+ "23709bea-915f-8035-84e2-5122df2deb10": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9956,
+  "chamfer": 0.01565
+ },
+ "23b6c242-0848-9521-10ef-fe937b908930": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.01477
+ },
+ "3640cf79-0121-98de-ed5e-24c4b3d09358": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.01657
+ },
+ "372d2062-0377-a855-e0af-65eb820e44ef": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9811,
+  "chamfer": 0.01634
+ },
+ "3cbace54-a092-9487-9f98-8e60b4a32239": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9848,
+  "chamfer": 0.0181
+ },
+ "489d42d2-5272-3ec6-8725-93e818919ceb": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9973,
+  "chamfer": 0.01683
+ },
+ "492a8afb-0491-c11f-3447-050e249e751f": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9716,
+  "chamfer": 0.01924
+ },
+ "4a880a0e-18c1-5a23-acb8-39738fe790d9": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9613,
+  "chamfer": 0.01899
+ },
+ "5249d610-c903-e37e-5830-19374abdff0b": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.01923
+ },
+ "57d4e06b-a6c6-de63-0686-883b9a8d323e": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.01636
+ },
+ "57da9611-5214-8c4d-83f7-39e756f0524d": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9984,
+  "chamfer": 0.01652
+ },
+ "595c5509-8db3-b595-6ddb-db1f73194954": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.01506
+ },
+ "5a539e9e-5eed-5f1c-10b1-870d4a26e4d8": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9676,
+  "chamfer": 0.01875
+ },
+ "5b2c9f5a-10f5-3b2b-4eca-585caee61365": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.0156
+ },
+ "5b72024a-b6f2-5363-2220-a4a89376635a": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9939,
+  "chamfer": 0.01978
+ },
+ "5dc8f4c5-67f9-bb68-f27d-c0279408fd5e": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9984,
+  "chamfer": 0.01983
+ },
+ "614ab722-aa00-f777-196c-8c92879386c0": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9973,
+  "chamfer": 0.01532
+ },
+ "6161b39b-43f8-b26a-8faf-f32a22b2ca9d": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.98,
+  "chamfer": 0.01623
+ },
+ "67658cf7-367e-f452-3627-e36b2c99533d": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9984,
+  "chamfer": 0.01982
+ },
+ "6c8efb5c-2862-f8b1-2f00-62ae3ac0ded7": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9619,
+  "chamfer": 0.01956
+ },
+ "6f0b3848-712f-f687-0849-d7ddca475717": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9967,
+  "chamfer": 0.01669
+ },
+ "71861d5a-16f3-8b5f-c205-f6ad7d68f2d4": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9934,
+  "chamfer": 0.01578
+ },
+ "73bd1f34-98e5-282f-0222-ee6d528be160": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9984,
+  "chamfer": 0.01525
+ },
+ "7c0788aa-1114-7ea2-8ac8-3d3c82597065": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.01959
+ },
+ "7e061dc4-3da4-1291-3ae2-3ce122f187ac": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9978,
+  "chamfer": 0.01952
+ },
+ "7f7b5f9b-7cf8-7d84-47d1-5d198c39e59b": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.01597
+ },
+ "84574ada-9bda-8273-cce7-1fefe58e1b9b": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9736,
+  "chamfer": 0.01942
+ },
+ "8973831a-1d1a-6f28-42de-78739bd35d8f": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9945,
+  "chamfer": 0.01567
+ },
+ "89ae9649-0924-8292-1a63-c8d4bd6549f8": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9967,
+  "chamfer": 0.01563
+ },
+ "8a3937a3-32ab-03f4-4381-6e3a827378b4": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.01481
+ },
+ "8e0e5faa-68bd-1b9a-8527-520aae56f81c": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.951,
+  "chamfer": 0.01973
+ },
+ "abadea58-08dc-8a1e-4593-e7ed87805ace": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9917,
+  "chamfer": 0.01695
+ },
+ "ae14d43e-c874-2bfc-1f1e-edc48d7a1c61": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9967,
+  "chamfer": 0.01699
+ },
+ "afb1d5b1-6c7c-39e1-19ff-0c8e91357476": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9811,
+  "chamfer": 0.01839
+ },
+ "b4c87e39-6978-a3c7-0039-c8ba5855f463": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9811,
+  "chamfer": 0.01775
+ },
+ "be456f41-f298-d4b6-aff5-e52a6bdd084a": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9995,
+  "chamfer": 0.0155
+ },
+ "c1ee1722-92de-7a78-a329-0f2e9456ed47": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9736,
+  "chamfer": 0.01966
+ },
+ "c288c207-86f8-6935-df33-bb0661ecd900": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.01501
+ },
+ "c2e42aa3-6a27-69fc-2b66-c6b467e94ae4": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9984,
+  "chamfer": 0.01498
+ },
+ "cc78e49f-b547-a841-689b-8a30f76df975": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9721,
+  "chamfer": 0.01873
+ },
+ "cfb83849-651d-ebc9-a704-5478063c4fe5": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9906,
+  "chamfer": 0.01818
+ },
+ "d348286b-4b84-8f28-4b97-f4b458e0ee33": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9811,
+  "chamfer": 0.01684
+ },
+ "d4339825-c559-8dd5-2287-dd0c0bd666fb": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.01981
+ },
+ "d48d94f1-04f6-1049-1141-b152fa7c9d87": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9984,
+  "chamfer": 0.01954
+ },
+ "d660aa95-a431-8742-6fa6-3bdd6395d922": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9984,
+  "chamfer": 0.01538
+ },
+ "d7585a90-06df-5f37-48d4-78117f0da4ea": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9761,
+  "chamfer": 0.01691
+ },
+ "ea8f74ae-cc25-fb05-ce04-0963fb8f142c": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9767,
+  "chamfer": 0.01835
+ },
+ "efbd01b7-db4d-c150-4f04-b3d6cb8dec3e": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9984,
+  "chamfer": 0.01948
+ },
+ "f04b31ff-8116-3676-72d7-f6a01655da4f": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9839,
+  "chamfer": 0.01647
+ },
+ "f1b48045-4995-a4c6-cf0d-63e650851d48": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9744,
+  "chamfer": 0.01872
+ },
+ "f253b09c-a210-d09d-92b2-1840c02a5ddd": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9934,
+  "chamfer": 0.01838
+ },
+ "f34994ec-4214-5f4f-c1c9-9b1cb3e44fbc": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.967,
+  "chamfer": 0.01828
+ },
+ "fafd9f59-222c-56b6-146e-aece12cf4aa4": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9767,
+  "chamfer": 0.01826
+ },
+ "ff9f29e2-e55e-394f-90af-724481d572a1": {
+  "test_uuid": "7049af79-e8c9-3b33-4bdb-46b862624bd0",
+  "cosine": 0.9989,
+  "chamfer": 0.01979
+ },
+ "02b8da06-ee44-fcf3-c06f-bc7c74a7f6bc": {
+  "test_uuid": "15f6956f-96f5-3ece-1cd7-b363945129ab",
+  "cosine": 0.9984,
+  "chamfer": 0.01778
+ },
+ "116a9a7c-50ec-45eb-6437-e894180b2adb": {
+  "test_uuid": "15f6956f-96f5-3ece-1cd7-b363945129ab",
+  "cosine": 0.9736,
+  "chamfer": 0.01929
+ },
+ "2a181dde-6c24-49ca-87aa-b773f7dba156": {
+  "test_uuid": "15f6956f-96f5-3ece-1cd7-b363945129ab",
+  "cosine": 0.9901,
+  "chamfer": 0.01622
+ },
+ "4966c008-4a43-9d64-3617-c50324d54b8f": {
+  "test_uuid": "15f6956f-96f5-3ece-1cd7-b363945129ab",
+  "cosine": 0.9989,
+  "chamfer": 0.01916
+ },
+ "8379126c-91f0-3f4e-58b8-63fc53adc4bc": {
+  "test_uuid": "15f6956f-96f5-3ece-1cd7-b363945129ab",
+  "cosine": 0.9736,
+  "chamfer": 0.01925
+ },
+ "8b42794c-f4e2-d606-a842-34f0fa9a18f3": {
+  "test_uuid": "15f6956f-96f5-3ece-1cd7-b363945129ab",
+  "cosine": 0.9967,
+  "chamfer": 0.01773
+ },
+ "9a16d412-4631-1ada-d043-4ed24bea4382": {
+  "test_uuid": "15f6956f-96f5-3ece-1cd7-b363945129ab",
+  "cosine": 0.9716,
+  "chamfer": 0.01789
+ },
+ "b14e8412-46a5-b498-2f1b-ac8764f22606": {
+  "test_uuid": "15f6956f-96f5-3ece-1cd7-b363945129ab",
+  "cosine": 0.995,
+  "chamfer": 0.01705
+ },
+ "e256c0e5-2048-b9a8-e915-c71338799408": {
+  "test_uuid": "15f6956f-96f5-3ece-1cd7-b363945129ab",
+  "cosine": 0.9989,
+  "chamfer": 0.0176
+ },
+ "eda402d3-0ae5-db85-1e64-f5f4ff79468d": {
+  "test_uuid": "15f6956f-96f5-3ece-1cd7-b363945129ab",
+  "cosine": 0.9685,
+  "chamfer": 0.01931
+ },
+ "f35d19c3-4630-7cd9-1ce4-3027ac7ffd27": {
+  "test_uuid": "15f6956f-96f5-3ece-1cd7-b363945129ab",
+  "cosine": 0.9725,
+  "chamfer": 0.01945
+ },
+ "cb3941e2-7feb-37bb-4fa1-2567940dbb6d": {
+  "test_uuid": "ef3fd796-54c5-0e81-7c0d-fe24b3a62207",
+  "cosine": 0.9936,
+  "chamfer": 0.01944
+ },
+ "7cbba8e3-7988-1d13-d4a0-8637d30a54ef": {
+  "test_uuid": "49348dab-d404-e9c9-0584-9e7999ec5bcc",
+  "cosine": 0.9184,
+  "chamfer": 0.01854
+ },
+ "af7bc678-78ef-0013-579c-96fdc51f2e1b": {
+  "test_uuid": "49348dab-d404-e9c9-0584-9e7999ec5bcc",
+  "cosine": 0.925,
+  "chamfer": 0.01904
+ },
+ "3c5be77a-3b19-6d59-baf2-808e2564e4e6": {
+  "test_uuid": "71fa84bc-ca5a-82d3-eb27-96272998dff1",
+  "cosine": 0.9864,
+  "chamfer": 0.01992
+ },
+ "128d475d-c1d1-e09d-7af7-b4ecea421802": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9356,
+  "chamfer": 0.018
+ },
+ "2592ba65-0754-1a34-8ca3-05b641931d32": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9605,
+  "chamfer": 0.01709
+ },
+ "328b3224-372e-187d-cbed-ce510df274ca": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9747,
+  "chamfer": 0.01501
+ },
+ "3a93b946-a26c-e45e-a1c0-de8047464f00": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9457,
+  "chamfer": 0.0177
+ },
+ "4cfc96a5-577a-e356-15e4-3e124aef99b1": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9299,
+  "chamfer": 0.01891
+ },
+ "5323c58b-4ccc-a096-d968-78c3fc84df81": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9142,
+  "chamfer": 0.01934
+ },
+ "5c578ac9-b209-a613-8f61-2313ac78a712": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9242,
+  "chamfer": 0.01894
+ },
+ "6dc25944-a679-4391-bcca-3275565f8cf9": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9231,
+  "chamfer": 0.01902
+ },
+ "6fecc8af-4641-a8d0-40d3-02d1f5fcdf6d": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9427,
+  "chamfer": 0.0179
+ },
+ "713d3932-0176-1228-ed0f-1abcfa72ace4": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9411,
+  "chamfer": 0.01821
+ },
+ "7c8d6477-b0fe-00a1-4577-7c932e0060ea": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9374,
+  "chamfer": 0.01818
+ },
+ "7e1c661a-f163-8e11-0319-58f6855154ac": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9305,
+  "chamfer": 0.01829
+ },
+ "7e5dbc39-9243-ce02-75f3-f4e46913905d": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9438,
+  "chamfer": 0.01781
+ },
+ "8e605626-46c2-d0d1-e351-3bc0df0ba331": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9402,
+  "chamfer": 0.0179
+ },
+ "aa0c4c67-3b12-bfbb-e411-3fa2801b024d": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9375,
+  "chamfer": 0.01891
+ },
+ "b0ad3d1c-d507-e2cb-ec19-cc2ba06f1c15": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9345,
+  "chamfer": 0.01814
+ },
+ "c348502c-1938-944a-a7d7-5b1ac8887e66": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9056,
+  "chamfer": 0.01958
+ },
+ "ca6b1250-b3d0-37fb-0f55-ce44af85d8de": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9326,
+  "chamfer": 0.0182
+ },
+ "cca6df04-ec52-0afb-d90e-5a6139cf36f1": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9414,
+  "chamfer": 0.01833
+ },
+ "d1a0c753-b63e-0f82-1215-f165df9d4dd5": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9105,
+  "chamfer": 0.01957
+ },
+ "de33a77e-3e02-f991-3724-f31609cbeb14": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9249,
+  "chamfer": 0.01944
+ },
+ "e0c82a4a-c4b0-12e2-6920-a8501be5d047": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9371,
+  "chamfer": 0.01848
+ },
+ "e5624420-0c55-d956-06be-8e6d3174d844": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9354,
+  "chamfer": 0.01872
+ },
+ "e7e8f4f1-be76-2cab-0629-f88599dcd85d": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9345,
+  "chamfer": 0.01815
+ },
+ "ea65e4b5-944c-9888-1c04-9e671937d012": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9291,
+  "chamfer": 0.01857
+ },
+ "fb19ad49-2b0c-6c40-26a5-8e6331e221e5": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9448,
+  "chamfer": 0.01794
+ },
+ "fcc4fa32-cc74-7b40-177c-a8586a062b69": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9076,
+  "chamfer": 0.01989
+ },
+ "fd8aa986-8993-f22c-669c-f71ad41c4232": {
+  "test_uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "cosine": 0.9454,
+  "chamfer": 0.01752
+ },
+ "252d2547-46a1-4f0f-92dc-48b44e29f251": {
+  "test_uuid": "cf20eb5e-c403-263c-b304-26c54ca0d009",
+  "cosine": 0.955,
+  "chamfer": 0.01811
+ },
+ "9f59b147-9fcd-8d62-b397-a6574e5ed483": {
+  "test_uuid": "99e95909-be6f-10cc-efc9-3508dc569c42",
+  "cosine": 0.9117,
+  "chamfer": 0.0199
+ },
+ "09d46e9b-ab70-ccc4-c1fc-57a7e39602bb": {
+  "test_uuid": "f297286b-0361-fd7a-9c7c-01946b268a14",
+  "cosine": 0.9495,
+  "chamfer": 0.01708
+ },
+ "834b3c8f-ba7c-b265-83f1-979d059e4f0a": {
+  "test_uuid": "f297286b-0361-fd7a-9c7c-01946b268a14",
+  "cosine": 0.9362,
+  "chamfer": 0.01931
+ },
+ "d611d8f4-c678-37bb-279f-062c52a14ef9": {
+  "test_uuid": "f297286b-0361-fd7a-9c7c-01946b268a14",
+  "cosine": 0.9156,
+  "chamfer": 0.01951
+ },
+ "739abeb9-2e29-0cb4-fb07-1d15bcd84846": {
+  "test_uuid": "07a852ab-7d68-5fbe-8298-5a03040d53c0",
+  "cosine": 0.9307,
+  "chamfer": 0.0181
+ },
+ "013e5216-c0ed-335e-a217-e50d217cb4d7": {
+  "test_uuid": "f04aba02-51e6-73bf-0029-1b94aeb6663a",
+  "cosine": 0.912,
+  "chamfer": 0.01811
+ },
+ "493a9299-a0aa-2678-9d10-0f5c8668aaa9": {
+  "test_uuid": "127512fa-dbdd-2f24-36a5-f98362314a2a",
+  "cosine": 0.9074,
+  "chamfer": 0.01987
+ },
+ "0005d64a-18aa-f3fa-808a-b5647221b318": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 0.9953,
+  "chamfer": 0.01576
+ },
+ "2237e511-0111-57ec-7e03-937b43106de1": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 1.0,
+  "chamfer": 0.01903
+ },
+ "23cc43f9-2e19-bc40-ffa4-e5923142ac00": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 1.0,
+  "chamfer": 0.01578
+ },
+ "31199d2e-7d81-b910-6153-db8c04ce2506": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 0.999,
+  "chamfer": 0.01756
+ },
+ "33313602-9edc-a0c7-a96e-cf8a7029a30b": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 0.9948,
+  "chamfer": 0.01978
+ },
+ "61708f6d-b152-674a-6ed8-2cd6ca2323f5": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 0.9722,
+  "chamfer": 0.01833
+ },
+ "70943c91-22a7-34ab-f5ec-d90a38690faf": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 0.9995,
+  "chamfer": 0.01911
+ },
+ "7321e9ce-0eb3-c3bc-454a-bf906a6baa08": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 0.9995,
+  "chamfer": 0.01753
+ },
+ "885e802c-e65e-45ae-e57e-a039d3b32247": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 0.9781,
+  "chamfer": 0.01852
+ },
+ "8b776609-035b-acbb-2e36-b3e6a5f55ab0": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 0.999,
+  "chamfer": 0.01795
+ },
+ "9de34289-caa9-9aed-fcda-81bf9e340ba0": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 0.999,
+  "chamfer": 0.01853
+ },
+ "ae4c03a8-39ce-0ffd-f9aa-27a6d194f26f": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 0.987,
+  "chamfer": 0.0199
+ },
+ "bc767a65-0d57-57c0-879c-6ab3c025b6c0": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 0.9933,
+  "chamfer": 0.01698
+ },
+ "cfe4a682-62b1-4e06-52b9-a5176fc78a63": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 0.9984,
+  "chamfer": 0.01722
+ },
+ "ddd486fa-bbd9-aea6-f333-ff1f952055c7": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 0.9912,
+  "chamfer": 0.01639
+ },
+ "ded5576c-7482-7cdb-220a-cf4719f227b2": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 1.0,
+  "chamfer": 0.01561
+ },
+ "ee5aa5c7-6714-c6d7-a68b-23b46be21247": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 0.987,
+  "chamfer": 0.0195
+ },
+ "fad4dd0b-2716-abf8-b00b-8347f73288e4": {
+  "test_uuid": "a05d7ad3-7525-7c23-76aa-d447426125bb",
+  "cosine": 0.987,
+  "chamfer": 0.01653
+ },
+ "15f2f642-3752-621c-25d5-b7d0cdc4b491": {
+  "test_uuid": "16843060-3c4c-b4ac-0e88-b6c844ccde84",
+  "cosine": 0.9222,
+  "chamfer": 0.0195
+ },
+ "d5e0d8db-c28c-bc4d-ef39-3dbbdacbcd33": {
+  "test_uuid": "16843060-3c4c-b4ac-0e88-b6c844ccde84",
+  "cosine": 0.9421,
+  "chamfer": 0.01834
+ },
+ "0b1a4a1f-b1ce-727b-70dd-aef3edb5d34e": {
+  "test_uuid": "2dea4b6f-b13d-5d7c-619b-2024641194f4",
+  "cosine": 0.9606,
+  "chamfer": 0.0166
+ },
+ "3e0e6a64-ce2b-0c7d-7fe4-db3543e16396": {
+  "test_uuid": "2dea4b6f-b13d-5d7c-619b-2024641194f4",
+  "cosine": 0.9639,
+  "chamfer": 0.01672
+ },
+ "a9533832-176d-0bd8-7e1e-3fa9d9cd1c16": {
+  "test_uuid": "2dea4b6f-b13d-5d7c-619b-2024641194f4",
+  "cosine": 0.9411,
+  "chamfer": 0.01836
+ },
+ "ac405da2-95d5-00a4-1b12-a1858b80c882": {
+  "test_uuid": "2dea4b6f-b13d-5d7c-619b-2024641194f4",
+  "cosine": 0.9514,
+  "chamfer": 0.01752
+ },
+ "b7a6361b-20dc-19dc-5be4-56ec565f29c3": {
+  "test_uuid": "2dea4b6f-b13d-5d7c-619b-2024641194f4",
+  "cosine": 0.9611,
+  "chamfer": 0.01676
+ },
+ "f7cba66a-8657-db04-0e77-ef9353878537": {
+  "test_uuid": "2dea4b6f-b13d-5d7c-619b-2024641194f4",
+  "cosine": 0.914,
+  "chamfer": 0.01894
+ },
+ "662ae416-0726-2503-c5e7-898e231dc67b": {
+  "test_uuid": "3231c958-e813-6353-2bf5-db04e4900518",
+  "cosine": 0.9487,
+  "chamfer": 0.01683
+ },
+ "69693348-9360-b7d6-6738-f63571f2f71c": {
+  "test_uuid": "3231c958-e813-6353-2bf5-db04e4900518",
+  "cosine": 0.9732,
+  "chamfer": 0.01562
+ },
+ "94b6cb51-0fbd-b5b7-0135-f4d6e5789562": {
+  "test_uuid": "3231c958-e813-6353-2bf5-db04e4900518",
+  "cosine": 0.9694,
+  "chamfer": 0.01563
+ },
+ "07140477-75f5-a29a-7f87-d7dce19b8e79": {
+  "test_uuid": "291dd2c6-95eb-9652-bbbb-7645247125d3",
+  "cosine": 0.9517,
+  "chamfer": 0.01766
+ },
+ "2cb0477a-dcc3-caae-3d0c-e02ebc73a8b0": {
+  "test_uuid": "291dd2c6-95eb-9652-bbbb-7645247125d3",
+  "cosine": 0.9399,
+  "chamfer": 0.0184
+ },
+ "b0d50157-af21-b1ed-c9f2-c0efa096fc92": {
+  "test_uuid": "291dd2c6-95eb-9652-bbbb-7645247125d3",
+  "cosine": 0.9409,
+  "chamfer": 0.019
+ },
+ "265d6c2c-26ea-e877-16a8-34dbcf8932c8": {
+  "test_uuid": "6d1ac910-343e-7f75-884d-223e21049fe8",
+  "cosine": 0.9365,
+  "chamfer": 0.01969
+ },
+ "2ee563d3-d690-a92c-cda4-926a972811c9": {
+  "test_uuid": "6d1ac910-343e-7f75-884d-223e21049fe8",
+  "cosine": 0.9377,
+  "chamfer": 0.01756
+ },
+ "65b428fd-fe51-2298-4e88-09ca335247bd": {
+  "test_uuid": "6d1ac910-343e-7f75-884d-223e21049fe8",
+  "cosine": 0.9365,
+  "chamfer": 0.01926
+ },
+ "72f77886-fedf-cc3a-627b-5b865c6e7cc8": {
+  "test_uuid": "6d1ac910-343e-7f75-884d-223e21049fe8",
+  "cosine": 0.9913,
+  "chamfer": 0.01966
+ },
+ "f76ff15c-773f-890a-12dd-a350bbf85dae": {
+  "test_uuid": "6d1ac910-343e-7f75-884d-223e21049fe8",
+  "cosine": 0.9697,
+  "chamfer": 0.01934
+ },
+ "05b42356-a11a-9cf3-01f3-51a1de8aaa40": {
+  "test_uuid": "dce3c844-98de-2158-a587-a7575c729b23",
+  "cosine": 0.9835,
+  "chamfer": 0.01495
+ },
+ "16d7b56b-7e85-e4e1-ffa5-97f396fc254a": {
+  "test_uuid": "dce3c844-98de-2158-a587-a7575c729b23",
+  "cosine": 0.9191,
+  "chamfer": 0.01649
+ },
+ "35c483a0-5c4b-6565-2a7a-f7a1197a656b": {
+  "test_uuid": "dce3c844-98de-2158-a587-a7575c729b23",
+  "cosine": 0.9825,
+  "chamfer": 0.01931
+ },
+ "ebf42333-a0cd-e5d5-0f59-7da598ea9094": {
+  "test_uuid": "dce3c844-98de-2158-a587-a7575c729b23",
+  "cosine": 0.9478,
+  "chamfer": 0.01471
+ },
+ "10200b25-62dc-be6e-29dc-6c44e49bc40b": {
+  "test_uuid": "599652b6-707c-961f-2d97-fe78737b7126",
+  "cosine": 0.945,
+  "chamfer": 0.01692
+ },
+ "434fd0e1-e4fe-92a4-cae7-24b81ae21367": {
+  "test_uuid": "599652b6-707c-961f-2d97-fe78737b7126",
+  "cosine": 0.9259,
+  "chamfer": 0.01761
+ },
+ "5963ad27-f577-dd73-e8c3-f54f1ddc64f0": {
+  "test_uuid": "599652b6-707c-961f-2d97-fe78737b7126",
+  "cosine": 0.9371,
+  "chamfer": 0.01917
+ },
+ "80063545-3fd7-8cda-09fb-ba2815d8e9f6": {
+  "test_uuid": "599652b6-707c-961f-2d97-fe78737b7126",
+  "cosine": 0.9263,
+  "chamfer": 0.018
+ },
+ "90e6ec76-d00f-b088-11b8-2370610ce718": {
+  "test_uuid": "599652b6-707c-961f-2d97-fe78737b7126",
+  "cosine": 0.9238,
+  "chamfer": 0.0176
+ },
+ "f08f3b36-81a8-a59f-c36c-613e489fb3d2": {
+  "test_uuid": "599652b6-707c-961f-2d97-fe78737b7126",
+  "cosine": 0.9053,
+  "chamfer": 0.01983
+ },
+ "146a1d90-c29c-dd2f-550a-5af79e9e9744": {
+  "test_uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "cosine": 0.9409,
+  "chamfer": 0.01843
+ },
+ "27c988a1-0d70-5af9-a7c7-46c55320b374": {
+  "test_uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "cosine": 0.9434,
+  "chamfer": 0.01835
+ },
+ "2d0465dd-4ec3-ad7f-fc31-400ec8b4b5a7": {
+  "test_uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "cosine": 0.9434,
+  "chamfer": 0.01912
+ },
+ "3ff4b2be-a9a0-4c58-4e6b-92091467386e": {
+  "test_uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "cosine": 0.9983,
+  "chamfer": 0.01951
+ },
+ "40fa5f87-6d5b-fd6f-fdb8-611ae36ab3ca": {
+  "test_uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "cosine": 0.936,
+  "chamfer": 0.01781
+ },
+ "41ff728c-c4f1-7e50-3d29-f7e135eec6c6": {
+  "test_uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "cosine": 0.9434,
+  "chamfer": 0.01786
+ },
+ "5a4c244e-373b-12a2-f340-ef213341df2d": {
+  "test_uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "cosine": 0.931,
+  "chamfer": 0.01956
+ },
+ "5aec67da-6211-19a8-a867-3cbc8f7d06c1": {
+  "test_uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "cosine": 0.9434,
+  "chamfer": 0.01825
+ },
+ "aabbeaf0-e252-c86c-98c5-da96d47fba15": {
+  "test_uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "cosine": 0.9427,
+  "chamfer": 0.01666
+ },
+ "b070e86b-19fc-48ce-6a9a-6600ccfa3844": {
+  "test_uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "cosine": 0.9285,
+  "chamfer": 0.01951
+ },
+ "b14f66c0-58a7-efec-5b85-e5eed175e42c": {
+  "test_uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "cosine": 0.9864,
+  "chamfer": 0.01932
+ },
+ "b66d78b5-a379-4a14-207f-0e62ca40b3d4": {
+  "test_uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "cosine": 0.9434,
+  "chamfer": 0.01711
+ },
+ "c5b191eb-94c7-9bb7-1fd0-1830194ea3ee": {
+  "test_uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "cosine": 0.9641,
+  "chamfer": 0.01945
+ },
+ "d4e4be2c-bcd8-7e25-f2da-7aeb498ab2e2": {
+  "test_uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "cosine": 0.9434,
+  "chamfer": 0.01735
+ },
+ "fb67c508-ffbe-6d2c-c24b-d25d4042a01b": {
+  "test_uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "cosine": 0.9854,
+  "chamfer": 0.01814
+ },
+ "45da12e2-40a0-7f5e-9648-7ab9064680bf": {
+  "test_uuid": "9e5f8a2a-3af6-2b22-dcdb-4df88dac066d",
+  "cosine": 0.9814,
+  "chamfer": 0.0196
+ },
+ "87ee75b9-8c2d-ba0e-5137-9581cd042821": {
+  "test_uuid": "9e5f8a2a-3af6-2b22-dcdb-4df88dac066d",
+  "cosine": 0.9921,
+  "chamfer": 0.01957
+ },
+ "9ef773c1-388e-a0e0-0b0c-48b20bc7d16d": {
+  "test_uuid": "9e5f8a2a-3af6-2b22-dcdb-4df88dac066d",
+  "cosine": 0.9969,
+  "chamfer": 0.01959
+ },
+ "f7591060-c673-4ca1-1bc9-c522b6e626d6": {
+  "test_uuid": "9e5f8a2a-3af6-2b22-dcdb-4df88dac066d",
+  "cosine": 0.9916,
+  "chamfer": 0.01982
+ },
+ "105c3625-0d89-f4af-a803-6d8f04f94cf1": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.9066,
+  "chamfer": 0.01557
+ },
+ "23820f95-b516-bbdf-4f50-a8514d66c3c5": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.9601,
+  "chamfer": 0.01446
+ },
+ "284683b4-adc7-958d-eca4-048ba53161ef": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.9494,
+  "chamfer": 0.01499
+ },
+ "4e2e35a1-2f45-42e3-1189-75dae25bbb58": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.9263,
+  "chamfer": 0.0178
+ },
+ "5541444b-42a9-5c03-0a07-b49b7492ffe1": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.901,
+  "chamfer": 0.01823
+ },
+ "5c6512ae-9182-fc5e-05b1-b23c3735d060": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.9253,
+  "chamfer": 0.01566
+ },
+ "5c9581f3-d393-8dae-dd39-ae44d75ceeac": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.9076,
+  "chamfer": 0.01626
+ },
+ "6c3f5683-a52f-d8d8-639d-32df7e29e920": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.9124,
+  "chamfer": 0.01487
+ },
+ "7448671e-6b2e-ec61-3e39-30080f44b53c": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.9069,
+  "chamfer": 0.01756
+ },
+ "94dc1d6a-a745-ba78-0522-9035f2dc7336": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.9377,
+  "chamfer": 0.01612
+ },
+ "9a0cbdb6-3196-6293-7f89-94fe44b2a7ff": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.9073,
+  "chamfer": 0.01718
+ },
+ "a4486434-8cf9-8872-add5-d619cd6c61e6": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.9403,
+  "chamfer": 0.01444
+ },
+ "b1eca086-3b4f-46d5-8985-82837eb32fb0": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.9077,
+  "chamfer": 0.01548
+ },
+ "bbc9faa3-300f-0bbb-37a2-8bcb808e44f7": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.9635,
+  "chamfer": 0.01438
+ },
+ "cd1114dd-b2ab-ba1f-28c4-d1185d0a212f": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.9344,
+  "chamfer": 0.015
+ },
+ "d216ff36-8f54-ffdb-8df0-c6cc9d3c2e92": {
+  "test_uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "cosine": 0.9507,
+  "chamfer": 0.01461
+ },
+ "8bb21ba9-455e-0bf3-bf66-f37cd3031a87": {
+  "test_uuid": "a1c8960a-e111-0eda-98b5-97ecf9d21495",
+  "cosine": 0.9191,
+  "chamfer": 0.01986
+ },
+ "4901135f-6359-e9ce-efa1-43df7644ec41": {
+  "test_uuid": "03a4f463-f870-574c-6ff9-37b083e4ce48",
+  "cosine": 0.9053,
+  "chamfer": 0.01799
+ },
+ "5b4144ba-3665-474b-5484-3a1980ab0070": {
+  "test_uuid": "03a4f463-f870-574c-6ff9-37b083e4ce48",
+  "cosine": 0.9169,
+  "chamfer": 0.01717
+ },
+ "7d4906a6-6146-6515-8c44-8df3b1e7b65d": {
+  "test_uuid": "03a4f463-f870-574c-6ff9-37b083e4ce48",
+  "cosine": 0.9082,
+  "chamfer": 0.0152
+ },
+ "85555adb-1e4c-6e30-4146-4325b0354e3e": {
+  "test_uuid": "03a4f463-f870-574c-6ff9-37b083e4ce48",
+  "cosine": 0.9353,
+  "chamfer": 0.01957
+ },
+ "995be596-fb3c-3dab-3ab5-d56a00ab034d": {
+  "test_uuid": "03a4f463-f870-574c-6ff9-37b083e4ce48",
+  "cosine": 0.9031,
+  "chamfer": 0.01552
+ },
+ "40040026-9be6-8179-3631-41f6a5dff377": {
+  "test_uuid": "f2aeedfd-f5fe-0a99-6a1f-4637d498b5fb",
+  "cosine": 0.9236,
+  "chamfer": 0.01165
+ },
+ "b24eacf4-c03e-63aa-1536-d0cae52afd12": {
+  "test_uuid": "f2aeedfd-f5fe-0a99-6a1f-4637d498b5fb",
+  "cosine": 0.9338,
+  "chamfer": 0.01222
+ },
+ "d53308b2-2c8c-5baf-77c9-30bd08ae5a1a": {
+  "test_uuid": "617024af-8948-a7b8-726c-1545cf8f0e2c",
+  "cosine": 0.9951,
+  "chamfer": 0.01882
+ },
+ "0ccf4454-9ff9-ac04-1e59-e26d97a60b26": {
+  "test_uuid": "008f0ef9-3bfc-d8cb-de16-d3b2686c3a96",
+  "cosine": 0.939,
+  "chamfer": 0.01883
+ },
+ "5879e060-8ea0-6cf0-9987-a9d7c9d1055e": {
+  "test_uuid": "008f0ef9-3bfc-d8cb-de16-d3b2686c3a96",
+  "cosine": 0.9641,
+  "chamfer": 0.01772
+ },
+ "6110e09d-bb68-1efc-c15b-264ae39ebc4e": {
+  "test_uuid": "008f0ef9-3bfc-d8cb-de16-d3b2686c3a96",
+  "cosine": 0.9309,
+  "chamfer": 0.01796
+ },
+ "9a081bd0-1dab-b066-c202-04d2983192ed": {
+  "test_uuid": "f7916ef7-e4f0-d6bb-cfaf-6c9045ced799",
+  "cosine": 0.99,
+  "chamfer": 0.01831
+ },
+ "56e17c62-0236-d36f-5190-aa61ea3886b1": {
+  "test_uuid": "f350ed32-863a-12f5-b2b7-bba333bb4dd6",
+  "cosine": 0.9131,
+  "chamfer": 0.01995
+ },
+ "81dcb0f0-1c0a-3620-48ee-febca7da2b0d": {
+  "test_uuid": "f350ed32-863a-12f5-b2b7-bba333bb4dd6",
+  "cosine": 0.9141,
+  "chamfer": 0.01922
+ },
+ "3f7f5385-993c-9d96-2c66-490f2878689b": {
+  "test_uuid": "925bbf47-4581-53e9-59c6-7b41e45318af",
+  "cosine": 0.938,
+  "chamfer": 0.01797
+ },
+ "187f4f50-1ecc-03ab-434e-5bde3a318b7e": {
+  "test_uuid": "a3bec83c-f9ac-afc0-2fe6-9583bfd668f3",
+  "cosine": 0.9944,
+  "chamfer": 0.0185
+ },
+ "1b662572-c7a5-c5a6-9c13-83433b0b10c0": {
+  "test_uuid": "a3bec83c-f9ac-afc0-2fe6-9583bfd668f3",
+  "cosine": 0.9943,
+  "chamfer": 0.01904
+ },
+ "56f2e355-1d74-2111-4bb1-1d34fe36b384": {
+  "test_uuid": "a3bec83c-f9ac-afc0-2fe6-9583bfd668f3",
+  "cosine": 0.9952,
+  "chamfer": 0.0128
+ },
+ "5c28fd2a-2396-88f7-6c92-bca9f2e571ec": {
+  "test_uuid": "a3bec83c-f9ac-afc0-2fe6-9583bfd668f3",
+  "cosine": 0.9952,
+  "chamfer": 0.01859
+ },
+ "6fc1faa9-365b-d3c6-4644-00e9a2de511e": {
+  "test_uuid": "a3bec83c-f9ac-afc0-2fe6-9583bfd668f3",
+  "cosine": 0.9919,
+  "chamfer": 0.0128
+ },
+ "83532ba0-f680-0d20-432a-143673fd40a5": {
+  "test_uuid": "a3bec83c-f9ac-afc0-2fe6-9583bfd668f3",
+  "cosine": 0.9293,
+  "chamfer": 0.0199
+ },
+ "989302b1-bc41-87f9-fc3c-b510992af88a": {
+  "test_uuid": "a3bec83c-f9ac-afc0-2fe6-9583bfd668f3",
+  "cosine": 0.9554,
+  "chamfer": 0.0182
+ },
+ "c521a0fc-468b-867e-0843-570a59e4bed6": {
+  "test_uuid": "a3bec83c-f9ac-afc0-2fe6-9583bfd668f3",
+  "cosine": 0.9746,
+  "chamfer": 0.0197
+ },
+ "cc1dca2e-03d9-5d8d-5c31-1864efcc1ce9": {
+  "test_uuid": "a3bec83c-f9ac-afc0-2fe6-9583bfd668f3",
+  "cosine": 0.9944,
+  "chamfer": 0.01249
+ },
+ "e3a5e336-e624-b9e2-8f03-39e696a1a2a8": {
+  "test_uuid": "a3bec83c-f9ac-afc0-2fe6-9583bfd668f3",
+  "cosine": 0.9936,
+  "chamfer": 0.01919
+ },
+ "cf27bc6a-033e-68ca-e751-1c0ecc3fc963": {
+  "test_uuid": "987e39f6-2699-ddfb-f137-9bcf800b11d5",
+  "cosine": 0.9405,
+  "chamfer": 0.01941
+ },
+ "d6cf4a62-13b6-e6cc-094b-d1f40b725e0e": {
+  "test_uuid": "987e39f6-2699-ddfb-f137-9bcf800b11d5",
+  "cosine": 0.9437,
+  "chamfer": 0.01968
+ },
+ "9a1a5bdd-19f4-1a54-3c67-42f2ec3b55d3": {
+  "test_uuid": "6953914f-78f0-2ec4-af71-8aaccab6bb5e",
+  "cosine": 0.9072,
+  "chamfer": 0.01939
+ },
+ "d318eb3f-be8f-bfbc-08dc-7615e3c5762b": {
+  "test_uuid": "20f7c650-82c4-f1a0-2628-dc03316d122a",
+  "cosine": 0.9742,
+  "chamfer": 0.01358
+ },
+ "dd62dd8b-9311-2e79-f5c4-59d967973d8e": {
+  "test_uuid": "20f7c650-82c4-f1a0-2628-dc03316d122a",
+  "cosine": 0.9916,
+  "chamfer": 0.01628
+ },
+ "40a62f2a-1cb4-dd6c-4f76-cf785ea01456": {
+  "test_uuid": "023605be-72b3-7084-9d80-8c35aab93119",
+  "cosine": 0.9688,
+  "chamfer": 0.01643
+ },
+ "6381218b-22df-f4cf-f479-0ad6b5ca5fda": {
+  "test_uuid": "023605be-72b3-7084-9d80-8c35aab93119",
+  "cosine": 0.9688,
+  "chamfer": 0.01855
+ },
+ "854f2df1-b1e6-17cc-b805-bf699504210f": {
+  "test_uuid": "023605be-72b3-7084-9d80-8c35aab93119",
+  "cosine": 0.9599,
+  "chamfer": 0.01754
+ },
+ "932830a3-3a62-6a2d-fc14-61b6e0e949b7": {
+  "test_uuid": "023605be-72b3-7084-9d80-8c35aab93119",
+  "cosine": 0.9558,
+  "chamfer": 0.01885
+ },
+ "2d68adfb-5a4e-1b91-8d19-a578132ada5c": {
+  "test_uuid": "7daf6c85-4950-73fb-ac57-4d50c961aa6b",
+  "cosine": 0.9476,
+  "chamfer": 0.01544
+ },
+ "b56ab69e-56e9-aecb-9ac8-fb6d4f6b9884": {
+  "test_uuid": "7daf6c85-4950-73fb-ac57-4d50c961aa6b",
+  "cosine": 0.9105,
+  "chamfer": 0.01582
+ },
+ "26447478-d6c8-aadf-16f7-3f5ff646a330": {
+  "test_uuid": "bb76cc96-f7de-48df-1901-1840686439ee",
+  "cosine": 0.9263,
+  "chamfer": 0.01847
+ },
+ "7bc172e0-be7c-4ca6-381a-b35efb804d16": {
+  "test_uuid": "be871c4a-75ed-9ce2-26c0-749b3c29bf56",
+  "cosine": 0.9462,
+  "chamfer": 0.01307
+ },
+ "0b3175a1-919b-db05-90b4-ffa6c2d76b13": {
+  "test_uuid": "9c724800-e68e-b884-2fad-fe21eae368ff",
+  "cosine": 0.9658,
+  "chamfer": 0.01805
+ },
+ "211625b5-6384-723e-cad6-e418fa0bd7c5": {
+  "test_uuid": "9c724800-e68e-b884-2fad-fe21eae368ff",
+  "cosine": 0.9952,
+  "chamfer": 0.01196
+ },
+ "2bec462e-bef3-1925-2beb-8d5c3ef696c2": {
+  "test_uuid": "9c724800-e68e-b884-2fad-fe21eae368ff",
+  "cosine": 0.9749,
+  "chamfer": 0.01309
+ },
+ "73adc04c-5c4f-182c-88d0-4fc9d331988e": {
+  "test_uuid": "9c724800-e68e-b884-2fad-fe21eae368ff",
+  "cosine": 0.9364,
+  "chamfer": 0.0182
+ },
+ "9a22c32a-a001-5bac-3dac-8881af8048fc": {
+  "test_uuid": "9c724800-e68e-b884-2fad-fe21eae368ff",
+  "cosine": 0.9301,
+  "chamfer": 0.01545
+ },
+ "a021b58d-e6c9-5dee-45fb-089c9c82901b": {
+  "test_uuid": "9c724800-e68e-b884-2fad-fe21eae368ff",
+  "cosine": 0.96,
+  "chamfer": 0.01421
+ },
+ "a87c4a18-f6e8-bd09-21b1-8a511428e70e": {
+  "test_uuid": "9c724800-e68e-b884-2fad-fe21eae368ff",
+  "cosine": 0.9359,
+  "chamfer": 0.01959
+ },
+ "c4bb02cc-f6e9-71ad-05c8-2ed2418abcb5": {
+  "test_uuid": "9c724800-e68e-b884-2fad-fe21eae368ff",
+  "cosine": 0.96,
+  "chamfer": 0.0194
+ },
+ "da33d12b-7302-b5c8-9d16-36af6e48b622": {
+  "test_uuid": "9c724800-e68e-b884-2fad-fe21eae368ff",
+  "cosine": 0.9944,
+  "chamfer": 0.01167
+ },
+ "f50d6a01-5f30-f18d-64b6-558a8c60a59a": {
+  "test_uuid": "9c724800-e68e-b884-2fad-fe21eae368ff",
+  "cosine": 0.9021,
+  "chamfer": 0.01726
+ },
+ "ddfa5840-21a0-2136-7624-634ce616008d": {
+  "test_uuid": "a7364b48-119f-949e-fe46-5f90eae74f1d",
+  "cosine": 0.9276,
+  "chamfer": 0.0161
+ },
+ "716847a9-5eb0-af53-9837-83b28dcf5dc1": {
+  "test_uuid": "4f05ea24-ab73-1161-f8da-0697f9c52a21",
+  "cosine": 0.9819,
+  "chamfer": 0.01879
+ },
+ "c8af2384-9380-a628-879b-deda7761ddf2": {
+  "test_uuid": "4f05ea24-ab73-1161-f8da-0697f9c52a21",
+  "cosine": 0.974,
+  "chamfer": 0.01809
+ },
+ "d66d79c0-11d1-39d8-11e6-8a0892ebfdfc": {
+  "test_uuid": "4f05ea24-ab73-1161-f8da-0697f9c52a21",
+  "cosine": 0.9905,
+  "chamfer": 0.01729
+ },
+ "4ab659b7-5085-9cae-79da-dee9e6527489": {
+  "test_uuid": "44aaaeb7-4e55-a195-c35d-3e748faf8510",
+  "cosine": 0.9916,
+  "chamfer": 0.01691
+ },
+ "9771aea5-ea70-ba49-7ac1-3f0fedf24ce9": {
+  "test_uuid": "44aaaeb7-4e55-a195-c35d-3e748faf8510",
+  "cosine": 0.9916,
+  "chamfer": 0.01293
+ },
+ "b214251c-04ad-0632-a9fe-5939ce756570": {
+  "test_uuid": "44aaaeb7-4e55-a195-c35d-3e748faf8510",
+  "cosine": 0.9916,
+  "chamfer": 0.01724
+ },
+ "e1f2c01b-4af4-26f5-2199-38d863ce3c8c": {
+  "test_uuid": "44aaaeb7-4e55-a195-c35d-3e748faf8510",
+  "cosine": 0.9831,
+  "chamfer": 0.01612
+ },
+ "2f61e8c8-1534-8d39-16fd-b81e3766db43": {
+  "test_uuid": "a101bf03-912c-f96a-4dba-af07f4a741b6",
+  "cosine": 0.9943,
+  "chamfer": 0.01749
+ },
+ "7bfd8381-f6c3-97c0-2f68-0c84aabb7137": {
+  "test_uuid": "a101bf03-912c-f96a-4dba-af07f4a741b6",
+  "cosine": 0.9984,
+  "chamfer": 0.01657
+ },
+ "95b67de2-4625-bf73-c512-5382c74ddfbb": {
+  "test_uuid": "a101bf03-912c-f96a-4dba-af07f4a741b6",
+  "cosine": 0.9979,
+  "chamfer": 0.01999
+ }
+}

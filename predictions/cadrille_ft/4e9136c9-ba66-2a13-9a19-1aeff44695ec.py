@@ -1,0 +1,42 @@
+import cadquery as cq
+outer_radius = 80.0
+outer_radius = 40.0
+outer_radius = 1.0
+outer_radius = 3.0
+outer_radius = 1.0
+outer_radius = 0.5
+outer_radius = 0.5
+outer_radius = outer_radius - 2.0
+outer_radius = outer_radius - 2.0
+outer_radius = outer_radius - 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+hole_radius = outer_radius, hole_offset = hole_offset, hole_offset)
+hole = hole_offset, hole_offset)
+hole = hole_offset, hole_offset)
+hole = hole_offset, hole_offset, hole_offset)
+hole = hole_offset, hole_offset, hole_offset)
+hole = hollow.edges("|Z).hole(offset = hole_height, hole_offset, hole_depth)
+    hole = hole_spacing, hole_height, hole_depth)
+    hole = hole_spacing, hole_height, hole_height - hole_height, hole_height - hole_height)
+    hole = hole_spacing, hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_length - hole_height - hole_length - hole_height - hole_length - hole_height - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_length - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height - hole_height -

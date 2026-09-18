@@ -1,0 +1,78 @@
+500 / 9976
+1000 / 9976
+1500 / 9976
+2000 / 9976
+2500 / 9976
+3000 / 9976
+3500 / 9976
+4000 / 9976
+4500 / 9976
+5000 / 9976
+5500 / 9976
+6000 / 9976
+6500 / 9976
+7000 / 9976
+7500 / 9976
+8000 / 9976
+8500 / 9976
+9000 / 9976
+9500 / 9976
+{
+ "n_drawings": 9976,
+ "n_errors": 0,
+ "dims_per_drawing_mean": 15.35,
+ "dims_unparsed_share": 0.0008,
+ "param_coverage": 0.8309,
+ "param_coverage_by_class": {
+  "diameter": {
+   "covered": 10110,
+   "total": 13535,
+   "rate": 0.747
+  },
+  "linear": {
+   "covered": 52241,
+   "total": 60553,
+   "rate": 0.8627
+  },
+  "radius": {
+   "covered": 6557,
+   "total": 8775,
+   "rate": 0.7472
+  },
+  "chamfer": {
+   "covered": 6131,
+   "total": 6742,
+   "rate": 0.9094
+  },
+  "angle": {
+   "covered": 53,
+   "total": 767,
+   "rate": 0.0691
+  }
+ },
+ "drawings_all_params_covered": 0.3438,
+ "text_over_view_line": {
+  "drawings": 0.3333,
+  "dims": 0.0285
+ },
+ "text_crossed_by_dim_line": {
+  "drawings": 0.7865,
+  "dims": 0.165
+ },
+ "text_text_overlap": {
+  "drawings": 0.1845,
+  "dims": 0.0298
+ },
+ "text_over_title_block": 0.1194,
+ "repeated_dimension": 0.7812,
+ "non_iso_text_height": 1.0,
+ "non_iso_heights_seen": [
+  2.15,
+  2.76
+ ],
+ "title_fields_complete": 1.0,
+ "scale_iso5455": 1.0,
+ "projection_note": 1.0,
+ "three_views_labelled": 0.8802,
+ "iso_view_present": 1.0
+}

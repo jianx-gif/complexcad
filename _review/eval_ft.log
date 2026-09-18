@@ -1,0 +1,27 @@
+device: cuda 71 C
+LoRA adapter merged: E:/3005/data/_review/cc_ft_lora/final_adapter
+模型已加载
+待推理 372 / 400 (mode=pc)
+  24/372 ok24 fail0 5.5s/件 GPU 83C ETA31.9min
+  ⚠ GPU 83C, 冷却 60s ...
+  48/372 ok48 fail0 6.7s/件 GPU 83C ETA36.2min
+  ⚠ GPU 83C, 冷却 60s ...
+  72/372 ok72 fail0 7.1s/件 GPU 83C ETA35.3min
+  ⚠ GPU 83C, 冷却 60s ...
+  96/372 ok96 fail0 7.3s/件 GPU 83C ETA33.7min
+  ⚠ GPU 83C, 冷却 60s ...
+  120/372 ok120 fail0 7.5s/件 GPU 80C ETA31.6min
+  144/372 ok144 fail0 7.1s/件 GPU 82C ETA27.1min
+  ⚠ GPU 82C, 冷却 60s ...
+  168/372 ok168 fail0 7.2s/件 GPU 83C ETA24.6min
+  ⚠ GPU 83C, 冷却 60s ...
+  192/372 ok192 fail0 7.3s/件 GPU 83C ETA22.0min
+  ⚠ GPU 83C, 冷却 60s ...
+  216/372 ok216 fail0 7.6s/件 GPU 80C ETA19.7min
+  240/372 ok240 fail0 7.6s/件 GPU 80C ETA16.7min
+  264/372 ok264 fail0 7.6s/件 GPU 76C ETA13.7min
+  288/372 ok288 fail0 7.6s/件 GPU 79C ETA10.7min
+  312/372 ok312 fail0 7.6s/件 GPU 78C ETA7.6min
+  336/372 ok336 fail0 7.6s/件 GPU 79C ETA4.6min
+  360/372 ok360 fail0 7.6s/件 GPU 79C ETA1.5min
+完成: ok 372 fail 0 用时 47.2min -> E:\3005\data\predictions\cadrille_ft

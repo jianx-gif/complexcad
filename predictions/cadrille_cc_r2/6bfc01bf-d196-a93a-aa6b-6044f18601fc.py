@@ -1,0 +1,24 @@
+import cadquery as cq
+outer_radius = 30.0
+wall_thickness = 2.0
+inner_radius = outer_radius - wall_thickness
+inner_radius = inner_radius - wall_thickness
+base_height = 8.0
+base_fillet = 0.5
+outer_cyl = cq.Workplane('XY').circle(outer_radius).extrude(base_height)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_height)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_height)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_height)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_height)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_height)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_height)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_height)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_height)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_height)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_height)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_height)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_height)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_height)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(base_height)
+inner_cyl = inner_cyl.cut(inner_cyl)
+result = inner_cyl.cut(inner_cyl)

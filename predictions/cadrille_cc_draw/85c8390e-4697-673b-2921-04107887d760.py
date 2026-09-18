@@ -1,0 +1,23 @@
+import cadquery as cq
+outer_radius = 45.0
+inner_radius = 20.0
+thickness = 30.0
+chamfer_distance = 1.0
+hole_diameter = 5.0
+hole_depth = 10.0
+hole_spacing = 15.0
+hole_count = 4
+hole_spacing = 12.0
+hole_offset = 10.0
+base = cq.Workplane('XY').circle(outer_radius).extrude(thickness)
+inner = cq.Workplane('XY').circle(inner_radius).extrude(thickness)
+base = base.cut(inner)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.edges('|Z').chamfer(chamfer_distance)
+base = base.faces('<Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().center(0, 0).hole(hole_diameter)
+base = base.edges('|Z').chamfer(chamfer_distance)
+base = base.faces('>Z').workplane().center(0, 0).hole(hole_diameter)
+base = base.edges('|Z').chamfer(chamfer_distance)
+result = base

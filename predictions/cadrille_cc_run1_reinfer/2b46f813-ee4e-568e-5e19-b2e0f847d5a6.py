@@ -1,0 +1,19 @@
+import cadquery as cq
+outer_radius = 30.0
+wall_thickness = 2.0
+inner_radius = outer_radius - wall_thickness
+chute_radius = inner_radius - wall_thickness
+chute_depth = 5.0
+chute_height = 8.0
+chute_depth = 4.0
+chamfer_distance = 0.5
+hole_diameter = 5.0
+hole_spacing = 15.0
+hole_offset = 10.0
+base = cq.Workplane('XY').circle(outer_radius).extrude(chute_depth)
+chute = cq.Workplane('XY').circle(inner_radius).extrude(chute_depth).translate((0,0,0))
+result = base.cut(chute)
+result = result.edges().fillet(inner_radius)
+result = result.faces('>Z').workplane().hole(inner_radius * 2)
+result = result.faces('>Z').workplane().circle(inner_radius).extrude(chute_depth)
+result = result.edges('|Z').chamfer(chamfer_distance)

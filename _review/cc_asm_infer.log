@@ -1,0 +1,13 @@
+device: cuda 72 C
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+LoRA adapter merged: E:/3005/data/_review/cc_asm_lora/final_adapter
+模型已加载
+待推理 103 / 103 (mode=pc)
+  16/103 ok16 fail0 2.6s/件 GPU 82C ETA3.7min
+  ⚠ GPU 82C, 冷却 60s ...
+  32/103 ok32 fail0 4.6s/件 GPU 81C ETA5.5min
+  48/103 ok48 fail0 4.1s/件 GPU 81C ETA3.8min
+  64/103 ok64 fail0 3.8s/件 GPU 80C ETA2.5min
+  80/103 ok80 fail0 3.7s/件 GPU 81C ETA1.4min
+  96/103 ok96 fail0 3.6s/件 GPU 81C ETA0.4min
+完成: ok 103 fail 0 用时 6.4min -> E:\3005\data\predictions\cadrille_asm

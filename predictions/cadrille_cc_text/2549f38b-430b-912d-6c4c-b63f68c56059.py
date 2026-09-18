@@ -1,0 +1,21 @@
+import cadquery as cq
+leaf_length = 80.0
+leaf_width = 30.0
+leaf_thickness = 8.0
+cutout_width = 25.0
+cutout_height = 12.0
+hole_diameter = 5.0
+hole_spacing_x = 15.0
+hole_spacing_y = 10.0
+hole_rows = 2
+hole_cols = 3
+chamfer_size = 1.0
+base = cq.Workplane('XY').box(leaf_length, leaf_width, leaf_thickness)
+cutout = cq.Workplane('XY').box(cutout_width, leaf_length, cutout_height).translate((0, 0, cutout_height/2))
+leaf = base.cut(cutout)
+leaf = leaf.edges().chamfer(chamfer_size)
+leaf = leaf.edges().chamfer(chamfer_size)
+leaf = leaf.edges().chamfer(chamfer_size)
+leaf = leaf.edges().chamfer(chamfer_size)
+leaf = leaf.edges().chamfer(chamfer_size)
+result = leaf

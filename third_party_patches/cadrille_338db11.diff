@@ -1,0 +1,143 @@
+diff --git a/cadrille.py b/cadrille.py
+index a950876..4c201ea 100644
+--- a/cadrille.py
++++ b/cadrille.py
+@@ -12,61 +12,38 @@ def collate(batch, processor, n_points, eval=False):
+     is_img = [0] * len(batch)
+     if not eval:
+         for i, m in enumerate(batch):
++            # 联合输入 (闭环实验 T/D): 点云可与视频/图像同时出现; 'image' = 单张工程图 (PIL), 走 Qwen2-VL 图像通道
++            if 'point_cloud' in m.keys():
++                is_pc[i] = 1
+             if 'video' in m.keys():
+                 is_img[i] = 1
+-                message = [{
+-                        'role': 'user',
+-                        'content': [
+-                            {'type': 'video', 'video': m['video'], 'fps': 1.0},
+-                            {'type': 'text', 'text': m['description']}
+-                        ]
+-                    },
+-                    {
+-                        'role': 'assistant',
+-                        'content': [
+-                            {'type': 'text', 'text': m['answer']}
+-                        ]
+-                    }]
++                user_content = [{'type': 'video', 'video': m['video'], 'fps': 1.0},
++                                {'type': 'text', 'text': m['description']}]
++            elif 'image' in m.keys():
++                user_content = [{'type': 'image', 'image': m['image']},
++                                {'type': 'text', 'text': m['description']}]
+             else:
+-                if 'point_cloud' in m.keys():
+-                    is_pc[i] = 1
+-                message = [{
+-                        'role': 'user',
+-                        'content': [
+-                            {'type': 'text', 'text': m['description']}
+-                        ]
+-                    },
+-                    {
+-                        'role': 'assistant',
+-                        'content': [
+-                            {'type': 'text', 'text': m['answer']}
+-                        ]
+-                    }]
++                user_content = [{'type': 'text', 'text': m['description']}]
++            message = [{'role': 'user', 'content': user_content},
++                       {'role': 'assistant', 'content': [{'type': 'text', 'text': m['answer']}]}]
+             messages.append(message)
+         texts = [
+             processor.apply_chat_template(msg, tokenize=False, add_generation_prompt=False) 
+             for msg in messages] 
+     else:
+         for i, m in enumerate(batch):
++            if 'point_cloud' in m.keys():
++                is_pc[i] = 1
+             if 'video' in m.keys():
+                 is_img[i] = 1
+-                message = [{
+-                        'role': 'user',
+-                        'content': [
+-                            {'type': 'video', 'video': m['video'], 'fps': 1.0},
+-                            {'type': 'text', 'text': m['description']}
+-                        ]
+-                    }]
++                user_content = [{'type': 'video', 'video': m['video'], 'fps': 1.0},
++                                {'type': 'text', 'text': m['description']}]
++            elif 'image' in m.keys():
++                user_content = [{'type': 'image', 'image': m['image']},
++                                {'type': 'text', 'text': m['description']}]
+             else:
+-                if 'point_cloud' in m.keys():
+-                    is_pc[i] = 1
+-                message = [{
+-                        'role': 'user',
+-                        'content': [
+-                            {'type': 'text', 'text': m['description']}
+-                        ]
+-                    }]
+-            messages.append(message)
++                user_content = [{'type': 'text', 'text': m['description']}]
++            messages.append([{'role': 'user', 'content': user_content}])
+         texts = [
+             processor.apply_chat_template(msg, tokenize=False, add_generation_prompt=True) 
+             for msg in messages]
+@@ -263,6 +240,8 @@ class Cadrille(Qwen2VLForConditionalGeneration):
+ 
+             # add point cloud embeddings, we add only next 6 lines
+             if is_pc.sum() > 0 and (past_key_values is None or past_key_values.get_seq_length() == 0):
++                if inputs_embeds.is_leaf and inputs_embeds.requires_grad:
++                    inputs_embeds = inputs_embeds.clone()   # LoRA训练: 叶张量禁止就地写
+                 point_embeds = self.point_encoder(point_clouds.float()).bfloat16()
+                 start_idxs = attention_mask.shape[1] - attention_mask.sum(axis=1)
+                 for i, start_idx in enumerate(start_idxs):
+diff --git a/dataset.py b/dataset.py
+index ec3329c..17de4e5 100644
+--- a/dataset.py
++++ b/dataset.py
+@@ -1,6 +1,5 @@
+ import os
+ import pickle
+-import open3d
+ import trimesh
+ import skimage
+ import numpy as np
+@@ -8,15 +7,23 @@ from PIL import Image, ImageOps
+ 
+ import torch
+ from torch.utils.data import Dataset
+-from pytorch3d.ops import sample_farthest_points
++def _farthest_point_ids(pts, k):
++    # 纯 NumPy 最远点采样(等价 pytorch3d.sample_farthest_points, Windows 无其轮子)
++    n = pts.shape[0]
++    ids = np.empty(k, dtype=np.int64)
++    ids[0] = 0
++    d = np.full(n, np.inf)
++    for i in range(1, k):
++        d = np.minimum(d, ((pts - pts[ids[i - 1]]) ** 2).sum(1))
++        ids[i] = int(d.argmax())
++    return ids
+ 
+ 
+ def mesh_to_point_cloud(mesh, n_points, n_pre_points=8192):
+     vertices, faces = trimesh.sample.sample_surface(mesh, n_pre_points)
+-    _, ids = sample_farthest_points(torch.tensor(vertices).unsqueeze(0), K=n_points)
+-    ids = ids[0].numpy()
+-    vertices = vertices[ids]
+-    return np.asarray(vertices)
++    vertices = np.asarray(vertices)
++    ids = _farthest_point_ids(vertices, n_points)
++    return vertices[ids]
+ 
+ 
+ def mesh_to_image(mesh, camera_distance=-1.8, front=[1, 1, 1], width=500, height=500, img_size=128):
+@@ -115,6 +122,7 @@ class CadRecodeDataset(Dataset):
+         return input_item
+ 
+     def get_img(self, item):
++        import open3d
+         mesh = trimesh.load(os.path.join(self.root_dir, item['mesh_path']))
+         if self.split in ['train', 'val']:
+             mesh.apply_transform(trimesh.transformations.scale_matrix(1 / self.normalize_std_img))

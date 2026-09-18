@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+/build/
+/dist/
+.venv/
+cadrec_env/
+
+# Data that lives in the Zenodo record, not in git
+/output/
+test/*.parquet
+1m_Convert/assemblies*/
+1m_Convert/two_part_assemblies*/
+1m_Convert/converted_py/
+1m_Convert/koor_geometry/
+_review/cc_full/
+_review/*_lora/
+real_root/output/
+real_root/pred_stl/
+cadfit_repro/grabcad_in/
+
+# Backups and editor files
+*.bak
+*.bak_*
+*~
+.vscode/
+.idea/

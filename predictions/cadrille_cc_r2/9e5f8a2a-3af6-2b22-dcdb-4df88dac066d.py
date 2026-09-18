@@ -1,0 +1,27 @@
+import cadquery as cq
+outer_diameter = 80.0
+inner_diameter = 60.0
+thickness = 10.0
+rib_height = 5.0
+rib_width = 12.0
+rib_thickness = 4.0
+hole_diameter = 5.0
+hole_spacing = 30.0
+hole_offset = 15.0
+chamfer_distance = 1.0
+base = cq.Workplane('XY').circle(outer_diameter/2).extrude(thickness)
+rib = cq.Workplane('XY').circle(outer_diameter/2).extrude(thickness)
+rib = rib.translate((0, 0, thickness/2))
+rib = rib.translate((0, 0, thickness/2))
+combined = base.union(rib)
+combined = combined.faces('>Z').workplane().hole(hole_diameter)
+combined = combined.edges('|Z').chamfer(chamfer_distance)
+combined = combined.edges('|Z').fillet(inner_diameter)
+combined = combined.edges('<<Z').chamfer(chamfer_distance)
+combined = combined.faces('>Z').workplane().hole(hole_diameter)
+combined = combined.faces('>Z').workplane().hole(hole_diameter)
+combined = combined.faces('>Z').workplane().rect(rib_width, rib_thickness).extrude(rib_height)
+combined = combined.faces('>Z').workplane().rect(rib_width, rib_thickness).extrude(rib_height)
+combined = combined.faces('>Z').workplane().rect(rib_width, rib_thickness).extrude(rib_height)
+combined = combined.faces('>Z').workplane().rect(rib_width, rib_thickness).extrude(rib_height)
+result = combined

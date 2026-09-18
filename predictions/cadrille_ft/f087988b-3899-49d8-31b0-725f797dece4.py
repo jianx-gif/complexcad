@@ -1,0 +1,57 @@
+import cadquery as cq
+import = 80
+import cadquery as cq
+import = 60
+import cadquery as cq
+import = 15
+hole_diameter = 40
+hole_count = 20
+hole_count = 15
+hole_count = 20
+hole_count = 15
+hole_count = 20
+hole_spacing = 20
+hole_offset = 20
+hole_offset = 20
+hole_offset = 20
+hole_offset = 20
+hole_offset = 20
+hole_offset = 20
+hole_offset = 20 - 20)
+hole_offset = 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20 - 20)
+hole_offset = 20 - 20),(-hole_offset),(-hole_offset),(-hole_offset),(-hole_offset),(-hole_offset),(-hole_offset),(-hole_offset),(-hole_offset),(-hole_offset),(-hole_offset),(-hole_offset),(-hole_offset),(-hole_offset),(-hole_offset),(-hole_offset),(-hole_offset), (-hole),(-hole_offset=cq.Workplane('XZ')
+hole=cq.Workplane('XY').circle(100).circle(20,

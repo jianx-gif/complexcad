@@ -1,0 +1,43 @@
+import cadquery as cq
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = outer
+outer = 0.0.0.0.0.0.0.0.0.0.solid, 0.0.0.0.solid, 0.0.0.solid, 0.0.0.solid, 0.0.0.solid, 0.0.0.solid, 0.0.0.solid, 0.0.0.solid, 0.0.0.solid, 0.0.0.solid, 0.0.0.solid, 0.0.0.solid, 0.0.0.solid, 0.0.0.0.solid, 0.0.0.0.0.0.0.shell(outer, 0.0.0.solid, 0.0.0.solid, 0.0.0.solid, 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.tout in (outer, 0.0.0.0.0.0.0.0.0.0.shell, 0.0.0.solid, 0.0.0.solid, 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0000 = 0.0.0.000)
+hole = (outer, 0.0.0.00), 0, 0.0.00)
+hole = (outer, 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0, 0.0.0.rib)
+    .hole = (0, tab)
+    .translate((0, 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.

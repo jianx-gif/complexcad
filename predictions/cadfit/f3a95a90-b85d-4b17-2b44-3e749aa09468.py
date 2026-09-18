@@ -1,0 +1,43 @@
+import cadquery as cq
+import math
+
+plane_1 = cq.Plane(origin=(0.0, -0.3725, 0.0), normal=(0.0, 1.0, 0.0), xDir=(1.0, 0.0, 0.0))
+sketch_1 = cq.Workplane(plane_1)
+loop_1 = sketch_1.moveTo(-1.0, 0.1375)
+loop_1 = loop_1.lineTo(-0.99852, -0.0125)
+loop_1 = loop_1.lineTo(-0.375, -0.01544)
+loop_1 = loop_1.lineTo(-0.375, -0.08755)
+loop_1 = loop_1.lineTo(0.375, -0.08456)
+loop_1 = loop_1.lineTo(0.375, -0.0125)
+loop_1 = loop_1.lineTo(1.0, -0.00954)
+loop_1 = loop_1.lineTo(0.99852, 0.1375)
+loop_1 = loop_1.lineTo(-0.99852, 0.1375)
+loop_1 = loop_1.close()
+sketch_1=sketch_1.add(loop_1)
+solid_1 = sketch_1.extrude(0.75)
+result = solid_1
+# ===== Operation Script =====
+plane_op_1 = cq.Plane(origin=(-0.00327, 0.0196, 0.00607), normal=(0.00399, -0.0, 0.99999), xDir=(-0.0, 1.0, 0.0))
+sketch_op_1 = cq.Workplane(plane_op_1)
+loop_1 = sketch_op_1.moveTo(0.1679, -0.37815)
+loop_1 = loop_1.lineTo(0.3579, -0.37815)
+loop_1 = loop_1.lineTo(0.3579, 0.37185)
+loop_1 = loop_1.lineTo(0.1679, 0.37185)
+loop_1 = loop_1.lineTo(0.1679, -0.36858)
+loop_1 = loop_1.close()
+sketch_op_1=sketch_op_1.add(loop_1)
+solid_op_1 = sketch_op_1.extrude(0.08)
+plane_op_2 = cq.Plane(origin=(-0.00323, 0.0196, 0.01607), normal=(0.00399, -0.0, 0.99999), xDir=(-0.0, 1.0, 0.0))
+sketch_op_2 = cq.Workplane(plane_op_2)
+loop_1 = sketch_op_2.moveTo(-0.3921, -0.37815)
+loop_1 = loop_1.lineTo(-0.2071, -0.37815)
+loop_1 = loop_1.lineTo(-0.2071, 0.37185)
+loop_1 = loop_1.lineTo(-0.3921, 0.37185)
+loop_1 = loop_1.lineTo(-0.3921, -0.36887)
+loop_1 = loop_1.close()
+sketch_op_2=sketch_op_2.add(loop_1)
+solid_op_2 = sketch_op_2.extrude(0.07)
+result_op = solid_op_1
+result_op = result_op.add(solid_op_2)
+# ===== Combine using cut =====
+final_result = result.cut(result_op)

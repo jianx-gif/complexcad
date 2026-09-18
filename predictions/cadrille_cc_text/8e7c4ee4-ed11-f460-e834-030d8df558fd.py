@@ -1,0 +1,32 @@
+import cadquery as cq
+hex_diameter = 80.0
+arm_length = 100.0
+arm_width = 5.0
+groove_width = 5.0
+groove_depth = 8.0
+notch_width = 12.0
+notch_depth = 6.0
+pivot_hole_diameter = 10.0
+pivot_hole_offset = 15.0
+rib_width = 15.0
+rib_length = 60.0
+rib_height = 8.0
+chamfer_distance = 2.0
+notch_offset = -20.0
+notch_depth = 6.0
+base = cq.Workplane("XY").polygon(6, hex_diameter).extrude(arm_width)
+arm = base.faces(">Z").workplane().polygon(6, hex_diameter).extrude(arm_width)
+arm = arm.faces(">Z").workplane().polygon(6, hex_diameter).cutBlind(-arm_width)
+arm = arm.faces(">Z").workplane().polarArray(radius=mount_hole_offset, startAngle=0, angle=360, count=note_number, angle=360)
+arm = arm.faces(">Z").workplane().pushPoints([(0, 0) for x in arm_width/2)).hole(pivot_hole_diameter)
+arm = arm.faces(">Z").workplane().pushPoints([(0, 0) for x in arm_width/2)).hole(pivot_hole_diameter)
+arm = arm.edges("|Z").chamfer(chamfer_distance)
+rib = arm.faces(">Z").workplane().rect(rib_width, rib_length).extrude(rib_height)
+rib = rib.translate((0, 0, arm_length - rib_height))
+arm = arm.union(rib)
+arm = arm.faces(">Z").workplane().pushPoints(rib_offset, 0).hole(pivot_hole_diameter)
+arm = arm.faces("<Z").workplane().pushPoints(rib_offset, 0).rect(rib_width, rib_length).extrude(arm_width)
+arm = arm.faces("<Z").workplane().pushPoints(rib_offset, 0).rect(rib_width, rib_length).extrude(arm_width).translate((0, 0, arm_length))
+arm = arm.union(arm)
+arm = arm.edges("|Z").chamfer(chamfer_distance)
+result = arm

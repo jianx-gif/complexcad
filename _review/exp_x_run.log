@@ -1,0 +1,31 @@
+re-executing 600 programs (guarded)...
+100 / 600
+200 / 600
+300 / 600
+400 / 600
+500 / 600
+600 / 600
+{
+ "n_sampled": 600,
+ "n_pairs": 600,
+ "reexec_failed": 0,
+ "count_equal": 566,
+ "count_equal_rate": 0.9433,
+ "adjacency_equal": 553,
+ "adjacency_equal_rate": 0.9217,
+ "face_sig_equal": 557,
+ "edge_sig_equal": 557,
+ "count_equal_but_adjacency_differs": 14,
+ "share_of_count_equal_with_same_adjacency": 0.9753,
+ "adjacency_equal_but_counts_differ": 1,
+ "unlabelled_topology_equal": 556,
+ "unlabelled_topology_equal_rate": 0.9267,
+ "count_equal_but_topology_differs": 11,
+ "share_of_count_equal_with_same_topology": 0.9806,
+ "same_topology_but_surface_types_differ": 3,
+ "sample": {
+  "seed": 42,
+  "pool": "executing models with a released model.brep",
+  "n": 9962
+ }
+}

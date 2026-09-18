@@ -1,0 +1,12 @@
+{
+ "rule": "test = stratified 400 (seeded; 200 with loft/revolve/sweep, 200 without); quarantine = executing models whose 24^3 voxel-descriptor cosine > 0.90 to a test model AND normalised bidirectional Chamfer < 0.02 (identity noise floor 0.0163); val = 100 seeded from the remaining pool; train = all other executing models, all program lengths (the training experiments of Ch. 6 additionally cap comment-stripped programs at 1500 characters for GPU memory: 6171 train / 71 val); non_executing = the 18 programs that fail in the kernel (excluded from every split); assemblies take the split shared by all their bodies (splits/assemblies.json); two-part assemblies whose bodies fall in different splits are quarantined; assemblies on a body outside the curated 10000-part set or on a non-executing body get no split; the 20 programs of the upstream test split that were missing from the release until 2026-09-13 were restored on that date, after the training arms of Ch. 6 had been run, so none of them is in any arm's training data or in any seeded audit sample",
+ "counts": {
+  "test": 400,
+  "test_executing": 399,
+  "val": 100,
+  "train": 9212,
+  "quarantine": 271,
+  "non_executing": 18,
+  "total": 10000
+ }
+}

@@ -1,0 +1,17 @@
+寰呰瘎 400 浠� (method=cadrille_scale100, self_test=False, jobs=2)
+  50/400  13.2浠�/s
+  100/400  17.8浠�/s
+  150/400  20.0浠�/s
+  200/400  20.8浠�/s
+  250/400  21.8浠�/s
+  300/400  22.8浠�/s
+  350/400  23.5浠�/s
+  400/400  23.8浠�/s
+鐘舵�佸垎甯�: {'syntax_error': 98, 'ok': 276, 'invalid_geom': 2, 'exec_error': 24}
+
+===== 鏂规硶 [cadrille_scale100] 姹囨�� (n=400) =====
+  ALL       N=400  valid=69.0%  CD=0.0884  F=0.566  opType=0.30 opCount=0.29 exact=0.0%
+  simple    N=200  valid=66.0%  CD=0.0693  F=0.649  opType=0.34 opCount=0.32 exact=0.0%
+  complex   N=200  valid=72.0%  CD=0.1059  F=0.490  opType=0.26 opCount=0.25 exact=0.0%
+
+姣忎欢鎸囨爣 -> E:\3005\data\1m_Convert\precision_report\pred_metrics_cadrille_scale100.jsonl  鐢ㄦ椂 0.3min

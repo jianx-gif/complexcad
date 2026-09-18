@@ -1,0 +1,5 @@
+import cadquery as cq
+outer_length = 80.0
+outer_length = outer_height/2 - outer_length/2 - outer_length/2 - outer_height/2 - outer_height/2 - outer_height/2 - outer_height/2 - outer_height/2 - outer_height/2 - outer_height/2 - outer_height/2 - wall
+outer = cq
+outer = outer_height/2 - outer_height/2 - outer_height/2 - outer_height/2 - outer_height/2 - wall_thickness/2).rect(200,outer_height/2).extrude(50).union(w0.sketch().segment((-60,-2),(-35,-2)).segment((-35,-35)).segment((35,-35)).segment((35,-2)).segment((60,-2)).segment((60,2)).segment((35,2)).segment((35,35)).segment((-35,35)).segment((-35,2)).segment((-60,2)).close().assemble().finalize().extrude(50)).union(w0.sketch().segment((-100,-2),(-68,-2)).arc((-67,-10),(-64,-17)).segment((-64,-2)).segment((-50,-2)).segment((-50,-20)).segment((-63,-20)).arc((0,-64),(60,-20)).segment((50,-20)).segment((50,-2)).segment((60,-2)).arc((0,60),(-68,-2)).segment((-100,-2)).close().assemble().push([(-6,0)]).circle(25,mode='s').push([(20,10)]).circle(10,mode='s').finalize().extrude(100))

@@ -1,0 +1,81 @@
+import cadquery as cq
+import math
+base_radius = 30.0
+base_thickness = 8.0
+base_height = 12.0
+wall_thickness = 2.0
+chamfer_distance = 0.5
+rib_width = 4.0
+rib_height = 10.0
+rib_thickness = 2.0
+rib_spacing = 12.0
+rib_count = 6
+base = (
+    cq.Workplane("XY")
+    .circle(base_radius)
+    .extrude(base_thickness)
+)
+base = (
+    base.faces(">Z")
+    .workplane()
+    .circle(base_radius)
+    .extrude(base_thickness)
+)
+base = base.faces(">Z").edges().chamfer(chamfer_distance)
+rib = (
+    cq.Workplane("XY")
+    .center(0, 0)
+    .rect(rib_width, rib_height)
+    .extrude(rib_thickness)
+)
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+result = rib.union(rib)

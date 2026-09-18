@@ -1,0 +1,16 @@
+{
+ "n_models": 10000,
+ "n_errors": 0,
+ "brepcheck_valid": 9939,
+ "brepcheck_valid_rate": 0.9939,
+ "all_shells_closed": 9996,
+ "all_shells_closed_rate": 0.9996,
+ "positive_volume": 9973,
+ "positive_volume_rate": 0.9973,
+ "models_with_tiny_edges": 81,
+ "tiny_edge_rate": 0.0081,
+ "models_with_face_tol_above_1e6": 0,
+ "face_tol_rate": 0.0,
+ "max_face_tol_seen": 1e-07,
+ "min_edge_len_seen": 0.0
+}

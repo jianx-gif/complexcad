@@ -1,0 +1,28 @@
+total 9980
+resume: already have 3500
+chunk 0 skip(done)
+chunk 500 skip(done)
+chunk 1000 skip(done)
+chunk 1500 skip(done)
+chunk 2000 skip(done)
+chunk 2500 skip(done)
+chunk 3000 skip(done)
+chunk 3500-4000
+chunk 4000-4500
+chunk 4500-5000
+chunk 5000-5500
+chunk 5500-6000
+chunk 6000-6500
+chunk 6500-7000
+chunk 7000-7500
+chunk 7500-8000
+chunk 8000-8500
+chunk 8500-9000
+chunk 9000-9500
+chunk 9500-9980
+  chunk timeout -> bisect
+SKIP hang: 88f6ad2d-eb13-4fb9-7da1-cd06e7ab6f2c
+SKIP hang: a6e5652a-99ef-288b-3f7f-3b35f41135fc
+
+RUN5  N=9978 (skipped 2: ['88f6ad2d-eb13-4fb9-7da1-cd06e7ab6f2c', 'a6e5652a-99ef-288b-3f7f-3b35f41135fc'])
+  ALL valid=99.9%  CD=0.0163  F=0.973  opType=1.00 exact=100.0%

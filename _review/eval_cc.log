@@ -1,0 +1,17 @@
+待评 400 件 (method=cadrille_cc, self_test=False, jobs=2)
+  50/400  9.5件/s
+  100/400  15.3件/s
+  150/400  18.5件/s
+  200/400  20.6件/s
+  250/400  21.9件/s
+  300/400  23.2件/s
+  350/400  23.5件/s
+  400/400  24.6件/s
+状态分布: {'syntax_error': 30, 'exec_error': 182, 'ok': 181, 'invalid_geom': 7}
+
+===== 方法 [cadrille_cc] 汇总 (n=400) =====
+  ALL       N=400  valid=45.2%  CD=0.1515  F=0.237  opType=0.49 opCount=0.46 exact=0.3%
+  simple    N=200  valid=54.0%  CD=0.1349  F=0.255  opType=0.55 opCount=0.52 exact=0.5%
+  complex   N=200  valid=36.5%  CD=0.1761  F=0.211  opType=0.43 opCount=0.40 exact=0.0%
+
+每件指标 -> E:\3005\data\1m_Convert\precision_report\pred_metrics_cadrille_cc.jsonl  用时 0.3min

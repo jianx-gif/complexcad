@@ -1,0 +1,23 @@
+import cadquery as cq
+pipe_wall_thickness = 2.0
+pipe_outer_radius = 30.0
+pipe_wall_thickness = pipe_wall_thickness
+pipe_outer_radius = pipe_outer_radius - pipe_wall_thickness
+pipe_outer_radius = pipe_outer_radius - pipe_wall_thickness
+edge_fillet = 0.75
+clearance_width = 20.0
+clearance_height = 8.0
+clearance_chamfer = 0.5
+mount_hole_diameter = 4.0
+mount_hole_offset = 10.0
+outer = cq.Workplane('XY').circle(pipe_outer_radius).extrude(pipe_wall_thickness)
+inner = cq.Workplane('XY').circle(pipe_outer_radius).extrude(pipe_wall_thickness)
+outer = outer.cut(inner)
+inner = inner.edges().chamfer(edge_fillet)
+outer = outer.faces('>Z').workplane().hole(clearance_chamfer)
+inner = inner.edges().fillet(edge_fillet)
+outer = outer.faces('>Z').workplane().hole(mount_hole_diameter)
+inner = inner.edges().chamfer(0.5)
+inner = inner.edges().chamfer(0.5)
+inner = inner.edges().fillet(edge_fillet)
+result = outer.cut(inner)

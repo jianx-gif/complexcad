@@ -1,0 +1,30 @@
+import cadquery as cq
+import math
+outer_radius = 30.0
+wall_thickness = 8.0
+inner_radius = outer_radius - wall_thickness
+inner_radius = outer_radius - wall_thickness
+chamfer_size = 1.0
+hole_diameter = 4.0
+hole_spacing = 20.0
+hole_count = 6
+hole_radius = inner_radius + wall_thickness
+outer_cyl = cq.Workplane('XY').circle(outer_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(chamfer_size)
+result = inner_cyl.cut(inner_cyl)

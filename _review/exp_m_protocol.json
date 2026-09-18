@@ -1,0 +1,496 @@
+{
+ "zero_to_cad": {
+  "hf_repo": "ADSKAILab/Zero-To-CAD-1m",
+  "split": "test",
+  "n_files": 24,
+  "files": [
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000000_000000-0.parquet",
+    "bytes": 114172488,
+    "sha256": "e27feca88cabc5ad58f80d8abea4ef052fbb9d05d6b923b47ad127e5f0daab90"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000001_000000-0.parquet",
+    "bytes": 173490174,
+    "sha256": "10c7c2ffb824971bc79425035d5abd5058515d6040f18d2ef499e7e3f788b7ed"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000002_000000-0.parquet",
+    "bytes": 118347505,
+    "sha256": "61caafbf0556b7e2d58f584f3c0b105e0fb9c4aaee292c3823e19b3ebdf7b3b6"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000003_000000-0.parquet",
+    "bytes": 193528858,
+    "sha256": "2bbc5e6e6fe853c2f530a255bd1e1b566c864a1c9c089428979cc5d21ce5a41c"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000004_000000-0.parquet",
+    "bytes": 153313710,
+    "sha256": "9d14105b2d308aebd016b8a38bc585807efb2e8855a2fb6d608c135d841f0361"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000005_000000-0.parquet",
+    "bytes": 118681250,
+    "sha256": "d835003f8fcf8cdb8f6aeb6b46be3a65131172a8ed2c621091c78df7c32062af"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000006_000000-0.parquet",
+    "bytes": 155093393,
+    "sha256": "98db4ad34aad91bbadf447d368428caee6d835c0abf818cb5400422404f737ea"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000007_000000-0.parquet",
+    "bytes": 118884779,
+    "sha256": "691148b1e213fe93730c417e26a294e6d7556cc77ac06c7cc86bb856584c6ad0"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000008_000000-0.parquet",
+    "bytes": 150503346,
+    "sha256": "c3b10bb6a7558e2aec47ef017f21b1002602bddd279281bbcffb64909d7f8ce9"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000009_000000-0.parquet",
+    "bytes": 165184080,
+    "sha256": "56a5219e29ddb7617986e67aa9d79134ed596d1f8d8803bc2d024a67a6899ed2"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000010_000000-0.parquet",
+    "bytes": 117369572,
+    "sha256": "971b444dd76db0895511e9c9ffb48f1c4f5788c7b7dc317adf5cf6986e71cf95"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000011_000000-0.parquet",
+    "bytes": 149298465,
+    "sha256": "06c39b5e722d454b5bc09090523ccc73bac5dad101f61ef38ed94a1c4708d1d2"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000012_000000-0.parquet",
+    "bytes": 147656754,
+    "sha256": "b583a96ef20f96990f81d4315807c6b25dc998e8166b42f43983db2f8148d02c"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000013_000000-0.parquet",
+    "bytes": 150517159,
+    "sha256": "32db3c41d0ebeeea3715598e87e7c28704be85fe12032a88e5041e7d30fd5318"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000014_000000-0.parquet",
+    "bytes": 115874766,
+    "sha256": "1112b5142a8a501f8f2a15eec1ae24e792c58c597d3090746beacef5bb718f88"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000015_000000-0.parquet",
+    "bytes": 101413848,
+    "sha256": "ef3ea46d9a4a9dcf0fc39b29ad54d6742e1929de73c0a598120c6fe41db533cb"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000016_000000-0.parquet",
+    "bytes": 150992992,
+    "sha256": "b7906a903922a8ac618091fe30e1c83231eb0e37bb79dff708556f9f945d9099"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000017_000000-0.parquet",
+    "bytes": 140002726,
+    "sha256": "53bdbed6700ab8a29231ef55e360514070b044914c8fdb6c060cd4a38d576137"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000018_000000-0.parquet",
+    "bytes": 189588605,
+    "sha256": "1a4fb28ac65b9ed724380ce42347066ed7778f00ed355f8dda60fc59b97aa0b8"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000019_000000-0.parquet",
+    "bytes": 154758298,
+    "sha256": "a78208ebf0bbf43489eb3833a3fa91e1b4103d032ed9e0fbeb80008d1d9e83ec"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000020_000000-0.parquet",
+    "bytes": 128166317,
+    "sha256": "f8ac829fb65ab9ea98cbc499215f1dddf9cb96b3bf5c494fae86e40492a61c28"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000021_000000-0.parquet",
+    "bytes": 161310079,
+    "sha256": "6e7bf532041e27e71690dab989903f554afbdbb806e236b61ae487937d08a84c"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000022_000000-0.parquet",
+    "bytes": 166978662,
+    "sha256": "9fbe218799be25cfaa99d40fe9159c54de166973931454cb43b6d6cdfcbc0f31"
+   },
+   {
+    "name": "75_328e3a76afcb4141ae537552f6ce339a_000023_000000-0.parquet",
+    "bytes": 68222187,
+    "sha256": "c78490d855de57e41b251bc5cd68a58a5ce94554a79ac853c9766cae30556ce8"
+   }
+  ],
+  "n_rows_with_code": 10000,
+  "n_rows_empty_code": 0,
+  "cross_check": {
+   "label": "Zero-To-CAD test (all rows with code)",
+   "n_models": 10000,
+   "n_ast_syntax_error": 0,
+   "n_compared": 10000,
+   "per_category": {
+    "extrude": {
+     "agree": 9378,
+     "regex_only": 0,
+     "ast_only": 622,
+     "agreement_pct": 93.78
+    },
+    "revolve": {
+     "agree": 9999,
+     "regex_only": 1,
+     "ast_only": 0,
+     "agreement_pct": 99.99
+    },
+    "loft": {
+     "agree": 9999,
+     "regex_only": 1,
+     "ast_only": 0,
+     "agreement_pct": 99.99
+    },
+    "sweep": {
+     "agree": 9994,
+     "regex_only": 6,
+     "ast_only": 0,
+     "agreement_pct": 99.94
+    },
+    "chamfer": {
+     "agree": 9957,
+     "regex_only": 43,
+     "ast_only": 0,
+     "agreement_pct": 99.57
+    },
+    "fillet": {
+     "agree": 9966,
+     "regex_only": 34,
+     "ast_only": 0,
+     "agreement_pct": 99.66
+    },
+    "shell": {
+     "agree": 9842,
+     "regex_only": 158,
+     "ast_only": 0,
+     "agreement_pct": 98.42
+    },
+    "boolean_union": {
+     "agree": 9738,
+     "regex_only": 262,
+     "ast_only": 0,
+     "agreement_pct": 97.38
+    },
+    "boolean_cut": {
+     "agree": 9292,
+     "regex_only": 708,
+     "ast_only": 0,
+     "agreement_pct": 92.92
+    },
+    "boolean_intersect": {
+     "agree": 9947,
+     "regex_only": 53,
+     "ast_only": 0,
+     "agreement_pct": 99.47
+    },
+    "pattern": {
+     "agree": 9981,
+     "regex_only": 19,
+     "ast_only": 0,
+     "agreement_pct": 99.81
+    }
+   },
+   "any_complex": {
+    "both": 9503,
+    "regex_only": 26,
+    "ast_only": 0
+   },
+   "examples_regex_only": {
+    "chamfer": [
+     "ztc_f00#9",
+     "ztc_f00#83",
+     "ztc_f00#281",
+     "ztc_f00#340",
+     "ztc_f02#161"
+    ],
+    "boolean_cut": [
+     "ztc_f00#17",
+     "ztc_f00#19",
+     "ztc_f00#51",
+     "ztc_f00#62",
+     "ztc_f00#93"
+    ],
+    "boolean_union": [
+     "ztc_f00#48",
+     "ztc_f00#115",
+     "ztc_f00#189",
+     "ztc_f00#190",
+     "ztc_f00#244"
+    ],
+    "shell": [
+     "ztc_f00#85",
+     "ztc_f00#86",
+     "ztc_f00#255",
+     "ztc_f00#272",
+     "ztc_f00#304"
+    ],
+    "fillet": [
+     "ztc_f00#259",
+     "ztc_f01#202",
+     "ztc_f01#421",
+     "ztc_f02#60",
+     "ztc_f02#83"
+    ],
+    "boolean_intersect": [
+     "ztc_f01#105",
+     "ztc_f01#146",
+     "ztc_f01#386",
+     "ztc_f02#22",
+     "ztc_f02#306"
+    ],
+    "sweep": [
+     "ztc_f03#31",
+     "ztc_f07#163",
+     "ztc_f13#280",
+     "ztc_f13#286",
+     "ztc_f17#301"
+    ],
+    "revolve": [
+     "ztc_f04#66"
+    ],
+    "pattern": [
+     "ztc_f05#21",
+     "ztc_f05#294",
+     "ztc_f06#327",
+     "ztc_f06#329",
+     "ztc_f07#78"
+    ],
+    "loft": [
+     "ztc_f10#230"
+    ]
+   },
+   "examples_ast_only": {
+    "extrude": [
+     "ztc_f00#13",
+     "ztc_f00#63",
+     "ztc_f00#111",
+     "ztc_f00#117",
+     "ztc_f00#118"
+    ]
+   }
+  },
+  "any_complex_pct": {
+   "regex": 95.29,
+   "ast": 95.03,
+   "denominator": 10000
+  }
+ },
+ "cad_recode": {
+  "hf_repo": "filapro/cad-recode-v1.5",
+  "split": "train",
+  "git_head": "4696421935de9e9a71f1e092d8eee8b341d04619",
+  "git_head_date": "2025-03-16 14:18:49 +0100",
+  "remote": "https://huggingface.co/datasets/filapro/cad-recode-v1.5",
+  "n_train_py_in_tree": 981865,
+  "sample_n": 20000,
+  "sample_seed": 0,
+  "cross_check": {
+   "label": "CAD-Recode v1.5 train (20000-sample)",
+   "n_models": 20000,
+   "n_ast_syntax_error": 0,
+   "n_compared": 20000,
+   "per_category": {
+    "extrude": {
+     "agree": 20000,
+     "regex_only": 0,
+     "ast_only": 0,
+     "agreement_pct": 100.0
+    },
+    "revolve": {
+     "agree": 20000,
+     "regex_only": 0,
+     "ast_only": 0,
+     "agreement_pct": 100.0
+    },
+    "loft": {
+     "agree": 20000,
+     "regex_only": 0,
+     "ast_only": 0,
+     "agreement_pct": 100.0
+    },
+    "sweep": {
+     "agree": 20000,
+     "regex_only": 0,
+     "ast_only": 0,
+     "agreement_pct": 100.0
+    },
+    "chamfer": {
+     "agree": 20000,
+     "regex_only": 0,
+     "ast_only": 0,
+     "agreement_pct": 100.0
+    },
+    "fillet": {
+     "agree": 20000,
+     "regex_only": 0,
+     "ast_only": 0,
+     "agreement_pct": 100.0
+    },
+    "shell": {
+     "agree": 20000,
+     "regex_only": 0,
+     "ast_only": 0,
+     "agreement_pct": 100.0
+    },
+    "boolean_union": {
+     "agree": 20000,
+     "regex_only": 0,
+     "ast_only": 0,
+     "agreement_pct": 100.0
+    },
+    "boolean_cut": {
+     "agree": 20000,
+     "regex_only": 0,
+     "ast_only": 0,
+     "agreement_pct": 100.0
+    },
+    "boolean_intersect": {
+     "agree": 20000,
+     "regex_only": 0,
+     "ast_only": 0,
+     "agreement_pct": 100.0
+    },
+    "pattern": {
+     "agree": 20000,
+     "regex_only": 0,
+     "ast_only": 0,
+     "agreement_pct": 100.0
+    }
+   },
+   "any_complex": {
+    "both": 0,
+    "regex_only": 0,
+    "ast_only": 0
+   },
+   "examples_regex_only": {},
+   "examples_ast_only": {}
+  },
+  "ast_method_vocabulary_sample": {
+   "segment": 120246,
+   "arc": 35089,
+   "sketch": 34861,
+   "extrude": 28416,
+   "finalize": 28416,
+   "assemble": 27401,
+   "Workplane": 25073,
+   "close": 21314,
+   "union": 19800,
+   "push": 17083,
+   "circle": 11995,
+   "workplane": 11384,
+   "moveTo": 9686,
+   "rect": 8190,
+   "face": 6445,
+   "reset": 6445,
+   "cylinder": 6319,
+   "box": 5065
+  }
+ },
+ "deepcad": {
+  "source": "github rundiwu/DeepCAD (Google-Drive data release)",
+  "split": "test",
+  "parser": "h5 \"vec\" command-type column (structured; no text parsing)",
+  "split_json_sha256": "8ab1793d286a3064eb9a8a0e80892b44f9817a21f7cdb31349556ef705d76afd",
+  "n_test_ids": 8052,
+  "n_test_h5_missing": 0,
+  "test_h5_concat_sha256": "185a0333f9451efbe72e944570d2578581946a78e6ff2d9701d0d3a8ce555c3f"
+ },
+ "fusion360": {
+  "source": "S3 reconstruction/r1.0.1/r1.0.1.zip",
+  "split": "reconstruction (all)",
+  "parser": "json sequence[].type + entities[].type (structured; no text parsing)",
+  "zip": "r1.0.1.zip",
+  "zip_bytes": 2103449157,
+  "zip_sha256": "485601de3d23e25a5d63a75588ca780fa7881d7a0bea1ab6c24dbcefa57ad5c9",
+  "n_json": 8625
+ },
+ "rules": {
+  "op_patterns": {
+   "extrude": "\\bextrude\\b",
+   "revolve": "\\brevolve\\b",
+   "loft": "\\bloft\\b",
+   "sweep": "\\bsweep\\b",
+   "chamfer": "\\bchamfer\\b",
+   "fillet": "\\bfillet\\b",
+   "shell": "\\bshell\\b",
+   "boolean_union": "\\b(union|combine)\\b",
+   "boolean_cut": "\\b(cut|subtract)\\b",
+   "boolean_intersect": "\\bintersect\\b",
+   "pattern": "\\b(polarArray|rarray|mirror|eachpoint)\\b"
+  },
+  "sketch_patterns": {
+   "line": "\\b(line|lineTo|polyline|hLine|vLine|hLineTo|vLineTo)\\b",
+   "arc": "\\b(arc|threePointArc|radiusArc|sagittaArc|tangentArcPoint)\\b",
+   "circle": "\\b(circle)\\b",
+   "rect": "\\b(rect|box)\\b",
+   "spline": "\\b(spline|bezier|parametricCurve)\\b",
+   "polygon": "\\b(polygon)\\b"
+  },
+  "ast_methods": {
+   "extrude": [
+    "cutBlind",
+    "cutThruAll",
+    "extrude",
+    "twistExtrude"
+   ],
+   "revolve": [
+    "revolve"
+   ],
+   "loft": [
+    "loft"
+   ],
+   "sweep": [
+    "sweep"
+   ],
+   "chamfer": [
+    "chamfer"
+   ],
+   "fillet": [
+    "fillet"
+   ],
+   "shell": [
+    "shell"
+   ],
+   "boolean_union": [
+    "combine",
+    "union"
+   ],
+   "boolean_cut": [
+    "cut",
+    "subtract"
+   ],
+   "boolean_intersect": [
+    "intersect"
+   ],
+   "pattern": [
+    "eachpoint",
+    "mirror",
+    "polarArray",
+    "rarray"
+   ]
+  },
+  "complex_ops": [
+   "loft",
+   "revolve",
+   "sweep",
+   "chamfer",
+   "fillet"
+  ],
+  "presence_definition": "a model counts once per category if >=1 match; coverage = models with >=1 complex op / all models"
+ },
+ "audit_sample": {
+  "dir": "E:/3005/data\\_review\\parser_audit",
+  "n": 40,
+  "n_disagreement_first": 10
+ }
+}

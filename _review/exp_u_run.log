@@ -1,0 +1,61 @@
+50 / 600
+100 / 600
+150 / 600
+200 / 600
+250 / 600
+300 / 600
+350 / 600
+400 / 600
+450 / 600
+500 / 600
+550 / 600
+600 / 600
+{
+ "n_drawings": 600,
+ "n_errors": 0,
+ "n_dims": 9201,
+ "dims_per_drawing": 15.34,
+ "matched_named_parameter": 0.583,
+ "matched_measured_geometry": 0.69,
+ "attributable": 0.7932,
+ "unattributable_of_checkable": 0.19,
+ "angle_thread_unchecked": 191,
+ "wrong_diameter_rate": 0.0051,
+ "wrong_radius_rate": 0.0124,
+ "by_kind": {
+  "angle": {
+   "n": 197,
+   "param": 0.0305,
+   "geom": 0.0,
+   "neither": 0.9695
+  },
+  "linear": {
+   "n": 6601,
+   "param": 0.566,
+   "geom": 0.6472,
+   "neither": 0.2197
+  },
+  "diameter": {
+   "n": 780,
+   "param": 0.7846,
+   "geom": 0.9859,
+   "neither": 0.0051
+  },
+  "radius": {
+   "n": 643,
+   "param": 0.6796,
+   "geom": 0.9798,
+   "neither": 0.0124
+  },
+  "chamfer": {
+   "n": 980,
+   "param": 0.5847,
+   "geom": 0.6918,
+   "neither": 0.2551
+  }
+ },
+ "sample": {
+  "seed": 42,
+  "n_requested": 600
+ }
+}

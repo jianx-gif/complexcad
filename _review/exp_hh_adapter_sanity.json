@@ -1,0 +1,327 @@
+{
+ "experiment": "exp_hh_adapter_sanity: released cadrille checkpoint, text and image branches on the OFFICIAL data they were trained/evaluated on",
+ "date": "2026-09-17 18:39",
+ "question": "Are the poor text/image results on our ComplexCAD data a domain gap or a broken adapter?",
+ "checkpoint": {
+  "hf_id": "maksimko123/cadrille",
+  "hf_revision": "2f422d1169e4362e2288b0e0f54bb3a2b504e0f9",
+  "local_path": "~/.cache/huggingface/hub/models--maksimko123--cadrille/snapshots/2f422d1169e4362e2288b0e0f54bb3a2b504e0f9",
+  "model_safetensors_bytes": 4418370528,
+  "adapter": "none (base released SFT checkpoint, no LoRA)"
+ },
+ "data": {
+  "text": {
+   "dataset": "Text2CAD test split as packaged by the cadrille authors (HF dataset maksimko123/text2cad, text2cad.zip -> test.pkl, 8035 uids = DeepCAD ids, descriptions \"shortened a bit\" per data/README.md)",
+   "gt_mesh": "HF dataset maksimko123/deepcad_test_mesh (<uid>.stl, 8046 files, unit cube); all 8035 test uids have a mesh",
+   "gt_program": "text2cad.zip cadquery/<uid>.py (7797 of 8035 test uids have one)",
+   "subset": "random.seed(42); random.sample(test_uids, 200) -> subset_text_200.txt",
+   "n": 200
+  },
+  "img": {
+   "dataset": "DeepCAD test meshes (HF maksimko123/deepcad_test_mesh, 8046 STL) rendered on the fly by the official loader dataset.CadRecodeDataset(mode=\"img\", img_size=128, num_imgs=4): four open3d views (fronts (1,1,1),(-1,-1,-1),(-1,1,-1),(1,-1,1), camera_distance -0.9, colour (255,255,136), 500x500 -> 128x128), 3 px black border, 2x2 grid (268x268), prompt \"Generate cadquery code\"",
+   "gt_mesh": "same STL files",
+   "gt_program": "text2cad.zip cadquery/<uid>.py where available",
+   "subset": "random.seed(42); random.sample(deepcad_test_stl_list_8046, 200) -> subset_img_200.txt; the qwen-vl-utils 0.0.10 re-run used the first 100 of that sample (subset_img_100.txt) because of the 2 h wall-clock budget",
+   "n_qvu014": 200,
+   "n_qvu010": 100,
+   "overlap_with_text_subset": 5
+  },
+  "local_copy": "E:/3005/data/_review/_hh_adapter/data/ (text2cad.zip 82.8 MB, 395 STL)"
+ },
+ "settings": {
+  "inference_script": "E:/3005/data/_review/_hh_adapter/run_official.py = run_cadrille.py loading/generation (AutoProcessor Qwen/Qwen2-VL-2B-Instruct min_pixels 256*28*28 max_pixels 1280*28*28 padding_side left; Cadrille.from_pretrained bf16 attn sdpa; cadrille.collate eval=True; max_new_tokens 768) with the official dataset.py loaders for inputs; run_official_qvu010.py = same with qwen-vl-utils 0.0.10 on sys.path",
+  "decoding": "checkpoint generation_config.json: do_sample true, temperature 0.01, top_k 1, top_p 0.001 (effectively greedy) - unchanged",
+  "batch_size": {
+   "text": 8,
+   "img": 4
+  },
+  "environment": "venv cadrec_env (Python 3.13.2, torch 2.6.0+cu124, transformers 4.50.3, qwen-vl-utils 0.0.14) for inference; open3d 0.20.0 and qwen-vl-utils 0.0.10 installed into isolated folders under _hh_adapter/ (venv untouched); conda cadfit-env (CadQuery 2.6.1, trimesh 4.11.5, manifold3d) for evaluation",
+  "gpu": "NVIDIA GeForce RTX 4080 Laptop GPU 12 GB",
+  "deviations_from_official_protocol": [
+   "subsets (200 text, 200 / 100 image) instead of the full 8035 (text) / 8046 (image) test sets",
+   "batch size 8 (text) / 4 (image) with left padding instead of 32 / 256 in test.py; attention sdpa instead of flash_attention_2 (Windows); both are numerically inconsequential for greedy decoding up to bf16 noise",
+   "evaluation: evaluate.py metric functions are imported unchanged, but each program is executed inside a persistent worker with a 180 s per-item timeout instead of a fresh process with a 3 s timeout (Windows spawn re-imports cadquery in ~5 s); the global r is cleared before every exec",
+   "image renders come from open3d 0.20.0 (Windows OpenGL window, visible=False) instead of the authors' headless OSMesa build of Open3D commit 8e434558; camera/colour/resolution follow dataset.py exactly and the extrinsic was verified to be applied (convert_from_pinhole_camera_parameters -> True)",
+   "the venv runs qwen-vl-utils 0.0.14 (Dockerfile pins 0.0.10); the image branch was therefore run twice, see environment_finding"
+  ]
+ },
+ "environment_finding": {
+  "what": "qwen-vl-utils 0.0.14 (cadrec_env) returns the single-frame \"video\" as a 2x3x336x336 tensor that the Qwen2-VL processor does not resize again -> video_grid_thw [1,24,24] = 144 video tokens; qwen-vl-utils 0.0.10 (cadrille Dockerfile) returns two 280x280 PIL frames -> [1,20,20] = 100 tokens. The checkpoint was trained with the 0.0.10 grid. Text and point-cloud inputs do not pass through process_vision_info, so only the image (video) branch is affected.",
+  "evidence": "collate() on sample_img_item0.png: grid [[1,24,24]] / 576 patches / 144 video tokens with 0.0.14 vs [[1,20,20]] / 400 patches / 100 tokens with 0.0.10 (this session, see exp_hh_adapter_sanity.log)",
+  "affects_our_arms": "predictions/cadrille_img and predictions/cadrille_img_text (thesis tab:cmp-ablation rows \"rendered image\" and \"image + text\") were produced with 0.0.14, i.e. with the mismatched 144-token grid; pc, text, pc_text and the drawing arm (image path, trained and inferred with the same 0.0.14) are not affected"
+ },
+ "results": {
+  "text": {
+   "n_samples": 200,
+   "n_inference_failures": 0,
+   "official_metrics_cadrille_evaluate_py": {
+    "IoU_mean_pct": 82.48,
+    "IoU_median_pct": 97.21,
+    "CD_median_x1000": 0.194,
+    "CD_mean_x1000_skip0": 4.637,
+    "CD_mean_x1000_skip1": 3.986,
+    "CD_x1000_p25_p75": [
+     0.112,
+     0.437
+    ],
+    "IR_pct": 3.0,
+    "IR_iou_pct": 4.5,
+    "n_valid_cd": 194,
+    "n_valid_iou": 191,
+    "executed_to_mesh_pct": 97.0,
+    "IoU_ge_0.9_pct": 70.68,
+    "IoU_ge_0.5_pct": 84.29,
+    "n_timeout": 0,
+    "eval_seconds": 25.9
+   },
+   "our_convention_eval_predictions_py": {
+    "validity_pct": 97.0,
+    "chamfer_bbox_norm_mean": 0.03798,
+    "chamfer_bbox_norm_median": 0.01714,
+    "fscore_at_0.02_mean": 0.8675,
+    "op_type_recall_mean": 0.99,
+    "op_count_recall_mean": 0.962,
+    "op_exact_pct": 90.26,
+    "n_with_gt_program": 195,
+    "status_counts": {
+     "ok": 194,
+     "exec_error": 6
+    },
+    "n_timeout": 0,
+    "eval_seconds": 10.7
+   },
+   "prediction_stats": {
+    "code_chars_mean": 423.5,
+    "code_chars_median": 349.0,
+    "code_chars_max": 1263,
+    "repetition_degenerate_n": 0
+   },
+   "runtime": {
+    "inference_seconds": 1511.6,
+    "seconds_per_item": 7.56,
+    "batch": 8,
+    "max_new_tokens": 768,
+    "peak_vram_gb": 9.17,
+    "runs": 1
+   }
+  },
+  "img_qvu014": {
+   "n_samples": 200,
+   "n_inference_failures": 0,
+   "official_metrics_cadrille_evaluate_py": {
+    "IoU_mean_pct": 39.1,
+    "IoU_median_pct": 40.04,
+    "CD_median_x1000": 4.911,
+    "CD_mean_x1000_skip0": 7.58,
+    "CD_mean_x1000_skip1": 7.285,
+    "CD_x1000_p25_p75": [
+     1.889,
+     9.948
+    ],
+    "IR_pct": 4.0,
+    "IR_iou_pct": 5.0,
+    "n_valid_cd": 192,
+    "n_valid_iou": 190,
+    "executed_to_mesh_pct": 96.0,
+    "IoU_ge_0.9_pct": 2.11,
+    "IoU_ge_0.5_pct": 41.05,
+    "n_timeout": 0,
+    "eval_seconds": 14.4
+   },
+   "our_convention_eval_predictions_py": {
+    "validity_pct": 95.5,
+    "chamfer_bbox_norm_mean": 0.08468,
+    "chamfer_bbox_norm_median": 0.07594,
+    "fscore_at_0.02_mean": 0.4016,
+    "op_type_recall_mean": 0.877,
+    "op_count_recall_mean": 0.766,
+    "op_exact_pct": 15.62,
+    "n_with_gt_program": 193,
+    "status_counts": {
+     "ok": 191,
+     "exec_error": 7,
+     "syntax_error": 1,
+     "invalid_geom": 1
+    },
+    "n_timeout": 0,
+    "eval_seconds": 9.9
+   },
+   "prediction_stats": {
+    "code_chars_mean": 390.0,
+    "code_chars_median": 342.5,
+    "code_chars_max": 1730,
+    "repetition_degenerate_n": 0
+   },
+   "runtime": {
+    "inference_seconds": 899.8,
+    "seconds_per_item": 4.5,
+    "batch": 4,
+    "max_new_tokens": 768,
+    "peak_vram_gb": 4.96,
+    "runs": 2
+   },
+   "qwen_vl_utils": "0.0.14 (installed in cadrec_env, used for all our arms; video grid 24x24 = 144 tokens)"
+  },
+  "img_qvu010": {
+   "n_samples": 100,
+   "n_inference_failures": 0,
+   "official_metrics_cadrille_evaluate_py": {
+    "IoU_mean_pct": 86.19,
+    "IoU_median_pct": 95.0,
+    "CD_median_x1000": 0.172,
+    "CD_mean_x1000_skip0": 1.294,
+    "CD_mean_x1000_skip1": 1.003,
+    "CD_x1000_p25_p75": [
+     0.111,
+     0.283
+    ],
+    "IR_pct": 1.0,
+    "IR_iou_pct": 1.0,
+    "n_valid_cd": 99,
+    "n_valid_iou": 99,
+    "executed_to_mesh_pct": 99.0,
+    "IoU_ge_0.9_pct": 64.65,
+    "IoU_ge_0.5_pct": 92.93,
+    "n_timeout": 0,
+    "eval_seconds": 6.5
+   },
+   "our_convention_eval_predictions_py": {
+    "validity_pct": 99.0,
+    "chamfer_bbox_norm_mean": 0.02131,
+    "chamfer_bbox_norm_median": 0.01669,
+    "fscore_at_0.02_mean": 0.9431,
+    "op_type_recall_mean": 0.585,
+    "op_count_recall_mean": 0.455,
+    "op_exact_pct": 25.77,
+    "n_with_gt_program": 97,
+    "status_counts": {
+     "ok": 99,
+     "exec_error": 1
+    },
+    "n_timeout": 0,
+    "eval_seconds": 5.6
+   },
+   "prediction_stats": {
+    "code_chars_mean": 232.8,
+    "code_chars_median": 195.0,
+    "code_chars_max": 1011,
+    "repetition_degenerate_n": 0
+   },
+   "runtime": {
+    "inference_seconds": 312.7,
+    "seconds_per_item": 3.13,
+    "batch": 4,
+    "max_new_tokens": 768,
+    "peak_vram_gb": 4.55,
+    "runs": 1
+   },
+   "qwen_vl_utils": "0.0.10 (Dockerfile pin; video grid 20x20 = 100 tokens per composite)"
+  },
+  "pc": {
+   "n_samples": 100,
+   "official_metrics_cadrille_evaluate_py": {
+    "IoU_mean_pct": 86.46,
+    "CD_median_x1000": 0.173,
+    "IR_pct": 2.0,
+    "n_valid_iou": 98
+   },
+   "our_convention_eval_predictions_py": {
+    "validity_pct": 98.0,
+    "chamfer_bbox_norm_mean": 0.01934,
+    "fscore_at_0.02_mean": 0.9519,
+    "op_type_recall_mean": 0.582
+   },
+   "runtime": {
+    "inference_seconds": 157.8,
+    "batch": 8
+   }
+  }
+ },
+ "paper_reference": {
+  "source": "arXiv 2505.22914 (cadrille, Kolodiazhnyi et al.), HTML version fetched 2026-09-17",
+  "metric_definition": "GT normalised to unit cube; CD = median Chamfer distance on 8192 points x10^3; IoU mean in %; IR = % of sequences without a valid CAD model (Sec. 5, Metrics)",
+  "table1_deepcad_test_row_cadrille_Rpi+Dt_no_RL": {
+   "text": {
+    "CD_median_x1000": 0.2,
+    "IoU_pct": 82.1,
+    "IR_pct": 1.4
+   },
+   "multi_view_images": {
+    "CD_median_x1000": 0.18,
+    "IoU_pct": 86.1,
+    "IR_pct": 1.5
+   },
+   "point_cloud": {
+    "CD_median_x1000": 0.18,
+    "IoU_pct": 87.1,
+    "IR_pct": 2.1
+   }
+  },
+  "table2_images_deepcad_row_cadrille_SFT_Rpi_no_RL": {
+   "CD_median_x1000": 0.18,
+   "IoU_pct": 86.1,
+   "IR_pct": 1.5
+  },
+  "table6_mean_CD_x1000_deepcad_row_cadrille_Rpi+Dt": {
+   "points": 0.76,
+   "images": 0.81,
+   "text": 3.95
+  },
+  "note": "The released SFT checkpoint maksimko123/cadrille is, per its model card, \"the three-modal model without RL fine-tuning\", i.e. the Rpi+Dt rows of Table 1 (train.py --mode pc_img --use-text); the RL rows (cadrille-rl) are not tested here."
+ },
+ "comparison_to_paper": {
+  "text": {
+   "delta_IoU_pp": 0.38,
+   "delta_IR_pp": 1.6,
+   "delta_CD_median_x1000": -0.006,
+   "within_tolerance(IoU+-5pp, IR<=+3pp, CD+-0.1)": true
+  },
+  "img_qvu014": {
+   "delta_IoU_pp": -47.0,
+   "delta_IR_pp": 2.5,
+   "delta_CD_median_x1000": 4.731,
+   "within_tolerance(IoU+-5pp, IR<=+3pp, CD+-0.1)": false
+  },
+  "img_qvu010": {
+   "delta_IoU_pp": 0.09,
+   "delta_IR_pp": -0.5,
+   "delta_CD_median_x1000": -0.008,
+   "within_tolerance(IoU+-5pp, IR<=+3pp, CD+-0.1)": true
+  },
+  "sampling_95ci_halfwidth_pp": {
+   "text_IoU": 5.27,
+   "text_IR": 2.36,
+   "img_qvu010_IoU": 6.76,
+   "img_qvu010_IR": 1.95
+  },
+  "pc": {
+   "delta_IoU_pp": -0.64,
+   "delta_IR_pp": -0.1,
+   "delta_CD_median_x1000": -0.007,
+   "within_tolerance(IoU+-5pp, IR<=+3pp, CD+-0.1)": true
+  }
+ },
+ "our_data_reference": {
+  "source": "E:/3005/data/1m_Convert/precision_report/pred_metrics_cadrille_{text,img,}.jsonl (released checkpoint on the ComplexCAD 400-item test subset, eval_predictions.py convention; thesis tab:cmp-ablation)",
+  "text": {
+   "validity_pct": 89.2,
+   "chamfer_bbox_norm_mean": 0.422,
+   "fscore_mean": 0.044,
+   "op_type_recall": 0.23
+  },
+  "img": {
+   "validity_pct": 76.8,
+   "chamfer_bbox_norm_mean": 0.28,
+   "fscore_mean": 0.099,
+   "op_type_recall": 0.28,
+   "note": "produced with qwen-vl-utils 0.0.14, i.e. with the 24x24 video grid, see environment_finding"
+  },
+  "pc": {
+   "validity_pct": 95.2,
+   "chamfer_bbox_norm_mean": 0.0316,
+   "fscore_mean": 0.81,
+   "op_type_recall": 0.29
+  }
+ },
+ "conclusion": "TEXT (Text2CAD test, n=200): IoU 82.5% / median CD 0.19 / IR 3.0% vs paper Tab. 1 82.1 / 0.20 / 1.4 -> reproduces the paper within IoU +-5 pp, IR <= +3 pp, CD +-0.1 (our convention: validity 97.0%, bbox-Chamfer 0.038, F 0.868, op-type recall 0.99; on ComplexCAD the same branch gave 89.2% / 0.422 / 0.044 / 0.23). The text adapter is intact; the ComplexCAD text result is a domain gap. IMAGES (DeepCAD test): with the venv's qwen-vl-utils 0.0.14 (n=200) IoU 39.1% / CD 4.91 / IR 4.0% (validity 95.5%, bbox-Chamfer 0.085, F 0.402); with the Dockerfile-pinned qwen-vl-utils 0.0.10 (n=100) IoU 86.2% / CD 0.17 / IR 1.0% (validity 99.0%, bbox-Chamfer 0.021, F 0.943) vs paper 86.1 / 0.18 / 1.5 -> reproduces the paper under the same tolerance. The image adapter is intact once the pinned qwen-vl-utils is used; our ComplexCAD image-mode rows were run with the mismatched 144-token grid and mix a tokenisation mismatch with the render-style domain gap, so they should be re-run with 0.0.10 before being interpreted. POINT CLOUD (DeepCAD test, n=100): IoU 86.5% / median CD 0.17 / IR 2.0% vs paper 87.1 / 0.18 / 2.1 -> reproduces."
+}

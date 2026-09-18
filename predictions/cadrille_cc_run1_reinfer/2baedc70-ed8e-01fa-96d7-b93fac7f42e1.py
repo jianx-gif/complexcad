@@ -1,0 +1,32 @@
+import cadquery as cq
+import math
+base_radius = 30.0
+base_thickness = 5.0
+base_height = 12.0
+wall_thickness = 2.0
+chamfer_size = 0.5
+hole_diameter = 4.0
+hole_spacing = 12.0
+hole_offset = 10.0
+rib_width = 6.0
+rib_height = 4.0
+rib_spacing = 12.0
+rib_count = 4
+base = cq.Workplane('XY').circle(base_radius).extrude(base_thickness)
+base = base.faces('>Z').workplane().circle(base_radius).extrude(base_thickness)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().circle(base_radius).extrude(base_thickness)
+base = base.faces('>Z').workplane().circle(base_radius).extrude(base_thickness)
+base = base.faces('>Z').workplane().circle(base_radius).extrude(base_thickness)
+base = base.faces('>Z').workplane().circle(base_radius).extrude(base_thickness)
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+rib = rib.translate((0, 0, base_thickness))
+base = base.union(rib)
+base = base.faces('>Z').workplane().pushPoints([(0, 0), (0, 1, 0), (-0.5, 0), (0, 0)]).close().extrude(rib_height))
+base = base.union(rib)
+base = base.faces('>Z').workplane().pushPoints([(0, 0), (0, 0, 1), (0, 0, 0)])
+base = base.faces('>Z').workplane().pushPoints([(0, 0)]).rect(rib_width, rib_height).extrude(rib_height)
+base = base.union(rib)
+result = base

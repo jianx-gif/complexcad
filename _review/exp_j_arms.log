@@ -1,0 +1,16 @@
+cadrecode n=400 macroF1=0.000 {'loft': 0.0, 'revolve': 0.0, 'sweep': 0.0, 'chamfer': 0.0, 'fillet': 0.0}
+cadrille n=400 macroF1=0.000 {'loft': 0.0, 'revolve': 0.0, 'sweep': 0.0, 'chamfer': 0.0, 'fillet': 0.0}
+retrieval n=400 macroF1=0.507 {'loft': 0.333, 'revolve': 0.623, 'sweep': 0.415, 'chamfer': 0.739, 'fillet': 0.426}
+zero2cad n=400 macroF1=0.842 {'loft': 0.824, 'revolve': 0.833, 'sweep': 0.739, 'chamfer': 0.929, 'fillet': 0.886}
+cadfit n=40 macroF1=0.133 {'loft': 0.0, 'revolve': 0.667, 'sweep': 0.0, 'chamfer': 0.0, 'fillet': 0.0}
+cadrille_pc_text n=400 macroF1=0.000 {'loft': 0.0, 'revolve': 0.0, 'sweep': 0.0, 'chamfer': 0.0, 'fillet': 0.0}
+cadrille_img_text n=400 macroF1=0.000 {'loft': 0.0, 'revolve': 0.0, 'sweep': 0.0, 'chamfer': 0.0, 'fillet': 0.0}
+cadrille_ft n=400 macroF1=0.000 {'loft': 0.0, 'revolve': 0.0, 'sweep': 0.0, 'chamfer': 0.0, 'fillet': 0.0}
+cadrille_cc n=400 macroF1=0.267 {'loft': 0.0, 'revolve': 0.169, 'sweep': 0.258, 'chamfer': 0.673, 'fillet': 0.233}
+cadrille_ctrl n=400 macroF1=0.000 {'loft': 0.0, 'revolve': 0.0, 'sweep': 0.0, 'chamfer': 0.0, 'fillet': 0.0}
+cadrille_scale100 n=400 macroF1=0.000 {'loft': 0.0, 'revolve': 0.0, 'sweep': 0.0, 'chamfer': 0.0, 'fillet': 0.0}
+cadrille_cc_text n=400 macroF1=0.560 {'loft': 0.412, 'revolve': 0.764, 'sweep': 0.207, 'chamfer': 0.716, 'fillet': 0.702}
+cadrille_cc_draw n=400 macroF1=0.305 {'loft': 0.0, 'revolve': 0.335, 'sweep': 0.286, 'chamfer': 0.732, 'fillet': 0.17}
+saved exp_j_perop_prf.json
+cadrille_cc_text STRICT macroF1=0.139 {'loft': 0.2, 'revolve': 0.126, 'sweep': 0.0, 'chamfer': 0.204, 'fillet': 0.166}
+cadrille_cc_draw STRICT macroF1=0.090 {'loft': 0.0, 'revolve': 0.013, 'sweep': 0.0, 'chamfer': 0.439, 'fillet': 0.0}

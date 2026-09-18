@@ -1,0 +1,30 @@
+import cadquery as cq
+import math
+outer_diameter = 30.0
+inner_diameter = 20.0
+height = 12.0
+wall_thickness = 2.0
+chamfer_distance = 0.5
+hole_diameter = 4.0
+hole_spacing = 12.0
+hole_count = 6
+hole_count = 6
+hole_offset = 10.0
+rib_width = 6.0
+rib_height = 4.0
+rib_spacing = 12.0
+base = cq.Workplane('XY').circle(outer_diameter/2).extrude(height)
+base = base.edges().fillet(outer_diameter)
+base = base.faces('>Z').workplane().hole(hole_diameter)
+base = base.faces('>Z').workplane().circle(hole_diameter/2).cutBlind(-hole_depth)
+base = base.faces('>Z').workplane().circle(hole_diameter/2).cutBlind(-hole_depth)
+base = base.faces('>Z').workplane().circle(hole_diameter/2).cutBlind(-hole_depth)
+base = base.faces('>Z').workplane().circle(hole_diameter/2).cutBlind(-hole_depth)
+base = base.faces('<Z').workplane().circle(hole_diameter/2).cutBlind(-hole_depth)
+base = base.faces('<Z').workplane().circle(hole_diameter/2).cutBlind(-hole_depth)
+base = base.faces('<Z').workplane().circle(hole_diameter/2).cutBlind(-hole_depth)
+base = base.faces('<Z').workplane().circle(hole_diameter/2).cutBlind(-hole_depth)
+base = base.faces('<Z').workplane().circle(hole_diameter/2).cutBlind(-hole_depth)
+base = base.faces('<Z').workplane().circle(hole_diameter/2).cutBlind(-hole_depth)
+base = base.faces('<Z').workplane().circle(hole_diameter/2).cutBlind(-hole_depth)
+result = base

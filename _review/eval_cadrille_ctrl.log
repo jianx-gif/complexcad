@@ -1,0 +1,17 @@
+寰呰瘎 400 浠� (method=cadrille_ctrl, self_test=False, jobs=2)
+  50/400  5.5浠�/s
+  100/400  8.9浠�/s
+  150/400  11.5浠�/s
+  200/400  13.3浠�/s
+  250/400  14.9浠�/s
+  300/400  16.0浠�/s
+  350/400  17.1浠�/s
+  400/400  17.6浠�/s
+鐘舵�佸垎甯�: {'syntax_error': 92, 'ok': 291, 'exec_error': 17}
+
+===== 鏂规硶 [cadrille_ctrl] 姹囨�� (n=400) =====
+  ALL       N=400  valid=72.8%  CD=0.0910  F=0.569  opType=0.31 opCount=0.29 exact=0.0%
+  simple    N=200  valid=69.0%  CD=0.0671  F=0.646  opType=0.35 opCount=0.33 exact=0.0%
+  complex   N=200  valid=76.5%  CD=0.1125  F=0.500  opType=0.26 opCount=0.25 exact=0.0%
+
+姣忎欢鎸囨爣 -> E:\3005\data\1m_Convert\precision_report\pred_metrics_cadrille_ctrl.jsonl  鐢ㄦ椂 0.4min

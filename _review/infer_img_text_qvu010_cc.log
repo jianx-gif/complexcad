@@ -1,0 +1,21 @@
+device: cuda 60 C
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+模型已加载
+待推理 400 / 400 (mode=img_text)
+  25/400 ok25 fail0 10.3s/件 GPU 67C ETA64.2min
+  50/400 ok50 fail0 11.5s/件 GPU 69C ETA67.2min
+  75/400 ok75 fail0 12.5s/件 GPU 70C ETA67.6min
+  100/400 ok100 fail0 12.5s/件 GPU 63C ETA62.6min
+  125/400 ok125 fail0 12.8s/件 GPU 62C ETA58.7min
+  150/400 ok150 fail0 13.2s/件 GPU 62C ETA55.1min
+  175/400 ok175 fail0 13.5s/件 GPU 62C ETA50.7min
+  200/400 ok200 fail0 13.6s/件 GPU 62C ETA45.4min
+  225/400 ok225 fail0 13.5s/件 GPU 67C ETA39.5min
+  250/400 ok250 fail0 13.2s/件 GPU 66C ETA32.9min
+  275/400 ok275 fail0 13.0s/件 GPU 68C ETA27.0min
+  300/400 ok300 fail0 12.6s/件 GPU 68C ETA21.1min
+  325/400 ok325 fail0 12.4s/件 GPU 67C ETA15.5min
+  350/400 ok350 fail0 12.1s/件 GPU 67C ETA10.1min
+  375/400 ok375 fail0 12.1s/件 GPU 68C ETA5.1min
+  400/400 ok400 fail0 12.0s/件 GPU 67C ETA0.0min
+完成: ok 400 fail 0 用时 80.2min -> E:\3005\data\predictions\cadrille_img_text_qvu010

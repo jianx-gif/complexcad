@@ -1,0 +1,25 @@
+{
+ "n": 200,
+ "reviewer": "CX",
+ "pass": {
+  "ops_sequence_correct": 6,
+  "dimensions_correct": 200,
+  "intent_plausible": 200,
+  "reads_naturally": 200
+ },
+ "notes": [
+  [
+   "order",
+   194
+  ]
+ ],
+ "desc_found": 200,
+ "sketch_primitive_in_steps": {
+  "pass_items": 0,
+  "of_pass": 6,
+  "fail_items": 188,
+  "of_fail": 194,
+  "fail_items_ending_with_sketch_primitive": 152,
+  "note": "recomputed 2026-09-17 from output/<uuid>/description.txt (first run used a wrong base path)"
+ }
+}

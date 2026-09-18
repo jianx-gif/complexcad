@@ -1,0 +1,26 @@
+import cadquery as cq
+outer_radius = 40.0
+inner_radius = 15.0
+wall_thickness = 2.0
+inner_radius = inner_radius - wall_thickness
+inner_radius = inner_radius - wall_thickness
+chamfer_distance = 0.5
+rib_width = 5.0
+rib_height = 10.0
+rib_thickness = 2.0
+rib_spacing = 12.0
+rib_count = 6
+base = cq.Workplane('XY').circle(outer_radius).extrude(inner_radius)
+inner = cq.Workplane('XY').circle(inner_radius).extrude(inner_radius).translate((0,0,0))
+rib1 = cq.Workplane('XY').circle(inner_radius).extrude(rib_thickness).translate((0,0,0))
+rib2 = cq.Workplane('XY').circle(inner_radius).extrude(rib_height).translate((0,0,0))
+rib3 = cq.Workplane('XY').circle(inner_radius).extrude(rib_height).translate((0,0,0))
+rib4 = cq.Workplane('XY').circle(inner_radius).extrude(rib_height).translate((0,0,0))
+rib1 = cq.Workplane('XY').circle(inner_radius).extrude(rib_height).translate((0,0,0))
+rib2 = cq.Workplane('XY').circle(inner_radius).extrude(rib_height).translate((0,0,0))
+rib3 = cq.Workplane('XY').circle(inner_radius).extrude(rib_height).translate((0,0,0))
+rib4 = cq.Workplane('XY').circle(inner_radius).extrude(rib_height).translate((0,0,0))
+rib1 = cq.Workplane('XY').circle(inner_radius).extrude(rib_height).translate((0,0,0))
+rib2 = cq.Workplane('XY').circle(inner_radius).extrude(rib_height).translate((0,0,0))
+rib3 = rib1.union(rib4)
+result = rib2.union(rib3)

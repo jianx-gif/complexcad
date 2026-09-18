@@ -1,0 +1,20 @@
+import cadquery as cq
+panel_length = 80.0
+panel_width = 60.0
+panel_thickness = 4.0
+tab_width = 30.0
+tab_height = 8.0
+slot_width = 2.0
+slot_length = 12.0
+slot_depth = panel_thickness - 2.0
+hole_diameter = 2.0
+hole_count = 6
+hole_spacing = (panel_length - 2 * slot_width) / (hole_count - 1)
+hole_spacing = (panel_width - 2 * slot_width) / (hole_count - 1)
+hole_positions = [(0, 0), (panel_length, 0), (0, 0)]
+result = cq.Workplane("XY").box(panel_length, panel_width, panel_thickness)
+result = result.edges("|Z").fillet(fillet_radius)
+result = result.edges("|Z").fillet(fillet_radius)
+result = result.faces(">Z").workplane().center(0, 0).circle(hole_diameter/2).cutBlind(-hole_depth)
+result = result.faces(">Z").workplane().center(0, 0).circle(hole_diameter/2).cutBlind(-hole_depth)
+result = result.faces(">Z").workplane().center(0, 0).rect(slot_width, slot_length).cutBlind(-slot_depth)

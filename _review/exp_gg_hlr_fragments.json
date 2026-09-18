@@ -1,0 +1,10 @@
+{
+ "n_sheets": 200,
+ "straight_edges": 73108,
+ "split_into_2_or_more": 5377,
+ "share_split": 0.0735,
+ "median_segments": 1,
+ "p95_segments": 2,
+ "max_segments": 936,
+ "mean_segments": 1.53
+}

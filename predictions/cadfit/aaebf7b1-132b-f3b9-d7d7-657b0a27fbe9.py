@@ -1,0 +1,41 @@
+import cadquery as cq
+import math
+
+
+# Revolve operation 1
+plane_1 = cq.Plane(origin=(-0.0, 0.0, 0.0), normal=(1.0, 0.0, 0.0), xDir=(0.0, -1.0, 0.0))
+sketch_1 = cq.Workplane(plane_1)
+sketch_1 = sketch_1.moveTo(0.00374, 0.55193)
+sketch_1 = sketch_1.lineTo(-0.9497, 0.55193)
+sketch_1 = sketch_1.lineTo(-0.94741, -0.32641)
+sketch_1 = sketch_1.lineTo(-0.88909, -0.41031)
+sketch_1 = sketch_1.lineTo(-0.81908, -0.48475)
+sketch_1 = sketch_1.lineTo(-0.73891, -0.5481)
+sketch_1 = sketch_1.lineTo(-0.65029, -0.59899)
+sketch_1 = sketch_1.lineTo(-0.55545, -0.63626)
+sketch_1 = sketch_1.lineTo(-0.45585, -0.65926)
+sketch_1 = sketch_1.lineTo(-0.35418, -0.66739)
+sketch_1 = sketch_1.lineTo(-0.25203, -0.66045)
+sketch_1 = sketch_1.lineTo(-0.15239, -0.6387)
+sketch_1 = sketch_1.lineTo(-0.05692, -0.60263)
+sketch_1 = sketch_1.lineTo(-0.03709, -0.59292)
+sketch_1 = sketch_1.threePointArc((-0.0666, -0.60807), (-0.09482, -0.61874))
+sketch_1 = sketch_1.lineTo(-0.16701, -0.64634)
+sketch_1 = sketch_1.lineTo(-0.27169, -0.6693)
+sketch_1 = sketch_1.lineTo(-0.3788, -0.67662)
+sketch_1 = sketch_1.lineTo(-0.4854, -0.66821)
+sketch_1 = sketch_1.lineTo(-0.58992, -0.64417)
+sketch_1 = sketch_1.lineTo(-0.68976, -0.60504)
+sketch_1 = sketch_1.lineTo(-0.78276, -0.55168)
+sketch_1 = sketch_1.lineTo(-0.86669, -0.48548)
+sketch_1 = sketch_1.lineTo(-0.94022, -0.40745)
+sketch_1 = sketch_1.lineTo(-0.99969, -0.32307)
+sketch_1 = sketch_1.lineTo(-0.99709, 0.67365)
+sketch_1 = sketch_1.lineTo(-0.95, 0.61443)
+sketch_1 = sketch_1.lineTo(-0.95, 0.67693)
+sketch_1 = sketch_1.lineTo(0.0047, 0.67693)
+sketch_1 = sketch_1.lineTo(0.00374, 0.55193)
+sketch_1 = sketch_1.close()
+solid_revolve_1 = sketch_1.revolve(angleDegrees=360.0, axisStart=(0.001, 0.042, 0.001), axisEnd=(0.008, 1.0419999999999998, 0.001))
+
+result = solid_revolve_1

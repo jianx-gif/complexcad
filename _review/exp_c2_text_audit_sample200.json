@@ -1,0 +1,42 @@
+{
+ "n": 200,
+ "sample": "the 200 descriptions of _review/text_audit/checklist.csv (seed 42)",
+ "method": "exp_c_text_audit.py regex vocabulary, model-level operation sets",
+ "operation_precision": 1.0,
+ "operation_recall_pooled": 0.9961,
+ "models_omitting_an_operator": 5,
+ "omission_rate_pct": 2.5,
+ "models_claiming_an_absent_operator": 0,
+ "omissions": [
+  {
+   "uuid": "27bd7f65-35e9-5424-a162-68f8164ba4ae",
+   "omitted": [
+    "cylinder"
+   ]
+  },
+  {
+   "uuid": "505abd62-1f7e-bf90-bba7-26c8c4ff2413",
+   "omitted": [
+    "sphere"
+   ]
+  },
+  {
+   "uuid": "57a26eb0-a4ba-cbcf-2ed8-2d34d011ae51",
+   "omitted": [
+    "cylinder"
+   ]
+  },
+  {
+   "uuid": "196f9180-e21e-04b3-28aa-5072b564a725",
+   "omitted": [
+    "sphere"
+   ]
+  },
+  {
+   "uuid": "f93f82a2-6828-ba96-b6fa-c32c4b2b1446",
+   "omitted": [
+    "cylinder"
+   ]
+  }
+ ]
+}

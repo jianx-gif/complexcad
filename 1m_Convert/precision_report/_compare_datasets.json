@@ -1,0 +1,58 @@
+{
+ "zero_to_cad": {
+  "n": 10000,
+  "ops_pct": {
+   "extrude": 86.23,
+   "chamfer": 75.07,
+   "boolean_union": 61.64,
+   "boolean_cut": 44.05,
+   "fillet": 37.16,
+   "pattern": 23.87,
+   "revolve": 18.45,
+   "shell": 16.75,
+   "sweep": 4.06,
+   "loft": 3.8,
+   "boolean_intersect": 1.33
+  }
+ },
+ "deepcad": {
+  "n": 8052,
+  "complex": {
+   "revolve": 0.0,
+   "loft": 0.0,
+   "sweep": 0.0,
+   "chamfer": 0.0,
+   "fillet": 0.0
+  },
+  "seqlen": {
+   "min": 3,
+   "median": 10,
+   "max": 59,
+   "mean": 13.55
+  },
+  "quant": "所有连续参数量化到 256 级/8-bit（Challenge 2 证据，来自论文，非本统计）"
+ },
+ "cadrecode": {
+  "n": 968,
+  "complex": {
+   "loft": 0.0,
+   "revolve": 0.0,
+   "sweep": 0.0,
+   "chamfer": 0.0,
+   "fillet": 0.0
+  },
+  "any_complex": 0.0
+ },
+ "fusion360": {
+  "n": 8625,
+  "curves": {
+   "line": 75.63,
+   "circle": 70.94,
+   "arc": 35.54,
+   "spline": 6.42,
+   "ellipse": 1.33,
+   "ellipticalArc": 0.07,
+   "conic": 0.06
+  }
+ }
+}

@@ -1,0 +1,150 @@
+--- progress 20/1698  ok=20
+--- progress 40/1698  ok=40
+{'dir': '0cfc60c6-f216-bc2d-42ac-a3705b4da586__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 14, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\0cfc60c6-f216-bc2d-42ac-a3705b4da586__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 6, 'n_vertex': 3}
+verify 0cfc60c6-f216-bc2d-42ac- True 1.0 0.0
+--- progress 60/1698  ok=60
+--- progress 80/1698  ok=80
+{'dir': '17b33e91-5c09-110c-6b4f-45e9d9b41ab3__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 2, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\17b33e91-5c09-110c-6b4f-45e9d9b41ab3__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 0, 'n_vertex': 0}
+verify 17b33e91-5c09-110c-6b4f- True 1.0 0.0
+--- progress 100/1698  ok=100
+--- progress 120/1698  ok=120
+--- progress 140/1698  ok=140
+--- progress 160/1698  ok=160
+--- progress 180/1698  ok=180
+{'dir': '30bfe613-87dd-4f05-5030-1520d2499eb1__M4_socket__asm', 'kind': 'single', 'ok': False, 'why': 'no contact pair for f0'}
+--- progress 200/1698  ok=199
+--- progress 220/1698  ok=219
+--- progress 240/1698  ok=239
+--- progress 260/1698  ok=259
+{'dir': '4c17d7f2-dcdb-6327-dda9-6e7164aae040__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 14, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\4c17d7f2-dcdb-6327-dda9-6e7164aae040__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 7, 'n_vertex': 1}
+verify 4c17d7f2-dcdb-6327-dda9- True 0.002523 0.0
+--- progress 280/1698  ok=279
+--- progress 300/1698  ok=299
+--- progress 320/1698  ok=319
+--- progress 340/1698  ok=339
+--- progress 360/1698  ok=359
+--- progress 380/1698  ok=379
+--- progress 400/1698  ok=399
+--- progress 420/1698  ok=419
+{'dir': '7280b782-ef2d-d218-0adc-13085842bdd5__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 4, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\7280b782-ef2d-d218-0adc-13085842bdd5__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 1, 'n_vertex': 2}
+verify 7280b782-ef2d-d218-0adc- False 0.154151 1.788179
+--- progress 440/1698  ok=438
+--- progress 460/1698  ok=458
+{'dir': '791302ad-fe9f-908f-d495-ca0797629e7e__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\791302ad-fe9f-908f-d495-ca0797629e7e__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 1, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 2}
+verify 791302ad-fe9f-908f-d495- False 3.712174 0.0
+--- progress 480/1698  ok=477
+--- progress 500/1698  ok=497
+--- progress 520/1698  ok=517
+--- progress 540/1698  ok=537
+--- progress 560/1698  ok=557
+--- progress 580/1698  ok=577
+--- progress 600/1698  ok=597
+--- progress 620/1698  ok=617
+--- progress 640/1698  ok=637
+--- progress 660/1698  ok=657
+--- progress 680/1698  ok=677
+--- progress 700/1698  ok=697
+--- progress 720/1698  ok=717
+--- progress 740/1698  ok=737
+--- progress 760/1698  ok=757
+--- progress 780/1698  ok=777
+--- progress 800/1698  ok=797
+--- progress 820/1698  ok=817
+--- progress 840/1698  ok=837
+--- progress 860/1698  ok=857
+--- progress 880/1698  ok=877
+--- progress 900/1698  ok=897
+--- progress 920/1698  ok=917
+--- progress 940/1698  ok=937
+--- progress 960/1698  ok=957
+{'dir': 'f3360e4e-d47f-c118-c6e0-57e3847cffa2__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 36, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\f3360e4e-d47f-c118-c6e0-57e3847cffa2__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 6, 'n_datum': 0, 'n_flush': 6, 'n_contact': 12, 'n_vertex': 8}
+verify f3360e4e-d47f-c118-c6e0- False 1.7 0.0
+--- progress 980/1698  ok=976
+--- progress 1000/1698  ok=996
+--- progress 1020/1698  ok=1016
+--- progress 1040/1698  ok=1036
+--- progress 1060/1698  ok=1056
+--- progress 1080/1698  ok=1076
+--- progress 1100/1698  ok=1096
+--- progress 1120/1698  ok=1116
+--- progress 1140/1698  ok=1136
+--- progress 1160/1698  ok=1156
+--- progress 1180/1698  ok=1176
+--- progress 1200/1698  ok=1196
+--- progress 1220/1698  ok=1216
+--- progress 1240/1698  ok=1236
+--- progress 1260/1698  ok=1256
+--- progress 1280/1698  ok=1276
+--- progress 1300/1698  ok=1296
+--- progress 1320/1698  ok=1316
+--- progress 1340/1698  ok=1336
+--- progress 1360/1698  ok=1356
+--- progress 1380/1698  ok=1376
+--- progress 1400/1698  ok=1396
+--- progress 1420/1698  ok=1416
+--- progress 1440/1698  ok=1436
+--- progress 1460/1698  ok=1456
+--- progress 1480/1698  ok=1476
+--- progress 1500/1698  ok=1496
+--- progress 1520/1698  ok=1516
+--- progress 1540/1698  ok=1536
+--- progress 1560/1698  ok=1556
+--- progress 1580/1698  ok=1576
+--- progress 1600/1698  ok=1596
+--- progress 1620/1698  ok=1616
+--- progress 1640/1698  ok=1636
+--- progress 1660/1698  ok=1656
+--- progress 1680/1698  ok=1676
+--- progress 1698/1698  ok=1694
+{
+ "n": 1698,
+ "n_ok": 1694,
+ "single_ok": "1001/1005",
+ "two_ok": "693/693",
+ "max_pos_residual_mm": 1.10167,
+ "max_axis_residual_deg": 0.044755,
+ "mates_total": 21680,
+ "mates_axis_parallel": 278,
+ "mates_vertex": 1543,
+ "parts_contact": 10524,
+ "parts_flush": 213,
+ "parts_datum": 103,
+ "parts_exact": 6044,
+ "parts_total": 10840,
+ "corrected_gaps_mm": [
+  0.0011,
+  0.0013,
+  0.0014,
+  0.0015,
+  0.0016,
+  0.0017,
+  0.0018,
+  0.0019,
+  0.002,
+  0.0021,
+  0.0022,
+  0.0023
+ ],
+ "failures": [
+  [
+   "30bfe613-87dd-4f05-5",
+   "no contact pair for f0",
+   null
+  ],
+  [
+   "7280b782-ef2d-d218-0",
+   "residual 0.154 mm / 1.788 deg / 3 solids",
+   0.154151
+  ],
+  [
+   "791302ad-fe9f-908f-d",
+   "residual 3.712 mm / 0.000 deg / 5 solids",
+   3.712174
+  ],
+  [
+   "f3360e4e-d47f-c118-c",
+   "residual 1.700 mm / 0.000 deg / 19 solids",
+   1.7
+  ]
+ ]
+}

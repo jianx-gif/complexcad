@@ -1,0 +1,24 @@
+{
+ "n_sampled": 600,
+ "n_pairs": 600,
+ "reexec_failed": 0,
+ "count_equal": 575,
+ "count_equal_rate": 0.9583,
+ "adjacency_equal": 555,
+ "adjacency_equal_rate": 0.925,
+ "face_sig_equal": 560,
+ "edge_sig_equal": 566,
+ "count_equal_but_adjacency_differs": 22,
+ "share_of_count_equal_with_same_adjacency": 0.9617,
+ "adjacency_equal_but_counts_differ": 2,
+ "unlabelled_topology_equal": 561,
+ "unlabelled_topology_equal_rate": 0.935,
+ "count_equal_but_topology_differs": 16,
+ "share_of_count_equal_with_same_topology": 0.9722,
+ "same_topology_but_surface_types_differ": 6,
+ "sample": {
+  "seed": 42,
+  "pool": "executing models with a released model.brep",
+  "n": 9982
+ }
+}

@@ -1,0 +1,96 @@
+import cadquery as cq
+outer_radius = 80.0
+outer_radius = 20.0
+wall_thickness = 60.0
+wall_thickness = 2.0
+hole_count = 40.0
+hole_count = 15.0
+hole_count = 20.0
+hole_count = 20.0
+hole_count = 12.0
+hole_count = 2.0
+hole_spacing = 2.0
+hole_spacing = 2.0
+hole_spacing = 2.0
+hole_spacing = 2.0
+hole_spacing = 2.0
+hole_spacing = 0.5
+hole_spacing = 0.5
+hole_spacing = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset = 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset, 0.5
+hole_offset

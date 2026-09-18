@@ -1,0 +1,548 @@
+[
+ {
+  "part": "Assem_Connecting_Rod_-_7_16-14-1",
+  "method": "cadrecode",
+  "cd": 0.04561774946818355,
+  "f": 0.4693309218444743,
+  "ops": "extrudex3 unionx2"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_7_16-14-1",
+  "method": "cadrille",
+  "cd": 0.01986685158059127,
+  "f": 0.9133622685983567,
+  "ops": "extrudex3 unionx2"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_7_16-14-1",
+  "method": "cadfit",
+  "cd": 0.011546644618038268,
+  "f": 0.9981655859008821,
+  "ops": "revolvex1"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_7_16-14-2",
+  "method": "cadrecode",
+  "cd": 0.01367748868290971,
+  "f": 0.9999389606182323,
+  "ops": "extrudex1 unionx3"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_7_16-14-2",
+  "method": "cadrille",
+  "cd": 0.018148740077552364,
+  "f": 0.95296410779928,
+  "ops": "extrudex3 unionx2"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_7_16-14-2",
+  "method": "cadfit",
+  "cd": 0.011429785050818646,
+  "f": 0.9983497181315503,
+  "ops": "revolvex1"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_Connecting_Crank_",
+  "method": "cadrecode",
+  "cd": 0.0276723731854726,
+  "f": 0.8273321770797688,
+  "ops": "extrudex1"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_Connecting_Crank_",
+  "method": "cadrille",
+  "cd": 0.04200003361232553,
+  "f": 0.618287793624937,
+  "ops": "extrudex1"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_Connecting_Crank_",
+  "method": "cadfit",
+  "cd": 0.03114525793282238,
+  "f": 0.6906045879196921,
+  "ops": "addx1 extrudex1"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_Connecting_Crank__x",
+  "method": "cadrecode",
+  "cd": 0.02698786812411731,
+  "f": 0.7815479341452883,
+  "ops": "extrudex1"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_Connecting_Crank__x",
+  "method": "cadrille",
+  "cd": 0.035659532963225826,
+  "f": 0.7153633762235854,
+  "ops": "extrudex1"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_Connecting_Crank__x",
+  "method": "cadfit",
+  "cd": 0.031044347472100848,
+  "f": 0.6963057959792368,
+  "ops": "addx1 extrudex1"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_Connecting_Rod_De",
+  "method": "cadrecode",
+  "cd": null,
+  "f": null,
+  "ops": "EXEC-FAIL"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_Connecting_Rod_De",
+  "method": "cadrille",
+  "cd": 0.054190473780799886,
+  "f": 0.4890693653850092,
+  "ops": "extrudex3 unionx2"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_Connecting_Rod_De",
+  "method": "cadfit",
+  "cd": 0.024988207915038186,
+  "f": 0.819471727346134,
+  "ops": "addx13 extrudex5"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_Connecting_Rod_De_x",
+  "method": "cadrecode",
+  "cd": 0.021490084052976192,
+  "f": 0.88184492605204,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_Connecting_Rod_De_x",
+  "method": "cadrille",
+  "cd": 0.0255298968696323,
+  "f": 0.827350475732309,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_Connecting_Rod_De_x",
+  "method": "cadfit",
+  "cd": 0.026089182556832527,
+  "f": 0.8042226532005119,
+  "ops": "addx2 extrudex1"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_Rod_Bearing-1",
+  "method": "cadrecode",
+  "cd": 0.027488382768982876,
+  "f": 0.8188240715035922,
+  "ops": "extrudex1"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_Rod_Bearing-1",
+  "method": "cadrille",
+  "cd": 0.02732395782764899,
+  "f": 0.830180648485455,
+  "ops": "extrudex1"
+ },
+ {
+  "part": "Assem_Connecting_Rod_-_Rod_Bearing-1",
+  "method": "cadfit",
+  "cd": 0.027027022678929487,
+  "f": 0.8264762885249985,
+  "ops": "addx2 extrudex1"
+ },
+ {
+  "part": "Ball_Stud_throttle",
+  "method": "cadrecode",
+  "cd": 0.052037183783154,
+  "f": 0.5004929843494649,
+  "ops": "extrudex1 unionx2"
+ },
+ {
+  "part": "Ball_Stud_throttle",
+  "method": "cadrille",
+  "cd": 0.03991325456458062,
+  "f": 0.6714391636025693,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "Ball_Stud_throttle",
+  "method": "cadfit",
+  "cd": 0.03736521028146368,
+  "f": 0.6784740124627787,
+  "ops": "addx1 extrudex1"
+ },
+ {
+  "part": "C5_Knuckle_Mesh_Decimated",
+  "method": "cadrecode",
+  "cd": null,
+  "f": null,
+  "ops": "EXEC-FAIL"
+ },
+ {
+  "part": "C5_Knuckle_Mesh_Decimated",
+  "method": "cadrille",
+  "cd": null,
+  "f": null,
+  "ops": "EXEC-FAIL"
+ },
+ {
+  "part": "C5_Knuckle_Mesh_Decimated",
+  "method": "cadfit",
+  "cd": 0.03237598609146827,
+  "f": 0.7247015620000626,
+  "ops": "addx19 cutx1 extrudex9"
+ },
+ {
+  "part": "CONNECTING_ROD_ASSEMBLY",
+  "method": "cadrecode",
+  "cd": 0.034784907040407806,
+  "f": 0.7585434883717747,
+  "ops": "extrudex3 unionx3"
+ },
+ {
+  "part": "CONNECTING_ROD_ASSEMBLY",
+  "method": "cadrille",
+  "cd": 0.04007963147831731,
+  "f": 0.6436275219782888,
+  "ops": "extrudex3 unionx2"
+ },
+ {
+  "part": "CONNECTING_ROD_ASSEMBLY",
+  "method": "cadfit",
+  "cd": 0.0195643358720855,
+  "f": 0.9279772144547412,
+  "ops": "addx23 extrudex9"
+ },
+ {
+  "part": "Corvette_C5_L_LCA",
+  "method": "cadrecode",
+  "cd": 0.05342836878612616,
+  "f": 0.5624746467495033,
+  "ops": "extrudex4 unionx3"
+ },
+ {
+  "part": "Corvette_C5_L_LCA",
+  "method": "cadrille",
+  "cd": 0.04928540049054361,
+  "f": 0.5306036447585258,
+  "ops": "extrudex2 unionx3"
+ },
+ {
+  "part": "Corvette_C5_L_LCA",
+  "method": "cadfit",
+  "cd": 0.05216398186287169,
+  "f": 0.5152706594738472,
+  "ops": "addx1 extrudex1"
+ },
+ {
+  "part": "Cover_4",
+  "method": "cadrecode",
+  "cd": 0.0977680796048791,
+  "f": 0.32932833346641943,
+  "ops": "extrudex4 unionx3"
+ },
+ {
+  "part": "Cover_4",
+  "method": "cadrille",
+  "cd": null,
+  "f": null,
+  "ops": "EXEC-FAIL"
+ },
+ {
+  "part": "Cover_4",
+  "method": "cadfit",
+  "cd": 0.01967359563188625,
+  "f": 0.9010909295519829,
+  "ops": "addx25 extrudex13"
+ },
+ {
+  "part": "Cummins_starter_spacer_stl",
+  "method": "cadrecode",
+  "cd": 0.06628226345019374,
+  "f": 0.5758593745007999,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "Cummins_starter_spacer_stl",
+  "method": "cadrille",
+  "cd": 0.02109271754686194,
+  "f": 0.9011033994580819,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "Cummins_starter_spacer_stl",
+  "method": "cadfit",
+  "cd": 0.026368371995298852,
+  "f": 0.6611134211211562,
+  "ops": "addx5 extrudex1"
+ },
+ {
+  "part": "Equinox_Motor_Mount",
+  "method": "cadrecode",
+  "cd": 0.01465363518664655,
+  "f": 0.9720984678046128,
+  "ops": "extrudex1"
+ },
+ {
+  "part": "Equinox_Motor_Mount",
+  "method": "cadrille",
+  "cd": 0.02148378810944375,
+  "f": 0.8827435307438024,
+  "ops": "extrudex1"
+ },
+ {
+  "part": "Equinox_Motor_Mount",
+  "method": "cadfit",
+  "cd": 0.012436473370943543,
+  "f": 0.9906446847667963,
+  "ops": "addx6 extrudex2"
+ },
+ {
+  "part": "Exercise_4_13_07_26",
+  "method": "cadrecode",
+  "cd": 0.05947781948823094,
+  "f": 0.46063134515059073,
+  "ops": "extrudex3 unionx2"
+ },
+ {
+  "part": "Exercise_4_13_07_26",
+  "method": "cadrille",
+  "cd": 0.06343062466304457,
+  "f": 0.39054391143291156,
+  "ops": "extrudex3 unionx2"
+ },
+ {
+  "part": "Exercise_4_13_07_26",
+  "method": "cadfit",
+  "cd": 0.1617305428115756,
+  "f": 0.10629557607259466,
+  "ops": "addx1 extrudex1"
+ },
+ {
+  "part": "Lid",
+  "method": "cadrecode",
+  "cd": 0.02790575880515412,
+  "f": 0.7990564353258939,
+  "ops": "extrudex3 unionx2"
+ },
+ {
+  "part": "Lid",
+  "method": "cadrille",
+  "cd": 0.06363261114035489,
+  "f": 0.6894703395480974,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "Lid",
+  "method": "cadfit",
+  "cd": 0.049637665904504524,
+  "f": 0.7424740627192711,
+  "ops": "addx4 extrudex2"
+ },
+ {
+  "part": "Par_7",
+  "method": "cadrecode",
+  "cd": 0.023520968336623167,
+  "f": 0.8228077206234375,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "Par_7",
+  "method": "cadrille",
+  "cd": 0.021523744382276486,
+  "f": 0.8624523149475369,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "Par_7",
+  "method": "cadfit",
+  "cd": 0.1574109096062853,
+  "f": 0.140967241391962,
+  "ops": "addx2 extrudex1"
+ },
+ {
+  "part": "Remote_IAC",
+  "method": "cadrecode",
+  "cd": 0.04476539607818009,
+  "f": 0.6025007228070235,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "Remote_IAC",
+  "method": "cadrille",
+  "cd": 0.041816020794562,
+  "f": 0.6548358723812869,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "Remote_IAC",
+  "method": "cadfit",
+  "cd": 0.31324002198310497,
+  "f": 0.07555889375463196,
+  "ops": "addx4 extrudex2"
+ },
+ {
+  "part": "Triple_clamp",
+  "method": "cadrecode",
+  "cd": 0.035893333889759585,
+  "f": 0.692317908683652,
+  "ops": "extrudex3 unionx2"
+ },
+ {
+  "part": "Triple_clamp",
+  "method": "cadrille",
+  "cd": 0.031707506137906995,
+  "f": 0.7221465098572297,
+  "ops": "extrudex3 unionx2"
+ },
+ {
+  "part": "Triple_clamp",
+  "method": "cadfit",
+  "cd": 0.15183465595532597,
+  "f": 0.14563745779926862,
+  "ops": "addx3 extrudex1"
+ },
+ {
+  "part": "UNIVERSAL_JOINT_ASSEMBLY",
+  "method": "cadrecode",
+  "cd": 0.06652958351723771,
+  "f": 0.3745070407727778,
+  "ops": "extrudex3 unionx3"
+ },
+ {
+  "part": "UNIVERSAL_JOINT_ASSEMBLY",
+  "method": "cadrille",
+  "cd": null,
+  "f": null,
+  "ops": "EXEC-FAIL"
+ },
+ {
+  "part": "UNIVERSAL_JOINT_ASSEMBLY",
+  "method": "cadfit",
+  "cd": 0.03534885779435351,
+  "f": 0.7475764908566812,
+  "ops": "addx10 extrudex5"
+ },
+ {
+  "part": "attenuator",
+  "method": "cadrecode",
+  "cd": 0.05895405973766707,
+  "f": 0.4947224779762895,
+  "ops": "extrudex2 unionx2"
+ },
+ {
+  "part": "attenuator",
+  "method": "cadrille",
+  "cd": 0.08746142556101842,
+  "f": 0.25596997454067316,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "attenuator",
+  "method": "cadfit",
+  "cd": 0.10462686059464679,
+  "f": 0.286773603223564,
+  "ops": "addx1 extrudex1"
+ },
+ {
+  "part": "base",
+  "method": "cadrecode",
+  "cd": 0.03359523359743333,
+  "f": 0.7470772709737106,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "base",
+  "method": "cadrille",
+  "cd": 0.046377649167435725,
+  "f": 0.6778332457978568,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "base",
+  "method": "cadfit",
+  "cd": 0.023897940326642976,
+  "f": 0.8653444302895644,
+  "ops": "addx3 extrudex2"
+ },
+ {
+  "part": "ruota_dentata_conica",
+  "method": "cadrecode",
+  "cd": 0.05617103481532942,
+  "f": 0.5967131989443071,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "ruota_dentata_conica",
+  "method": "cadrille",
+  "cd": 0.12472236384725113,
+  "f": 0.15631467662117007,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "ruota_dentata_conica",
+  "method": "cadfit",
+  "cd": 0.023981720417781165,
+  "f": 0.9280917841803037,
+  "ops": "addx7 cutx1 extrudex3"
+ },
+ {
+  "part": "saab_9000_aero_alloy_wheel",
+  "method": "cadrecode",
+  "cd": 0.06505567911833146,
+  "f": 0.49143615537796176,
+  "ops": "extrudex2 unionx2"
+ },
+ {
+  "part": "saab_9000_aero_alloy_wheel",
+  "method": "cadrille",
+  "cd": 0.06763925771271909,
+  "f": 0.3398413063905188,
+  "ops": "extrudex3 unionx2"
+ },
+ {
+  "part": "saab_9000_aero_alloy_wheel",
+  "method": "cadfit",
+  "cd": 0.02902380574574076,
+  "f": 0.8568776707379544,
+  "ops": "addx24 extrudex10"
+ },
+ {
+  "part": "speaker_housing",
+  "method": "cadrecode",
+  "cd": 0.016766550870048122,
+  "f": 0.9753868604999143,
+  "ops": "extrudex3 unionx2"
+ },
+ {
+  "part": "speaker_housing",
+  "method": "cadrille",
+  "cd": 0.05541076894943922,
+  "f": 0.8142823657458852,
+  "ops": "extrudex3 unionx2"
+ },
+ {
+  "part": "speaker_housing",
+  "method": "cadfit",
+  "cd": 0.01880253877124452,
+  "f": 0.9321724675024458,
+  "ops": "addx9 cutx1 extrudex3 revolvex1"
+ },
+ {
+  "part": "sper_gear",
+  "method": "cadrecode",
+  "cd": 0.026316586984745573,
+  "f": 0.8508651549990827,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "sper_gear",
+  "method": "cadrille",
+  "cd": 0.044839460870757436,
+  "f": 0.6930098896462542,
+  "ops": "extrudex2 unionx1"
+ },
+ {
+  "part": "sper_gear",
+  "method": "cadfit",
+  "cd": 0.02299525307650193,
+  "f": 0.9093863204448079,
+  "ops": "addx5 extrudex2"
+ }
+]

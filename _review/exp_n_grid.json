@@ -1,0 +1,156 @@
+{
+ "v1_val": {
+  "label": "CAD-Recode v1 val",
+  "programs": 968,
+  "parse_failures": 0,
+  "programs_without_numeric_args": 0,
+  "programs_evaluated": 968,
+  "unique_programs": 967,
+  "exact_duplicates": 1,
+  "numeric_values": 28563,
+  "name_arguments": 0,
+  "value_classes": {
+   "integer": 28066,
+   "half": 497
+  },
+  "value_class_pct": {
+   "integer": 98.26,
+   "half": 1.74
+  },
+  "values_from_expressions": 11852,
+  "expression_classes": {
+   "integer": 11464,
+   "half": 388
+  },
+  "value_range": [
+   -100.0,
+   100.0
+  ],
+  "programs_all_on_half_grid": 968,
+  "pct_all_on_half_grid": 100.0,
+  "ci95_all_on_half_grid": [
+   99.605,
+   100.0
+  ],
+  "programs_all_integer": 667,
+  "pct_all_integer": 68.905,
+  "ci95_all_integer": [
+   65.919,
+   71.741
+  ],
+  "unique_programs_all_on_half_grid": 967,
+  "per_method": {
+   "segment": {
+    "integer": 12424
+   },
+   "arc": {
+    "integer": 6800
+   },
+   "Workplane": {
+    "integer": 3591
+   },
+   "extrude": {
+    "integer": 1342
+   },
+   "moveTo": {
+    "integer": 775,
+    "half": 213
+   },
+   "rect": {
+    "integer": 846
+   },
+   "box": {
+    "integer": 762
+   },
+   "cylinder": {
+    "integer": 644
+   },
+   "circle": {
+    "integer": 590
+   },
+   "workplane": {
+    "integer": 292,
+    "half": 284
+   }
+  },
+  "examples_other": [],
+  "seconds": 0.5
+ },
+ "v15_train": {
+  "label": "CAD-Recode v1.5 train",
+  "programs": 981865,
+  "parse_failures": 0,
+  "programs_without_numeric_args": 0,
+  "programs_evaluated": 981865,
+  "unique_programs": 952099,
+  "exact_duplicates": 29766,
+  "numeric_values": 30835635,
+  "name_arguments": 0,
+  "value_classes": {
+   "integer": 30368236,
+   "half": 467399
+  },
+  "value_class_pct": {
+   "integer": 98.484,
+   "half": 1.516
+  },
+  "values_from_expressions": 13006133,
+  "expression_classes": {
+   "integer": 12639594,
+   "half": 366539
+  },
+  "value_range": [
+   -268.0,
+   200.0
+  ],
+  "programs_all_on_half_grid": 981865,
+  "pct_all_on_half_grid": 100.0,
+  "ci95_all_on_half_grid": [
+   100.0,
+   100.0
+  ],
+  "programs_all_integer": 685056,
+  "pct_all_integer": 69.771,
+  "ci95_all_integer": [
+   69.68,
+   69.862
+  ],
+  "unique_programs_all_on_half_grid": 952099,
+  "per_method": {
+   "segment": {
+    "integer": 13846358
+   },
+   "arc": {
+    "integer": 7631842
+   },
+   "Workplane": {
+    "integer": 3700668
+   },
+   "extrude": {
+    "integer": 1392089
+   },
+   "moveTo": {
+    "integer": 751055,
+    "half": 204301
+   },
+   "rect": {
+    "integer": 814176
+   },
+   "box": {
+    "integer": 739419
+   },
+   "cylinder": {
+    "integer": 622348
+   },
+   "circle": {
+    "integer": 575732
+   },
+   "workplane": {
+    "half": 263098,
+    "integer": 294549
+   }
+  },
+  "examples_other": [],
+  "seconds": 425.5
+ }
+}

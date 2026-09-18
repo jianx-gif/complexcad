@@ -1,0 +1,37 @@
+import cadquery as cq
+outer_radius = 20.0
+inner_radius = 15.0
+wall_thickness = 2.0
+inner_radius = inner_radius + wall_thickness
+base = cq.Workplane('XY').circle(outer_radius).extrude(base_height)
+base = base.edges().fillet(inner_radius)
+base = base.edges().fillet(inner_radius)
+base = base.faces('>Z').workplane().hole(inner_radius)
+base = base.faces('>Z').workplane().hole(inner_radius)
+base = base.faces('>Z').workplane().hole(inner_radius)
+base = base.faces('>Z').workplane().hole(inner_radius)
+base = base.faces('>Z').workplane().hole(inner_radius)
+base = base.faces('>Z').workplane().center(0, 0).rect(outer_radius, outer_radius).cutBlind(-wall_thickness)
+base = base.faces('>Z').workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces('>Z').workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces('>Z').workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces('>Z').workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces('>Z').workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius).translate((0, 0, base_height))
+base = base.faces('>Z').edges().chamfer(inner_chamfer)
+base = base.faces('>Z').edges().fillet(inner_radius)
+base = base.faces('>Z').edges().fillet(inner_radius)
+base = base.faces('>Z').edges().fillet(inner_radius)
+base = base.faces('>Z').edges().fillet(inner_radius)
+base = base.faces('>Z').edges().fillet(inner_radius)
+base = base.faces('>Z').workplane().center(0, 0).rect(outer_radius, outer_radius).cutBlind(-inner_radius)
+base = base.faces('>Z').edges().fillet(inner_radius)
+base = base.faces('>Z').edges().fillet(inner_radius)
+base = base.faces('>Z').edges().fillet(inner_radius)
+base = base.faces('>Z').edges().fillet(inner_radius)
+base = base.faces('>Z').edges().fillet(inner_radius)
+base = base.faces('>Z').edges().fillet(inner_radius)
+base = base.faces('>Z').edges().fillet(inner_radius)
+base = base.faces('>Z').edges().fillet(inner_radius)
+base = base.faces('>Z').workplane().center(0, 0).hole(base_thickness)
+base = base.faces('>Z').edges().fillet(base, forConstruction=True).edges().fillet(base, combine=True)
+result = base

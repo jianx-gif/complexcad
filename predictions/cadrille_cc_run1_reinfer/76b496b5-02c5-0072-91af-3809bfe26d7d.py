@@ -1,0 +1,21 @@
+import cadquery as cq
+leg_length = 80.0
+leg_width = 20.0
+thickness = 10.0
+rib_width = 6.0
+rib_height = 8.0
+rib_spacing = 12.0
+hole_diameter = 5.0
+hole_spacing = 30.0
+hole_offset = 10.0
+chamfer_size = 1.0
+base = cq.Workplane('XY').box(leg_length, leg_width, thickness)
+rib = cq.Workplane('XY').box(rib_width, leg_length, thickness)
+rib = rib.edges().chamfer(chamfer_size)
+rib = rib.edges().fillet(rib_spacing)
+rib = rib.faces('>Z').workplane().hole(hole_diameter)
+rib = rib.faces('>Z').workplane().center(leg_width/2, leg_length/2).rect(rib_width, rib_height).cutBlind(-thickness)
+rib = rib.edges('|Z').chamfer(chamfer_size)
+rib = rib.faces('>Z').workplane().center(leg_width/2, leg_length/2).rect(rib_width, rib_height).cutBlind(-rib_height)
+rib = rib.edges('|Z').chamfer(chamfer_size)
+result = rib

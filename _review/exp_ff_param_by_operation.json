@@ -1,0 +1,137 @@
+{
+ "rows": [
+  {
+   "operation": "cboreHole",
+   "role": "diameter",
+   "n": 465,
+   "unresolved": 354,
+   "min": 1.0,
+   "p5": 2.5,
+   "median": 5.0,
+   "p95": 10.0,
+   "max": 53.0,
+   "nonpositive": 0
+  },
+  {
+   "operation": "chamfer",
+   "role": "distance",
+   "n": 6764,
+   "unresolved": 1167,
+   "min": 0.05,
+   "p5": 0.5,
+   "median": 1.0,
+   "p95": 2.0,
+   "max": 8.66,
+   "nonpositive": 0
+  },
+  {
+   "operation": "cskHole",
+   "role": "diameter",
+   "n": 625,
+   "unresolved": 82,
+   "min": 2.0,
+   "p5": 3.0,
+   "median": 5.0,
+   "p95": 10.0,
+   "max": 82.0,
+   "nonpositive": 0
+  },
+  {
+   "operation": "cutBlind",
+   "role": "depth",
+   "n": 1367,
+   "unresolved": 4043,
+   "min": -11.0,
+   "p5": 1.5,
+   "median": 5.0,
+   "p95": 15.0,
+   "max": 100.0,
+   "nonpositive": 3
+  },
+  {
+   "operation": "extrude",
+   "role": "distance",
+   "n": 14705,
+   "unresolved": 4879,
+   "min": -10.0,
+   "p5": 2.0,
+   "median": 8.0,
+   "p95": 80.0,
+   "max": 200.0,
+   "nonpositive": 5
+  },
+  {
+   "operation": "fillet",
+   "role": "radius",
+   "n": 3418,
+   "unresolved": 621,
+   "min": 0.02,
+   "p5": 0.5,
+   "median": 2.0,
+   "p95": 5.0,
+   "max": 20.0,
+   "nonpositive": 0
+  },
+  {
+   "operation": "hole",
+   "role": "depth",
+   "n": 388,
+   "unresolved": 55,
+   "min": 1.0,
+   "p5": 2.5,
+   "median": 7.25,
+   "p95": 27.65,
+   "max": 80.0,
+   "nonpositive": 0
+  },
+  {
+   "operation": "hole",
+   "role": "diameter",
+   "n": 7007,
+   "unresolved": 1230,
+   "min": 0.2,
+   "p5": 3.0,
+   "median": 5.0,
+   "p95": 16.0,
+   "max": 73.0,
+   "nonpositive": 0
+  },
+  {
+   "operation": "revolve",
+   "role": "angle (deg)",
+   "n": 1978,
+   "unresolved": 21,
+   "min": 5.0,
+   "p5": 120.0,
+   "median": 360.0,
+   "p95": 360.0,
+   "max": 360.0,
+   "nonpositive": 0
+  },
+  {
+   "operation": "shell",
+   "role": "thickness",
+   "n": 285,
+   "unresolved": 1241,
+   "min": -2.0,
+   "p5": 1.0,
+   "median": 2.0,
+   "p95": 5.0,
+   "max": 20.0,
+   "nonpositive": 1
+  }
+ ],
+ "calls": {
+  "extrude": 19585,
+  "hole": 8238,
+  "fillet": 4039,
+  "chamfer": 7932,
+  "cutBlind": 5410,
+  "cskHole": 713,
+  "shell": 1526,
+  "revolve": 1999,
+  "cboreHole": 824,
+  "sweep": 450,
+  "loft": 448
+ }
+}

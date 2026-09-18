@@ -1,0 +1,27 @@
+import cadquery as cq
+outer_radius = 45.0
+inner_radius = 20.0
+wall_thickness = 2.0
+inner_radius = inner_radius - wall_thickness
+chamfer_size = 0.5
+mount_hole_diameter = 5.0
+mount_hole_spacing = 30.0
+rib_width = 6.0
+rib_height = 10.0
+rib_thickness = 2.0
+rib_spacing = 12.0
+base = cq.Workplane('XY').circle(outer_radius).extrude(inner_radius)
+inner = cq.Workplane('XY').circle(inner_radius).extrude(inner_radius).translate((0,0,0))
+base = base.cut(inner)
+rib_count = int((inner_radius + rib_spacing) // rib_spacing)
+rib_positions = [(-mount_hole_spacing/2, 0), (mount_hole_spacing/2, 0)]
+base = base.faces('>Z').workplane().pushPoints(rib_positions).rect(rib_width, rib_height).extrude(rib_thickness)
+rib_positions = [(-mount_hole_spacing/2, 0), (mount_hole_spacing/2, 0)]
+base = base.faces('>Z').workplane().pushPoints(rib_positions).rect(rib_width, rib_height).extrude(rib_thickness)
+rib_positions = [(-mount_hole_spacing/2, 0), (mount_hole_spacing/2, 0)]
+base = base.faces('>Z').workplane().pushPoints(rib_positions).rect(rib_width, rib_height).extrude(rib_thickness)
+rib_positions = [(-mount_hole_spacing/2, 0), (mount_hole_spacing/2, 0)]
+base = base.faces('>Z').workplane().pushPoints(rib_positions).rect(rib_width, rib_height).extrude(rib_thickness)
+rib_positions = [(-mount_hole_spacing/2, 0), (mount_hole_spacing/2, 0)]
+base = base.union(rib_positions)
+result = base

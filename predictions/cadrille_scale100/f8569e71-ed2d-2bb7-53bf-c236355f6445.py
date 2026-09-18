@@ -1,0 +1,2 @@
+import cadquery as cq
+w0=cq.Workplane('XY',origin=(10,0 For (33 ( (30 T (30 T (30 Tw1 For (10,0 Forr=w0 (30 Tw1 For (30 T (30 this (30 tent (30 For (10,0)). It### appearance on A with (10,0)).segment((-100,10).union(w0 con to (10,0)).segment((-100,10).circle(3).reset().extrude(-3))

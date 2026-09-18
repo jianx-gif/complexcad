@@ -1,0 +1,762 @@
+[
+ {
+  "uuid": "42153803-65bb-d128-ea63-0b01061a9073",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 13
+ },
+ {
+  "uuid": "f0748e25-21f3-0cab-0e37-92ec598b4fd2",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer",
+   "fillet",
+   "revolve"
+  ],
+  "n_named": 14
+ },
+ {
+  "uuid": "890b37d3-37be-19a7-367f-c668f58328d0",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 12
+ },
+ {
+  "uuid": "3924cfa5-f1f7-cfdd-e2a4-a6e606893e84",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer",
+   "loft"
+  ],
+  "n_named": 10
+ },
+ {
+  "uuid": "071a220d-5b4e-fc1d-c9ce-3a3a3b23b0ab",
+  "ops_pred": [
+   "chamfer",
+   "fillet"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "fillet",
+   "revolve"
+  ],
+  "n_named": 13
+ },
+ {
+  "uuid": "ca7c50dd-116f-1f81-5d3a-84d21d8c255a",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 14
+ },
+ {
+  "uuid": "54549a02-a81c-c044-ac31-c7ecced7fde5",
+  "ops_pred": [],
+  "ops_gt": [],
+  "n_named": 11
+ },
+ {
+  "uuid": "5ea4a523-0ebf-1410-4f23-abe1f3e0e60e",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 17
+ },
+ {
+  "uuid": "9aaa363a-b854-96bb-d823-f7b41ed30fb1",
+  "ops_pred": [],
+  "ops_gt": [
+   "fillet"
+  ],
+  "n_named": 12
+ },
+ {
+  "uuid": "bd35fcde-9e3c-58ad-92fa-6ffacf3a9c9f",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 0
+ },
+ {
+  "uuid": "6ae69915-7e2a-beba-af75-a3462eb8aa8f",
+  "ops_pred": [
+   "revolve"
+  ],
+  "ops_gt": [
+   "fillet",
+   "revolve"
+  ],
+  "n_named": 11
+ },
+ {
+  "uuid": "0febe627-478a-5c10-fda3-aa18e439a645",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 12
+ },
+ {
+  "uuid": "71387b56-3984-6459-c621-3c2e4518928f",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 10
+ },
+ {
+  "uuid": "f2757134-5e2c-7f4b-a383-87d8e5d24a79",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 16
+ },
+ {
+  "uuid": "395b933d-0f55-66fa-08da-d2e9f5984823",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 8
+ },
+ {
+  "uuid": "14c2d3e8-66e7-e67d-2700-ca45d168bfaa",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 14
+ },
+ {
+  "uuid": "bc879453-6e50-26b0-f45a-b73933596614",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 10
+ },
+ {
+  "uuid": "cd1b1616-b9b8-17b9-f012-07d8f741bc55",
+  "ops_pred": [],
+  "ops_gt": [],
+  "n_named": 0
+ },
+ {
+  "uuid": "1aac14ef-dc20-3d2a-804e-e4e4db7cc48b",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer",
+   "fillet"
+  ],
+  "n_named": 11
+ },
+ {
+  "uuid": "965b204b-ec6f-19b4-2253-5737da5daef3",
+  "ops_pred": [
+   "chamfer",
+   "fillet"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "fillet"
+  ],
+  "n_named": 12
+ },
+ {
+  "uuid": "de3f2362-65dd-6f36-4e02-6f03556ab24d",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "loft"
+  ],
+  "n_named": 11
+ },
+ {
+  "uuid": "ff42d37d-43b1-a98b-0c1b-1583fe87e09a",
+  "ops_pred": [],
+  "ops_gt": [
+   "fillet"
+  ],
+  "n_named": 11
+ },
+ {
+  "uuid": "10b40394-9a83-ca4a-a191-8b0950882e7e",
+  "ops_pred": [
+   "revolve"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "fillet",
+   "revolve"
+  ],
+  "n_named": 12
+ },
+ {
+  "uuid": "ca1ce124-2c48-cdd9-a529-d94bc4a01480",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer",
+   "fillet"
+  ],
+  "n_named": 12
+ },
+ {
+  "uuid": "8027249f-b392-ba9b-6251-910703ba2972",
+  "ops_pred": [
+   "chamfer",
+   "fillet"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "fillet"
+  ],
+  "n_named": 11
+ },
+ {
+  "uuid": "bde045c8-59e8-7862-7edf-388e10f80de1",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 11
+ },
+ {
+  "uuid": "19d43c4e-a795-af63-7771-9db75369e9c5",
+  "ops_pred": [
+   "fillet"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "fillet"
+  ],
+  "n_named": 11
+ },
+ {
+  "uuid": "2e2a685a-6546-bc95-d8d7-533b39636a70",
+  "ops_pred": [
+   "fillet"
+  ],
+  "ops_gt": [
+   "fillet"
+  ],
+  "n_named": 16
+ },
+ {
+  "uuid": "99e95909-be6f-10cc-efc9-3508dc569c42",
+  "ops_pred": [
+   "fillet"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "fillet",
+   "sweep"
+  ],
+  "n_named": 16
+ },
+ {
+  "uuid": "3b56b556-c33f-935f-c92a-01a299f69c12",
+  "ops_pred": [
+   "chamfer",
+   "fillet"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "fillet"
+  ],
+  "n_named": 15
+ },
+ {
+  "uuid": "8372ab09-ad9c-e63d-771d-7c95f2a3e2f0",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 8
+ },
+ {
+  "uuid": "dca75023-3f6e-532d-f1ff-6028a4edeb50",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 12
+ },
+ {
+  "uuid": "142757a9-b9ad-d509-b595-281ebc67b416",
+  "ops_pred": [
+   "chamfer",
+   "fillet"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "fillet"
+  ],
+  "n_named": 16
+ },
+ {
+  "uuid": "4e2a2601-50b5-d0a2-8e77-3fba1d6e6c5c",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 9
+ },
+ {
+  "uuid": "3c332df4-b64f-fa95-e195-a114ecf94d5a",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 7
+ },
+ {
+  "uuid": "5535672f-cd6c-1608-e1e7-1302862a086b",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 15
+ },
+ {
+  "uuid": "92bb9ee9-77e3-9453-b571-15f8c1fca785",
+  "ops_pred": [
+   "chamfer",
+   "revolve"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "revolve"
+  ],
+  "n_named": 11
+ },
+ {
+  "uuid": "cc058f92-e796-e155-e139-188910974075",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 12
+ },
+ {
+  "uuid": "94b32d26-fc26-ca7b-4179-23959f1c8797",
+  "ops_pred": [],
+  "ops_gt": [
+   "fillet"
+  ],
+  "n_named": 11
+ },
+ {
+  "uuid": "81cde1e4-4ab0-7b06-135d-cc027faef574",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer",
+   "fillet"
+  ],
+  "n_named": 14
+ },
+ {
+  "uuid": "2dea4b6f-b13d-5d7c-619b-2024641194f4",
+  "ops_pred": [
+   "revolve"
+  ],
+  "ops_gt": [
+   "revolve"
+  ],
+  "n_named": 7
+ },
+ {
+  "uuid": "2dd9699a-4a30-6285-ddb9-529950508478",
+  "ops_pred": [],
+  "ops_gt": [
+   "fillet"
+  ],
+  "n_named": 16
+ },
+ {
+  "uuid": "1b329397-f312-0b7b-cbc9-f1dc0f40cd73",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 7
+ },
+ {
+  "uuid": "7978c628-ff76-df10-dcf7-9aeba135abab",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer",
+   "fillet"
+  ],
+  "n_named": 12
+ },
+ {
+  "uuid": "98d22721-3e6d-d78d-7087-d71b35266430",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 13
+ },
+ {
+  "uuid": "5e0763ba-ff1a-0486-7a09-ae7b5385bd20",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "loft"
+  ],
+  "n_named": 12
+ },
+ {
+  "uuid": "a1d1c4c1-a53b-804d-3cf1-a2d80b19422d",
+  "ops_pred": [
+   "fillet",
+   "revolve"
+  ],
+  "ops_gt": [
+   "fillet",
+   "revolve"
+  ],
+  "n_named": 7
+ },
+ {
+  "uuid": "76b496b5-02c5-0072-91af-3809bfe26d7d",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 14
+ },
+ {
+  "uuid": "9426269f-6382-53c1-ceda-3e1fd05a794e",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 15
+ },
+ {
+  "uuid": "e02ad404-b837-cadf-3354-6483f8974fe4",
+  "ops_pred": [
+   "chamfer",
+   "revolve"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "revolve"
+  ],
+  "n_named": 11
+ },
+ {
+  "uuid": "16413750-2b9a-4775-c901-f2d5a1d3e0c2",
+  "ops_pred": [
+   "chamfer",
+   "revolve"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "revolve"
+  ],
+  "n_named": 10
+ },
+ {
+  "uuid": "84ded297-2398-85a1-bdf1-3b617416aa02",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 13
+ },
+ {
+  "uuid": "0b82d084-778e-b774-b51d-de637cc8f03a",
+  "ops_pred": [
+   "chamfer",
+   "revolve"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "revolve"
+  ],
+  "n_named": 13
+ },
+ {
+  "uuid": "fafe8944-3071-2e4f-fe24-9a7cc507550d",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 16
+ },
+ {
+  "uuid": "dd107869-62f4-cebb-2f8d-2d091abb6e7b",
+  "ops_pred": [],
+  "ops_gt": [
+   "fillet"
+  ],
+  "n_named": 11
+ },
+ {
+  "uuid": "03a4f463-f870-574c-6ff9-37b083e4ce48",
+  "ops_pred": [],
+  "ops_gt": [],
+  "n_named": 0
+ },
+ {
+  "uuid": "7af3cbab-b6a2-182b-e9f2-d5f09870d11d",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer",
+   "fillet",
+   "revolve"
+  ],
+  "n_named": 15
+ },
+ {
+  "uuid": "0f913e77-dcbc-fe58-f681-eff7c2d21162",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 13
+ },
+ {
+  "uuid": "008f0ef9-3bfc-d8cb-de16-d3b2686c3a96",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 14
+ },
+ {
+  "uuid": "58436d83-d1d3-ff7a-45db-e4de26452a21",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 10
+ },
+ {
+  "uuid": "f7916ef7-e4f0-d6bb-cfaf-6c9045ced799",
+  "ops_pred": [],
+  "ops_gt": [],
+  "n_named": 0
+ },
+ {
+  "uuid": "6138f93c-3046-77be-98b8-6bc6d46f8c90",
+  "ops_pred": [
+   "chamfer",
+   "loft"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "loft"
+  ],
+  "n_named": 13
+ },
+ {
+  "uuid": "20f7c650-82c4-f1a0-2628-dc03316d122a",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer",
+   "fillet"
+  ],
+  "n_named": 12
+ },
+ {
+  "uuid": "023605be-72b3-7084-9d80-8c35aab93119",
+  "ops_pred": [
+   "fillet"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "fillet"
+  ],
+  "n_named": 15
+ },
+ {
+  "uuid": "309172dc-edcf-f523-2916-dbef8c699a2e",
+  "ops_pred": [
+   "chamfer",
+   "fillet"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "fillet",
+   "loft"
+  ],
+  "n_named": 9
+ },
+ {
+  "uuid": "1df53816-5883-026b-eee0-e849152d8fd1",
+  "ops_pred": [
+   "chamfer",
+   "fillet"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "fillet"
+  ],
+  "n_named": 12
+ },
+ {
+  "uuid": "19f9b1fb-46b9-3d1f-9166-a0d3d610e503",
+  "ops_pred": [
+   "chamfer",
+   "revolve"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "revolve"
+  ],
+  "n_named": 11
+ },
+ {
+  "uuid": "5685c608-10e9-9f84-47e6-d7df3189227b",
+  "ops_pred": [
+   "chamfer",
+   "revolve"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "revolve"
+  ],
+  "n_named": 11
+ },
+ {
+  "uuid": "0afda985-79fc-a123-e7e9-52aff4a26e1c",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "revolve"
+  ],
+  "n_named": 12
+ },
+ {
+  "uuid": "db36aefe-201f-85ee-a077-1b15fecc34d2",
+  "ops_pred": [
+   "chamfer",
+   "revolve"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "revolve"
+  ],
+  "n_named": 9
+ },
+ {
+  "uuid": "dd3c1ecf-c64c-0e94-c179-83205d9a24b9",
+  "ops_pred": [],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 10
+ },
+ {
+  "uuid": "804f24df-6269-62cd-08d6-4c8216081416",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 0
+ },
+ {
+  "uuid": "bafecd45-ace9-48ab-695a-c2491b8af382",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 19
+ },
+ {
+  "uuid": "62ec3b60-da49-312b-e576-f0620e4f6712",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 11
+ },
+ {
+  "uuid": "6a250988-3070-0e41-b354-69efd4929093",
+  "ops_pred": [
+   "chamfer",
+   "revolve"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "revolve"
+  ],
+  "n_named": 8
+ },
+ {
+  "uuid": "4f05ea24-ab73-1161-f8da-0697f9c52a21",
+  "ops_pred": [
+   "chamfer"
+  ],
+  "ops_gt": [
+   "chamfer"
+  ],
+  "n_named": 12
+ },
+ {
+  "uuid": "a101bf03-912c-f96a-4dba-af07f4a741b6",
+  "ops_pred": [
+   "chamfer",
+   "revolve"
+  ],
+  "ops_gt": [
+   "chamfer",
+   "revolve"
+  ],
+  "n_named": 12
+ }
+]

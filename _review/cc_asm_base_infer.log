@@ -1,0 +1,11 @@
+device: cuda 70 C
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+模型已加载
+待推理 103 / 103 (mode=pc)
+  16/103 ok16 fail0 3.7s/件 GPU 80C ETA5.3min
+  32/103 ok32 fail0 4.1s/件 GPU 80C ETA4.9min
+  48/103 ok48 fail0 4.0s/件 GPU 80C ETA3.6min
+  64/103 ok64 fail0 3.9s/件 GPU 81C ETA2.5min
+  80/103 ok80 fail0 4.0s/件 GPU 78C ETA1.6min
+  96/103 ok96 fail0 4.3s/件 GPU 76C ETA0.5min
+完成: ok 103 fail 0 用时 7.9min -> E:\3005\data\predictions\cadrille_asm_base

@@ -1,0 +1,17 @@
+待评 400 件 (method=selftest400_r4, self_test=True, jobs=6)
+  50/400  4.5件/s
+  100/400  7.8件/s
+  150/400  7.4件/s
+  200/400  7.3件/s
+  250/400  7.2件/s
+  300/400  6.1件/s
+  350/400  7.2件/s
+  400/400  7.7件/s
+状态分布: {'ok': 399, 'exec_error': 1}
+
+===== 方法 [selftest400_r4] 汇总 (n=400) =====
+  ALL       N=400  valid=99.8%  CD=0.0176  F=0.962  opType=1.00 opCount=1.00 exact=100.0%
+  simple    N=200  valid=100.0%  CD=0.0156  F=0.977  opType=1.00 opCount=1.00 exact=100.0%
+  complex   N=200  valid=99.5%  CD=0.0195  F=0.946  opType=1.00 opCount=1.00 exact=100.0%
+
+每件指标 -> E:\3005\data\1m_Convert\precision_report\pred_metrics_selftest400_r4.jsonl  用时 0.9min

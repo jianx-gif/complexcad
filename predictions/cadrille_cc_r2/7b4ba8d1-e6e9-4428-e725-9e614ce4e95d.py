@@ -1,0 +1,24 @@
+import cadquery as cq
+outer_radius = 45
+inner_radius = 15
+wall_thickness = 2
+inner_radius = outer_radius - wall_thickness
+base_thickness = 5
+base_height = 10
+rib_width = 6
+rib_height = 4
+rib_spacing = 12
+rib_count = 4
+chamfer_distance = 0.5
+base = cq.Workplane('XY').circle(outer_radius).extrude(base_thickness)
+inner = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+inner = cq.Workplane('XY').circle(inner_radius).extrude(base_thickness)
+rib = cq.Workplane('XY').circle(rib_width).extrude(rib_height).translate((0, 0, base_height))
+result = base.union(rib)
+result = result.edges().chamfer(chamfer_distance)
+result = result.faces('>Z').workplane().hole(inner_radius * 2)
+result = result.faces('>Z').workplane().hole(inner_radius * 2)
+result = result.faces('>Z').workplane().rect(inner_radius, inner_radius).cutBlind(-inner_radius * 2)
+result = result.faces('>Z').workplane().rect(inner_radius, inner_radius).cutBlind(-inner_radius * 2).cutBlind(-inner_radius * 2)
+result = result.faces('>Z').workplane().rect(inner_radius, inner_radius).cutBlind(-inner_radius * 2).cutBlind(-inner_radius * 2)
+result = result.faces('>Z').workplane().pushPoints([(-rib_spacing/2, 0), (rib_spacing/2, 0)]).rect(rib_width, rib_height).cutBlind(-rib_height)

@@ -1,0 +1,56 @@
+import cadquery as cq
+outer = outer_radius
+outer_radius = outer_radius - outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius + 2.0
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = outer_radius
+outer_radius = (outer_radius, 0)
+hole_radius, hole_radius)
+hole_radius, hole_radius, hole_height)
+hole_radius, hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_radius, hole_hole_offset, hole_hole_offset, hole_hole_offset, hole_hole_offset, hole_hole_offset, hole_hole1)
+hole = hole_hole2 * hole_hole2 * hole_hole2 * hole_hole2 * hole_hole2 * hole_hole2 * hole_length, hole_length, hole_hole1)
+hole = hole_hole2 * hole_hole2 * hole_hole2 * hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole_length, hole

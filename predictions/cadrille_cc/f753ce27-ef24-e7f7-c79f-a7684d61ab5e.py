@@ -1,0 +1,21 @@
+import cadquery as cq
+outer_radius = 25
+inner_radius = 15
+wall_thickness = 2
+inner_radius = outer_radius - wall_thickness
+base = cq.Workplane('XY').box(outer_radius, outer_radius, base)
+base = base.faces('>Z').shell(-wall_thickness)
+base = base.edges('>Z').fillet(inner_radius)
+base = base.edges('>Z').chamfer(0.5)
+base = base.faces('>Z').workplane().center(0, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces('>Z').workplane().center(inner_radius, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces('>Z').workplane().center(inner_radius, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces('>Z').workplane().center(inner_radius, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces('>Z').workplane().center(inner_radius, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces('>Z').workplane().center(inner_radius, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces('>Z').workplane().center(inner_radius, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces('>Z').workplane().center(inner_radius, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces('>Z').workplane().center(inner_radius, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius)
+base = base.faces('>Z').workplane().center(inner_radius, 0).rect(inner_radius, inner_radius).cutBlind(-inner_radius).translate((0, 0, base))
+base = base.faces('>Z').edges().chamfer(base)
+result = base

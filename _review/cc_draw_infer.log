@@ -1,0 +1,69 @@
+device: cuda 66 C
+'(ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: f325003e-d566-4e00-9e77-4c572cf1bd50)')' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/resolve/main/processor_config.json
+Retrying in 1s [Retry 1/5].
+'(ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: b571618a-b892-41be-8ef5-1baf6a92bc0a)')' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/resolve/main/preprocessor_config.json
+Retrying in 1s [Retry 1/5].
+'(ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: f1279e16-630f-4a16-b6b1-a7081f8e08b4)')' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/resolve/main/preprocessor_config.json
+Retrying in 2s [Retry 2/5].
+'(ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: 4895202c-8fb8-4621-b18a-70d3168b94b8)')' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/resolve/main/preprocessor_config.json
+Retrying in 4s [Retry 3/5].
+'(ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: 18d9abb4-6605-49f7-bd2e-8294c3424111)')' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/resolve/main/preprocessor_config.json
+Retrying in 8s [Retry 4/5].
+'(ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: 32987020-5cd3-4f5c-89e5-64c064a96e99)')' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/resolve/main/preprocessor_config.json
+Retrying in 8s [Retry 5/5].
+'(ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: 51bca6e7-5aed-498d-a23a-abf05507c6e1)')' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/resolve/main/preprocessor_config.json
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+LoRA adapter merged: E:/3005/data/_review/cc_draw_lora/final_adapter
+模型已加载
+待推理 400 / 400 (mode=pc_draw)
+  8/400 ok8 fail0 11.8s/件 GPU 67C ETA77.0min
+  16/400 ok16 fail0 12.9s/件 GPU 68C ETA82.5min
+  24/400 ok24 fail0 12.5s/件 GPU 68C ETA78.6min
+  32/400 ok32 fail0 13.5s/件 GPU 68C ETA82.9min
+  40/400 ok40 fail0 12.9s/件 GPU 68C ETA77.6min
+  48/400 ok48 fail0 13.7s/件 GPU 68C ETA80.4min
+  56/400 ok56 fail0 13.3s/件 GPU 67C ETA76.2min
+  64/400 ok64 fail0 13.0s/件 GPU 66C ETA73.0min
+  72/400 ok72 fail0 13.0s/件 GPU 66C ETA71.0min
+  80/400 ok80 fail0 12.9s/件 GPU 65C ETA68.7min
+  88/400 ok88 fail0 12.6s/件 GPU 65C ETA65.7min
+  96/400 ok96 fail0 12.5s/件 GPU 66C ETA63.4min
+  104/400 ok104 fail0 12.5s/件 GPU 65C ETA61.8min
+  112/400 ok112 fail0 12.6s/件 GPU 65C ETA60.2min
+  120/400 ok120 fail0 12.5s/件 GPU 66C ETA58.3min
+  128/400 ok128 fail0 12.4s/件 GPU 66C ETA56.4min
+  136/400 ok136 fail0 12.4s/件 GPU 65C ETA54.3min
+  144/400 ok144 fail0 12.3s/件 GPU 66C ETA52.4min
+  152/400 ok152 fail0 12.5s/件 GPU 65C ETA51.9min
+  160/400 ok160 fail0 12.4s/件 GPU 65C ETA49.8min
+  168/400 ok168 fail0 12.6s/件 GPU 65C ETA48.8min
+  176/400 ok176 fail0 12.6s/件 GPU 65C ETA46.9min
+  184/400 ok184 fail0 12.6s/件 GPU 65C ETA45.2min
+  192/400 ok192 fail0 12.5s/件 GPU 65C ETA43.3min
+  200/400 ok200 fail0 12.5s/件 GPU 66C ETA41.5min
+  208/400 ok208 fail0 12.4s/件 GPU 66C ETA39.6min
+  216/400 ok216 fail0 12.3s/件 GPU 66C ETA37.6min
+  224/400 ok224 fail0 12.2s/件 GPU 67C ETA35.8min
+  232/400 ok232 fail0 12.2s/件 GPU 67C ETA34.1min
+  240/400 ok240 fail0 12.2s/件 GPU 66C ETA32.5min
+  248/400 ok248 fail0 12.2s/件 GPU 66C ETA30.8min
+  256/400 ok256 fail0 12.2s/件 GPU 66C ETA29.2min
+  264/400 ok264 fail0 12.2s/件 GPU 66C ETA27.6min
+  272/400 ok272 fail0 12.2s/件 GPU 66C ETA26.0min
+  280/400 ok280 fail0 12.2s/件 GPU 66C ETA24.4min
+  288/400 ok288 fail0 12.2s/件 GPU 66C ETA22.8min
+  296/400 ok296 fail0 12.2s/件 GPU 66C ETA21.1min
+  304/400 ok304 fail0 12.2s/件 GPU 67C ETA19.5min
+  312/400 ok312 fail0 12.2s/件 GPU 67C ETA17.8min
+  320/400 ok320 fail0 12.1s/件 GPU 67C ETA16.2min
+  328/400 ok328 fail0 12.2s/件 GPU 67C ETA14.6min
+  336/400 ok336 fail0 12.1s/件 GPU 67C ETA12.9min
+  344/400 ok344 fail0 12.1s/件 GPU 67C ETA11.3min
+  352/400 ok352 fail0 12.1s/件 GPU 67C ETA9.7min
+  360/400 ok360 fail0 12.2s/件 GPU 67C ETA8.1min
+  368/400 ok368 fail0 12.2s/件 GPU 67C ETA6.5min
+  376/400 ok376 fail0 12.2s/件 GPU 67C ETA4.9min
+  384/400 ok384 fail0 12.2s/件 GPU 67C ETA3.3min
+  392/400 ok392 fail0 12.2s/件 GPU 67C ETA1.6min
+  400/400 ok400 fail0 12.2s/件 GPU 67C ETA0.0min
+完成: ok 400 fail 0 用时 81.4min -> E:\3005\data\predictions\cadrille_cc_draw

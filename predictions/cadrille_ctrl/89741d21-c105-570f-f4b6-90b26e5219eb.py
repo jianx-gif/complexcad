@@ -1,0 +1,28 @@
+import cadquery as cq
+w0=cq.Workplane('ZX',origin=(10,0))
+w1 For (36 (10,10))
+w1 For (36,10))
+w1 For (36,10))
+w1 For sym & The (36 (10,10))
+r=w0 tent (36 (10,10))
+w1 For sym & The (36,10))
+w1 For (10,10))
+r=w0 tent (10,100))
+ without as con For (10,10))
+w1 For sym after's (36,10))
+w1 For sym after
+import cadquery as cq
+w0=cq.Workplane('XY',origin=(10,0,19))
+w1 For (10,10))
+r=w0 tent (36,10))
+w1 For sym withun (36,10))
+r=w0 tent (36,10))
+w1 For (10,10))
+r=w0 topun (36,10))
+r=w0 topun (36,10))
+r=w0 tent (36,10))
+r=w0 tent (36,10))
+r=w0 tent (36,10))
+r=w0 tent (36,10))
+r=w0 tent (36,10))
+r=w0.sketch().segment((-36,10),(-28,10)).segment((-28,100)).segment((-30,100)).arc((-29,98),(-29,97)).segment((-29,95)).segment((-31,95)).arc((-31,96),(-30,96)).segment((-30,99)).segment((-31,99)).segment((-31,96)).arc((-32,96),(-32,95)).segment((-32,93)).segment((-30,93)).arc((-29,93),(-28,93)).segment((-28,95)).segment((-31,95)).arc((-32,97),(-32,99)).segment((-32,98)).segment((-31,98)).arc((-31,99),(-30,99)).segment((-30,100)).segment((-32,100)).close().assemble().push([(36,11)]).circle(5).finalize().extrude(-14).union(w0.sketch().segment((-10,10),(-1,10)).segment((-1,10)).segment((-1,10)).segment((-1,11)).segment((-10,11)).segment((-10,10)).segment((-11,10)).segment((-11,10)).segment((-11,10)).segment((-11,10)).segment((-11,10)).segment((-11,11)).segment((-11,11)).segment((-11,11)).segment((-11,11)).segment((-11,13)).segment((-11,15)).segment((-11,16)).segment((-11,17)).segment((-11,18)).segment((-11,19)).segment((-11,11)).segment((-11,12)).segment((-11,13)).segment((-11,15)).segment((-11,16)).segment((-11,17)).segment((-11,18)).segment((-11,19)).segment((-11,18)).segment((-11,17)).segment((-11,16)).segment((-11,15)).segment((-11,14)).segment((-11,13)).segment((-11,12)).segment((-11,11)).segment((-11,10)).segment((-12,11)).segment((-11,11)).segment((-

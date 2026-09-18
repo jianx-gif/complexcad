@@ -1,0 +1,21 @@
+{
+ "single": {
+  "chamfer": 7462,
+  "fillet": 3682,
+  "revolve": 1844,
+  "sweep": 400,
+  "loft": 379
+ },
+ "pairs": {
+  "chamfer+fillet": 1917,
+  "chamfer+revolve": 1272,
+  "fillet+sweep": 196,
+  "fillet+revolve": 566,
+  "chamfer+loft": 245,
+  "chamfer+sweep": 266,
+  "loft+sweep": 7,
+  "fillet+loft": 129,
+  "revolve+sweep": 33,
+  "loft+revolve": 5
+ }
+}

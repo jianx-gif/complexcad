@@ -1,0 +1,19 @@
+trainable params: 18,464,768 || all params: 2,227,530,240 || trainable%: 0.8289
+train 2000 val 50
+{'loss': 1.4232, 'grad_norm': 3.2660720348358154, 'learning_rate': 3.4549150281252636e-05, 'epoch': 1.28}
+[temp] GPU 85C >= 82C, cool 60s
+{'loss': 1.4404, 'grad_norm': 3.692570209503174, 'learning_rate': 2.8081442660546125e-05, 'epoch': 1.36}
+{'loss': 1.3787, 'grad_norm': 3.5858452320098877, 'learning_rate': 2.2040354826462668e-05, 'epoch': 1.44}
+[temp] GPU 83C >= 82C, cool 60s
+{'loss': 1.3299, 'grad_norm': 2.816981315612793, 'learning_rate': 1.6543469682057106e-05, 'epoch': 1.52}
+[temp] GPU 82C >= 82C, cool 60s
+{'loss': 1.3588, 'grad_norm': 3.360562801361084, 'learning_rate': 1.1697777844051105e-05, 'epoch': 1.6}
+{'loss': 1.2402, 'grad_norm': 3.104114294052124, 'learning_rate': 7.597595192178702e-06, 'epoch': 1.68}
+[temp] GPU 85C >= 82C, cool 60s
+{'loss': 1.2582, 'grad_norm': 3.931166887283325, 'learning_rate': 4.322727117869951e-06, 'epoch': 1.76}
+[temp] GPU 87C >= 82C, cool 60s
+{'loss': 1.2801, 'grad_norm': 2.868579387664795, 'learning_rate': 1.9369152030840556e-06, 'epoch': 1.84}
+{'loss': 1.2688, 'grad_norm': 3.0738956928253174, 'learning_rate': 4.865965629214819e-07, 'epoch': 1.92}
+{'loss': 1.2775, 'grad_norm': 4.056596755981445, 'learning_rate': 0.0, 'epoch': 2.0}
+{'train_runtime': 1792.7915, 'train_samples_per_second': 2.231, 'train_steps_per_second': 0.279, 'train_loss': 0.5302358665466309, 'epoch': 2.0}
+TRAINING DONE -> E:/3005/data/_review/cc_ft_lora\final_adapter

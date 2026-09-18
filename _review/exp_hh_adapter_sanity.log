@@ -1,0 +1,368 @@
+===== infer_text.log =====
+mode text subset 200 todo 200
+device: cuda 72 C
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+model loaded; generation_config: True 1 0.01
+  8/200 ok8 fail0 12.4s/item GPU 85C ETA 39.6min
+  GPU 85C >= 82C, cooling 60s
+  16/200 ok16 fail0 12.2s/item GPU 85C ETA 37.5min
+  GPU 85C >= 82C, cooling 60s
+  24/200 ok24 fail0 11.6s/item GPU 76C ETA 33.9min
+  32/200 ok32 fail0 9.4s/item GPU 77C ETA 26.3min
+  40/200 ok40 fail0 8.3s/item GPU 87C ETA 22.1min
+  GPU 87C >= 82C, cooling 60s
+  48/200 ok48 fail0 8.7s/item GPU 79C ETA 22.0min
+  56/200 ok56 fail0 7.8s/item GPU 79C ETA 18.6min
+  64/200 ok64 fail0 7.1s/item GPU 78C ETA 16.1min
+  72/200 ok72 fail0 6.7s/item GPU 80C ETA 14.2min
+  80/200 ok80 fail0 6.5s/item GPU 87C ETA 13.0min
+  GPU 87C >= 82C, cooling 60s
+  88/200 ok88 fail0 6.7s/item GPU 74C ETA 12.5min
+  96/200 ok96 fail0 6.7s/item GPU 83C ETA 11.6min
+  GPU 83C >= 82C, cooling 60s
+  104/200 ok104 fail0 7.0s/item GPU 77C ETA 11.1min
+  112/200 ok112 fail0 6.7s/item GPU 80C ETA 9.8min
+  120/200 ok120 fail0 6.4s/item GPU 78C ETA 8.5min
+  128/200 ok128 fail0 6.2s/item GPU 84C ETA 7.4min
+  GPU 84C >= 82C, cooling 60s
+  136/200 ok136 fail0 6.5s/item GPU 83C ETA 6.9min
+  GPU 83C >= 82C, cooling 60s
+  144/200 ok144 fail0 6.7s/item GPU 80C ETA 6.2min
+  152/200 ok152 fail0 6.5s/item GPU 82C ETA 5.2min
+  GPU 82C >= 82C, cooling 60s
+  160/200 ok160 fail0 6.7s/item GPU 87C ETA 4.4min
+  GPU 87C >= 82C, cooling 60s
+  168/200 ok168 fail0 6.8s/item GPU 79C ETA 3.6min
+  176/200 ok176 fail0 6.6s/item GPU 82C ETA 2.7min
+  GPU 82C >= 82C, cooling 60s
+  184/200 ok184 fail0 6.9s/item GPU 84C ETA 1.8min
+  GPU 84C >= 82C, cooling 60s
+  192/200 ok192 fail0 7.1s/item GPU 86C ETA 0.9min
+  GPU 86C >= 82C, cooling 60s
+  200/200 ok200 fail0 7.3s/item GPU 84C ETA 0.0min
+  GPU 84C >= 82C, cooling 60s
+done: ok 200 fail 0 25.2 min -> preds_text
+
+===== infer_img.log =====
+mode img subset 100 todo 100
+device: cuda 66 C
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+model loaded; generation_config: True 1 0.01
+  4/100 ok4 fail0 3.2s/item GPU 71C ETA 5.1min
+  8/100 ok8 fail0 3.7s/item GPU 73C ETA 5.7min
+  12/100 ok12 fail0 3.8s/item GPU 74C ETA 5.6min
+  16/100 ok16 fail0 4.2s/item GPU 74C ETA 5.8min
+  20/100 ok20 fail0 4.7s/item GPU 75C ETA 6.3min
+  24/100 ok24 fail0 4.9s/item GPU 75C ETA 6.2min
+  28/100 ok28 fail0 4.6s/item GPU 73C ETA 5.5min
+  32/100 ok32 fail0 4.6s/item GPU 75C ETA 5.2min
+  36/100 ok36 fail0 4.5s/item GPU 74C ETA 4.8min
+  40/100 ok40 fail0 4.9s/item GPU 75C ETA 4.9min
+  44/100 ok44 fail0 5.0s/item GPU 75C ETA 4.6min
+  48/100 ok48 fail0 4.8s/item GPU 74C ETA 4.2min
+  52/100 ok52 fail0 4.8s/item GPU 74C ETA 3.8min
+  56/100 ok56 fail0 4.6s/item GPU 76C ETA 3.4min
+  60/100 ok60 fail0 4.6s/item GPU 76C ETA 3.1min
+  64/100 ok64 fail0 4.6s/item GPU 76C ETA 2.7min
+  68/100 ok68 fail0 4.5s/item GPU 76C ETA 2.4min
+  72/100 ok72 fail0 4.5s/item GPU 75C ETA 2.1min
+  76/100 ok76 fail0 4.6s/item GPU 76C ETA 1.8min
+  80/100 ok80 fail0 4.5s/item GPU 76C ETA 1.5min
+  84/100 ok84 fail0 4.5s/item GPU 76C ETA 1.2min
+  88/100 ok88 fail0 4.5s/item GPU 76C ETA 0.9min
+  92/100 ok92 fail0 4.5s/item GPU 76C ETA 0.6min
+  96/100 ok96 fail0 4.4s/item GPU 76C ETA 0.3min
+  100/100 ok100 fail0 4.5s/item GPU 76C ETA 0.0min
+done: ok 100 fail 0 7.5 min -> preds_img
+
+===== infer_img2.log =====
+mode img subset 200 todo 100
+device: cuda 67 C
+'(ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: c9c3990e-3f00-47ca-a3cc-a41a383908f3)')' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/resolve/main/processor_config.json
+Retrying in 1s [Retry 1/5].
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+model loaded; generation_config: True 1 0.01
+  4/100 ok4 fail0 3.2s/item GPU 73C ETA 5.1min
+  8/100 ok8 fail0 3.2s/item GPU 74C ETA 5.0min
+  12/100 ok12 fail0 3.0s/item GPU 74C ETA 4.4min
+  16/100 ok16 fail0 3.0s/item GPU 73C ETA 4.2min
+  20/100 ok20 fail0 3.3s/item GPU 73C ETA 4.4min
+  24/100 ok24 fail0 3.5s/item GPU 75C ETA 4.4min
+  28/100 ok28 fail0 4.0s/item GPU 76C ETA 4.8min
+  32/100 ok32 fail0 3.9s/item GPU 75C ETA 4.4min
+  36/100 ok36 fail0 3.8s/item GPU 75C ETA 4.1min
+  40/100 ok40 fail0 4.3s/item GPU 76C ETA 4.3min
+  44/100 ok44 fail0 4.2s/item GPU 76C ETA 3.9min
+  48/100 ok48 fail0 4.1s/item GPU 76C ETA 3.5min
+  52/100 ok52 fail0 4.2s/item GPU 76C ETA 3.4min
+  56/100 ok56 fail0 4.3s/item GPU 76C ETA 3.1min
+  60/100 ok60 fail0 4.3s/item GPU 76C ETA 2.9min
+  64/100 ok64 fail0 4.2s/item GPU 74C ETA 2.5min
+  68/100 ok68 fail0 4.2s/item GPU 74C ETA 2.3min
+  72/100 ok72 fail0 4.2s/item GPU 76C ETA 2.0min
+  76/100 ok76 fail0 4.2s/item GPU 76C ETA 1.7min
+  80/100 ok80 fail0 4.3s/item GPU 73C ETA 1.4min
+  84/100 ok84 fail0 4.7s/item GPU 77C ETA 1.3min
+  88/100 ok88 fail0 4.7s/item GPU 76C ETA 0.9min
+  92/100 ok92 fail0 4.6s/item GPU 76C ETA 0.6min
+  96/100 ok96 fail0 4.6s/item GPU 74C ETA 0.3min
+  100/100 ok100 fail0 4.5s/item GPU 75C ETA 0.0min
+done: ok 100 fail 0 7.5 min -> preds_img
+TOPUP_DONE
+
+===== infer_img_qvu010.log =====
+qwen_vl_utils from E:\3005\data\_review\_hh_adapter\pylib_qvu010\qwen_vl_utils\__init__.py
+mode img subset 100 todo 100
+device: cuda 69 C
+'(ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: a48c1328-34a1-460e-a613-049eadd06d7e)')' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/resolve/main/processor_config.json
+Retrying in 1s [Retry 1/5].
+'(ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: 33723dea-0d78-4a72-9398-e5ec4d1d64d2)')' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/resolve/main/processor_config.json
+Retrying in 2s [Retry 2/5].
+'(ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: 1933e266-2298-499e-a3fd-e20b7749dcbd)')' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/resolve/main/preprocessor_config.json
+Retrying in 1s [Retry 1/5].
+'(ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: 5574fdc5-81be-4294-ac40-db74a48440c3)')' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct/resolve/main/preprocessor_config.json
+Retrying in 2s [Retry 2/5].
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+model loaded; generation_config: True 1 0.01
+  4/100 ok4 fail0 2.4s/item GPU 73C ETA 3.9min
+  8/100 ok8 fail0 3.1s/item GPU 74C ETA 4.7min
+  12/100 ok12 fail0 2.9s/item GPU 74C ETA 4.2min
+  16/100 ok16 fail0 2.8s/item GPU 74C ETA 3.9min
+  20/100 ok20 fail0 3.0s/item GPU 74C ETA 4.0min
+  24/100 ok24 fail0 3.1s/item GPU 74C ETA 3.9min
+  28/100 ok28 fail0 3.0s/item GPU 74C ETA 3.6min
+  32/100 ok32 fail0 3.1s/item GPU 71C ETA 3.5min
+  36/100 ok36 fail0 3.0s/item GPU 72C ETA 3.2min
+  40/100 ok40 fail0 2.9s/item GPU 74C ETA 2.9min
+  44/100 ok44 fail0 3.1s/item GPU 74C ETA 2.9min
+  48/100 ok48 fail0 3.0s/item GPU 74C ETA 2.6min
+  52/100 ok52 fail0 3.0s/item GPU 74C ETA 2.4min
+  56/100 ok56 fail0 2.9s/item GPU 74C ETA 2.2min
+  60/100 ok60 fail0 3.2s/item GPU 75C ETA 2.1min
+  64/100 ok64 fail0 3.1s/item GPU 73C ETA 1.9min
+  68/100 ok68 fail0 3.1s/item GPU 74C ETA 1.7min
+  72/100 ok72 fail0 3.1s/item GPU 74C ETA 1.5min
+  76/100 ok76 fail0 3.1s/item GPU 71C ETA 1.2min
+  80/100 ok80 fail0 3.1s/item GPU 71C ETA 1.0min
+  84/100 ok84 fail0 3.0s/item GPU 72C ETA 0.8min
+  88/100 ok88 fail0 3.0s/item GPU 74C ETA 0.6min
+  92/100 ok92 fail0 3.1s/item GPU 68C ETA 0.4min
+  96/100 ok96 fail0 3.0s/item GPU 68C ETA 0.2min
+  100/100 ok100 fail0 3.1s/item GPU 68C ETA 0.0min
+done: ok 100 fail 0 5.2 min -> preds_img_qvu010
+QVU010_DONE
+
+===== eval_text_official.log =====
+conv official files 200 jobs 3
+  25/200
+E:\anzhuang\Miniconda3\envs\cadfit-env\lib\site-packages\trimesh\triangles.py:302: RuntimeWarning: invalid value encountered in divide
+  center_mass = integrated[1:4] / volume
+E:\anzhuang\Miniconda3\envs\cadfit-env\lib\site-packages\trimesh\triangles.py:302: RuntimeWarning: invalid value encountered in divide
+  center_mass = integrated[1:4] / volume
+  50/200
+E:\anzhuang\Miniconda3\envs\cadfit-env\lib\site-packages\trimesh\triangles.py:302: RuntimeWarning: invalid value encountered in divide
+  center_mass = integrated[1:4] / volume
+  75/200
+  100/200
+  125/200
+  150/200
+  175/200
+  200/200
+{
+ "n": 200,
+ "n_valid_cd": 194,
+ "n_valid_iou": 191,
+ "mean_iou_pct": 82.47956167309574,
+ "median_cd_x1000": 0.19378541893015724,
+ "ir_pct": 3.0,
+ "ir_iou_pct": 4.5,
+ "mean_cd_x1000_skip": {
+  "0": 4.636921842048498,
+  "1": 3.9863500090654354,
+  "2": 3.398272102400336,
+  "3": 2.9134013140194326,
+  "4": 2.471636946767114
+ },
+ "iou_median_pct": 97.20805493239779,
+ "iou_std_pct": 29.458922996437785,
+ "cd_x1000_mean": 4.636921842048497,
+ "cd_x1000_p25": 0.11205848354686247,
+ "cd_x1000_p75": 0.4367067702688882,
+ "executed_pct": 97.0,
+ "iou_ge_0.9_pct": 70.68062827225131,
+ "iou_ge_0.5_pct": 84.29319371727748,
+ "n_timeout": 0,
+ "eval_seconds": 25.9
+}
+
+===== eval_text_ours.log =====
+conv ours files 200 jobs 3
+  25/200
+  50/200
+  75/200
+  100/200
+  125/200
+  150/200
+  175/200
+  200/200
+{
+ "n": 200,
+ "valid_pct": 97.0,
+ "chamfer_mean": 0.03797853355081629,
+ "chamfer_median": 0.017144315986346317,
+ "fscore_mean": 0.8675472718634389,
+ "op_type_recall_mean": 0.9899999999999999,
+ "op_count_recall_mean": 0.9623971810867243,
+ "op_exact_pct": 90.25641025641026,
+ "n_with_gt_program": 195,
+ "status_counts": {
+  "ok": 194,
+  "exec_error": 6
+ },
+ "n_timeout": 0,
+ "eval_seconds": 10.7
+}
+EVAL_TEXT_DONE
+
+===== eval_img_official.log =====
+conv official files 200 jobs 3
+E:\anzhuang\Miniconda3\envs\cadfit-env\lib\site-packages\trimesh\triangles.py:302: RuntimeWarning: invalid value encountered in divide
+  center_mass = integrated[1:4] / volume
+E:\anzhuang\Miniconda3\envs\cadfit-env\lib\site-packages\trimesh\triangles.py:302: RuntimeWarning: invalid value encountered in divide
+  center_mass = integrated[1:4] / volume
+E:\anzhuang\Miniconda3\envs\cadfit-env\lib\site-packages\trimesh\triangles.py:302: RuntimeWarning: invalid value encountered in divide
+  center_mass = integrated[1:4] / volume
+  25/200
+  50/200
+  75/200
+  100/200
+  125/200
+  150/200
+  175/200
+  200/200
+{
+ "n": 200,
+ "n_valid_cd": 192,
+ "n_valid_iou": 190,
+ "mean_iou_pct": 39.10189409330926,
+ "median_cd_x1000": 4.91147292474103,
+ "ir_pct": 4.0,
+ "ir_iou_pct": 5.0,
+ "mean_cd_x1000_skip": {
+  "0": 7.579622610755341,
+  "1": 7.285298444930464,
+  "2": 7.018935115440551,
+  "3": 6.833524958200959,
+  "4": 6.676460560638251
+ },
+ "iou_median_pct": 40.04211732620097,
+ "iou_std_pct": 28.211500426849685,
+ "cd_x1000_mean": 7.57962261075534,
+ "cd_x1000_p25": 1.8894239272237863,
+ "cd_x1000_p75": 9.94845868376629,
+ "executed_pct": 96.0,
+ "iou_ge_0.9_pct": 2.1052631578947367,
+ "iou_ge_0.5_pct": 41.05263157894737,
+ "n_timeout": 0,
+ "eval_seconds": 14.4
+}
+
+===== eval_img_ours.log =====
+conv ours files 200 jobs 3
+  25/200
+  50/200
+  75/200
+  100/200
+  125/200
+  150/200
+  175/200
+  200/200
+{
+ "n": 200,
+ "valid_pct": 95.5,
+ "chamfer_mean": 0.08467632431845676,
+ "chamfer_median": 0.0759437632552282,
+ "fscore_mean": 0.40161388672137327,
+ "op_type_recall_mean": 0.8771701388888888,
+ "op_count_recall_mean": 0.7659711826763381,
+ "op_exact_pct": 15.625,
+ "n_with_gt_program": 193,
+ "status_counts": {
+  "ok": 191,
+  "exec_error": 7,
+  "syntax_error": 1,
+  "invalid_geom": 1
+ },
+ "n_timeout": 0,
+ "eval_seconds": 9.9
+}
+
+===== eval_img_qvu010_official.log =====
+conv official files 100 jobs 3
+E:\anzhuang\Miniconda3\envs\cadfit-env\lib\site-packages\trimesh\triangles.py:302: RuntimeWarning: invalid value encountered in divide
+  center_mass = integrated[1:4] / volume
+  25/100
+  50/100
+  75/100
+E:\anzhuang\Miniconda3\envs\cadfit-env\lib\site-packages\trimesh\triangles.py:302: RuntimeWarning: invalid value encountered in divide
+  center_mass = integrated[1:4] / volume
+  100/100
+{
+ "n": 100,
+ "n_valid_cd": 99,
+ "n_valid_iou": 99,
+ "mean_iou_pct": 86.18849193186195,
+ "median_cd_x1000": 0.1720146684761146,
+ "ir_pct": 1.0,
+ "ir_iou_pct": 1.0,
+ "mean_cd_x1000_skip": {
+  "0": 1.2936854020407926,
+  "1": 1.0033394664958384,
+  "2": 0.7095146271460633,
+  "3": 0.49906497595789523,
+  "4": 0.4044282800993331
+ },
+ "iou_median_pct": 95.00277821442636,
+ "iou_std_pct": 19.547250041830527,
+ "cd_x1000_mean": 1.2936854020407929,
+ "cd_x1000_p25": 0.11112128739313269,
+ "cd_x1000_p75": 0.2826767276430506,
+ "executed_pct": 99.0,
+ "iou_ge_0.9_pct": 64.64646464646465,
+ "iou_ge_0.5_pct": 92.92929292929293,
+ "n_timeout": 0,
+ "eval_seconds": 6.5
+}
+
+===== eval_img_qvu010_ours.log =====
+conv ours files 100 jobs 3
+  25/100
+  50/100
+  75/100
+  100/100
+{
+ "n": 100,
+ "valid_pct": 99.0,
+ "chamfer_mean": 0.02130638951996315,
+ "chamfer_median": 0.01668905540138661,
+ "fscore_mean": 0.9431390432961492,
+ "op_type_recall_mean": 0.5850515463917526,
+ "op_count_recall_mean": 0.4547632787474585,
+ "op_exact_pct": 25.773195876288657,
+ "n_with_gt_program": 97,
+ "status_counts": {
+  "ok": 99,
+  "exec_error": 1
+ },
+ "n_timeout": 0,
+ "eval_seconds": 5.6
+}
+
+===== qvu_grid_check.log =====
+transformers 4.50.3 | cadrec_env qwen-vl-utils 0.0.14 | Dockerfile pins qwen-vl-utils==0.0.10, transformers==4.50.3
+composite image (268, 268)
+qwen-vl-utils 0.0.14: process_vision_info -> tensor (2, 3, 336, 336); collate -> video_grid_thw [[1, 24, 24]], pixel_values_videos (1, 576, 1176), video tokens 144, input_ids 169
+qwen-vl-utils 0.0.10: process_vision_info -> list of 2 PIL (280, 280); collate -> video_grid_thw [[1, 20, 20]], pixel_values_videos (1, 400, 1176), video tokens 100, input_ids 125
+
+===== conclusion =====
+TEXT (Text2CAD test, n=200): IoU 82.5% / median CD 0.19 / IR 3.0% vs paper Tab. 1 82.1 / 0.20 / 1.4 -> reproduces the paper within IoU +-5 pp, IR <= +3 pp, CD +-0.1 (our convention: validity 97.0%, bbox-Chamfer 0.038, F 0.868, op-type recall 0.99; on ComplexCAD the same branch gave 89.2% / 0.422 / 0.044 / 0.23). The text adapter is intact; the ComplexCAD text result is a domain gap. IMAGES (DeepCAD test): with the venv's qwen-vl-utils 0.0.14 (n=200) IoU 39.1% / CD 4.91 / IR 4.0% (validity 95.5%, bbox-Chamfer 0.085, F 0.402); with the Dockerfile-pinned qwen-vl-utils 0.0.10 (n=100) IoU 86.2% / CD 0.17 / IR 1.0% (validity 99.0%, bbox-Chamfer 0.021, F 0.943) vs paper 86.1 / 0.18 / 1.5 -> reproduces the paper under the same tolerance. The image adapter is intact once the pinned qwen-vl-utils is used; our ComplexCAD image-mode rows were run with the mismatched 144-token grid and mix a tokenisation mismatch with the render-style domain gap, so they should be re-run with 0.0.10 before being interpreted.

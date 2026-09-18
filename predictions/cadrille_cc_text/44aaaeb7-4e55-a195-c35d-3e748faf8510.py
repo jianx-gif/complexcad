@@ -1,0 +1,26 @@
+import cadquery as cq
+clip_width = 80.0
+clip_height = 30.0
+clip_thickness = 2.0
+mount_hole_dia = 4.0
+mount_spacing = 20.0
+pocket_width = 12.0
+pocket_height = 15.0
+pocket_depth = 1.5
+rib_width = 6.0
+rib_height = clip_height - 2 * rib_offset
+rib_offset = 4.0
+edge_roll_radius = 1.0
+corner_radius = 1.0
+corner_height = clip_thickness
+base = cq.Workplane("XY").rect(clip_width, clip_height).extrude(clip_thickness)
+base = base.edges("|Z").fillet(edge_roll_radius)
+base = base.edges("|Z").fillet(edge_roll_radius)
+base = base.faces(">Z").workplane().center(0, 0).rect(pocket_width, pocket_height).cutBlind(pocket_depth)
+base = base.faces(">Z").workplane().center(0, corner_height/2).circle(mount_hole_dia/2).cutBlind(pocket_depth)
+base = base.faces(">Z").workplane().center(0, corner_height/2).circle(mount_hole_dia/2).cutBlind(pocket_depth)
+base = base.faces(">Z").workplane().center(0, corner_height/2).rect(pocket_width, pocket_height).cutBlind(pocket_depth)
+base = base.faces(">Z").workplane().center(0, corner_height/2).circle(corner_radius).cutBlind(corner_height)
+base = base.faces(">Z").workplane().center(0, corner_height/2).circle(corner_radius).cutBlind(corner_height)
+base = base.faces(">Z").edges().fillet(edge_roll_radius)
+result = base

@@ -1,0 +1,17 @@
+待评 400 件 (method=cadrille_img_text_qvu010, self_test=False, jobs=4)
+  50/400  14.8件/s
+  100/400  21.7件/s
+  150/400  25.3件/s
+  200/400  27.0件/s
+  250/400  28.8件/s
+  300/400  30.4件/s
+  350/400  31.3件/s
+  400/400  32.1件/s
+状态分布: {'ok': 334, 'exec_error': 59, 'invalid_geom': 3, 'syntax_error': 4}
+
+===== 方法 [cadrille_img_text_qvu010] 汇总 (n=400) =====
+  ALL       N=400  valid=83.5%  CD=0.2875  F=0.097  opType=0.26 opCount=0.24 exact=0.0%
+  simple    N=200  valid=79.0%  CD=0.3124  F=0.087  opType=0.29 opCount=0.26 exact=0.0%
+  complex   N=200  valid=88.0%  CD=0.2652  F=0.106  opType=0.24 opCount=0.22 exact=0.0%
+
+每件指标 -> E:\3005\data\1m_Convert\precision_report\pred_metrics_cadrille_img_text_qvu010.jsonl  用时 0.2min

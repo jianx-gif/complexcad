@@ -1,0 +1,20 @@
+import cadquery as cq
+outer_diameter = 60.0
+inner_diameter = 30.0
+wall_thickness = 2.0
+rib_width = 12.0
+rib_height = 12.0
+rib_thickness = 2.0
+rib_spacing = 12.0
+chamfer_size = 0.5
+base = cq.Workplane('XY').circle(outer_diameter/2).extrude(outer_diameter/2)
+inner_cyl = cq.Workplane('XY').circle(inner_diameter/2).extrude(outer_diameter/2)
+rib = base.cut(inner_cyl)
+rib = rib.edges().chamfer(chamfer_size)
+rib = rib.edges().chamfer(chamfer_size)
+rib = rib.faces('>Z').workplane().hole(rib_width)
+rib = rib.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_thickness)
+rib = rib.edges('>Z').fillet(inner_diameter/2)
+rib = rib.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_thickness)
+rib = rib.edges('>Z').chamfer(chamfer_size)
+result = rib

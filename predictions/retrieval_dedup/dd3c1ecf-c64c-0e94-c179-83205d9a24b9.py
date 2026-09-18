@@ -1,0 +1,24 @@
+import cadquery as cq
+panel_width = 80.0
+panel_height = 60.0
+panel_thickness = 4.0
+rib_height = 2.0
+rib_thickness = 5.0
+hole_diameter = 4.0
+hole_depth = 2.5
+cols = 4
+rows = 4
+margin = 10.0
+slot_width = 4.0
+slot_length = 15.0
+slot_count = 3
+chamfer_size = 0.5
+hole_spacing_x = (panel_width - 2 * margin) / (cols - 1)
+hole_spacing_y = (panel_height - 2 * margin) / (rows - 1)
+slot_spacing_y = (panel_height - 2 * margin) / (slot_count - 1)
+base = cq.Workplane("XY").box(panel_width, panel_height, panel_thickness)
+rib = base.faces(">Z").workplane().center(0, panel_height/2 - rib_thickness/2).rect(panel_width, rib_thickness).extrude(rib_height)
+panel = base.union(rib)
+panel = panel.faces(">Z").workplane().rarray(hole_spacing_x, hole_spacing_y, cols, rows).circle(hole_diameter/2).extrude(-hole_depth)
+panel = panel.faces("<X").workplane().center(0, -panel_height/2 + margin + slot_length/2).rarray(0, slot_spacing_y, 1, slot_count).rect(slot_width, slot_length).cutThruAll()
+result = panel.edges("|Z").chamfer(chamfer_size)

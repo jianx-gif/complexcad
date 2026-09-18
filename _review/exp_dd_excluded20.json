@@ -1,0 +1,247 @@
+{
+ "reasons": {
+  "passes all three now": 20
+ },
+ "records": {
+  "4b3aaa7b-f278-fc6a-8f9f-28fd4893be76": {
+   "ok": true,
+   "probe": {
+    "faces": 14,
+    "solids": 1,
+    "shells": 1,
+    "volume": 52927.541,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 14
+  },
+  "5c6512ae-9182-fc5e-05b1-b23c3735d060": {
+   "ok": true,
+   "probe": {
+    "faces": 50,
+    "solids": 1,
+    "shells": 1,
+    "volume": 23756.913,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 50
+  },
+  "2fa60e76-7029-3120-6d34-4529cc05a6bf": {
+   "ok": true,
+   "probe": {
+    "faces": 35,
+    "solids": 1,
+    "shells": 1,
+    "volume": 31361.314,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 35
+  },
+  "1c6285b8-7c3a-bc10-b984-0f3a0f7f38b8": {
+   "ok": true,
+   "probe": {
+    "faces": 25,
+    "solids": 1,
+    "shells": 1,
+    "volume": 29557.869,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 25
+  },
+  "ccc2d776-e9bf-e4e0-0f9a-0da759e0ef34": {
+   "ok": true,
+   "probe": {
+    "faces": 13,
+    "solids": 1,
+    "shells": 1,
+    "volume": 38917.148,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 13
+  },
+  "39414290-f1d4-cc92-ad6b-6c6e221eded2": {
+   "ok": true,
+   "probe": {
+    "faces": 32,
+    "solids": 1,
+    "shells": 1,
+    "volume": 55407.165,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 32
+  },
+  "14278c95-2fed-2ff8-548b-98d9058367bf": {
+   "ok": true,
+   "probe": {
+    "faces": 23,
+    "solids": 1,
+    "shells": 1,
+    "volume": 109044.083,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 23
+  },
+  "23b17171-a2a4-425d-d9ba-74b54fb0e72e": {
+   "ok": true,
+   "probe": {
+    "faces": 33,
+    "solids": 1,
+    "shells": 9,
+    "volume": 65701.436,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 33
+  },
+  "93588704-84f8-6593-4b53-ccc52dda884a": {
+   "ok": true,
+   "probe": {
+    "faces": 62,
+    "solids": 1,
+    "shells": 1,
+    "volume": 58744.292,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 62
+  },
+  "91a61ff4-27bb-023b-8b21-4e9c8f69b68d": {
+   "ok": true,
+   "probe": {
+    "faces": 28,
+    "solids": 1,
+    "shells": 1,
+    "volume": 81372.078,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 28
+  },
+  "1247bc11-e7ce-d5dd-b8cd-284a76b8461d": {
+   "ok": true,
+   "probe": {
+    "faces": 42,
+    "solids": 1,
+    "shells": 1,
+    "volume": 32613.149,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 42
+  },
+  "c31ecb0e-76e2-b082-836b-d83d1a06d671": {
+   "ok": true,
+   "probe": {
+    "faces": 8,
+    "solids": 1,
+    "shells": 1,
+    "volume": 28124.577,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 8
+  },
+  "2db27d13-dcf2-498a-8666-ccd6574b42d9": {
+   "ok": true,
+   "probe": {
+    "faces": 7,
+    "solids": 1,
+    "shells": 1,
+    "volume": 6603.272,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 7
+  },
+  "836a21ae-f744-b0da-9637-182cd343f9c5": {
+   "ok": true,
+   "probe": {
+    "faces": 31,
+    "solids": 1,
+    "shells": 1,
+    "volume": 59479.292,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 31
+  },
+  "cac4adfb-5ab3-2484-e80e-204090df5364": {
+   "ok": true,
+   "probe": {
+    "faces": 11,
+    "solids": 1,
+    "shells": 1,
+    "volume": 7484.02,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 11
+  },
+  "db1f6648-5a1b-3b20-cc9b-bdea77b25edd": {
+   "ok": true,
+   "probe": {
+    "faces": 48,
+    "solids": 1,
+    "shells": 1,
+    "volume": 20489.325,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 48
+  },
+  "78e99d93-0975-5423-c29a-318e55f23bec": {
+   "ok": true,
+   "probe": {
+    "faces": 35,
+    "solids": 1,
+    "shells": 1,
+    "volume": 38227.287,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 35
+  },
+  "661ef472-77ba-dcf9-f2e8-a0e14730ee20": {
+   "ok": true,
+   "probe": {
+    "faces": 33,
+    "solids": 1,
+    "shells": 1,
+    "volume": 51830.761,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 33
+  },
+  "0bd8477c-4f30-a97d-382b-08f5683c84b3": {
+   "ok": true,
+   "probe": {
+    "faces": 33,
+    "solids": 1,
+    "shells": 1,
+    "volume": 201785.42,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 33
+  },
+  "d8e51a85-8c2b-e7f1-7a63-989f87912015": {
+   "ok": true,
+   "probe": {
+    "faces": 27,
+    "solids": 1,
+    "shells": 1,
+    "volume": 126464.947,
+    "brepcheck": true
+   },
+   "reason": "passes all three now",
+   "upstream_faces": 27
+  }
+ }
+}

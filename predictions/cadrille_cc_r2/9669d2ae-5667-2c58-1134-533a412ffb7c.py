@@ -1,0 +1,22 @@
+import cadquery as cq
+outer_radius = 45.0
+inner_radius = 20.0
+wall_thickness = 5.0
+inner_radius = outer_radius - wall_thickness
+inner_radius = inner_radius - wall_thickness
+inner_radius = inner_radius - wall_thickness
+inner_radius = inner_radius - wall_thickness
+inner_radius = inner_radius - wall_thickness
+inner_radius = inner_radius - wall_thickness
+inner_radius = inner_radius - wall_thickness
+inner_radius = inner_radius - inner_radius
+inner_radius = inner_radius - inner_radius
+inner_radius = inner_radius - inner_radius
+inner = cq.Workplane('XY').circle(inner_radius).extrude(inner_radius)
+inner = cq.Workplane('XY').circle(inner_radius).extrude(inner_radius).translate((inner_radius, 0, 0))
+inner = cq.Workplane('XY').circle(inner_radius).extrude(inner_radius).translate((inner_radius, 0, 0))
+result = inner.union(inner)
+result = result.edges().chamfer(outer_radius)
+result = result.faces('>Z').workplane().circle(inner_radius).cutBlind(-inner_radius)
+result = result.faces('>Z').workplane().circle(inner_radius).cutBlind(-inner_radius).cutBlind(-inner_radius).translate((inner_radius, 0, 0))
+result = result.faces('>Z').workplane().circle(inner_radius).cutBlind(-inner_radius).cutBlind(-inner_radius).translate((inner_radius, 0, 0))

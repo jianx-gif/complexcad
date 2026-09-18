@@ -1,0 +1,13 @@
+parts = [base]
+parts.append(place(fastener("washer", 'M4', 0), axis=(0, 0, 1), point=(-30.5, -10.5, 0), seat=5, flip=False))
+parts.append(place(fastener("screw", 'M4-0.7', 16, 0), axis=(0, 0, 1), point=(-30.5, -10.5, 0), seat=5.9, flip=False))
+parts.append(place(fastener("nut", 'M4-0.7', 'M4', 0), axis=(0, 0, 1), point=(-30.5, -10.5, 0), seat=-5, flip=True))
+parts.append(place(fastener("washer", 'M4', 1), axis=(0, 0, 1), point=(30.5, -10.5, 0), seat=5, flip=False))
+parts.append(place(fastener("screw", 'M4-0.7', 16, 1), axis=(0, 0, 1), point=(30.5, -10.5, 0), seat=5.9, flip=False))
+parts.append(place(fastener("nut", 'M4-0.7', 'M4', 1), axis=(0, 0, 1), point=(30.5, -10.5, 0), seat=-5, flip=True))
+parts.append(place(fastener("washer", 'M4', 2), axis=(0, 0, 1), point=(-30.5, 10.5, 0), seat=5, flip=False))
+parts.append(place(fastener("screw", 'M4-0.7', 16, 2), axis=(0, 0, 1), point=(-30.5, 10.5, 0), seat=5.9, flip=False))
+parts.append(place(fastener("nut", 'M4-0.7', 'M4', 2), axis=(0, 0, 1), point=(-30.5, 10.5, 0), seat=-5, flip=True))
+parts.append(place(fastener("washer", 'M4', 3), axis=(0, 0, 1), point=(30.5, 10.5, 0), seat=5, flip=False))
+parts.append(place(fastener("screw", 'M4-0.7', 16, 3), axis=(0, 0, 1), point=(30.5, 10.5, 0), seat=5.9, flip=False))
+parts.append(place(fastener("nut", 'M4-0.7', 'M4', 3), axis=(0, 0, 1), point=(30.5, 10.5, 0), seat=-5, flip=True))

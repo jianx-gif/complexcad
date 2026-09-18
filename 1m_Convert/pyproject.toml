@@ -1,0 +1,82 @@
+# complexcad-koor: installable packaging of the thesis toolchain in koor/.
+#
+# Nothing is moved. The package "koor" is this directory's koor/ folder and the
+# drawing/annotation core modules that the scripts import by bare name
+# (match, make_drawings, augment_data, ...) stay where they are, one level up
+# in the repository root (E:\3005\data), declared here as py-modules via
+# package-dir "" -> "..". Every script is still runnable as
+# "python koor/<script>.py" exactly as it was when the thesis results were made.
+#
+#   pip install -e .              # editable install (recommended)
+#   koor --help                   # CLI (see koor/cli.py)
+#   python -m pytest tests -q     # unit tests (no dataset needed)
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "complexcad-koor"
+version = "1.0.0"
+description = "ComplexCAD/koor thesis toolchain: quantised-coordinate CadQuery conversion, drawing generation and modelling-precision evaluation, with a CLI"
+readme = "README_KOOR_PIPELINE.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Jian Xiong" }]
+keywords = ["cadquery", "cad", "dataset", "engineering-drawing", "quantization"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+]
+# Core requirement of the CLI, config and logging layer only. The heavy
+# geometry / conversion stacks are optional extras so that
+# "pip install -e ." works in a minimal environment (the CLI still lists and
+# documents every subcommand; a script that needs a missing extra fails at
+# the same import it always failed at).
+dependencies = [
+    "numpy",
+    "tomli; python_version < '3.11'",
+]
+
+[project.optional-dependencies]
+geometry = ["cadquery", "trimesh", "matplotlib", "ezdxf", "scipy", "psutil"]
+convert = ["pyarrow", "huggingface_hub"]
+test = ["pytest"]
+
+[project.scripts]
+koor = "koor.cli:main"
+
+[project.urls]
+Documentation = "README_KOOR_PIPELINE.md"
+
+[tool.setuptools]
+# Explicit lists: no auto-discovery of the many loose helper scripts in this
+# directory or in the repository root.
+packages = ["koor"]
+py-modules = [
+    "annotate",
+    "augment_data",
+    "drawing",
+    "iso_knowledge",
+    "make_drawings",
+    "match",
+    "params",
+    "projlib",
+]
+include-package-data = false
+
+[tool.setuptools.package-dir]
+# "" (top-level modules above) live in the repository root one level up;
+# the koor package itself lives here.
+"" = ".."
+"koor" = "koor"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# Lets the tests import koor and the root modules straight from the checkout
+# even before "pip install -e ." has been run.
+pythonpath = [".", ".."]
+addopts = "-ra"

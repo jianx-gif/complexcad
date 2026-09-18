@@ -1,0 +1,49 @@
+import cadquery as cq
+
+outer_length = 80.0
+outer_width = 60.0
+wall_thickness = 5.0
+wall_thickness = 3.0
+wall_thickness = 4.0
+wall_thickness = 2.0
+wall_thickness = 3.0
+wall_thickness = 2.0
+wall_thickness = 4.0
+wall_thickness = 1.0
+wall_thickness = 2.0
+hole_radius = 0.5
+hole_radius = 0.5
+hole_radius = 0.5
+hole_radius = 0.5
+hole_radius = 0.5
+hole_radius = 0.5
+hole_radius = 0.5
+hole_radius = 0.5
+hole_radius = 0.5
+hole_radius = 0.5
+hole_radius = 0.5
+hole_radius = 0.5
+hole_radius = 0.5
+hole_offset = cq.Workplane('YZ')
+hole_offset =outer_length/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall
+hole_positions = 0.5
+
+hole_positions = 0.5
+
+hole_offset = 0.5
+hole_offset = cq.Workplane('XY')
+solid = cq.Workplane('XY')
+solid = solid.shell(-wall_thickness)
+solid = hollow_wall_length - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall
+solid = cq.Workplane('XY').circle(hole_diameter / 2).extrude(-wall_thickness)
+solid = solid.edges('|Z').translate((0, 0)
+solid = solid.edges("|Z').translate((0, 0)
+solid = solid.edges('|Z').translate((0, 0).shell(-wall_thickness)
+solid = solid.edges('|Z').translate((0, 0).shell(-wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall_thickness/2 - wall
+solid = cq.Workplane('YZ').circle(hole_diameter / 2).extrude(-wall_thickness)
+solid = solid.edges("|Z').translate((0, 0)
+solid = solid.edges("|Z').translate((0, 0).shell(-wall_thickness/2)
+solid = solid.edges("|Z').translate((0, 0).shell(-wall_thickness/2)
+solid = solid.edges(">Z').translate((0, 0).solid)
+solid = solid.edges("|Z').translate((0, 0).solid)
+solid = solid.edges("|Z').translate((0, 0).solid)

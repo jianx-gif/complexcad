@@ -1,0 +1,85 @@
+import cadquery as cq
+import math
+outer_diameter = 80.0
+inner_diameter = 30.0
+thickness = 10.0
+rib_height = 5.0
+rib_width = 6.0
+rib_thickness = 2.0
+rib_spacing = 15.0
+chamfer_distance = 0.5
+hole_diameter = 4.0
+hole_spacing = 20.0
+hole_offset = 10.0
+base = (
+    cq.Workplane("XY")
+    .circle(outer_diameter / 2)
+    .extrude(thickness)
+)
+rib = (
+    cq.Workplane("XY")
+    .circle(outer_diameter / 2)
+    .extrude(thickness)
+)
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib

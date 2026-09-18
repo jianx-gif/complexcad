@@ -1,0 +1,1811 @@
+[
+ {
+  "name": "265d6c2c-26ea-e877-16a8-34dbcf8932c8__M5_socket__asm",
+  "exec": true,
+  "n_solids": 16,
+  "gt_bodies": 16,
+  "n_gt": 15,
+  "n_pred": 15,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "887dd0ba-0e1a-6aaf-f5c9-1b1de3faac6b__M4_socket__asm",
+  "exec": true,
+  "n_solids": 7,
+  "gt_bodies": 7,
+  "n_gt": 6,
+  "n_pred": 6,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "a8d1e7c9-5826-420e-a9f5-02f1d224bb28__M4_socket__asm",
+  "exec": true,
+  "n_solids": 2,
+  "gt_bodies": 2,
+  "n_gt": 1,
+  "n_pred": 1,
+  "pos_err": [
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "a8d1e7c9-5826-420e-a9f5-02f1d224bb28__M8_socket__asm",
+  "exec": true,
+  "n_solids": 2,
+  "gt_bodies": 2,
+  "n_gt": 1,
+  "n_pred": 1,
+  "pos_err": [
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "0cfc60c6-f216-bc2d-42ac-a3705b4da586__M5_socket__asm",
+  "exec": true,
+  "n_solids": 8,
+  "gt_bodies": 8,
+  "n_gt": 7,
+  "n_pred": 7,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "17b89b50-ff75-a71e-320a-4810ce442680__M4_socket__asm",
+  "exec": true,
+  "n_solids": 10,
+  "gt_bodies": 10,
+  "n_gt": 9,
+  "n_pred": 9,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "4b0fb95f-8427-f878-7dbd-f0d2f77d5d71__M4_socket__asm",
+  "exec": true,
+  "n_solids": 9,
+  "gt_bodies": 9,
+  "n_gt": 8,
+  "n_pred": 8,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "2a33462f-6d49-7e1f-fb3a-e3f726b224bc__M4_socket__asm",
+  "exec": true,
+  "n_solids": 3,
+  "gt_bodies": 3,
+  "n_gt": 2,
+  "n_pred": 2,
+  "pos_err": [
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "7cc01ac0-b310-b587-8c23-f4e417b08e8c__M5_socket__asm",
+  "exec": true,
+  "n_solids": 7,
+  "gt_bodies": 7,
+  "n_gt": 6,
+  "n_pred": 6,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "eb75041d-fbf4-cae7-cd04-ba069d49a2e4__M4_socket__asm",
+  "exec": true,
+  "n_solids": 4,
+  "gt_bodies": 4,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "bf34658d-f636-f95e-6621-d8074e5fe609__M4_socket__asm",
+  "exec": true,
+  "n_solids": 25,
+  "gt_bodies": 25,
+  "n_gt": 24,
+  "n_pred": 24,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "52e16721-514_c66bb8e4-19b__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "52e16721-514_d4ade9b5-504__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "68858e89-e8c5-1a3d-5352-c4c5e038204f__M4_socket__asm",
+  "exec": true,
+  "n_solids": 7,
+  "gt_bodies": 7,
+  "n_gt": 6,
+  "n_pred": 6,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "4937fc00-a7e1-6a0a-c480-a085032c6bdc__M4_socket__asm",
+  "exec": true,
+  "n_solids": 9,
+  "gt_bodies": 9,
+  "n_gt": 8,
+  "n_pred": 8,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "1477d6da-52a4-0a94-9d83-0cfbfd8ff5c0__M4_socket__asm",
+  "exec": true,
+  "n_solids": 15,
+  "gt_bodies": 15,
+  "n_gt": 14,
+  "n_pred": 14,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "68c02de7-36ab-6f58-c655-d9afa8df21d4__M4_socket__asm",
+  "exec": true,
+  "n_solids": 4,
+  "gt_bodies": 4,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "a066e54c-8d3_a8d94f33-e85__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "a066e54c-8d3_e61d1c61-9be__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "a8d94f33-e85_7a9be667-25e__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "c0251ade-11c_a066e54c-8d3__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "e61d1c61-9be_7a9be667-25e__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "ee65ef19-760_c0251ade-11c__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "90c69207-7f2_592a8bbc-1d9__M10__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "f7916ef7-e4f0-d6bb-cfaf-6c9045ced799__M4_socket__asm",
+  "exec": true,
+  "n_solids": 4,
+  "gt_bodies": 4,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "70b2dc2b-b1d_99d3b65f-693__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "82fd1889-992f-efaa-9af1-665cc2d8ef46__M8_socket__asm",
+  "exec": true,
+  "n_solids": 2,
+  "gt_bodies": 2,
+  "n_gt": 1,
+  "n_pred": 1,
+  "pos_err": [
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "0d152110-a06d-7dfc-426d-9d6151d85018__M4_socket__asm",
+  "exec": true,
+  "n_solids": 19,
+  "gt_bodies": 19,
+  "n_gt": 18,
+  "n_pred": 18,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "fead716e-f74c-67a5-3c72-db74639d7085__M8_socket__asm",
+  "exec": true,
+  "n_solids": 4,
+  "gt_bodies": 4,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "78e99d93-0975-5423-c29a-318e55f23bec__M8_socket__asm",
+  "exec": true,
+  "n_solids": 4,
+  "gt_bodies": 4,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "b4a86967-d42_a78db056-c18__M10__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "747a5d03-1441-ea5c-b826-25ba7b4f8521__M4_socket__asm",
+  "exec": true,
+  "n_solids": 4,
+  "gt_bodies": 4,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "e141c4b4-9cae-412e-75ce-a0c9e3e24b2a__M5_socket__asm",
+  "exec": true,
+  "n_solids": 13,
+  "gt_bodies": 13,
+  "n_gt": 12,
+  "n_pred": 12,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "42ec9687-a8c4-f738-df75-55efdc72301e__M8_socket__asm",
+  "exec": true,
+  "n_solids": 4,
+  "gt_bodies": 4,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "a70bff8b-8a94-b270-5ef3-17446f75809a__M3_socket__asm",
+  "exec": true,
+  "n_solids": 25,
+  "gt_bodies": 25,
+  "n_gt": 24,
+  "n_pred": 24,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "4d481752-0fde-4280-660e-bb70286e26c2__M4_socket__asm",
+  "exec": true,
+  "n_solids": 7,
+  "gt_bodies": 7,
+  "n_gt": 6,
+  "n_pred": 6,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "d281a14e-f1bd-0d46-e42f-88b0af6e93c0__M3_socket__asm",
+  "exec": true,
+  "n_solids": 17,
+  "gt_bodies": 17,
+  "n_gt": 16,
+  "n_pred": 16,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "120c42be-f54b-fc7b-d1e2-33eea42a6105__M4_socket__asm",
+  "exec": true,
+  "n_solids": 7,
+  "gt_bodies": 7,
+  "n_gt": 6,
+  "n_pred": 6,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "10122bf9-ab45-0ee0-6d56-7c587d1ddc15__M3_socket__asm",
+  "exec": true,
+  "n_solids": 10,
+  "gt_bodies": 10,
+  "n_gt": 9,
+  "n_pred": 9,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "aa37eeae-6100-c3be-c019-af4f73720735__M3_socket__asm",
+  "exec": true,
+  "n_solids": 7,
+  "gt_bodies": 7,
+  "n_gt": 6,
+  "n_pred": 6,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "aa37eeae-610_10122bf9-ab4__M3__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "86ce2e54-4da7-faad-3048-e1fc15c8c467__M4_socket__asm",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 4,
+  "n_pred": 4,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "e9ae4f58-4eac-5b2b-885f-799c40cc74fe__M5_socket__asm",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 4,
+  "n_pred": 4,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "47497938-f1b_191d274d-437__M10__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "5d5f13a4-7d3_191d274d-437__M10__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "7280b782-ef2d-d218-0adc-13085842bdd5__M5_socket__asm",
+  "exec": true,
+  "n_solids": 3,
+  "gt_bodies": 3,
+  "n_gt": 2,
+  "n_pred": 2,
+  "pos_err": [
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "84574ada-9bda-8273-cce7-1fefe58e1b9b__M3_socket__asm",
+  "exec": true,
+  "n_solids": 25,
+  "gt_bodies": 25,
+  "n_gt": 24,
+  "n_pred": 24,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "72bfdb52-d62_f213cf1d-a96__M3__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "f213cf1d-a96_84574ada-9bd__M3__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "556ffeb5-03b4-c086-99a6-a6539a94d9a2__M4_socket__asm",
+  "exec": true,
+  "n_solids": 10,
+  "gt_bodies": 10,
+  "n_gt": 9,
+  "n_pred": 9,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "9927b07e-c25f-0fa6-5ea5-342efee5d485__M5_socket__asm",
+  "exec": true,
+  "n_solids": 7,
+  "gt_bodies": 7,
+  "n_gt": 6,
+  "n_pred": 6,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "8a210270-8227-a7c1-ae36-3f3f7752e3a1__M5_socket__asm",
+  "exec": true,
+  "n_solids": 25,
+  "gt_bodies": 25,
+  "n_gt": 24,
+  "n_pred": 24,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "8a210270-8227-a7c1-ae36-3f3f7752e3a1__M8_socket__asm",
+  "exec": true,
+  "n_solids": 25,
+  "gt_bodies": 25,
+  "n_gt": 24,
+  "n_pred": 24,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "0db09ca6-38f_78a8787e-130__M3__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "0db09ca6-38f_ab00cce7-99f__M3__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "78a8787e-130_ab00cce7-99f__M3__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "ca145f77-21fa-51c7-ced2-57de5c2c6f4e__M5_socket__asm",
+  "exec": true,
+  "n_solids": 4,
+  "gt_bodies": 4,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "d4a98fed-4a83-c793-24fc-bb0c7ce7099c__M5_socket__asm",
+  "exec": true,
+  "n_solids": 19,
+  "gt_bodies": 19,
+  "n_gt": 18,
+  "n_pred": 18,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "e7691317-1033-f36b-bf13-81934b7dff9c__M4_socket__asm",
+  "exec": true,
+  "n_solids": 4,
+  "gt_bodies": 4,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "bda77601-e835-5055-332c-25153bf188be__M4_socket__asm",
+  "exec": true,
+  "n_solids": 9,
+  "gt_bodies": 9,
+  "n_gt": 8,
+  "n_pred": 8,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "d94e51a2-7724-7680-8cc9-e6fae41146a0__M4_socket__asm",
+  "exec": true,
+  "n_solids": 13,
+  "gt_bodies": 13,
+  "n_gt": 12,
+  "n_pred": 12,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "f3b51a41-c5cb-c536-04c3-24189e30804c__M4_socket__asm",
+  "exec": true,
+  "n_solids": 2,
+  "gt_bodies": 2,
+  "n_gt": 1,
+  "n_pred": 1,
+  "pos_err": [
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "187f4f50-1ecc-03ab-434e-5bde3a318b7e__M5_socket__asm",
+  "exec": true,
+  "n_solids": 7,
+  "gt_bodies": 7,
+  "n_gt": 6,
+  "n_pred": 6,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "99891ba6-e1a4-e781-0f92-281f73b7a8d7__M8_socket__asm",
+  "exec": true,
+  "n_solids": 13,
+  "gt_bodies": 13,
+  "n_gt": 12,
+  "n_pred": 12,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "f08f3b36-81a8-a59f-c36c-613e489fb3d2__M4_socket__asm",
+  "exec": true,
+  "n_solids": 23,
+  "gt_bodies": 23,
+  "n_gt": 22,
+  "n_pred": 22,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "34d94076-ad06-49bb-e8bd-a28412728657__M4_socket__asm",
+  "exec": true,
+  "n_solids": 4,
+  "gt_bodies": 4,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "34d94076-ad06-49bb-e8bd-a28412728657__M5_socket__asm",
+  "exec": true,
+  "n_solids": 4,
+  "gt_bodies": 4,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "a83f4f62-7b2e-6283-c299-caa6edc75d73__M4_socket__asm",
+  "exec": true,
+  "n_solids": 9,
+  "gt_bodies": 9,
+  "n_gt": 8,
+  "n_pred": 8,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "dbf7a279-26ca-de7f-7cab-82c7e8595b36__M4_socket__asm",
+  "exec": true,
+  "n_solids": 22,
+  "gt_bodies": 22,
+  "n_gt": 21,
+  "n_pred": 21,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "34d94076-ad0_a83f4f62-7b2__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "a83f4f62-7b2_dbf7a279-26c__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "d15bc3d0-bfe6-470d-451d-7e42f883df12__M5_socket__asm",
+  "exec": true,
+  "n_solids": 4,
+  "gt_bodies": 4,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "56e17c62-0236-d36f-5190-aa61ea3886b1__M4_socket__asm",
+  "exec": true,
+  "n_solids": 3,
+  "gt_bodies": 3,
+  "n_gt": 2,
+  "n_pred": 2,
+  "pos_err": [
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "4fd79fd7-fa55-0ef0-dba8-7dfb8c9d5288__M5_socket__asm",
+  "exec": true,
+  "n_solids": 10,
+  "gt_bodies": 10,
+  "n_gt": 9,
+  "n_pred": 9,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "84790639-616c-f5e0-4934-fcfb5e2505a7__M8_socket__asm",
+  "exec": true,
+  "n_solids": 13,
+  "gt_bodies": 13,
+  "n_gt": 12,
+  "n_pred": 12,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "29f65c7b-b687-07a0-57cd-7487f6d1b367__M4_socket__asm",
+  "exec": true,
+  "n_solids": 14,
+  "gt_bodies": 14,
+  "n_gt": 13,
+  "n_pred": 13,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "33a484e5-7b8_3bf8b604-6af__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "3bf8b604-6af_6a9e9e41-4c5__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "6a9e9e41-4c5_43c0d4c4-aac__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "6a9e9e41-4c5_83fe991a-4c8__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "83fe991a-4c8_43c0d4c4-aac__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "1b4721f3-e237-3840-da19-2252ac8a70ca__M4_socket__asm",
+  "exec": true,
+  "n_solids": 13,
+  "gt_bodies": 13,
+  "n_gt": 12,
+  "n_pred": 12,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "3985be72-deb_4afc8a01-5ae__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "630754df-edb_3985be72-deb__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "1707a784-400_bf23c165-a81__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "bf23c165-a81_26683e93-3e2__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "5b2c9f5a-10f5-3b2b-4eca-585caee61365__M4_socket__asm",
+  "exec": true,
+  "n_solids": 4,
+  "gt_bodies": 4,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "5b2c9f5a-10f5-3b2b-4eca-585caee61365__M8_socket__asm",
+  "exec": true,
+  "n_solids": 4,
+  "gt_bodies": 4,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "791302ad-fe9f-908f-d495-ca0797629e7e__M8_socket__asm",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 4,
+  "n_pred": 4,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "dab0f3f7-de52-d8d3-81ae-4efcb84dac44__M5_socket__asm",
+  "exec": true,
+  "n_solids": 10,
+  "gt_bodies": 10,
+  "n_gt": 9,
+  "n_pred": 9,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "6e456e4f-60ba-cbd3-a85c-afd221e4408e__M4_socket__asm",
+  "exec": true,
+  "n_solids": 13,
+  "gt_bodies": 13,
+  "n_gt": 12,
+  "n_pred": 12,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "cf1d45d7-1005-92e4-4dab-8e21c558460d__M3_socket__asm",
+  "exec": true,
+  "n_solids": 20,
+  "gt_bodies": 20,
+  "n_gt": 19,
+  "n_pred": 19,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "474989a1-9de0-5857-ca3e-7944e30e51a3__M4_socket__asm",
+  "exec": true,
+  "n_solids": 13,
+  "gt_bodies": 13,
+  "n_gt": 12,
+  "n_pred": 12,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "0b0cef96-54a_16ae955b-52c__M3__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "0b0cef96-54a_22a6ca57-682__M3__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "16ae955b-52c_644a714d-6d9__M3__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "22a6ca57-682_cb3b615b-668__M3__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "082ab555-da87-9e15-bccb-30f205030d22__M4_socket__asm",
+  "exec": true,
+  "n_solids": 4,
+  "gt_bodies": 4,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "1a52b8df-e03_670a111b-a54__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "4ad03e1f-324_1a52b8df-e03__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "670a111b-a54_9f3e8e19-910__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "cc620d89-a34_1a52b8df-e03__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ },
+ {
+  "name": "cc620d89-a34_4ad03e1f-324__M4__two",
+  "exec": true,
+  "n_solids": 5,
+  "gt_bodies": 5,
+  "n_gt": 3,
+  "n_pred": 3,
+  "pos_err": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "err": null
+ }
+]

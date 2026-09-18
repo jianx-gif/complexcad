@@ -1,0 +1,623 @@
+{'dir': '01649ec6-33fa-0f8f-46bc-6552f4faf7d4__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\01649ec6-33fa-0f8f-46bc-6552f4faf7d4__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '023fe417-8398-6bf6-67e1-9fc9f489b606__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\023fe417-8398-6bf6-67e1-9fc9f489b606__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '04447d0e-3a03-f006-dcb9-2eee35ed8579__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\04447d0e-3a03-f006-dcb9-2eee35ed8579__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '071e436e-0c0e-1972-b7c0-9d01c31d518a__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 18, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\071e436e-0c0e-1972-b7c0-9d01c31d518a__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 9, 'n_vertex': 2}
+{'dir': '08ace6e6-3881-9a63-90b4-46b3dd3069ed__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 18, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\08ace6e6-3881-9a63-90b4-46b3dd3069ed__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 9, 'n_vertex': 1}
+{'dir': '0b3175a1-919b-db05-90b4-ffa6c2d76b13__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 48, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\0b3175a1-919b-db05-90b4-ffa6c2d76b13__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 24, 'n_vertex': 5}
+{'dir': '0cfc60c6-f216-bc2d-42ac-a3705b4da586__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 14, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\0cfc60c6-f216-bc2d-42ac-a3705b4da586__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 6, 'n_vertex': 3}
+{'dir': '0d5ff093-9dc2-f35c-9b35-8b3c59531366__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 2, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\0d5ff093-9dc2-f35c-9b35-8b3c59531366__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 0, 'n_vertex': 1}
+{'dir': '0e28a383-b6e1-345c-71ad-171ed0a0bfed__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\0e28a383-b6e1-345c-71ad-171ed0a0bfed__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '0efcc009-3acd-8ee0-1a91-d8dd221f1567__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 28, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\0efcc009-3acd-8ee0-1a91-d8dd221f1567__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 14, 'n_vertex': 1}
+{'dir': '0fdbb9ca-8503-c698-3ea7-a70a2ebe043c__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\0fdbb9ca-8503-c698-3ea7-a70a2ebe043c__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '1079092a-3d8b-5b88-354e-b968b3eeb679__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\1079092a-3d8b-5b88-354e-b968b3eeb679__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '11a7f8c3-7ef9-281f-e69a-36a8039c08f1__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 48, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\11a7f8c3-7ef9-281f-e69a-36a8039c08f1__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 23, 'n_vertex': 2}
+{'dir': '13c7aa32-abc7-ada6-47cc-d6ae294edf47__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\13c7aa32-abc7-ada6-47cc-d6ae294edf47__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '15d88d76-bfdc-f7c2-cd1c-150dbc8eee9f__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\15d88d76-bfdc-f7c2-cd1c-150dbc8eee9f__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': '17c77b08-d2ee-ddec-10a6-2bda17d87225__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 30, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\17c77b08-d2ee-ddec-10a6-2bda17d87225__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 15, 'n_vertex': 5}
+{'dir': '1961019e-d9e3-46ab-b064-4244a24f1eaf__M10_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 2, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\1961019e-d9e3-46ab-b064-4244a24f1eaf__M10_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 0, 'n_vertex': 1}
+{'dir': '1ab94d08-4a76-bcf2-4dd9-19133620a14f__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\1ab94d08-4a76-bcf2-4dd9-19133620a14f__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '1d0b1e0b-49e4-0f43-95a3-db62670cd92c__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\1d0b1e0b-49e4-0f43-95a3-db62670cd92c__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': '1dcc1a23-442e-436c-6de8-4bf23bfc7edb__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\1dcc1a23-442e-436c-6de8-4bf23bfc7edb__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+verify 01649ec6-33fa-0f8f-46bc- True 0.6 0.0
+verify 023fe417-8398-6bf6-67e1- True 0.002645 0.0
+verify 04447d0e-3a03-f006-dcb9- True 0.006154 0.0
+verify 071e436e-0c0e-1972-b7c0- True 0.700027 0.0
+verify 08ace6e6-3881-9a63-90b4- True 0.800004 0.0
+verify 0b3175a1-919b-db05-90b4- True 0.35 0.0
+verify 0cfc60c6-f216-bc2d-42ac- False 1.0 0.0
+verify 0d5ff093-9dc2-f35c-9b35- True 0.0 0.0
+verify 0e28a383-b6e1-345c-71ad- True 1.5e-05 0.0
+verify 0efcc009-3acd-8ee0-1a91- True 0.006154 0.0
+verify 0fdbb9ca-8503-c698-3ea7- True 0.25658 5.2e-05
+verify 1079092a-3d8b-5b88-354e- True 0.002644 0.0
+verify 11a7f8c3-7ef9-281f-e69a- True 0.300077 0.0
+verify 13c7aa32-abc7-ada6-47cc- True 0.006154 0.0
+verify 15d88d76-bfdc-f7c2-cd1c- True 0.100015 0.0
+verify 17c77b08-d2ee-ddec-10a6- True 0.200017 0.0
+verify 1961019e-d9e3-46ab-b064- True 0.0 0.0
+verify 1ab94d08-4a76-bcf2-4dd9- True 0.300012 0.0
+verify 1d0b1e0b-49e4-0f43-95a3- True 0.800004 0.0
+verify 1dcc1a23-442e-436c-6de8- True 0.200016 0.0
+--- progress 20/283  ok=19
+{'dir': '20a863ac-efe1-c753-96c6-a71eb9962527__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\20a863ac-efe1-c753-96c6-a71eb9962527__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': '23767dde-9daf-f535-19e7-8513f421cf5a__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 14, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\23767dde-9daf-f535-19e7-8513f421cf5a__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 7, 'n_vertex': 2}
+{'dir': '257a3a91-1f25-2e76-8017-d1a0ec3ee4d5__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\257a3a91-1f25-2e76-8017-d1a0ec3ee4d5__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 3}
+{'dir': '26e844c5-a2e8-c679-b045-d3d0147e10af__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 38, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\26e844c5-a2e8-c679-b045-d3d0147e10af__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 19, 'n_vertex': 0}
+{'dir': '2847966d-2a2e-9639-ef61-48501fd59a65__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\2847966d-2a2e-9639-ef61-48501fd59a65__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '2a33462f-6d49-7e1f-fb3a-e3f726b224bc__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 4, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\2a33462f-6d49-7e1f-fb3a-e3f726b224bc__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 2, 'n_vertex': 0}
+{'dir': '2c1334a4-1ca6-e88e-512a-8c11226abd8e__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 18, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\2c1334a4-1ca6-e88e-512a-8c11226abd8e__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 9, 'n_vertex': 1}
+{'dir': '2d47c302-678f-b8dd-2365-fedcecdd6aa0__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 18, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\2d47c302-678f-b8dd-2365-fedcecdd6aa0__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 9, 'n_vertex': 1}
+{'dir': '2df2f806-6430-b9a5-f385-01368881688f__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\2df2f806-6430-b9a5-f385-01368881688f__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': '2e756100-da05-b662-bd1c-9722b6339232__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 30, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\2e756100-da05-b662-bd1c-9722b6339232__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 15, 'n_vertex': 1}
+{'dir': '307ac700-b9ce-4a70-cf65-2e96199d2895__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\307ac700-b9ce-4a70-cf65-2e96199d2895__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '331ce3d3-41f9-56b2-3de1-993f44bee854__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\331ce3d3-41f9-56b2-3de1-993f44bee854__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '340a12dc-1853-4cb2-149f-03550dcc6379__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\340a12dc-1853-4cb2-149f-03550dcc6379__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '35adf1d6-0b7b-bd41-505d-d5a509c55310__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\35adf1d6-0b7b-bd41-505d-d5a509c55310__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '388b0695-9e2e-b1eb-ae98-38111a914926__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 16, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\388b0695-9e2e-b1eb-ae98-38111a914926__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 8, 'n_vertex': 1}
+{'dir': '3bbcf3e4-fc97-593f-c2be-f63617131dea__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\3bbcf3e4-fc97-593f-c2be-f63617131dea__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': '3d57f6cc-6e0f-a0ff-4ad0-80eee8e22c7b__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 2, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\3d57f6cc-6e0f-a0ff-4ad0-80eee8e22c7b__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 0, 'n_vertex': 1}
+{'dir': '3e01979a-c6f4-de52-58fe-946defc73184__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\3e01979a-c6f4-de52-58fe-946defc73184__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '4177242e-717e-c5bd-68ac-22e821f58f1b__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\4177242e-717e-c5bd-68ac-22e821f58f1b__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '433c1d3c-5488-b263-d0b5-cae4559b50f0__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\433c1d3c-5488-b263-d0b5-cae4559b50f0__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 4}
+verify 20a863ac-efe1-c753-96c6- True 0.200013 0.0
+verify 23767dde-9daf-f535-19e7- True 0.499689 0.0
+verify 257a3a91-1f25-2e76-8017- True 0.200017 0.0
+verify 26e844c5-a2e8-c679-b045- True 1.0 0.0
+verify 2847966d-2a2e-9639-ef61- True 0.200016 0.0
+verify 2a33462f-6d49-7e1f-fb3a- True 0.114599 0.0
+verify 2c1334a4-1ca6-e88e-512a- True 0.002646 0.0
+verify 2d47c302-678f-b8dd-2365- True 0.003772 0.0
+verify 2df2f806-6430-b9a5-f385- True 0.002645 0.0
+verify 2e756100-da05-b662-bd1c- True 0.200021 0.0
+verify 307ac700-b9ce-4a70-cf65- True 0.002646 0.0
+verify 331ce3d3-41f9-56b2-3de1- True 0.002645 0.0
+verify 340a12dc-1853-4cb2-149f- True 0.003402 0.0
+verify 35adf1d6-0b7b-bd41-505d- True 0.300024 0.0
+verify 388b0695-9e2e-b1eb-ae98- True 0.217576 0.0
+verify 3bbcf3e4-fc97-593f-c2be- True 0.1 0.0
+verify 3d57f6cc-6e0f-a0ff-4ad0- True 1.0 0.0
+verify 3e01979a-c6f4-de52-58fe- True 0.200029 0.0
+verify 4177242e-717e-c5bd-68ac- True 0.003402 0.0
+verify 433c1d3c-5488-b263-d0b5- True 0.748895 0.017348
+--- progress 40/283  ok=39
+{'dir': '444b474d-fb7b-e185-a10c-c87abe575bff__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\444b474d-fb7b-e185-a10c-c87abe575bff__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': '467068d9-eb4c-63cc-d2fb-ce1bda97c87a__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\467068d9-eb4c-63cc-d2fb-ce1bda97c87a__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '4901135f-6359-e9ce-efa1-43df7644ec41__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\4901135f-6359-e9ce-efa1-43df7644ec41__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '4a118084-8abf-6a83-68dd-a43e92774e33__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 18, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\4a118084-8abf-6a83-68dd-a43e92774e33__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 9, 'n_vertex': 1}
+{'dir': '4be7f232-023b-5059-8c16-eaf66c78f237__M12_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\4be7f232-023b-5059-8c16-eaf66c78f237__M12_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 4, 'n_datum': 0, 'n_flush': 4, 'n_contact': 0, 'n_vertex': 1}
+{'dir': '4d2184a2-abea-8e47-b9e1-1a17a2fadba4__M10_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 2, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\4d2184a2-abea-8e47-b9e1-1a17a2fadba4__M10_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 0, 'n_vertex': 0}
+{'dir': '4ec3eaf7-eef5-9f2c-aa06-cd75a828b473__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 2, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\4ec3eaf7-eef5-9f2c-aa06-cd75a828b473__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 1, 'n_flush': 0, 'n_contact': 0, 'n_vertex': 1}
+{'dir': '4fcc5f24-8e3a-580c-767e-f4fb21a1a4ba__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\4fcc5f24-8e3a-580c-767e-f4fb21a1a4ba__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '51957e44-a49c-3da9-28b6-65d4d942e800__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\51957e44-a49c-3da9-28b6-65d4d942e800__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': '53969ac3-7d7a-4b66-5a1a-605ed54c0b20__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\53969ac3-7d7a-4b66-5a1a-605ed54c0b20__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '556ffeb5-03b4-c086-99a6-a6539a94d9a2__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 18, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\556ffeb5-03b4-c086-99a6-a6539a94d9a2__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 9, 'n_vertex': 1}
+{'dir': '5685fccd-0ecb-90c9-5306-fe1fc684717f__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 4, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\5685fccd-0ecb-90c9-5306-fe1fc684717f__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 2, 'n_vertex': 0}
+{'dir': '5879e060-8ea0-6cf0-9987-a9d7c9d1055e__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\5879e060-8ea0-6cf0-9987-a9d7c9d1055e__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '5a480080-da17-a5a6-997d-9f0f82f863ae__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\5a480080-da17-a5a6-997d-9f0f82f863ae__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '5b2c9f5a-10f5-3b2b-4eca-585caee61365__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\5b2c9f5a-10f5-3b2b-4eca-585caee61365__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '5c15b294-ed1f-e1de-d117-d3c9de3b62b4__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 36, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\5c15b294-ed1f-e1de-d117-d3c9de3b62b4__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 18, 'n_vertex': 1}
+{'dir': '5d79effb-d680-1aa7-68d4-e507472e4427__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\5d79effb-d680-1aa7-68d4-e507472e4427__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '5dec10d4-9e96-c058-0484-b6b0de568e10__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\5dec10d4-9e96-c058-0484-b6b0de568e10__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 1}
+{'dir': '5f96c1a0-970a-35e6-fbcc-fe7a15ec6d61__M10_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 2, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\5f96c1a0-970a-35e6-fbcc-fe7a15ec6d61__M10_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 0, 'n_vertex': 0}
+{'dir': '614b3793-c885-b0b0-d204-a45a8ec97ce1__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\614b3793-c885-b0b0-d204-a45a8ec97ce1__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+verify 444b474d-fb7b-e185-a10c- True 0.001754 0.0
+verify 467068d9-eb4c-63cc-d2fb- True 0.006154 0.0
+verify 4901135f-6359-e9ce-efa1- True 0.200017 0.0
+verify 4a118084-8abf-6a83-68dd- True 0.00169 0.0
+verify 4be7f232-023b-5059-8c16- True 0.2 1e-06
+verify 4d2184a2-abea-8e47-b9e1- True 0.0 0.0
+verify 4ec3eaf7-eef5-9f2c-aa06- True 0.0 0.0
+verify 4fcc5f24-8e3a-580c-767e- True 4.3e-05 0.0
+verify 51957e44-a49c-3da9-28b6- True 0.200007 0.0
+verify 53969ac3-7d7a-4b66-5a1a- True 0.002646 0.0
+verify 556ffeb5-03b4-c086-99a6- True 0.002645 0.0
+verify 5685fccd-0ecb-90c9-5306- True 0.0 0.0
+verify 5879e060-8ea0-6cf0-9987- True 0.140541 1.6e-05
+verify 5a480080-da17-a5a6-997d- True 0.003401 0.0
+verify 5b2c9f5a-10f5-3b2b-4eca- True 0.100189 0.0
+verify 5c15b294-ed1f-e1de-d117- True 0.9 0.0
+verify 5d79effb-d680-1aa7-68d4- True 0.200095 0.0
+verify 5dec10d4-9e96-c058-0484- True 0.108054 0.0
+verify 5f96c1a0-970a-35e6-fbcc- True 1.0 0.0
+verify 614b3793-c885-b0b0-d204- True 0.300063 0.0
+--- progress 60/283  ok=59
+{'dir': '62127d80-6c66-516b-87c2-d5dabc84e128__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 30, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\62127d80-6c66-516b-87c2-d5dabc84e128__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 15, 'n_vertex': 1}
+{'dir': '6413a464-31c7-5fbc-68d5-63da5e5252f6__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 48, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\6413a464-31c7-5fbc-68d5-63da5e5252f6__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 24, 'n_vertex': 6}
+{'dir': '64caa93f-9eb8-9450-251e-c2c70e2480c9__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 32, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\64caa93f-9eb8-9450-251e-c2c70e2480c9__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 15, 'n_vertex': 1}
+{'dir': '65d7e75c-68f5-eb21-1aae-3cb84afb8120__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\65d7e75c-68f5-eb21-1aae-3cb84afb8120__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '66466872-28bc-2312-0e28-2b3e896a48de__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 4, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\66466872-28bc-2312-0e28-2b3e896a48de__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 2, 'n_vertex': 0}
+{'dir': '68106bdb-4153-e1d3-266b-ebfdf87bad9d__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\68106bdb-4153-e1d3-266b-ebfdf87bad9d__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': '68d47507-4aff-776e-21c4-3cae5b5fa40d__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\68d47507-4aff-776e-21c4-3cae5b5fa40d__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': '6acf73d9-2bf3-bc82-1a70-09f29d47edab__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\6acf73d9-2bf3-bc82-1a70-09f29d47edab__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': '6d6353b8-f6fc-a2d1-6e97-8c5bd4ffe619__M10_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 4, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\6d6353b8-f6fc-a2d1-6e97-8c5bd4ffe619__M10_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 2, 'n_datum': 0, 'n_flush': 2, 'n_contact': 0, 'n_vertex': 0}
+{'dir': '6e92315f-795f-c14a-4ff2-19d79b8f08d4__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\6e92315f-795f-c14a-4ff2-19d79b8f08d4__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '71c7acd6-9057-53e2-7d3d-4a79ace88dce__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 36, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\71c7acd6-9057-53e2-7d3d-4a79ace88dce__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 18, 'n_vertex': 1}
+{'dir': '72873618-1d58-0b7e-36a5-7080a6dd3a8f__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 26, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\72873618-1d58-0b7e-36a5-7080a6dd3a8f__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 13, 'n_vertex': 1}
+{'dir': '735a4b7a-241f-5782-6367-2390cfc9c486__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 36, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\735a4b7a-241f-5782-6367-2390cfc9c486__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 18, 'n_vertex': 1}
+{'dir': '7465b825-b2c4-9c21-a2a0-3d6b2471c0d1__M10_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 2, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\7465b825-b2c4-9c21-a2a0-3d6b2471c0d1__M10_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 0, 'n_vertex': 0}
+{'dir': '757e183a-e4bd-adb3-ff91-3b71909fb65f__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\757e183a-e4bd-adb3-ff91-3b71909fb65f__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '76b20ef3-4f25-c674-9186-a8f2c8db55ea__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\76b20ef3-4f25-c674-9186-a8f2c8db55ea__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': '78641156-4cd2-f3fd-f64e-6846f634758b__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\78641156-4cd2-f3fd-f64e-6846f634758b__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '79e9ba25-014d-d3ae-1164-e863ccad3c09__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\79e9ba25-014d-d3ae-1164-e863ccad3c09__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '7acac75c-dd2c-1ff2-78e1-b3e56e233f1d__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 4, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\7acac75c-dd2c-1ff2-78e1-b3e56e233f1d__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 2, 'n_vertex': 0}
+{'dir': '7bfddd3e-b8b9-42d5-d0cb-2c8481dc3785__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\7bfddd3e-b8b9-42d5-d0cb-2c8481dc3785__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+verify 62127d80-6c66-516b-87c2- True 0.200016 0.0
+verify 6413a464-31c7-5fbc-68d5- True 0.884 0.0
+verify 64caa93f-9eb8-9450-251e- True 0.75 0.0
+verify 65d7e75c-68f5-eb21-1aae- True 0.200017 0.0
+verify 66466872-28bc-2312-0e28- True 0.8 0.0
+verify 68106bdb-4153-e1d3-266b- True 0.003773 0.0
+verify 68d47507-4aff-776e-21c4- True 0.200013 0.0
+verify 6acf73d9-2bf3-bc82-1a70- True 0.200017 0.0
+verify 6d6353b8-f6fc-a2d1-6e97- True 0.3 0.0
+verify 6e92315f-795f-c14a-4ff2- True 0.002645 0.0
+verify 71c7acd6-9057-53e2-7d3d- True 0.9 0.0
+verify 72873618-1d58-0b7e-36a5- True 0.101621 0.0
+verify 735a4b7a-241f-5782-6367- True 0.800005 0.0
+verify 7465b825-b2c4-9c21-a2a0- True 0.6 0.0
+verify 757e183a-e4bd-adb3-ff91- True 0.006211 0.0
+verify 76b20ef3-4f25-c674-9186- True 0.002646 0.0
+verify 78641156-4cd2-f3fd-f64e- True 0.003773 0.0
+verify 79e9ba25-014d-d3ae-1164- True 0.003402 0.0
+verify 7acac75c-dd2c-1ff2-78e1- True 0.0 0.0
+verify 7bfddd3e-b8b9-42d5-d0cb- True 0.003772 0.0
+--- progress 80/283  ok=79
+{'dir': '7dd6862e-65dc-1702-ab97-63fdd1a03130__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\7dd6862e-65dc-1702-ab97-63fdd1a03130__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '7eb015d0-0932-b78c-1d19-d7a174969dcc__M10_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 4, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\7eb015d0-0932-b78c-1d19-d7a174969dcc__M10_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 2, 'n_datum': 0, 'n_flush': 2, 'n_contact': 0, 'n_vertex': 0}
+{'dir': '802f3467-0936-90f0-357c-172de36582dc__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 4, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\802f3467-0936-90f0-357c-172de36582dc__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 2, 'n_vertex': 0}
+{'dir': '81637234-cff2-7217-8358-a09853024036__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\81637234-cff2-7217-8358-a09853024036__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 3}
+{'dir': '829bb6f5-8e4b-573c-51bd-627a254e982a__M10_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 2, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\829bb6f5-8e4b-573c-51bd-627a254e982a__M10_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 0, 'n_vertex': 1}
+{'dir': '845d4f93-ff4f-fb6a-802b-2b3f10c2c4b3__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\845d4f93-ff4f-fb6a-802b-2b3f10c2c4b3__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 7}
+{'dir': '85031207-4a33-7eef-957c-88d245059f65__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 16, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\85031207-4a33-7eef-957c-88d245059f65__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 8, 'n_vertex': 1}
+{'dir': '85f0ceb5-dd21-abd0-1ea4-25cf5365e0fb__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\85f0ceb5-dd21-abd0-1ea4-25cf5365e0fb__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '86f81c1b-c29c-05a5-764b-13246b4e9306__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 16, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\86f81c1b-c29c-05a5-764b-13246b4e9306__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 8, 'n_vertex': 5}
+{'dir': '88a8551c-4b1e-1fd3-5cf6-bb5c3e13912a__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 48, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\88a8551c-4b1e-1fd3-5cf6-bb5c3e13912a__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 23, 'n_vertex': 2}
+{'dir': '8a010356-2b9d-570f-4df2-be60c225d97a__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\8a010356-2b9d-570f-4df2-be60c225d97a__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '8adaf47d-37a4-bca1-fdd9-6a9d62331f1a__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\8adaf47d-37a4-bca1-fdd9-6a9d62331f1a__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '8bcfab3a-bd01-5cd8-609a-97a193b4a945__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\8bcfab3a-bd01-5cd8-609a-97a193b4a945__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '8cb01933-7738-104b-6d7f-fda27c938d59__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 36, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\8cb01933-7738-104b-6d7f-fda27c938d59__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 18, 'n_vertex': 1}
+{'dir': '8f1eed5a-d0b0-5de8-9e93-bdd1e4e065ec__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\8f1eed5a-d0b0-5de8-9e93-bdd1e4e065ec__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 3}
+{'dir': '90754a40-3ee9-045a-1a84-854234ce00db__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\90754a40-3ee9-045a-1a84-854234ce00db__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '916f145b-77c3-e51c-d881-7341e24d02db__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 32, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\916f145b-77c3-e51c-d881-7341e24d02db__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 4, 'n_datum': 0, 'n_flush': 4, 'n_contact': 12, 'n_vertex': 1}
+{'dir': '91c3cdf3-8028-77c9-abea-94692bc485bb__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 14, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\91c3cdf3-8028-77c9-abea-94692bc485bb__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 1, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 2}
+{'dir': '9280698f-7537-8487-a090-25488c0a5b21__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\9280698f-7537-8487-a090-25488c0a5b21__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': '93daa23a-a088-50c2-df4e-76d620287740__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\93daa23a-a088-50c2-df4e-76d620287740__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 3}
+verify 7dd6862e-65dc-1702-ab97- True 0.010139 0.0
+verify 7eb015d0-0932-b78c-1d19- True 0.2 0.0
+verify 802f3467-0936-90f0-357c- True 0.004457 0.0
+verify 81637234-cff2-7217-8358- True 0.100035 0.0
+verify 829bb6f5-8e4b-573c-51bd- True 0.0 0.0
+verify 845d4f93-ff4f-fb6a-802b- True 0.9 0.0
+verify 85031207-4a33-7eef-957c- True 0.019482 0.0
+verify 85f0ceb5-dd21-abd0-1ea4- True 0.100035 0.0
+verify 86f81c1b-c29c-05a5-764b- True 0.012509 0.0
+verify 88a8551c-4b1e-1fd3-5cf6- True 0.200036 0.0
+verify 8a010356-2b9d-570f-4df2- True 0.200017 0.0
+verify 8adaf47d-37a4-bca1-fdd9- True 0.200017 0.0
+verify 8bcfab3a-bd01-5cd8-609a- True 0.003401 0.0
+verify 8cb01933-7738-104b-6d7f- True 0.9 0.0
+verify 8f1eed5a-d0b0-5de8-9e93- True 0.003402 0.0
+verify 90754a40-3ee9-045a-1a84- True 0.000381 0.0
+verify 916f145b-77c3-e51c-d881- True 0.9 0.0
+verify 91c3cdf3-8028-77c9-abea- True 0.400008 0.0
+verify 9280698f-7537-8487-a090- True 3.4e-05 0.0
+verify 93daa23a-a088-50c2-df4e- True 0.003772 0.0
+--- progress 100/283  ok=99
+{'dir': '968de923-b73b-dfd2-95bc-492e23d93120__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 4, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\968de923-b73b-dfd2-95bc-492e23d93120__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 2, 'n_flush': 0, 'n_contact': 0, 'n_vertex': 2}
+{'dir': '978033ac-6692-7b81-3dcf-cd9eca84fb49__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 4, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\978033ac-6692-7b81-3dcf-cd9eca84fb49__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 2, 'n_vertex': 0}
+{'dir': '9927b07e-c25f-0fa6-5ea5-342efee5d485__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\9927b07e-c25f-0fa6-5ea5-342efee5d485__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '9b24f4c4-89c1-141c-5fae-563c36d546da__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\9b24f4c4-89c1-141c-5fae-563c36d546da__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '9d2e343f-16b1-7f2a-6d6b-32c4e7713a23__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 18, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\9d2e343f-16b1-7f2a-6d6b-32c4e7713a23__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 9, 'n_vertex': 1}
+{'dir': '9db11800-cda4-c4ca-d976-f97599abcbf8__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\9db11800-cda4-c4ca-d976-f97599abcbf8__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': '9fe3e919-46ce-4259-fa8f-3eec8002c9db__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\9fe3e919-46ce-4259-fa8f-3eec8002c9db__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': 'a19a6d51-39ef-baef-d450-301215ae7cbe__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\a19a6d51-39ef-baef-d450-301215ae7cbe__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': 'a36dff45-d066-08ea-3291-f6264dd9b187__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 42, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\a36dff45-d066-08ea-3291-f6264dd9b187__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 21, 'n_vertex': 1}
+{'dir': 'a70bff8b-8a94-b270-5ef3-17446f75809a__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 48, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\a70bff8b-8a94-b270-5ef3-17446f75809a__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 24, 'n_vertex': 2}
+{'dir': 'a8321ff8-ec92-8cc1-e5ca-dd661d44cc8b__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 18, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\a8321ff8-ec92-8cc1-e5ca-dd661d44cc8b__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 9, 'n_vertex': 1}
+{'dir': 'a8d1e7c9-5826-420e-a9f5-02f1d224bb28__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 2, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\a8d1e7c9-5826-420e-a9f5-02f1d224bb28__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 1, 'n_vertex': 0}
+{'dir': 'aa37eeae-6100-c3be-c019-af4f73720735__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\aa37eeae-6100-c3be-c019-af4f73720735__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': 'ad165cfd-0012-be7d-ce19-bddd93b66517__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\ad165cfd-0012-be7d-ce19-bddd93b66517__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': 'af0cf1c0-26d1-ad84-4533-9f4f11c27246__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 36, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\af0cf1c0-26d1-ad84-4533-9f4f11c27246__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 18, 'n_vertex': 1}
+{'dir': 'b0315915-90dd-fdc2-51f1-e3d2e29253cc__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\b0315915-90dd-fdc2-51f1-e3d2e29253cc__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': 'b2b8e9cf-e668-fbbf-2a45-aea7aa19132a__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\b2b8e9cf-e668-fbbf-2a45-aea7aa19132a__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': 'b4433258-5507-a257-0e2b-913dcb4a1a07__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\b4433258-5507-a257-0e2b-913dcb4a1a07__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': 'b57c9307-f195-e8a4-40a4-884a57338279__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\b57c9307-f195-e8a4-40a4-884a57338279__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 3}
+{'dir': 'b8933b8a-9c00-108c-5e3a-e09398355d9a__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 16, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\b8933b8a-9c00-108c-5e3a-e09398355d9a__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 8, 'n_vertex': 1}
+verify 968de923-b73b-dfd2-95bc- True 0.001656 0.044755
+verify 978033ac-6692-7b81-3dcf- True 0.2 0.0
+verify 9927b07e-c25f-0fa6-5ea5- True 0.800009 0.0
+verify 9b24f4c4-89c1-141c-5fae- True 0.200007 0.0
+verify 9d2e343f-16b1-7f2a-6d6b- True 0.300014 0.0
+verify 9db11800-cda4-c4ca-d976- True 0.200029 0.0
+verify 9fe3e919-46ce-4259-fa8f- True 0.4 0.0
+verify a19a6d51-39ef-baef-d450- True 0.300011 0.0
+verify a36dff45-d066-08ea-3291- True 0.9 0.0
+verify a70bff8b-8a94-b270-5ef3- True 0.55 0.0
+verify a8321ff8-ec92-8cc1-e5ca- True 0.003402 0.0
+verify a8d1e7c9-5826-420e-a9f5- True 0.0 0.0
+verify aa37eeae-6100-c3be-c019- True 0.001691 0.0
+verify ad165cfd-0012-be7d-ce19- True 0.024539 0.0
+verify af0cf1c0-26d1-ad84-4533- True 0.9 0.0
+verify b0315915-90dd-fdc2-51f1- True 0.003402 0.0
+verify b2b8e9cf-e668-fbbf-2a45- True 0.006156 0.0
+verify b4433258-5507-a257-0e2b- True 0.200018 0.0
+verify b57c9307-f195-e8a4-40a4- True 0.006157 0.0
+verify b8933b8a-9c00-108c-5e3a- True 0.1334 0.0
+--- progress 120/283  ok=119
+{'dir': 'ba0e6af4-37a6-5784-aeaa-4bb51cc2e1d9__M10_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 2, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\ba0e6af4-37a6-5784-aeaa-4bb51cc2e1d9__M10_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 1, 'n_flush': 0, 'n_contact': 0, 'n_vertex': 1}
+{'dir': 'bbd45626-4486-b1cf-0f22-f550dfbbf19c__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\bbd45626-4486-b1cf-0f22-f550dfbbf19c__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': 'bc85635c-700a-b8fc-95bd-2ec5c61fd7a0__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 26, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\bc85635c-700a-b8fc-95bd-2ec5c61fd7a0__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 13, 'n_vertex': 3}
+{'dir': 'bda77601-e835-5055-332c-25153bf188be__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 16, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\bda77601-e835-5055-332c-25153bf188be__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 8, 'n_vertex': 0}
+{'dir': 'bf086e57-abe4-b7e4-de4c-bded75066df4__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 26, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\bf086e57-abe4-b7e4-de4c-bded75066df4__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 12, 'n_vertex': 1}
+{'dir': 'c0475b1a-4f4f-07c3-9a78-c869661d9854__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\c0475b1a-4f4f-07c3-9a78-c869661d9854__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 4}
+{'dir': 'c183b0bc-a1c7-a220-c608-836dde719956__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 16, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\c183b0bc-a1c7-a220-c608-836dde719956__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 8, 'n_vertex': 5}
+{'dir': 'c31da16f-2f09-b428-0b01-ae86fd78d3ae__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\c31da16f-2f09-b428-0b01-ae86fd78d3ae__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': 'c3f44d9c-b10c-ee14-1c02-cf655f914862__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 48, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\c3f44d9c-b10c-ee14-1c02-cf655f914862__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 24, 'n_vertex': 2}
+{'dir': 'c4bb02cc-f6e9-71ad-05c8-2ed2418abcb5__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 48, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\c4bb02cc-f6e9-71ad-05c8-2ed2418abcb5__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 24, 'n_vertex': 2}
+{'dir': 'c663300b-58ae-90a6-93c4-30056e5ad65b__M10_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\c663300b-58ae-90a6-93c4-30056e5ad65b__M10_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 4, 'n_datum': 0, 'n_flush': 4, 'n_contact': 0, 'n_vertex': 0}
+{'dir': 'c820540d-b4af-6003-30ca-aec886d6c57b__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\c820540d-b4af-6003-30ca-aec886d6c57b__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 2, 'n_datum': 2, 'n_flush': 0, 'n_contact': 1, 'n_vertex': 2}
+{'dir': 'c90653e2-378b-e2a1-5443-5615c4737bda__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\c90653e2-378b-e2a1-5443-5615c4737bda__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': 'cac230f1-fd5f-0fa1-46cc-dd2911722181__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 4, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\cac230f1-fd5f-0fa1-46cc-dd2911722181__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 2, 'n_vertex': 0}
+{'dir': 'cd66d8c4-5f5a-eef2-57ab-464baa766186__M6_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 16, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\cd66d8c4-5f5a-eef2-57ab-464baa766186__M6_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 8, 'n_vertex': 1}
+{'dir': 'ce306032-dedb-4a00-2f13-98f07a7ad495__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 32, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\ce306032-dedb-4a00-2f13-98f07a7ad495__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 16, 'n_vertex': 2}
+{'dir': 'd097ef41-6957-23d8-2787-1469f0130755__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 48, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\d097ef41-6957-23d8-2787-1469f0130755__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 24, 'n_vertex': 5}
+{'dir': 'd2adb1cb-eced-9bdb-2c5a-50b671d37969__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 36, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\d2adb1cb-eced-9bdb-2c5a-50b671d37969__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 18, 'n_vertex': 1}
+{'dir': 'd40cab72-56f2-d703-85ec-caad14495ba3__M5_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 18, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\d40cab72-56f2-d703-85ec-caad14495ba3__M5_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 8, 'n_vertex': 2}
+{'dir': 'd5a4ba22-bf7e-6e47-28d5-fd5bf13d3555__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 4, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\d5a4ba22-bf7e-6e47-28d5-fd5bf13d3555__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 2, 'n_vertex': 0}
+verify ba0e6af4-37a6-5784-aeaa- True 0.0 0.0
+verify bbd45626-4486-b1cf-0f22- True 0.800004 0.0
+verify bc85635c-700a-b8fc-95bd- True 0.003773 0.0
+verify bda77601-e835-5055-332c- True 0.800005 0.0
+verify bf086e57-abe4-b7e4-de4c- True 0.5 0.0
+verify c0475b1a-4f4f-07c3-9a78- True 0.093528 0.0
+verify c183b0bc-a1c7-a220-c608- True 0.188502 0.0
+verify c31da16f-2f09-b428-0b01- True 0.002645 0.0
+verify c3f44d9c-b10c-ee14-1c02- True 0.7 0.0
+verify c4bb02cc-f6e9-71ad-05c8- True 0.7 0.0
+verify c663300b-58ae-90a6-93c4- True 0.0 0.0
+verify c820540d-b4af-6003-30ca- True 0.004411 0.0
+verify c90653e2-378b-e2a1-5443- True 0.125933 0.0
+verify cac230f1-fd5f-0fa1-46cc- True 1e-06 0.0
+verify cd66d8c4-5f5a-eef2-57ab- True 0.122464 0.0
+verify ce306032-dedb-4a00-2f13- True 0.9 0.0
+verify d097ef41-6957-23d8-2787- True 0.600003 0.0
+verify d2adb1cb-eced-9bdb-2c5a- True 0.9 0.0
+verify d40cab72-56f2-d703-85ec- True 0.5 0.0
+verify d5a4ba22-bf7e-6e47-28d5- True 0.120605 0.0
+--- progress 140/283  ok=139
+{'dir': 'd6de017e-b374-cb8d-40f3-3ba6d0c90dd8__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 26, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\d6de017e-b374-cb8d-40f3-3ba6d0c90dd8__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 1, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 2}
+{'dir': 'd8e51a85-8c2b-e7f1-7a63-989f87912015__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 26, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\d8e51a85-8c2b-e7f1-7a63-989f87912015__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 1, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 2}
+{'dir': 'd9e276eb-9894-cdfd-c568-57cd902458f7__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 30, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\d9e276eb-9894-cdfd-c568-57cd902458f7__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 15, 'n_vertex': 1}
+{'dir': 'db1dd8d4-dbb9-944a-8225-0bfbe5dc0c9f__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 2, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\db1dd8d4-dbb9-944a-8225-0bfbe5dc0c9f__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 0, 'n_vertex': 0}
+{'dir': 'dcd23442-af4b-dda7-b29c-0dc210a65aed__M6_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\dcd23442-af4b-dda7-b29c-0dc210a65aed__M6_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': 'de0b0025-e56b-f4f1-2287-6cd6fe086fc0__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 26, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\de0b0025-e56b-f4f1-2287-6cd6fe086fc0__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 13, 'n_vertex': 1}
+{'dir': 'def8e901-0a01-b95c-7905-b92d57a2d75e__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 4, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\def8e901-0a01-b95c-7905-b92d57a2d75e__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 2, 'n_vertex': 2}
+{'dir': 'e14adac6-99aa-3c98-2e34-b6d9a1ea95b0__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 4, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\e14adac6-99aa-3c98-2e34-b6d9a1ea95b0__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 2, 'n_vertex': 0}
+{'dir': 'e1f411b0-ca16-b1ee-55ba-380f7bad5f0b__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\e1f411b0-ca16-b1ee-55ba-380f7bad5f0b__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 1}
+{'dir': 'e4cb1a08-aa41-44fd-0222-34d03185864c__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\e4cb1a08-aa41-44fd-0222-34d03185864c__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': 'e64c3d76-3f5a-dcd7-1ba8-c4e6adaa33fc__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 4, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\e64c3d76-3f5a-dcd7-1ba8-c4e6adaa33fc__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 2, 'n_vertex': 0}
+{'dir': 'e7c1ead6-1b32-d2ef-dc50-95d29fb01eed__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 18, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\e7c1ead6-1b32-d2ef-dc50-95d29fb01eed__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 9, 'n_vertex': 1}
+{'dir': 'e94f2a15-4b04-5b60-b37a-31edc652382b__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\e94f2a15-4b04-5b60-b37a-31edc652382b__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': 'ea8f74ae-cc25-fb05-ce04-0963fb8f142c__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\ea8f74ae-cc25-fb05-ce04-0963fb8f142c__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': 'eba49489-674c-818f-1596-d3b80e635526__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\eba49489-674c-818f-1596-d3b80e635526__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 8}
+{'dir': 'ecaafa49-2ea5-b5df-020e-a74f05378df5__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 24, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\ecaafa49-2ea5-b5df-020e-a74f05378df5__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 12, 'n_vertex': 1}
+{'dir': 'ee64acfe-e3ce-9f5c-4fb0-7a0d758b362e__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 32, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\ee64acfe-e3ce-9f5c-4fb0-7a0d758b362e__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 16, 'n_vertex': 2}
+{'dir': 'f04aba02-51e6-73bf-0029-1b94aeb6663a__M3_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 36, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\f04aba02-51e6-73bf-0029-1b94aeb6663a__M3_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 18, 'n_vertex': 3}
+{'dir': 'f142d198-3288-e1ef-5c5c-9648c67c8efc__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\f142d198-3288-e1ef-5c5c-9648c67c8efc__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': 'f1c562e9-03b2-fc33-8a3e-80b57d2a3be8__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\f1c562e9-03b2-fc33-8a3e-80b57d2a3be8__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+verify d6de017e-b374-cb8d-40f3- True 0.200021 0.0
+verify d8e51a85-8c2b-e7f1-7a63- True 0.002875 0.0
+verify d9e276eb-9894-cdfd-c568- True 0.200021 0.0
+verify db1dd8d4-dbb9-944a-8225- True 0.0 0.0
+verify dcd23442-af4b-dda7-b29c- True 0.20005 0.0
+verify de0b0025-e56b-f4f1-2287- True 0.4 0.0
+verify def8e901-0a01-b95c-7905- True 0.120273 0.0
+verify e14adac6-99aa-3c98-2e34- True 0.078565 0.0
+verify e1f411b0-ca16-b1ee-55ba- True 0.002645 0.0
+verify e4cb1a08-aa41-44fd-0222- True 0.200018 0.0
+verify e64c3d76-3f5a-dcd7-1ba8- True 0.0 0.0
+verify e7c1ead6-1b32-d2ef-dc50- True 0.800039 0.0
+verify e94f2a15-4b04-5b60-b37a- True 0.800004 0.0
+verify ea8f74ae-cc25-fb05-ce04- True 0.200017 0.0
+verify eba49489-674c-818f-1596- True 0.101621 0.0
+verify ecaafa49-2ea5-b5df-020e- True 0.1 0.0
+verify ee64acfe-e3ce-9f5c-4fb0- True 0.9 0.0
+verify f04aba02-51e6-73bf-0029- True 0.55 0.0
+verify f142d198-3288-e1ef-5c5c- True 0.006154 0.0
+verify f1c562e9-03b2-fc33-8a3e- True 0.006154 0.0
+--- progress 160/283  ok=159
+{'dir': 'f3360e4e-d47f-c118-c6e0-57e3847cffa2__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 36, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\f3360e4e-d47f-c118-c6e0-57e3847cffa2__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 6, 'n_datum': 0, 'n_flush': 6, 'n_contact': 12, 'n_vertex': 8}
+{'dir': 'f51e2493-91b0-5cf6-ca66-23492e2179c1__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\f51e2493-91b0-5cf6-ca66-23492e2179c1__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 2, 'n_datum': 0, 'n_flush': 2, 'n_contact': 2, 'n_vertex': 1}
+{'dir': 'f6b0e3d5-0772-219b-95e6-3d16092eeb2d__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 20, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\f6b0e3d5-0772-219b-95e6-3d16092eeb2d__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 10, 'n_vertex': 3}
+{'dir': 'f7916ef7-e4f0-d6bb-cfaf-6c9045ced799__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 6, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\f7916ef7-e4f0-d6bb-cfaf-6c9045ced799__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 0}
+{'dir': 'fafd9f59-222c-56b6-146e-aece12cf4aa4__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 2, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\fafd9f59-222c-56b6-146e-aece12cf4aa4__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 0, 'n_vertex': 0}
+{'dir': 'fcd1b978-f6af-39e2-935a-dbe1aa6e1de6__M4_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 12, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\fcd1b978-f6af-39e2-935a-dbe1aa6e1de6__M4_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 6, 'n_vertex': 1}
+{'dir': 'ff66ab67-6b1d-d61c-f598-f6c43827ce1a__M8_socket__asm', 'kind': 'single', 'ok': True, 'n_mates': 30, 'script': 'E:/3005/data\\1m_Convert\\assemblies_slim\\ff66ab67-6b1d-d61c-f598-f6c43827ce1a__M8_socket__asm\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 15, 'n_vertex': 1}
+{'dir': '00b72eaf-ec5_c8b287c5-7ef__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\00b72eaf-ec5_c8b287c5-7ef__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '0199add6-81d_1247bc11-e7c__M10__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\0199add6-81d_1247bc11-e7c__M10__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '023fe417-839_1007dd85-371__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\023fe417-839_1007dd85-371__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '0350cef6-d7c_5ed5b863-1c1__M10__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\0350cef6-d7c_5ed5b863-1c1__M10__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 2}
+{'dir': '04b8f124-c20_a0fb81c6-ac4__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\04b8f124-c20_a0fb81c6-ac4__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 2}
+{'dir': '067d4e84-01a_a66a754f-8a7__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\067d4e84-01a_a66a754f-8a7__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '09492d2a-5b9_c95942ff-b55__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\09492d2a-5b9_c95942ff-b55__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '0b4b760f-16a_1a1d70b5-2d7__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\0b4b760f-16a_1a1d70b5-2d7__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '0d5ff093-9dc_0199add6-81d__M10__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\0d5ff093-9dc_0199add6-81d__M10__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '0ed345d8-bd9_07535744-876__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\0ed345d8-bd9_07535744-876__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '106520df-be6_beca1437-447__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\106520df-be6_beca1437-447__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '11f7e4f0-df3_33dd28d0-cf7__M10__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\11f7e4f0-df3_33dd28d0-cf7__M10__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '1326c0a4-a0a_02676bba-66a__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\1326c0a4-a0a_02676bba-66a__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+verify f3360e4e-d47f-c118-c6e0- False 1.7 0.0
+verify f51e2493-91b0-5cf6-ca66- True 0.000141 0.0
+verify f6b0e3d5-0772-219b-95e6- True 0.200016 0.0
+verify f7916ef7-e4f0-d6bb-cfaf- True 0.002646 0.0
+verify fafd9f59-222c-56b6-146e- True 0.0 0.0
+verify fcd1b978-f6af-39e2-935a- True 0.002977 0.0
+verify ff66ab67-6b1d-d61c-f598- True 0.600032 0.0
+verify 00b72eaf-ec5_c8b287c5-7e True 0.000184 0.0
+verify 0199add6-81d_1247bc11-e7 True 0.007899 0.0
+verify 023fe417-839_1007dd85-37 True 0.002641 0.0
+verify 0350cef6-d7c_5ed5b863-1c True 0.007919 0.0
+verify 04b8f124-c20_a0fb81c6-ac True 0.900014 0.0
+verify 067d4e84-01a_a66a754f-8a True 0.002642 0.0
+verify 09492d2a-5b9_c95942ff-b5 True 0.002649 0.0
+verify 0b4b760f-16a_1a1d70b5-2d True 0.002649 0.0
+verify 0d5ff093-9dc_0199add6-81 True 0.007896 0.0
+verify 0ed345d8-bd9_07535744-87 True 0.002978 0.0
+verify 106520df-be6_beca1437-44 True 0.002666 0.0
+verify 11f7e4f0-df3_33dd28d0-cf True 0.007923 0.0
+verify 1326c0a4-a0a_02676bba-66 True 0.000208 0.0
+--- progress 180/283  ok=178
+{'dir': '1533abe8-e09_4e8e003e-6a5__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\1533abe8-e09_4e8e003e-6a5__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '1707a784-400_bf23c165-a81__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\1707a784-400_bf23c165-a81__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '17c99597-12f_64ea9df2-886__M10__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\17c99597-12f_64ea9df2-886__M10__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 2}
+{'dir': '198c36c3-215_5815993a-bbc__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\198c36c3-215_5815993a-bbc__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '1b8fa078-765_8cae27d2-b70__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\1b8fa078-765_8cae27d2-b70__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '1f85a28c-b47_8193d14c-901__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\1f85a28c-b47_8193d14c-901__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '22fea407-704_0a84ae7e-0af__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\22fea407-704_0a84ae7e-0af__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '265928fb-f91_6458a1c0-bc1__M10__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\265928fb-f91_6458a1c0-bc1__M10__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '297c24ca-6b8_9d2e343f-16b__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\297c24ca-6b8_9d2e343f-16b__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '29d0b8dd-9f3_3ad2d75f-8b2__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\29d0b8dd-9f3_3ad2d75f-8b2__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '2d543e49-ada_88784133-04c__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\2d543e49-ada_88784133-04c__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '2e022f21-e4f_0d5ff093-9dc__M10__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\2e022f21-e4f_0d5ff093-9dc__M10__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 2}
+{'dir': '311a0eea-429_f9fd13a4-c71__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\311a0eea-429_f9fd13a4-c71__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '34d94076-ad0_a83f4f62-7b2__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\34d94076-ad0_a83f4f62-7b2__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '384a3f91-cf1_963914fb-ca5__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\384a3f91-cf1_963914fb-ca5__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '398900ad-0c4_8010dbae-01e__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\398900ad-0c4_8010dbae-01e__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '3bf8b604-6af_6a9e9e41-4c5__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\3bf8b604-6af_6a9e9e41-4c5__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '3df0b6ab-345_cca6df04-ec5__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\3df0b6ab-345_cca6df04-ec5__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '3fb34ffc-440_9de8fe0b-074__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\3fb34ffc-440_9de8fe0b-074__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '4416602e-cd7_4e4bda1e-b80__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\4416602e-cd7_4e4bda1e-b80__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 2}
+verify 1533abe8-e09_4e8e003e-6a True 0.002655 0.0
+verify 1707a784-400_bf23c165-a8 True 0.002643 0.0
+verify 17c99597-12f_64ea9df2-88 True 0.00791 0.0
+verify 198c36c3-215_5815993a-bb True 0.002636 0.0
+verify 1b8fa078-765_8cae27d2-b7 True 0.002651 0.0
+verify 1f85a28c-b47_8193d14c-90 True 0.000115 0.0
+verify 22fea407-704_0a84ae7e-0a True 0.002651 0.0
+verify 265928fb-f91_6458a1c0-bc True 0.007957 0.0
+verify 297c24ca-6b8_9d2e343f-16 True 0.002646 0.0
+verify 29d0b8dd-9f3_3ad2d75f-8b True 0.002645 0.0
+verify 2d543e49-ada_88784133-04 True 4e-05 0.0
+verify 2e022f21-e4f_0d5ff093-9d True 0.007896 0.0
+verify 311a0eea-429_f9fd13a4-c7 True 0.002629 0.0
+verify 34d94076-ad0_a83f4f62-7b True 0.019854 0.0
+verify 384a3f91-cf1_963914fb-ca True 0.002641 0.0
+verify 398900ad-0c4_8010dbae-01 True 0.00169 0.0
+verify 3bf8b604-6af_6a9e9e41-4c True 0.00265 0.0
+verify 3df0b6ab-345_cca6df04-ec True 0.002646 0.0
+verify 3fb34ffc-440_9de8fe0b-07 True 0.002921 0.0
+verify 4416602e-cd7_4e4bda1e-b8 True 0.002646 0.0
+--- progress 200/283  ok=198
+{'dir': '47281224-306_1d58de37-32e__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\47281224-306_1d58de37-32e__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '492a8afb-049_9452d2ab-1cc__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\492a8afb-049_9452d2ab-1cc__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '4ba25bc3-2c9_83667135-e58__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\4ba25bc3-2c9_83667135-e58__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '4ddf3f2a-9ef_4d5a8ad2-4b5__M10__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\4ddf3f2a-9ef_4d5a8ad2-4b5__M10__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '4f98b779-54b_70be1cd3-cf6__M10__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\4f98b779-54b_70be1cd3-cf6__M10__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '52e99388-645_cc706cb5-ebd__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\52e99388-645_cc706cb5-ebd__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '533f09e5-b13_9f9389e8-eb1__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\533f09e5-b13_9f9389e8-eb1__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '562a42e2-1bb_95aed950-64d__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\562a42e2-1bb_95aed950-64d__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '595c5509-8db_020bd98d-ce4__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\595c5509-8db_020bd98d-ce4__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '5a64a630-9f7_d75c2fc3-764__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\5a64a630-9f7_d75c2fc3-764__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '5c28fd2a-239_53969ac3-7d7__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\5c28fd2a-239_53969ac3-7d7__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '5e273dcd-fd0_b665faf9-532__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\5e273dcd-fd0_b665faf9-532__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '6013c1b8-eeb_6bbee849-283__M10__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\6013c1b8-eeb_6bbee849-283__M10__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 2}
+{'dir': '626520c4-13a_dd3274ff-a9b__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\626520c4-13a_dd3274ff-a9b__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '64389c0b-e0e_90c02ed1-6ca__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\64389c0b-e0e_90c02ed1-6ca__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '65b9e56e-0b5_ea102ff0-dd7__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\65b9e56e-0b5_ea102ff0-dd7__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '67658cf7-367_52250705-9f9__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\67658cf7-367_52250705-9f9__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '6a9e9e41-4c5_83fe991a-4c8__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\6a9e9e41-4c5_83fe991a-4c8__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 2}
+{'dir': '6c611d33-9c9_4d1ab395-75f__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\6c611d33-9c9_4d1ab395-75f__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '6efa6ef6-ac0_4333d587-342__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\6efa6ef6-ac0_4333d587-342__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 2}
+verify 47281224-306_1d58de37-32 True 0.003253 0.0
+verify 492a8afb-049_9452d2ab-1c True 0.002642 0.0
+verify 4ba25bc3-2c9_83667135-e5 True 0.002372 0.0
+verify 4ddf3f2a-9ef_4d5a8ad2-4b True 0.007896 0.0
+verify 4f98b779-54b_70be1cd3-cf True 0.007914 0.0
+verify 52e99388-645_cc706cb5-eb True 0.550003 0.0
+verify 533f09e5-b13_9f9389e8-eb True 0.002646 0.0
+verify 562a42e2-1bb_95aed950-64 True 0.002653 0.0
+verify 595c5509-8db_020bd98d-ce True 0.002653 0.0
+verify 5a64a630-9f7_d75c2fc3-76 True 0.002655 0.0
+verify 5c28fd2a-239_53969ac3-7d True 0.002651 0.0
+verify 5e273dcd-fd0_b665faf9-53 True 0.550003 0.0
+verify 6013c1b8-eeb_6bbee849-28 True 0.007895 0.0
+verify 626520c4-13a_dd3274ff-a9 True 0.002644 0.0
+verify 64389c0b-e0e_90c02ed1-6c True 0.002647 0.0
+verify 65b9e56e-0b5_ea102ff0-dd True 0.002648 0.0
+verify 67658cf7-367_52250705-9f True 0.002661 0.0
+verify 6a9e9e41-4c5_83fe991a-4c True 0.002655 0.0
+verify 6c611d33-9c9_4d1ab395-75 True 0.002649 0.0
+verify 6efa6ef6-ac0_4333d587-34 True 0.002985 0.0
+--- progress 220/283  ok=218
+{'dir': '70be1cd3-cf6_49e90cba-0c5__M10__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\70be1cd3-cf6_49e90cba-0c5__M10__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '7465b825-b2c_0199add6-81d__M10__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\7465b825-b2c_0199add6-81d__M10__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '74db87b1-ac4_de90629b-0b7__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\74db87b1-ac4_de90629b-0b7__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '798d391e-875_433099b2-969__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\798d391e-875_433099b2-969__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '7bf8990c-9ae_7740cb8e-055__M10__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\7bf8990c-9ae_7740cb8e-055__M10__two\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 3, 'n_vertex': 2}
+{'dir': '7f7b5f9b-7cf_3273d218-fd3__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\7f7b5f9b-7cf_3273d218-fd3__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '8240a0a4-f4f_7cd629a1-9f8__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\8240a0a4-f4f_7cd629a1-9f8__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '83fe991a-4c8_43c0d4c4-aac__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\83fe991a-4c8_43c0d4c4-aac__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 2}
+{'dir': '88784133-04c_bafecd45-ace__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\88784133-04c_bafecd45-ace__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 3}
+{'dir': '8a623a78-78c_841059ae-e9e__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\8a623a78-78c_841059ae-e9e__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 2}
+{'dir': '8c755b21-68d_023fe417-839__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\8c755b21-68d_023fe417-839__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': '8fe31bae-c8c_b184580d-3d4__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\8fe31bae-c8c_b184580d-3d4__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '90c02ed1-6ca_cd4c8c4d-6db__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\90c02ed1-6ca_cd4c8c4d-6db__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '928ddf4f-ad2_f1c63f49-3b8__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\928ddf4f-ad2_f1c63f49-3b8__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '960e1d65-90f_79dca1e0-c97__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\960e1d65-90f_79dca1e0-c97__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '9827b248-a73_b01e1a6d-529__M12__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\9827b248-a73_b01e1a6d-529__M12__two\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 1, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 2}
+{'dir': '9b9cae45-8e3_347d3144-85d__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\9b9cae45-8e3_347d3144-85d__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '9c40f539-aae_d5c4bf5b-601__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\9c40f539-aae_d5c4bf5b-601__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '9de3af9a-de5_9090dd78-218__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\9de3af9a-de5_9090dd78-218__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': '9fe453f6-09e_d5d28911-54c__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\9fe453f6-09e_d5d28911-54c__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 2}
+verify 70be1cd3-cf6_49e90cba-0c True 0.007919 0.0
+verify 7465b825-b2c_0199add6-81 True 0.007899 0.0
+verify 74db87b1-ac4_de90629b-0b True 0.001458 0.0
+verify 798d391e-875_433099b2-96 True 0.000178 0.0
+verify 7bf8990c-9ae_7740cb8e-05 True 0.007896 0.0
+verify 7f7b5f9b-7cf_3273d218-fd True 0.002434 0.0
+verify 8240a0a4-f4f_7cd629a1-9f True 0.00265 0.0
+verify 83fe991a-4c8_43c0d4c4-aa True 0.002659 0.0
+verify 88784133-04c_bafecd45-ac True 0.002643 0.0
+verify 8a623a78-78c_841059ae-e9 True 0.002515 0.0
+verify 8c755b21-68d_023fe417-83 True 0.002644 0.0
+verify 8fe31bae-c8c_b184580d-3d True 0.550003 0.0
+verify 90c02ed1-6ca_cd4c8c4d-6d True 0.002649 0.0
+verify 928ddf4f-ad2_f1c63f49-3b True 0.001695 0.0
+verify 960e1d65-90f_79dca1e0-c9 True 0.002658 0.0
+verify 9827b248-a73_b01e1a6d-52 True 0.011358 0.0
+verify 9b9cae45-8e3_347d3144-85 True 6.7e-05 0.0
+verify 9c40f539-aae_d5c4bf5b-60 True 0.001693 0.0
+verify 9de3af9a-de5_9090dd78-21 True 0.900005 0.0
+verify 9fe453f6-09e_d5d28911-54 True 0.002645 0.0
+--- progress 240/283  ok=238
+{'dir': 'a0b52b6f-0ea_02f79d1b-6cc__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\a0b52b6f-0ea_02f79d1b-6cc__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 1, 'n_flush': 0, 'n_contact': 3, 'n_vertex': 2}
+{'dir': 'a2aa027c-9c2_f4111eac-314__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\a2aa027c-9c2_f4111eac-314__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'a65c698d-549_8728f357-338__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\a65c698d-549_8728f357-338__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': 'a8b6e20b-062_c9615bfd-770__M12__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\a8b6e20b-062_c9615bfd-770__M12__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'aba929da-84c_b80e522f-3a8__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\aba929da-84c_b80e522f-3a8__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'af0cf1c0-26d_c0084dbc-211__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\af0cf1c0-26d_c0084dbc-211__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'b0566271-b95_2b982d45-54d__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\b0566271-b95_2b982d45-54d__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'b1b6eee0-a20_6270d025-e10__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\b1b6eee0-a20_6270d025-e10__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'b3e6a606-fca_6988248b-90a__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\b3e6a606-fca_6988248b-90a__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'b4a86967-d42_a78db056-c18__M10__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\b4a86967-d42_a78db056-c18__M10__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'b6fc74c5-bbf_3b8293c1-86b__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\b6fc74c5-bbf_3b8293c1-86b__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'bafecd45-ace_8b250a94-4d6__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\bafecd45-ace_8b250a94-4d6__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 2}
+{'dir': 'bc23dcaf-0ce_91631bcd-649__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\bc23dcaf-0ce_91631bcd-649__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'bd510490-d01_7d10ce8b-44d__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\bd510490-d01_7d10ce8b-44d__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'bea78d3e-2d4_8a3da856-2f4__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\bea78d3e-2d4_8a3da856-2f4__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'bf1006ed-973_23b6c242-084__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\bf1006ed-973_23b6c242-084__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'c0475b1a-4f4_d312755a-509__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\c0475b1a-4f4_d312755a-509__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 2}
+{'dir': 'c334e7fb-392_99c52308-cd4__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\c334e7fb-392_99c52308-cd4__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'c3f44d9c-b10_289d801e-e95__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\c3f44d9c-b10_289d801e-e95__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': 'c592c738-7cf_83667135-e58__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\c592c738-7cf_83667135-e58__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+verify a0b52b6f-0ea_02f79d1b-6c True 0.002627 0.0
+verify a2aa027c-9c2_f4111eac-31 True 0.001689 0.0
+verify a65c698d-549_8728f357-33 True 0.002659 0.0
+verify a8b6e20b-062_c9615bfd-77 True 0.011407 0.0
+verify aba929da-84c_b80e522f-3a True 0.002653 0.0
+verify af0cf1c0-26d_c0084dbc-21 True 0.002648 0.0
+verify b0566271-b95_2b982d45-54 True 8.1e-05 6e-06
+verify b1b6eee0-a20_6270d025-e1 True 0.001937 0.0
+verify b3e6a606-fca_6988248b-90 True 0.001699 0.0
+verify b4a86967-d42_a78db056-c1 True 0.007896 0.0
+verify b6fc74c5-bbf_3b8293c1-86 True 0.002645 0.0
+verify bafecd45-ace_8b250a94-4d True 0.002645 0.0
+verify bc23dcaf-0ce_91631bcd-64 True 0.002651 0.0
+verify bd510490-d01_7d10ce8b-44 True 0.00265 0.0
+verify bea78d3e-2d4_8a3da856-2f True 0.001695 0.0
+verify bf1006ed-973_23b6c242-08 True 0.00169 0.0
+verify c0475b1a-4f4_d312755a-50 True 0.002651 0.0
+verify c334e7fb-392_99c52308-cd True 0.002644 0.0
+verify c3f44d9c-b10_289d801e-e9 True 0.002654 0.0
+verify c592c738-7cf_83667135-e5 True 0.002431 0.0
+--- progress 260/283  ok=258
+{'dir': 'c7229bec-f18_ede0e5dd-b5d__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\c7229bec-f18_ede0e5dd-b5d__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'c8f2582c-f02_85ad81ff-418__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\c8f2582c-f02_85ad81ff-418__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'caa57d50-397_17f01a15-09a__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\caa57d50-397_17f01a15-09a__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'cd1e04ee-45c_90c02ed1-6ca__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\cd1e04ee-45c_90c02ed1-6ca__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'cf4bb19d-b52_becb2ead-5ce__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\cf4bb19d-b52_becb2ead-5ce__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': 'd2251b6f-518_2344c553-b09__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\d2251b6f-518_2344c553-b09__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'd5f7a678-7d9_4be7f232-023__M12__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\d5f7a678-7d9_4be7f232-023__M12__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'd8fd63ce-6b3_e9cc618e-2b2__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\d8fd63ce-6b3_e9cc618e-2b2__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'de0b0025-e56_1f0d1172-c64__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\de0b0025-e56_1f0d1172-c64__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'e0283af8-db5_bd9c5415-465__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\e0283af8-db5_bd9c5415-465__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': 'e2cccfc2-71f_119f9095-0ad__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\e2cccfc2-71f_119f9095-0ad__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': 'e74e86c6-bdc_f7854052-b4b__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\e74e86c6-bdc_f7854052-b4b__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'ea102ff0-dd7_f3630d6f-a4c__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\ea102ff0-dd7_f3630d6f-a4c__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'ed2679ed-f0a_399b5054-736__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\ed2679ed-f0a_399b5054-736__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 2}
+{'dir': 'ee38cecc-27d_71628b01-a8f__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\ee38cecc-27d_71628b01-a8f__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'f127a4be-196_cd1e04ee-45c__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\f127a4be-196_cd1e04ee-45c__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'f2377b87-faa_ff66ab67-6b1__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\f2377b87-faa_ff66ab67-6b1__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 1, 'n_datum': 0, 'n_flush': 1, 'n_contact': 3, 'n_vertex': 0}
+{'dir': 'f43b22b9-809_00160a4d-93a__M10__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\f43b22b9-809_00160a4d-93a__M10__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 2}
+{'dir': 'f6b0e3d5-077_8b110ec5-6d2__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\f6b0e3d5-077_8b110ec5-6d2__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'f855901b-f30_ce4f7ef1-ba5__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\f855901b-f30_ce4f7ef1-ba5__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+verify c7229bec-f18_ede0e5dd-b5 True 0.002657 0.0
+verify c8f2582c-f02_85ad81ff-41 True 0.002649 0.0
+verify caa57d50-397_17f01a15-09 True 0.002654 0.0
+verify cd1e04ee-45c_90c02ed1-6c True 0.002794 0.0
+verify cf4bb19d-b52_becb2ead-5c True 0.002646 0.0
+verify d2251b6f-518_2344c553-b0 True 0.002639 0.0
+verify d5f7a678-7d9_4be7f232-02 True 0.011352 0.0
+verify d8fd63ce-6b3_e9cc618e-2b True 0.002634 0.0
+verify de0b0025-e56_1f0d1172-c6 True 0.00265 0.0
+verify e0283af8-db5_bd9c5415-46 True 0.001709 0.0
+verify e2cccfc2-71f_119f9095-0a True 0.001692 0.0
+verify e74e86c6-bdc_f7854052-b4 True 0.002644 0.0
+verify ea102ff0-dd7_f3630d6f-a4 True 0.002836 0.0
+verify ed2679ed-f0a_399b5054-73 True 0.002929 0.0
+verify ee38cecc-27d_71628b01-a8 True 0.550003 0.0
+verify f127a4be-196_cd1e04ee-45 True 0.000286 0.0
+verify f2377b87-faa_ff66ab67-6b True 0.900003 0.0
+verify f43b22b9-809_00160a4d-93 True 0.007895 0.0
+verify f6b0e3d5-077_8b110ec5-6d True 0.002649 0.0
+verify f855901b-f30_ce4f7ef1-ba True 0.002629 0.0
+--- progress 280/283  ok=278
+{'dir': 'faca24fa-da9_8cba59d5-63c__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\faca24fa-da9_8cba59d5-63c__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 0}
+{'dir': 'fd9a2132-128_930db089-bee__M4__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\fd9a2132-128_930db089-bee__M4__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+{'dir': 'fef0a591-69a_ae2244a6-565__M3__two', 'kind': 'two', 'ok': True, 'n_mates': 8, 'script': 'E:/3005/data\\1m_Convert\\two_part_assemblies_slim\\fef0a591-69a_ae2244a6-565__M3__two\\assembly_constrained_cadquery.py', 'n_axis0': 0, 'n_datum': 0, 'n_flush': 0, 'n_contact': 4, 'n_vertex': 1}
+verify faca24fa-da9_8cba59d5-63 True 0.900004 0.0
+verify fd9a2132-128_930db089-be True 0.002655 0.0
+verify fef0a591-69a_ae2244a6-56 True 0.000249 0.0
+--- progress 283/283  ok=281
+{
+ "n": 283,
+ "n_ok": 281,
+ "single_ok": "165/1005",
+ "two_ok": "116/693",
+ "max_pos_residual_mm": 1.0,
+ "max_axis_residual_deg": 0.044755,
+ "mates_total": 3582,
+ "mates_axis_parallel": 40,
+ "mates_vertex": 258,
+ "parts_contact": 1746,
+ "parts_flush": 34,
+ "parts_datum": 11,
+ "parts_exact": 1002,
+ "parts_total": 1791,
+ "corrected_gaps_mm": [
+  0.0015,
+  0.0016,
+  0.0017,
+  0.0018,
+  0.0019,
+  0.002,
+  0.0023,
+  0.0024,
+  0.0025,
+  0.0026,
+  0.0027,
+  0.0028
+ ],
+ "failures": [
+  [
+   "0cfc60c6-f216-bc2d-4",
+   "residual 1.000 mm / 0.000 deg / 8 solids",
+   1.0
+  ],
+  [
+   "f3360e4e-d47f-c118-c",
+   "residual 1.700 mm / 0.000 deg / 19 solids",
+   1.7
+  ]
+ ]
+}

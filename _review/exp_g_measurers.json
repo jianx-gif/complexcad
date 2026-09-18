@@ -1,0 +1,39 @@
+{
+ "n_models": 600,
+ "diameter": {
+  "attempted": 1072,
+  "exact_1e-6": 721,
+  "close_0.01mm": 0,
+  "no_candidate_feature": 40,
+  "match_rate": 0.6726,
+  "median_err_mm": 0.0,
+  "p95_err_mm": 24.45
+ },
+ "fillet": {
+  "attempted": 214,
+  "exact_1e-6": 192,
+  "close_0.01mm": 0,
+  "no_candidate_feature": 2,
+  "match_rate": 0.8972,
+  "median_err_mm": 0.0,
+  "p95_err_mm": 1.5
+ },
+ "chamfer": {
+  "attempted": 488,
+  "exact_1e-6": 331,
+  "close_0.01mm": 3,
+  "no_candidate_feature": 0,
+  "match_rate": 0.6844,
+  "median_err_mm": 0.0,
+  "p95_err_mm": 18.799
+ },
+ "depth": {
+  "attempted": 373,
+  "exact_1e-6": 71,
+  "close_0.01mm": 0,
+  "no_candidate_feature": 26,
+  "match_rate": 0.1903,
+  "median_err_mm": 3.0,
+  "p95_err_mm": 35.55
+ }
+}

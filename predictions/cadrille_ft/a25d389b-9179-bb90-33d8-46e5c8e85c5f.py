@@ -1,0 +1,43 @@
+import cadquery as cq
+import = 80
+import cadquery as cq
+import cadquery as cq
+import cadquery as cq
+ch = 80
+cham('X = 80)
+chyl = 200, 0, 200)
+chamfer_radius)
+chamfer_size)
+chamfer_size)
+chamfer_size)
+chamfer_size)
+chamfer_size + 200, 200)
+chamfer_size)
+chamfer_size = 200, 200)
+chamfer_size + 200)
+chamfer_size)
+chamfer_size = 200, 200)
+chamfer_size)
+chamfer_size = 200, 200)
+chamfer_size)
+chamfer_size = 200, 200)
+chamfer_size = 200)
+chamfer_size)
+chamfer_size = 200, 200)
+chamfer_size)
+chamfer_size = 200, 200)
+chamfer_size)
+chamfer_size = 200, 200)
+chamfer_size)
+chamfer_size = 200, 200)
+chamfer_size)
+chamfer_size = 200, 200),(-chchchamfer_size)
+chchchchchamfer_size)
+chchchchchamfer_size)
+chchchchchchamfer_size)
+chchchchchchamfer_size)
+chchchchchch = 200, 200),(-chchamfer_size)
+chchamfer_size)
+chchamfer_size)
+chchamfer_size)
+chchch = 100,0),(-100,0), -100,0),(-100,100),(-100,0),(-90,-100)).segment((-90,-100),(-85,-100)).segment((-85,-90)).segment((-80,-90)).segment((-80,-60)).segment((-85,-60)).segment((-85,-50)).segment((-90,-50)).segment((-90,-60)).segment((-95,-60)).segment((-95,-80)).segment((-90,-80)).segment((-90,-85)).segment((-90,-86)).segment((-90,-87)).segment((-90,-90)).segment((-90,-91)).segment((-90,-92)).segment((-90,-93)).segment((-90,-97)).segment((-90,-98)).segment((-90,-100)).segment((-90,-100),(-90,-100)).close().assemble().reset().face(w0.sketch().segment((-90,-100),(-90,-90)).segment((-90,-80)).segment((-90,-71)).arc((-92,-85),(-90,-100)).assemble(),mode='s').reset().face(w0.sketch().segment((-90,-80),(-90,-71)).arc((-92,-76),(-90,-80)).assemble(),mode='s').reset().face(w0.sketch().arc((-85,-80),(-83,-76),(-8

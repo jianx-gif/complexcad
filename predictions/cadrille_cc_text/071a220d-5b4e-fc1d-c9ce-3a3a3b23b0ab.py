@@ -1,0 +1,25 @@
+import cadquery as cq
+outer_side = 70.0
+channel_length = 80.0
+wall_thickness = 5.0
+flange_width = 15.0
+flange_thickness = 5.0
+fillet_radius = 3.0
+chamfer_distance = 1.0
+hole_offset = 20.0
+rib_width = 4.0
+rib_height = 10.0
+slot_width = 8.0
+slot_length = 20.0
+slot_depth = 5.0
+outer = cq.Workplane('XY').circle(outer_side).extrude(channel_length)
+inner = cq.Workplane('XY').circle(outer_side).extrude(channel_length)
+inner = inner.edges().fillet(fillet_radius)
+flange = cq.Workplane('XY').rect(flange_width, flange_thickness).extrude(flange_thickness)
+flange = flange.union(flange)
+flange = flange.edges().chamfer(chamfer_distance)
+inner = cq.Workplane('XY').center(0, 0).rect(slot_width, slot_length).extrude(channel_length)
+inner = inner.faces('>Z').workplane().center(0, 0).rect(slot_width, slot_length).extrude(channel_length)
+inner = inner.faces('>Z').edges().chamfer(chamfer_distance)
+result = outer.cut(inner)
+result = result.faces('>Z').edges().chamfer(chamfer_distance)

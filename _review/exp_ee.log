@@ -1,0 +1,31 @@
+{
+ "n_sheets": 9976,
+ "layer_linetype_names_iso": 9976,
+ "hidden_linetype_defined": 0,
+ "center_linetype_defined": 0,
+ "linetype_table_only_default": 9976,
+ "layer_lineweights_set": 0,
+ "visible_lines": 5824604,
+ "visible_lines_with_weight": 2390,
+ "sheets_with_hidden_lines": 9974,
+ "sheets_with_hatch": 1189,
+ "sheets_with_sweep_centreline": 278,
+ "center_layer_line_entities": 29928,
+ "sheets_center_lines_gt_symbol": 0,
+ "parts_with_hole_op": 7199,
+ "parts_with_revolve_or_cylinder": 5687,
+ "center_layer_line_count_histogram": {
+  "3": 9976
+ },
+ "visible_lines_with_weight_share": 0.00041,
+ "raster_line_widths_mm": {
+  "visible_outline": 0.176,
+  "hidden_dashed": 0.123,
+  "dimension": 0.088,
+  "hatch": 0.106,
+  "sweep_centreline_dashdot": 0.212,
+  "symbol_centreline_dashdot": 0.123,
+  "frame": 0.353,
+  "section_cutting_stroke": 0.423
+ }
+}

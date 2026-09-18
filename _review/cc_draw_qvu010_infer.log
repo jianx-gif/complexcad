@@ -1,0 +1,56 @@
+device: cuda 65 C
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+LoRA adapter merged: E:/3005/data/_review/cc_draw_lora_qvu010/final_adapter
+模型已加载
+待推理 400 / 400 (mode=pc_draw)
+  8/400 ok8 fail0 8.9s/件 GPU 77C ETA58.4min
+  16/400 ok16 fail0 9.6s/件 GPU 77C ETA61.5min
+  24/400 ok24 fail0 9.1s/件 GPU 77C ETA57.1min
+  32/400 ok32 fail0 9.1s/件 GPU 77C ETA55.8min
+  40/400 ok40 fail0 9.0s/件 GPU 76C ETA54.0min
+  48/400 ok48 fail0 9.0s/件 GPU 78C ETA52.9min
+  56/400 ok56 fail0 9.2s/件 GPU 78C ETA52.8min
+  64/400 ok64 fail0 9.5s/件 GPU 77C ETA53.2min
+  72/400 ok72 fail0 9.4s/件 GPU 77C ETA51.5min
+  80/400 ok80 fail0 9.7s/件 GPU 79C ETA51.8min
+  88/400 ok88 fail0 9.7s/件 GPU 78C ETA50.5min
+  96/400 ok96 fail0 9.6s/件 GPU 77C ETA48.7min
+  104/400 ok104 fail0 9.6s/件 GPU 77C ETA47.1min
+  112/400 ok112 fail0 9.6s/件 GPU 77C ETA46.0min
+  120/400 ok120 fail0 9.7s/件 GPU 77C ETA45.4min
+  128/400 ok128 fail0 9.8s/件 GPU 77C ETA44.6min
+  136/400 ok136 fail0 9.8s/件 GPU 77C ETA43.1min
+  144/400 ok144 fail0 9.9s/件 GPU 77C ETA42.2min
+  152/400 ok152 fail0 10.2s/件 GPU 78C ETA42.3min
+  160/400 ok160 fail0 10.1s/件 GPU 77C ETA40.5min
+  168/400 ok168 fail0 10.1s/件 GPU 77C ETA38.9min
+  176/400 ok176 fail0 10.3s/件 GPU 77C ETA38.6min
+  184/400 ok184 fail0 10.3s/件 GPU 77C ETA37.0min
+  192/400 ok192 fail0 10.3s/件 GPU 74C ETA35.9min
+  200/400 ok200 fail0 10.4s/件 GPU 77C ETA34.8min
+  208/400 ok208 fail0 10.4s/件 GPU 76C ETA33.3min
+  216/400 ok216 fail0 10.4s/件 GPU 76C ETA31.8min
+  224/400 ok224 fail0 10.3s/件 GPU 77C ETA30.3min
+  232/400 ok232 fail0 10.3s/件 GPU 77C ETA28.7min
+  240/400 ok240 fail0 10.4s/件 GPU 79C ETA27.7min
+  248/400 ok248 fail0 10.3s/件 GPU 77C ETA26.1min
+  256/400 ok256 fail0 10.4s/件 GPU 78C ETA24.8min
+  264/400 ok264 fail0 10.3s/件 GPU 78C ETA23.4min
+  272/400 ok272 fail0 10.3s/件 GPU 77C ETA21.9min
+  280/400 ok280 fail0 10.2s/件 GPU 78C ETA20.4min
+  288/400 ok288 fail0 10.2s/件 GPU 76C ETA19.0min
+  296/400 ok296 fail0 10.1s/件 GPU 78C ETA17.6min
+  304/400 ok304 fail0 10.1s/件 GPU 77C ETA16.2min
+  312/400 ok312 fail0 10.1s/件 GPU 77C ETA14.8min
+  320/400 ok320 fail0 10.1s/件 GPU 78C ETA13.5min
+  328/400 ok328 fail0 10.2s/件 GPU 78C ETA12.2min
+  336/400 ok336 fail0 10.2s/件 GPU 77C ETA10.9min
+  344/400 ok344 fail0 10.1s/件 GPU 77C ETA9.5min
+  352/400 ok352 fail0 10.1s/件 GPU 78C ETA8.1min
+  360/400 ok360 fail0 10.1s/件 GPU 75C ETA6.7min
+  368/400 ok368 fail0 10.1s/件 GPU 76C ETA5.4min
+  376/400 ok376 fail0 10.1s/件 GPU 78C ETA4.0min
+  384/400 ok384 fail0 10.0s/件 GPU 78C ETA2.7min
+  392/400 ok392 fail0 10.0s/件 GPU 78C ETA1.3min
+  400/400 ok400 fail0 10.0s/件 GPU 78C ETA0.0min
+完成: ok 400 fail 0 用时 66.6min -> E:\3005\data\predictions\cadrille_cc_draw_qvu010

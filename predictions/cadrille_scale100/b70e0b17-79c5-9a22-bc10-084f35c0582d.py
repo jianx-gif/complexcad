@@ -1,0 +1,2 @@
+import cadquery as cq
+w0=cq.Workplane('ZX',origin=(10,0 Next It pro appearance on con head Next N to (10,0)). It (31,100).moveTo(-10,10).cylinder(1,14).union(w0 con head Next N to (10,10).moveTo(-10,10).cylinder(1,14)). (31,100).union(w0 Next N to The A with (10,0)).segment((-100,20).union(w0 con con con to (10,100).union(w0 con con con con l note to (10,0)).segment((-100,10).segment((-100,100)).segment((-100,100)).close().assemble().push([(-13,10)]).circle(3).push([(13,10)]).circle(3).finalize().extrude(-3))

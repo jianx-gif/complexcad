@@ -1,0 +1,32 @@
+import cadquery as cq
+outer_radius = 100
+outer_radius = 200
+outer_radius = 30
+outer_radius = 100
+outer_radius = 20
+outer_radius = 100
+outer_radius = 20
+hole_diameter = 20
+hole_count = 10
+hole_count = 20
+hole_count = 10
+hole_offset = 20
+hole_offset = 20
+hole_offset = 20
+hole_offset = 20 - 10
+hole_offset = 20 - 10
+hole_offset = 20 - 10
+hole_offset = 20 - 10 + hole_offset, 0)
+hole_offset = 20 - 10 - hole_offset, 0)
+hole_offset = 20 - 10 - hole_offset, 0)
+hole_offset = 20 - 10 - hole_depth)
+hole_offset = 20 - 10 - hole_depth)
+hole_offset = 20 - 10 - hole_depth)
+hole_offset = 20 - 10 - hole_depth)
+hole_offset = 20 - 10 - hole_depth)
+hole_offset = 20 - 10 - hole_depth)
+hole_offset = 20 - 10 - hole_depth)
+hole_offset = 20 - 10 - hole_depth)
+hole_offset = 20 - 10 - hole_depth)
+hole_offset = 20 - 10 - hole_depth) for i in hole_offset, 0)
+hole_offset = 20 - 10 - hole_depth) for i in hole_offset, 0).hole(offset = 20 - 10 - hole_depth).hole(offset = 20 - 10 - hole_depth).translate((0, 0), (0, 0, 0), 0, 0), 0, 0), 0, 0), 0, 0), 0, 0), 0, 0), 0, 0), 0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, - hole_length/2).hole(offset = 20 - 10 - hole_length/2).box(outer_radius, hole_length, 20).translate((0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0,

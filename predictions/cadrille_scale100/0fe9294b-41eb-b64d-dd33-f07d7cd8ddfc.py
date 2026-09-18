@@ -1,0 +1,9 @@
+import cadquery as cq
+w0=cq.Workplane('ZX',origin=(14,0 Forr=w0 (10 (10,100))
+w1 For (10,100))
+w1 For or's (10,100))
+r=w0 appearance on A (10,100))
+r=w0 appearance on con (10,100))
+arc (10,100))
+arc (10,100))
+close().assemble().push([(13,13)]).circle(3).push([(12,13)]).circle(3).finalize().extrude(-14).union(w0.sketch().segment((-100,14)).segment((-99,13)).segment((-99,12)).segment((-98,12)).segment((-98,13)).segment((-100,13)).segment((-100,12)).segment((-99,12)).segment((-99,13)).segment((-100,13)).segment((-100,12)).segment((-99,12)).segment((-99,13)).segment((-100,13)).segment((-100,12)).segment((-99,12)).segment((-99,13)).segment((-100,13)).segment((-100,12)).segment((-99,12)).segment((-99,13)).segment((-100,13)).segment((-100,12)).segment((-99,12)).segment((-99,13)).segment((-100,13)).segment((-100,12)).segment((-99,12)).segment((-99,13)).segment((-100,13)).segment((-100,12)).segment((-99,12)).segment((-99,13)).segment((-100,13)).segment((-100,12)).segment((-99,12)).segment((-99,13)).segment((-100,13)).segment((-100,12)).segment((-99,12)).segment((-99,13)).segment((-100,13)).segment((-100,12)).segment((-99,12)).segment((-99,13)).segment((-100,13)).segment((-100,12)).segment((-99,12)).segment((-99,13)).segment((-100,13)).segment((-100,12)).segment((-99,12)).segment((-99,13)).segment((-100,13)).segment((-100,12)).segment((-99,12)).segment((-99,13)).segment((-100,13)).segment((-100,12)).segment((-99,12)).segment((-99,13)).close().assemble().finalize().extrude(-11).union(w0.sketch().segment((-100,12),(-99,12)).segment((-99,13)).segment((-100,13)).close().assemble().finalize().extrude(15))

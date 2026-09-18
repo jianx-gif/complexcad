@@ -1,0 +1,28 @@
+{
+ "n_models": 1844,
+ "n_errors": 0,
+ "by_group": {
+  "full": {
+   "attempted": 1813,
+   "exact": 1764,
+   "off": 43,
+   "no_candidate": 6,
+   "median_err_deg": 0.0
+  },
+  "partial": {
+   "attempted": 119,
+   "exact": 63,
+   "off": 55,
+   "no_candidate": 1,
+   "median_err_deg": 0.0
+  },
+  "unresolved": {
+   "attempted": 67,
+   "no_candidate": 67,
+   "median_err_deg": null
+  }
+ },
+ "coaxial_models": 1293,
+ "coaxial_total": 1839,
+ "coaxial_rate": 0.7031
+}

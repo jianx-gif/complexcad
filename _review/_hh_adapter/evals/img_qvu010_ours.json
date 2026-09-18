@@ -1,0 +1,2498 @@
+{
+ "summary": {
+  "n": 100,
+  "valid_pct": 99.0,
+  "chamfer_mean": 0.02130638951996315,
+  "chamfer_median": 0.01668905540138661,
+  "fscore_mean": 0.9431390432961492,
+  "op_type_recall_mean": 0.5850515463917526,
+  "op_count_recall_mean": 0.4547632787474585,
+  "op_exact_pct": 25.773195876288657,
+  "n_with_gt_program": 97,
+  "status_counts": {
+   "ok": 99,
+   "exec_error": 1
+  },
+  "n_timeout": 0,
+  "eval_seconds": 5.6
+ },
+ "per_item": [
+  {
+   "uuid": "00010702",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "rect",
+    "rect"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.010343043299825397,
+   "fscore": 0.9999999995,
+   "precision": 1.0,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00032338",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.015622241941958387,
+   "fscore": 0.9960313641573786,
+   "precision": 0.9971923828125,
+   "recall": 0.994873046875,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00033822",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "rect",
+    "rect"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.015339075713359334,
+   "fscore": 0.9746699471818369,
+   "precision": 0.9739990234375,
+   "recall": 0.975341796875,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00036288",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 0.23076923076923078,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.0920843668058859,
+   "fscore": 0.7055923262087392,
+   "precision": 0.8480224609375,
+   "recall": 0.6041259765625,
+   "status": "ok",
+   "seconds": 0.09
+  },
+  {
+   "uuid": "00037522",
+   "gt_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.014337012602633325,
+   "fscore": 0.9983520465498105,
+   "precision": 0.998291015625,
+   "recall": 0.9984130859375,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00050749",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.014869872938620705,
+   "fscore": 0.9962158198125,
+   "precision": 0.9962158203125,
+   "recall": 0.9962158203125,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00052367",
+   "gt_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.015408512471561525,
+   "fscore": 0.9949950567830405,
+   "precision": 0.9947509765625,
+   "recall": 0.9952392578125,
+   "status": "ok",
+   "seconds": 0.06
+  },
+  {
+   "uuid": "00080891",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.01984584552514627,
+   "fscore": 0.9624548282978039,
+   "precision": 0.9595947265625,
+   "recall": 0.96533203125,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00092425",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 0.875,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.01773208804946414,
+   "fscore": 0.9199586413012648,
+   "precision": 0.9407958984375,
+   "recall": 0.9000244140625,
+   "status": "ok",
+   "seconds": 0.14
+  },
+  {
+   "uuid": "00093663",
+   "gt_ops": [
+    "extrude",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "cylinder"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.010192921998109436,
+   "fscore": 0.9999999995,
+   "precision": 1.0,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00101947",
+   "gt_ops": [
+    "cut",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "box",
+    "union",
+    "box",
+    "box"
+   ],
+   "op_type_recall": 0.3333333333333333,
+   "op_count_recall": 0.2,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.018272131421817776,
+   "fscore": 0.98132269503602,
+   "precision": 0.9805908203125,
+   "recall": 0.9820556640625,
+   "status": "ok",
+   "seconds": 0.08
+  },
+  {
+   "uuid": "00106201",
+   "gt_ops": [
+    "extrude",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "cylinder"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.01563608277785259,
+   "fscore": 0.9951773799047842,
+   "precision": 0.9942626953125,
+   "recall": 0.99609375,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00106978",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 0.5,
+   "op_count_recall": 0.3333333333333333,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.011250855425566985,
+   "fscore": 0.9997557992557997,
+   "precision": 1.0,
+   "recall": 0.99951171875,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00110356",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.019328211096916584,
+   "fscore": 0.9689231048149658,
+   "precision": 0.9658203125,
+   "recall": 0.9720458984375,
+   "status": "ok",
+   "seconds": 0.03
+  },
+  {
+   "uuid": "00116780",
+   "pred_ops": [
+    "box"
+   ],
+   "valid": true,
+   "chamfer": 0.011760649183931271,
+   "fscore": 0.9999999995,
+   "precision": 1.0,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.03
+  },
+  {
+   "uuid": "00118333",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.008391627138662183,
+   "fscore": 0.9999999995,
+   "precision": 1.0,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.03
+  },
+  {
+   "uuid": "00118711",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "cylinder",
+    "union",
+    "extrude",
+    "cylinder"
+   ],
+   "op_type_recall": 0.6666666666666666,
+   "op_count_recall": 0.3333333333333333,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.00630226174605422,
+   "fscore": 0.9960784308725567,
+   "precision": 1.0,
+   "recall": 0.9921875,
+   "status": "ok",
+   "seconds": 0.11
+  },
+  {
+   "uuid": "00130553",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.032733792288033844,
+   "fscore": 0.899863383936658,
+   "precision": 0.934814453125,
+   "recall": 0.867431640625,
+   "status": "ok",
+   "seconds": 0.06
+  },
+  {
+   "uuid": "00144800",
+   "gt_ops": [
+    "cut",
+    "extrude",
+    "cut",
+    "extrude",
+    "cut",
+    "extrude",
+    "cut",
+    "extrude",
+    "cut",
+    "extrude",
+    "cut",
+    "extrude",
+    "cut",
+    "circle",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "rect"
+   ],
+   "op_type_recall": 0.3333333333333333,
+   "op_count_recall": 0.05263157894736842,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.01200694020287231,
+   "fscore": 0.9993892751809578,
+   "precision": 0.998779296875,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00161604",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.016514779194059213,
+   "fscore": 0.9920654141671588,
+   "precision": 0.991943359375,
+   "recall": 0.9921875,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00179698",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "circle",
+    "extrude",
+    "union",
+    "circle",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle",
+    "circle",
+    "circle",
+    "rect"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 0.4375,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.012947315113477898,
+   "fscore": 0.9850400289414959,
+   "precision": 0.9825439453125,
+   "recall": 0.987548828125,
+   "status": "ok",
+   "seconds": 0.11
+  },
+  {
+   "uuid": "00183965",
+   "gt_ops": [
+    "cut",
+    "extrude",
+    "extrude",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle"
+   ],
+   "op_type_recall": 0.6666666666666666,
+   "op_count_recall": 0.5,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.025996485739584914,
+   "fscore": 0.8756320928719413,
+   "precision": 0.84765625,
+   "recall": 0.905517578125,
+   "status": "ok",
+   "seconds": 0.09
+  },
+  {
+   "uuid": "00187869",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "rect",
+    "rect"
+   ],
+   "op_type_recall": 0.5,
+   "op_count_recall": 0.3333333333333333,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.012889374811190313,
+   "fscore": 0.9999999995,
+   "precision": 1.0,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00218886",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "box",
+    "cylinder"
+   ],
+   "op_type_recall": 0.3333333333333333,
+   "op_count_recall": 0.25,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.02378431901346012,
+   "fscore": 0.8950194641540848,
+   "precision": 0.894775390625,
+   "recall": 0.895263671875,
+   "status": "ok",
+   "seconds": 0.06
+  },
+  {
+   "uuid": "00223685",
+   "gt_ops": [
+    "cut",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle",
+    "rect",
+    "circle"
+   ],
+   "op_type_recall": 0.75,
+   "op_count_recall": 0.5555555555555556,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.024291273420477894,
+   "fscore": 0.8967880506765815,
+   "precision": 0.8956298828125,
+   "recall": 0.89794921875,
+   "status": "ok",
+   "seconds": 0.12
+  },
+  {
+   "uuid": "00237196",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "op_type_recall": 0.6666666666666666,
+   "op_count_recall": 0.3333333333333333,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.016699738765903933,
+   "fscore": 0.9916992032241122,
+   "precision": 0.9918212890625,
+   "recall": 0.9915771484375,
+   "status": "ok",
+   "seconds": 0.1
+  },
+  {
+   "uuid": "00240546",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.02416057908025762,
+   "fscore": 0.907042269588235,
+   "precision": 0.9080810546875,
+   "recall": 0.906005859375,
+   "status": "ok",
+   "seconds": 0.07
+  },
+  {
+   "uuid": "00242441",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.021989483527030576,
+   "fscore": 0.9254693072412982,
+   "precision": 0.9229736328125,
+   "recall": 0.927978515625,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00244191",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "extrude",
+    "box",
+    "circle"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 0.42857142857142855,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.016021202952473862,
+   "fscore": 0.9653894392914999,
+   "precision": 0.97900390625,
+   "recall": 0.9521484375,
+   "status": "ok",
+   "seconds": 0.1
+  },
+  {
+   "uuid": "00250213",
+   "gt_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.023957044447609994,
+   "fscore": 0.8740108859653654,
+   "precision": 0.9044189453125,
+   "recall": 0.8455810546875,
+   "status": "ok",
+   "seconds": 0.15
+  },
+  {
+   "uuid": "00256514",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "cut",
+    "extrude",
+    "cut",
+    "extrude",
+    "cut",
+    "extrude",
+    "cut",
+    "circle",
+    "extrude",
+    "cut",
+    "circle",
+    "extrude",
+    "cut",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "extrude",
+    "box",
+    "circle",
+    "circle",
+    "rect"
+   ],
+   "op_type_recall": 0.75,
+   "op_count_recall": 0.23529411764705882,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.02301969762409343,
+   "fscore": 0.8383770218666386,
+   "precision": 0.845703125,
+   "recall": 0.8311767578125,
+   "status": "ok",
+   "seconds": 0.15
+  },
+  {
+   "uuid": "00256640",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "box",
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 0.2857142857142857,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.11513948112947354,
+   "fscore": 0.6361091736472738,
+   "precision": 0.5162353515625,
+   "recall": 0.8284912109375,
+   "status": "ok",
+   "seconds": 0.11
+  },
+  {
+   "uuid": "00268141",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "extrude",
+    "extrude",
+    "rect",
+    "rect",
+    "rect"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 0.15789473684210525,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.018482809827410976,
+   "fscore": 0.9060026897111179,
+   "precision": 0.9439697265625,
+   "recall": 0.8709716796875,
+   "status": "ok",
+   "seconds": 0.15
+  },
+  {
+   "uuid": "00281990",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.014074169331792449,
+   "fscore": 0.9988402382908647,
+   "precision": 0.99853515625,
+   "recall": 0.9991455078125,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00290403",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "box",
+    "box"
+   ],
+   "op_type_recall": 0.5,
+   "op_count_recall": 0.3333333333333333,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.01689165661071153,
+   "fscore": 0.989866658194237,
+   "precision": 0.9886474609375,
+   "recall": 0.9910888671875,
+   "status": "ok",
+   "seconds": 0.06
+  },
+  {
+   "uuid": "00293310",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 0.5,
+   "op_count_recall": 0.3333333333333333,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.005216574969512487,
+   "fscore": 0.9999999995,
+   "precision": 1.0,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00293398",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "extrude",
+    "cylinder"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 0.6666666666666666,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.018047358069895256,
+   "fscore": 0.9365411278885608,
+   "precision": 0.9267578125,
+   "recall": 0.946533203125,
+   "status": "ok",
+   "seconds": 0.1
+  },
+  {
+   "uuid": "00293490",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.01703402546880243,
+   "fscore": 0.987487335997157,
+   "precision": 0.9881591796875,
+   "recall": 0.98681640625,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00302825",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.008912802065855145,
+   "fscore": 0.9999999995,
+   "precision": 1.0,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00306364",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.01598054301647398,
+   "fscore": 0.9946896375468799,
+   "precision": 0.994140625,
+   "recall": 0.9952392578125,
+   "status": "ok",
+   "seconds": 0.06
+  },
+  {
+   "uuid": "00342897",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.014667738930429663,
+   "fscore": 0.9987182276481085,
+   "precision": 0.99853515625,
+   "recall": 0.9989013671875,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00347202",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.011747361070302465,
+   "fscore": 0.9999389606182323,
+   "precision": 1.0,
+   "recall": 0.9998779296875,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00350559",
+   "gt_ops": [
+    "cut",
+    "extrude",
+    "cut",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "circle",
+    "extrude",
+    "cut",
+    "circle",
+    "circle",
+    "extrude",
+    "cut",
+    "circle",
+    "circle",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "op_type_recall": 0.75,
+   "op_count_recall": 0.391304347826087,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.07661793121908539,
+   "fscore": 0.5016766396973406,
+   "precision": 0.5057373046875,
+   "recall": 0.4976806640625,
+   "status": "ok",
+   "seconds": 0.27
+  },
+  {
+   "uuid": "00362002",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 0.5,
+   "op_count_recall": 0.2,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.010641254532060815,
+   "fscore": 0.9808923458653493,
+   "precision": 0.97900390625,
+   "recall": 0.9827880859375,
+   "status": "ok",
+   "seconds": 0.06
+  },
+  {
+   "uuid": "00365675",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.00974245938228124,
+   "fscore": 0.9859503615722656,
+   "precision": 1.0,
+   "recall": 0.9722900390625,
+   "status": "ok",
+   "seconds": 0.07
+  },
+  {
+   "uuid": "00368858",
+   "gt_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.013606748790365785,
+   "fscore": 0.99853515575,
+   "precision": 0.99853515625,
+   "recall": 0.99853515625,
+   "status": "ok",
+   "seconds": 0.07
+  },
+  {
+   "uuid": "00374273",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "cut",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "circle",
+    "extrude",
+    "extrude",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "box",
+    "cylinder"
+   ],
+   "op_type_recall": 0.25,
+   "op_count_recall": 0.06666666666666667,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.019352070250350944,
+   "fscore": 0.9756468766993275,
+   "precision": 0.975341796875,
+   "recall": 0.9759521484375,
+   "status": "ok",
+   "seconds": 0.09
+  },
+  {
+   "uuid": "00384000",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.007153962155772587,
+   "fscore": 0.9999999995,
+   "precision": 1.0,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00385319",
+   "gt_ops": [
+    "cut",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "rect",
+    "rect"
+   ],
+   "op_type_recall": 0.5,
+   "op_count_recall": 0.3333333333333333,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.06668339200358023,
+   "fscore": 0.7340272682968548,
+   "precision": 0.83154296875,
+   "recall": 0.656982421875,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00385476",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.018051843399905974,
+   "fscore": 0.9850459286158066,
+   "precision": 0.984375,
+   "recall": 0.9857177734375,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00422225",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.02357702145988193,
+   "fscore": 0.9029906767769652,
+   "precision": 0.8983154296875,
+   "recall": 0.90771484375,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00424392",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.012190813354647768,
+   "fscore": 0.9998779291875,
+   "precision": 0.9998779296875,
+   "recall": 0.9998779296875,
+   "status": "ok",
+   "seconds": 0.03
+  },
+  {
+   "uuid": "00424820",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.021321862963736945,
+   "fscore": 0.946891796954118,
+   "precision": 0.9442138671875,
+   "recall": 0.9495849609375,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00455978",
+   "gt_ops": [
+    "extrude",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "cylinder"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.016447985042827254,
+   "fscore": 0.9909664204501649,
+   "precision": 0.9915771484375,
+   "recall": 0.9903564453125,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00459995",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "box",
+    "union",
+    "box",
+    "box"
+   ],
+   "op_type_recall": 0.5,
+   "op_count_recall": 0.4,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.01745892981433238,
+   "fscore": 0.9858392991029906,
+   "precision": 0.985107421875,
+   "recall": 0.986572265625,
+   "status": "ok",
+   "seconds": 0.08
+  },
+  {
+   "uuid": "00464765",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 0.5,
+   "op_count_recall": 0.3333333333333333,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.04610956613972428,
+   "fscore": 0.8394827400864299,
+   "precision": 0.9775390625,
+   "recall": 0.735595703125,
+   "status": "ok",
+   "seconds": 0.06
+  },
+  {
+   "uuid": "00506945",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.02014709017243232,
+   "fscore": 0.9541553781961113,
+   "precision": 0.9515380859375,
+   "recall": 0.956787109375,
+   "status": "ok",
+   "seconds": 0.08
+  },
+  {
+   "uuid": "00531948",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.008664440655851827,
+   "fscore": 0.9997557992557997,
+   "precision": 0.99951171875,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00539786",
+   "gt_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "rect",
+    "rect"
+   ],
+   "op_type_recall": 0.5,
+   "op_count_recall": 0.3333333333333333,
+   "op_exact": false,
+   "valid": false,
+   "status": "exec_error",
+   "err": "StdFail_NotDone: GC_MakeArcOfCircle::Value() - no result"
+  },
+  {
+   "uuid": "00540161",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 0.5,
+   "op_count_recall": 0.2,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.01506364952526032,
+   "fscore": 0.9960933755100722,
+   "precision": 0.9954833984375,
+   "recall": 0.9967041015625,
+   "status": "ok",
+   "seconds": 0.06
+  },
+  {
+   "uuid": "00545772",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "box",
+    "box"
+   ],
+   "op_type_recall": 0.5,
+   "op_count_recall": 0.3333333333333333,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.014805802796778315,
+   "fscore": 0.9749810688264721,
+   "precision": 0.9512939453125,
+   "recall": 0.9998779296875,
+   "status": "ok",
+   "seconds": 0.07
+  },
+  {
+   "uuid": "00556616",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.01269238882451847,
+   "fscore": 0.9999389606182323,
+   "precision": 0.9998779296875,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.06
+  },
+  {
+   "uuid": "00571656",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.019815400290787058,
+   "fscore": 0.9597117657490486,
+   "precision": 0.95751953125,
+   "recall": 0.9619140625,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00580477",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 0.5,
+   "op_count_recall": 0.2,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.025064276480246638,
+   "fscore": 0.867666498553788,
+   "precision": 0.9310302734375,
+   "recall": 0.8123779296875,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00582110",
+   "gt_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle",
+    "circle",
+    "rect"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.01668905540138661,
+   "fscore": 0.990722640709301,
+   "precision": 0.9908447265625,
+   "recall": 0.9906005859375,
+   "status": "ok",
+   "seconds": 0.09
+  },
+  {
+   "uuid": "00595909",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.018099723267156205,
+   "fscore": 0.9838229227098003,
+   "precision": 0.9854736328125,
+   "recall": 0.982177734375,
+   "status": "ok",
+   "seconds": 0.06
+  },
+  {
+   "uuid": "00598369",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.01512429341587105,
+   "fscore": 0.9959687467470982,
+   "precision": 0.9942626953125,
+   "recall": 0.9976806640625,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00612209",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "extrude",
+    "extrude",
+    "rect",
+    "circle",
+    "rect",
+    "circle",
+    "rect"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 0.5555555555555556,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.016858546310596315,
+   "fscore": 0.9896830668758875,
+   "precision": 0.98828125,
+   "recall": 0.9910888671875,
+   "status": "ok",
+   "seconds": 0.11
+  },
+  {
+   "uuid": "00620646",
+   "gt_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.03339530891118841,
+   "fscore": 0.707428875823785,
+   "precision": 0.702880859375,
+   "recall": 0.7120361328125,
+   "status": "ok",
+   "seconds": 0.09
+  },
+  {
+   "uuid": "00627909",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "cut",
+    "extrude",
+    "cut",
+    "circle",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle",
+    "rect",
+    "circle"
+   ],
+   "op_type_recall": 0.75,
+   "op_count_recall": 0.5,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.013854535875355064,
+   "fscore": 0.999145492398595,
+   "precision": 0.999267578125,
+   "recall": 0.9990234375,
+   "status": "ok",
+   "seconds": 0.1
+  },
+  {
+   "uuid": "00631214",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.013671597563215523,
+   "fscore": 0.9996337736558798,
+   "precision": 0.999755859375,
+   "recall": 0.99951171875,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00642721",
+   "gt_ops": [
+    "extrude",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.032410880032585104,
+   "fscore": 0.7308259687876293,
+   "precision": 0.7333984375,
+   "recall": 0.728271484375,
+   "status": "ok",
+   "seconds": 0.13
+  },
+  {
+   "uuid": "00657352",
+   "pred_ops": [
+    "box"
+   ],
+   "valid": true,
+   "chamfer": 0.01545089545094677,
+   "fscore": 0.9999389606182323,
+   "precision": 1.0,
+   "recall": 0.9998779296875,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00675295",
+   "gt_ops": [
+    "cut",
+    "extrude",
+    "cut",
+    "extrude",
+    "cut",
+    "extrude",
+    "cut",
+    "circle",
+    "extrude",
+    "cut",
+    "circle",
+    "extrude",
+    "cut",
+    "circle",
+    "extrude",
+    "cut",
+    "circle",
+    "extrude",
+    "cut",
+    "circle",
+    "extrude",
+    "cut",
+    "circle",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "cylinder",
+    "extrude",
+    "circle",
+    "circle",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "op_type_recall": 0.6666666666666666,
+   "op_count_recall": 0.20689655172413793,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.02701189754349153,
+   "fscore": 0.8754963578144374,
+   "precision": 0.9429931640625,
+   "recall": 0.8170166015625,
+   "status": "ok",
+   "seconds": 0.09
+  },
+  {
+   "uuid": "00697339",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "circle",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle",
+    "circle",
+    "circle",
+    "circle",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "op_type_recall": 0.6666666666666666,
+   "op_count_recall": 0.2,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.011136557134146335,
+   "fscore": 0.9688720544325942,
+   "precision": 0.968994140625,
+   "recall": 0.96875,
+   "status": "ok",
+   "seconds": 0.15
+  },
+  {
+   "uuid": "00700697",
+   "gt_ops": [
+    "extrude",
+    "circle",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 0.8,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.017269211449035364,
+   "fscore": 0.9886445062726354,
+   "precision": 0.9903564453125,
+   "recall": 0.9869384765625,
+   "status": "ok",
+   "seconds": 0.12
+  },
+  {
+   "uuid": "00703296",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "cylinder",
+    "cylinder"
+   ],
+   "op_type_recall": 0.3333333333333333,
+   "op_count_recall": 0.2,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.018507456871502688,
+   "fscore": 0.97900390575,
+   "precision": 0.97900390625,
+   "recall": 0.97900390625,
+   "status": "ok",
+   "seconds": 0.07
+  },
+  {
+   "uuid": "00713304",
+   "gt_ops": [
+    "cut",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "op_type_recall": 0.6666666666666666,
+   "op_count_recall": 0.6,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.054107394033568415,
+   "fscore": 0.7085127945177349,
+   "precision": 0.744873046875,
+   "recall": 0.675537109375,
+   "status": "ok",
+   "seconds": 0.08
+  },
+  {
+   "uuid": "00729094",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.014997768213984334,
+   "fscore": 0.9964599604375,
+   "precision": 0.9964599609375,
+   "recall": 0.9964599609375,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00736340",
+   "gt_ops": [
+    "extrude",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "cylinder"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.019341579557480663,
+   "fscore": 0.9646606401694875,
+   "precision": 0.9647216796875,
+   "recall": 0.964599609375,
+   "status": "ok",
+   "seconds": 0.05
+  },
+  {
+   "uuid": "00739438",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.022898068347723823,
+   "fscore": 0.9121678571656086,
+   "precision": 0.9136962890625,
+   "recall": 0.91064453125,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00739910",
+   "gt_ops": [
+    "extrude",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.011325418749134432,
+   "fscore": 0.9999999995,
+   "precision": 1.0,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00755989",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "box",
+    "union",
+    "box",
+    "box"
+   ],
+   "op_type_recall": 0.5,
+   "op_count_recall": 0.4,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.010716495923106951,
+   "fscore": 0.9999999995,
+   "precision": 1.0,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.08
+  },
+  {
+   "uuid": "00761277",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.015357505847768925,
+   "fscore": 0.9960324113933453,
+   "precision": 0.99658203125,
+   "recall": 0.9954833984375,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00772082",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.019461953018634633,
+   "fscore": 0.9638059624496232,
+   "precision": 0.96337890625,
+   "recall": 0.9642333984375,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00803446",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "rect",
+    "rect"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.009093185313760105,
+   "fscore": 0.9999999995,
+   "precision": 1.0,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.06
+  },
+  {
+   "uuid": "00805599",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 0.5,
+   "op_count_recall": 0.3333333333333333,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.017762943323826347,
+   "fscore": 0.9821762167197372,
+   "precision": 0.98095703125,
+   "recall": 0.9833984375,
+   "status": "ok",
+   "seconds": 0.06
+  },
+  {
+   "uuid": "00808119",
+   "gt_ops": [
+    "cut",
+    "extrude",
+    "extrude",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle"
+   ],
+   "op_type_recall": 0.6666666666666666,
+   "op_count_recall": 0.5,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.00891673943360679,
+   "fscore": 0.9999999995,
+   "precision": 1.0,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.06
+  },
+  {
+   "uuid": "00828031",
+   "gt_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.022224780864164614,
+   "fscore": 0.9263857943181609,
+   "precision": 0.9287109375,
+   "recall": 0.924072265625,
+   "status": "ok",
+   "seconds": 0.08
+  },
+  {
+   "uuid": "00832560",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "union",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "cylinder",
+    "union",
+    "extrude",
+    "cylinder"
+   ],
+   "op_type_recall": 0.6666666666666666,
+   "op_count_recall": 0.2727272727272727,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.02382922678509643,
+   "fscore": 0.9013651866603731,
+   "precision": 0.9027099609375,
+   "recall": 0.9000244140625,
+   "status": "ok",
+   "seconds": 0.17
+  },
+  {
+   "uuid": "00846133",
+   "gt_ops": [
+    "cut",
+    "extrude",
+    "cut",
+    "extrude",
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle",
+    "rect",
+    "rect"
+   ],
+   "op_type_recall": 0.6666666666666666,
+   "op_count_recall": 0.2857142857142857,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.14695986407418876,
+   "fscore": 0.3413765000507653,
+   "precision": 0.22412109375,
+   "recall": 0.7159423828125,
+   "status": "ok",
+   "seconds": 0.12
+  },
+  {
+   "uuid": "00855595",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.01700194727084408,
+   "fscore": 0.993469204033237,
+   "precision": 0.99365234375,
+   "recall": 0.9932861328125,
+   "status": "ok",
+   "seconds": 0.03
+  },
+  {
+   "uuid": "00861865",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.009809285574375517,
+   "fscore": 0.9999999995,
+   "precision": 1.0,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00867248",
+   "gt_ops": [
+    "extrude",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude",
+    "circle"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.019844456212703993,
+   "fscore": 0.9598366311380925,
+   "precision": 0.9583740234375,
+   "recall": 0.9613037109375,
+   "status": "ok",
+   "seconds": 0.07
+  },
+  {
+   "uuid": "00870274",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.01131983879023913,
+   "fscore": 0.9999999995,
+   "precision": 1.0,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00889184",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "box"
+   ],
+   "op_type_recall": 0.0,
+   "op_count_recall": 0.0,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.013718988794296512,
+   "fscore": 0.9998779142845196,
+   "precision": 0.999755859375,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.04
+  },
+  {
+   "uuid": "00896619",
+   "gt_ops": [
+    "cut",
+    "extrude",
+    "cut",
+    "extrude",
+    "cut",
+    "extrude",
+    "cut",
+    "extrude",
+    "cut",
+    "extrude",
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "box",
+    "extrude",
+    "circle",
+    "circle"
+   ],
+   "op_type_recall": 0.5,
+   "op_count_recall": 0.09090909090909091,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.016798503978871726,
+   "fscore": 0.9954808682155132,
+   "precision": 0.9970703125,
+   "recall": 0.993896484375,
+   "status": "ok",
+   "seconds": 0.09
+  },
+  {
+   "uuid": "00934199",
+   "gt_ops": [
+    "union",
+    "extrude",
+    "extrude",
+    "circle"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "union",
+    "cylinder",
+    "extrude"
+   ],
+   "op_type_recall": 0.6666666666666666,
+   "op_count_recall": 0.5,
+   "op_exact": false,
+   "valid": true,
+   "chamfer": 0.018732375804896298,
+   "fscore": 0.9755846998008875,
+   "precision": 0.9744873046875,
+   "recall": 0.9766845703125,
+   "status": "ok",
+   "seconds": 0.06
+  },
+  {
+   "uuid": "00972726",
+   "pred_ops": [
+    "extrude"
+   ],
+   "valid": true,
+   "chamfer": 0.011595580667525392,
+   "fscore": 0.980751767278706,
+   "precision": 0.9718017578125,
+   "recall": 0.9898681640625,
+   "status": "ok",
+   "seconds": 0.07
+  },
+  {
+   "uuid": "00989464",
+   "gt_ops": [
+    "extrude"
+   ],
+   "complex": false,
+   "pred_ops": [
+    "extrude"
+   ],
+   "op_type_recall": 1.0,
+   "op_count_recall": 1.0,
+   "op_exact": true,
+   "valid": true,
+   "chamfer": 0.008906466607096522,
+   "fscore": 0.9999999995,
+   "precision": 1.0,
+   "recall": 1.0,
+   "status": "ok",
+   "seconds": 0.04
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+import cadquery as cq
+import math
+outer_radius = 15.0
+inner_radius = 10.0
+thickness = 12.0
+rib_width = 4.0
+rib_height = 8.0
+rib_thickness = 2.0
+rib_count = 8
+rib_count = 8
+rib_count = 6
+rib_count = 4
+rib_offset = 10.0
+chamfer_size = 0.5
+outer = cq.Workplane('XY').circle(outer_radius).extrude(thickness)
+inner = cq.Workplane('XY').circle(inner_radius).extrude(thickness)
+rib = cq.Workplane('XY').circle(inner_radius).extrude(thickness)
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+rib = rib.translate((0, 0, thickness))
+result = outer.union(rib)
+result = result.edges().chamfer(chamfer_size)

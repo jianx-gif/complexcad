@@ -1,0 +1,43 @@
+  GT probed ok 399
+  predictions probed ok 177 / 400
+{
+ "method": "cadrille_cc_draw",
+ "n_pairs": 176,
+ "holes_gt": 997,
+ "holes_matched": 46,
+ "hole_match_rate": 0.0461,
+ "hole_pos_err_median_mm": 1.055,
+ "hole_pos_within_0p5mm": 0.4783,
+ "angle_params": 29,
+ "angle_hit_1deg": 0.069,
+ "angle_err_median_deg": 45.0,
+ "edge_chamfer_median_mm": 8.546,
+ "vertex_err_median_mm": 16.156,
+ "vertex_within_0p5mm": 0.005,
+ "vertices_gt": 10391,
+ "relation_coverage": {
+  "concentric": {
+   "gt": 72,
+   "covered": 31,
+   "rate": 0.4306
+  },
+  "equal_radius": {
+   "gt": 3803,
+   "covered": 299,
+   "rate": 0.0786
+  },
+  "parallel_axis": {
+   "gt": 3325,
+   "covered": 332,
+   "rate": 0.0998
+  },
+  "perpendicular_planes": {
+   "gt": 1192,
+   "covered": 690,
+   "rate": 0.5789
+  }
+ },
+ "edit_tested": 177,
+ "edit_executes": 0.9944,
+ "edit_geometry_changes": 0.9887
+}

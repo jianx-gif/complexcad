@@ -1,0 +1,21 @@
+import cadquery as cq
+outer_radius = 40.0
+inner_radius = 20.0
+wall_thickness = 5.0
+fillet_radius = 2.0
+chamfer_distance = 1.0
+hole_diameter = 4.0
+hole_spacing = 12.0
+hole_count = 6
+hole_offset = 10.0
+base = cq.Workplane('XY').circle(outer_radius).extrude(outer_radius)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(outer_radius)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(inner_cyl)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(inner_cyl)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(inner_cyl)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(inner_cyl)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(inner_cyl)
+inner_cyl = cq.Workplane('XY').circle(inner_radius).extrude(inner_cyl)
+inner_cyl = inner_cyl.cut(inner_cyl)
+hole_positions = [(hole_offset, hole_offset), (hole_offset, hole_offset), (-hole_offset, hole_offset), (hole_offset, hole_offset), (hole_offset, hole_offset)])
+result = inner_cyl.cut(hole_positions)

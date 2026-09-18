@@ -1,0 +1,19 @@
+import cadquery as cq
+outer_radius = 20.0
+inner_radius = 15.0
+thickness = 50.0
+rib_height = 30.0
+rib_width = 4.0
+rib_thickness = 2.0
+rib_count = 6
+chamfer_size = 0.5
+outer = cq.Workplane('XY').circle(outer_radius).extrude(thickness)
+inner = cq.Workplane('XY').circle(inner_radius).extrude(thickness)
+rib = cq.Workplane('XY').circle(inner_radius).extrude(thickness)
+rib = rib.translate((outer_radius - rib_thickness/2, 0, 0))
+rib = rib.translate((outer_radius - rib_thickness/2, 0, 0))
+combined = outer.union(rib)
+combined = combined.faces('>Z').workplane().hole(inner_radius * 2)
+combined = combined.faces('>Z').workplane().hole(inner_radius * 2)
+combined = combined.faces('>Z').workplane().hole(inner_radius * 2)
+result = combined

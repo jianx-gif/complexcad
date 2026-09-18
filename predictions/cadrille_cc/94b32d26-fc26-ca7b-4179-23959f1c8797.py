@@ -1,0 +1,30 @@
+import cadquery as cq
+import math
+gear_outer_radius = 40.0
+gear_inner_radius = 12.0
+gear_thickness = 10.0
+rib_height = 5.0
+rib_width = 6.0
+rib_spacing = 12.0
+rib_count = 4
+chamfer_size = 0.5
+base = cq.Workplane('XY').rect(gear_outer_radius, gear_outer_radius).extrude(gear_thickness)
+base = base.edges().chamfer(chamfer_size)
+rib_count = int(gear_outer_radius + rib_spacing)
+rib_positions = [(-rib_count, 0), (rib_count, 0), (0, rib_spacing)]
+base = base.faces('>Z').workplane().pushPoints(rib_positions).rect(rib_width, rib_height).extrude(rib_height)
+base = base.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_height)
+base = base.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_height)
+base = base.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_height)
+base = base.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_height)
+base = base.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_height)
+base = base.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_height)
+base = base.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_height)
+base = base.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_height)
+base = base.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_height)
+base = base.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_height)
+base = base.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_height)
+base = base.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_height)
+base = base.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_height)
+base = base.faces('>Z').workplane().rect(rib_width, rib_height).extrude(rib_height)
+result = base
