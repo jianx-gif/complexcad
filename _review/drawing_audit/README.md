@@ -7,7 +7,8 @@ Sample: 200 part drawings, random.seed(42), drawn from the 9980 models present b
 
 - `sheets/NNN_xxxxxxxx_drawing.png` — 被审查的图纸。/ The drawing under review.
 - `sheets/NNN_xxxxxxxx_render.png` — 同一零件的渲染图，用来判断视图和尺寸对不对。/ A render of the same part, for reference.
-- `checklist_A.csv`、`checklist_B.csv` — 两位评审各填一份（`checklist.csv` 是空白母本）。/ One sheet per reviewer.
+- `checklist_A.csv`（评审 A，作者的同学）、`checklist_B_zh.csv`（评审 B，作者本人，中文表头）— 两位评审各填一份（`checklist.csv` 是空白母本；`checklist_B_zh.as_filled_0916.csv` 是 B 表 9 月 16 日的中间状态）。/ One sheet per reviewer: A by a fellow student of the author, B by the author (Chinese header); `checklist.csv` is the blank template.
+- 图纸和渲染图（`sheets/`）在数据记录里，不在代码仓库里。/ The images in `sheets/` are in the data record, not in the code repository.
 
 ## 规则 / Protocol
 
