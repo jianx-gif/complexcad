@@ -17,8 +17,8 @@ per model come from the test split of the Zero-To-CAD corpus.
 | Licence | Apache License 2.0, full text in `LICENSES/Apache-2.0.txt` |
 
 This repository contains no upstream program files. The inherited files are
-redistributed only inside the dataset record on Zenodo, under Apache 2.0 with
-this attribution. The modalities added by the thesis are released under
+redistributed only inside the data archive that accompanies the thesis, under
+Apache 2.0 with this attribution. The modalities added by the thesis are released under
 CC BY 4.0.
 
 The inference script `z2c_repro/run_zero2cad.py` loads the upstream model

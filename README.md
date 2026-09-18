@@ -7,9 +7,9 @@ files of the master's thesis *Investigation of Dataset Construction Methods for
 Point Cloud to CAD Reconstruction with Complex Modeling Operations* (Jian Xiong,
 Technische Universität Berlin, 2026).
 
-The dataset itself is too large for git and is archived separately on Zenodo.
-
-> **Dataset DOI:** to be added on publication.
+The dataset itself, about 53 GB, is too large for git. It is archived with the
+examination copy of the thesis and is available on request: open an issue in this
+repository.
 
 ## Why this dataset
 
@@ -143,8 +143,8 @@ for the pipeline, and Python 3.13, PyTorch 2.6.0 with CUDA 12.4, Transformers
 
 ### 2. Get the data
 
-Download the archive from the Zenodo record and extract it into the repository
-root. You then have `output/<uuid>/` for every part, and
+Request the data archive as described at the top of this page and extract it into
+the repository root. You then have `output/<uuid>/` for every part, and
 `1m_Convert/assemblies_slim/` and `1m_Convert/two_part_assemblies_slim/` for the
 assemblies.
 
@@ -345,7 +345,7 @@ they executed upstream. They keep their other modalities and belong to no split.
 `env/environment-cadfit.yml`.
 
 **Where are the trained adapters?** The LoRA adapters of every training arm are in
-the Zenodo record. Their checksums are in `checksums.txt`.
+the data archive. Their checksums are in `checksums.txt`.
 
 ## Citation
 
