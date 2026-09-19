@@ -42,8 +42,6 @@ for i, (u, tag) in enumerate(picks):
     ops = [o for o in ('loft', 'revolve', 'sweep', 'chamfer', 'fillet') if has(u, o)]
     txt = '%s | %s' % (u[:8], tag if tag == 'non-executing' else ('+'.join(ops) or 'sketch-extrude'))
     d.text((x, y + H + 4), txt, fill='black', font=font)
-    if tag == 'non-executing':
-        d.rectangle([x, y, x + W - 1, y + H - 1], outline='red', width=3)
 sheet.save(os.path.join(B, 'gallery_random.png'))
 json.dump([dict(uuid=u, stratum=t, ops=[o for o in ('loft', 'revolve', 'sweep', 'chamfer', 'fillet') if has(u, o)]) for u, t in picks],
           open(os.path.join(ROOT, '_review', 'gallery_random_seed42.json'), 'w'), indent=1)
