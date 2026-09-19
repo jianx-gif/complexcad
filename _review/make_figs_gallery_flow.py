@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Seeded, operation-stratified random gallery (last panel: a hand-picked model combining two shape-forming complex operations) and a pipeline input/output diagram.
+"""Seeded, operation-stratified random gallery (loft panel and last panel hand-picked for visibility) and a pipeline input/output diagram.
 Run with cadfit-env python (matplotlib + PIL)."""
 import os, json, random
 import numpy as np
@@ -20,8 +20,12 @@ def has(u, op): return op in [o.lower() for o in rows[u]['ops']]
 ok = sorted(u for u, r in rows.items() if r['status'] == 'ok' and os.path.isfile(os.path.join(OUT, u, 'image_0.png')))
 bad = sorted(u for u, r in rows.items() if r['status'] != 'ok' and os.path.isfile(os.path.join(OUT, u, 'image_0.png')))
 picks = []
+HAND = {'loft': 'a531a75a'}   # hand-picked: square-to-circle loft, clearly visible in the render
 for op in ('loft', 'sweep', 'revolve'):
-    picks.append((rng.choice([u for u in ok if has(u, op)]), op))
+    u = rng.choice([u for u in ok if has(u, op)])          # the seeded draw is always made, so later draws stay the same
+    if op in HAND:
+        u = [x for x in ok if x.startswith(HAND[op])][0]
+    picks.append((u, op))
 picks.append((rng.choice([u for u in ok if has(u, 'fillet') and has(u, 'chamfer') and not any(has(u, o) for o in ('loft', 'sweep', 'revolve'))]), 'chamfer+fillet'))
 simple = [u for u in ok if not any(has(u, o) for o in ('loft', 'sweep', 'revolve', 'chamfer', 'fillet'))]
 for _ in range(3):
