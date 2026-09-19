@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Seeded, operation-stratified random gallery (with a non-executing case) and a pipeline input/output diagram.
+"""Seeded, operation-stratified random gallery (last panel: a model combining two shape-forming complex operations) and a pipeline input/output diagram.
 Run with cadfit-env python (matplotlib + PIL)."""
 import os, json, random
 import numpy as np
@@ -26,7 +26,7 @@ picks.append((rng.choice([u for u in ok if has(u, 'fillet') and has(u, 'chamfer'
 simple = [u for u in ok if not any(has(u, o) for o in ('loft', 'sweep', 'revolve', 'chamfer', 'fillet'))]
 for _ in range(3):
     picks.append((rng.choice(simple), 'sketch-extrude'))
-picks.append((rng.choice(bad), 'non-executing'))
+picks.append((rng.choice([u for u in ok if sum(has(u, o) for o in ('loft', 'sweep', 'revolve')) >= 2]), 'multi'))
 # contact sheet 4 x 2
 W, H = 256, 256; pad = 8; lab = 34
 sheet = Image.new('RGB', (4 * (W + pad) + pad, 2 * (H + lab + pad) + pad), 'white')
