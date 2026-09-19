@@ -1,0 +1,58 @@
+[
+ {
+  "uuid": "a531a75a-2643-8afd-aaa0-1cddadc2e718",
+  "stratum": "loft",
+  "ops": [
+   "loft",
+   "fillet"
+  ]
+ },
+ {
+  "uuid": "21d16631-8d94-8585-45bd-6c0c335cda3c",
+  "stratum": "sweep",
+  "ops": [
+   "sweep",
+   "fillet"
+  ]
+ },
+ {
+  "uuid": "06d8b4d3-fe82-b2ae-c7e8-24d82c469ddc",
+  "stratum": "revolve",
+  "ops": [
+   "revolve",
+   "fillet"
+  ]
+ },
+ {
+  "uuid": "f42e75fd-6e7f-69cf-9c17-6e58eb479409",
+  "stratum": "chamfer+fillet",
+  "ops": [
+   "chamfer",
+   "fillet"
+  ]
+ },
+ {
+  "uuid": "44944d7b-24f9-15f9-1a21-c486d5605c5e",
+  "stratum": "sketch-extrude",
+  "ops": []
+ },
+ {
+  "uuid": "3d35dbd8-dc03-f89c-bc71-be7604708f21",
+  "stratum": "sketch-extrude",
+  "ops": []
+ },
+ {
+  "uuid": "39f33dfc-0e72-dcd2-7abd-485658dbb7ed",
+  "stratum": "sketch-extrude",
+  "ops": []
+ },
+ {
+  "uuid": "869e90b4-3481-4f52-0ee0-57cc3d43ee4a",
+  "stratum": "multi",
+  "ops": [
+   "revolve",
+   "sweep",
+   "chamfer"
+  ]
+ }
+]
