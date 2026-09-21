@@ -52,15 +52,19 @@ def main():
                 data = json.load(f)
         except Exception:
             continue
+        if "timeline" not in data or "entities" not in data:
+            continue                      # 跳过划分文件等非模型 json（如 train_test.json）
         n += 1
-        seq = data.get("sequence", []) or data.get("timeline", [])
-        seq_len_list.append(len(seq))
         entities = data.get("entities", {})
-
-        # 1) 操作类型：来自 sequence 的 step.type（Sketch / ExtrudeFeature / ...）
+        # 1) 操作类型：按 timeline（每个建模步骤一条，Sketch / ExtrudeFeature）计数。
+        #    注意 "sequence" 字段是逐曲线/逐轮廓的细粒度步骤（每个 Sketch 会被展开成多条），
+        #    用它统计会把 Sketch 数放大约 7 倍（2026-09-21 更正：153456 -> 21557）。
+        timeline = data.get("timeline", [])
+        seq_len_list.append(len(timeline))
         n_sketch = 0
-        for step in seq:
-            t = step.get("type", "")
+        for step in timeline:
+            ent = entities.get(step.get("entity", ""), {})
+            t = ent.get("type", "") if isinstance(ent, dict) else ""
             op_type_counter[t] += 1
             if "Sketch" in t:
                 n_sketch += 1
