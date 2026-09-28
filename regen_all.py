@@ -14,10 +14,18 @@ OUT = "output"
 PROGRESS_EVERY = 50
 
 
+SKIP_FILE = "output_missing_drawings.txt"   # parts whose hidden-line removal exceeded 30 min
+
+
 def uuids():
+    skip = set()
+    if os.path.isfile(SKIP_FILE):
+        skip = {l.strip() for l in open(SKIP_FILE) if l.strip()}
     us = []
     for d in sorted(os.listdir(OUT)):
         p = os.path.join(OUT, d)
+        if d in skip:
+            continue
         if os.path.isdir(p) and os.path.isfile(os.path.join(p, "model.step")):
             us.append(d)
     return us
@@ -26,6 +34,9 @@ def uuids():
 def main():
     us = uuids()
     start = 0
+    if len(sys.argv) > 1 and sys.argv[1].endswith(".txt"):   # explicit uuid list
+        us = [l.strip() for l in open(sys.argv[1]) if l.strip()]
+        sys.argv = [sys.argv[0]] + sys.argv[2:]
     if len(sys.argv) > 1:            # optional resume offset
         start = int(sys.argv[1])
     us = us[start:]

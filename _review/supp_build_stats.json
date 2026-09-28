@@ -1,0 +1,39 @@
+{
+ "n_selected": 1634,
+ "n_released": 1579,
+ "n_not_released": 55,
+ "status": {
+  "ok": 1579
+ },
+ "ops_models_with": {
+  "loft": 813,
+  "hole": 818,
+  "chamfer": 1022,
+  "revolve": 58,
+  "union": 831,
+  "cut": 721,
+  "sweep": 796,
+  "extrude": 977,
+  "fillet": 662,
+  "cutBlind": 418,
+  "cskHole": 55,
+  "cboreHole": 158,
+  "shell": 207,
+  "box": 192,
+  "intersect": 17,
+  "cutThruAll": 26,
+  "mirror": 14,
+  "twistExtrude": 4
+ },
+ "with_sketch_primitive_in_steps": 0,
+ "combined": {
+  "n": 11579,
+  "sweep": 1196,
+  "loft": 1192,
+  "sweep_share": 0.1033,
+  "loft_share": 0.1029
+ },
+ "faces_agree": null,
+ "drawing_ok": 1579,
+ "note": "parts with every modality (point cloud, B-rep, metadata, description, drawing); parts whose build did not finish are in output_supp_rejected/ and not released"
+}

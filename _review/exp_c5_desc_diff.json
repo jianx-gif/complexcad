@@ -1,0 +1,44 @@
+{
+ "n": 10000,
+ "same_param_geom_intent": 9998,
+ "same_text_after_step_sentence": 9998,
+ "same_3d_multiset": 9998,
+ "old_had_sketch_primitive": 9229,
+ "order_changed_3d": 6837,
+ "examples": [
+  {
+   "uuid": "07140477",
+   "fields": false,
+   "text": false,
+   "old3d": {
+    "extrude": 3,
+    "union": 2,
+    "cut": 1
+   },
+   "new": {
+    "extrude": 3,
+    "union": 2,
+    "cut": 1,
+    "chamfer": 1
+   }
+  },
+  {
+   "uuid": "7002e177",
+   "fields": false,
+   "text": false,
+   "old3d": {
+    "extrude": 3,
+    "cut": 1,
+    "union": 1,
+    "hole": 1
+   },
+   "new": {
+    "extrude": 3,
+    "cut": 1,
+    "union": 1,
+    "hole": 1,
+    "chamfer": 1
+   }
+  }
+ ]
+}

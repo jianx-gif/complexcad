@@ -81,9 +81,10 @@ if __name__ == '__main__':
     res['visible_lines_with_weight_share'] = round(tot['visible_lines_with_weight'] / max(1, tot['visible_lines']), 6)
     # PNG/SVG line widths as coded in drawing.py::_render_mpl (pt -> mm)
     res['raster_line_widths_mm'] = {
-        'visible_outline': round(0.5 * PT, 3), 'hidden_dashed': round(0.35 * PT, 3),
-        'dimension': round(0.25 * PT, 3), 'hatch': round(0.3 * PT, 3),
-        'sweep_centreline_dashdot': round(0.6 * PT, 3), 'symbol_centreline_dashdot': round(0.35 * PT, 3),
+        'visible_outline': round(0.71 * PT, 3), 'hidden_dashed': round(0.37 * PT, 3),
+        'dimension': round(0.37 * PT, 3), 'hatch': round(0.37 * PT, 3),
+        'sweep_centreline_dashdot': round(0.37 * PT, 3), 'symbol_centreline_dashdot': round(0.37 * PT, 3),
+        'hole_centreline_dashdot': round(0.37 * PT, 3),
         'frame': round(1.0 * PT, 3), 'section_cutting_stroke': round(1.2 * PT, 3)}
     json.dump(res, open(os.path.join(R, '_review', 'exp_ee_linetype_audit.json'), 'w'), indent=1)
     print(json.dumps(res, indent=1))

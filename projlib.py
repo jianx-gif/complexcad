@@ -1826,3 +1826,138 @@ def hatch_segments(face_segs, spacing=2.5, angle_deg=45.0):
                 out.append((p0[0], p0[1], p1[0], p1[1]))
         c += spacing
     return out
+
+
+# --------------------------------------------------------------------------- #
+# ISO 128 centre lines: axes of holes, bosses and shafts
+# --------------------------------------------------------------------------- #
+def hole_axes(shape, min_cov_turns=0.6, min_radius=0.3):
+    """Axes of the part's holes, bosses and shafts for ISO 128-24 centre lines.
+
+    Circular edges and cylindrical faces are grouped by their 3D axis (direction up
+    to sign, axis position within 0.3 mm). The angular coverage of a group is the
+    union over its entities, measured in the plane normal to the axis, so a fillet
+    band (a quarter turn) is rejected while a hole mouth broken out at a corner
+    (> 0.6 turn) or a full boss is kept -- the same rule circles_for_views applies.
+    Returns [{"r": largest radius, "p": (x, y, z) axis point, "d": unit direction,
+              "t0", "t1": extent of the group along d (model units)}].
+    """
+    NBIN = 72
+    cands = []
+    exp = TopExp_Explorer(shape, TopAbs_EDGE)
+    while exp.More():
+        edge = TopoDS.Edge_s(exp.Current())
+        c = BRepAdaptor_Curve(edge)
+        if c.GetType() == GeomAbs_Circle:
+            circ = c.Circle()
+            ax = circ.Axis().Direction(); loc = circ.Location()
+            cands.append((circ.Radius(), (ax.X(), ax.Y(), ax.Z()),
+                          (loc.X(), loc.Y(), loc.Z()),
+                          _edge_points3d(edge, deflection=0.05)))
+        exp.Next()
+    fexp = TopExp_Explorer(shape, TopAbs_FACE)
+    while fexp.More():
+        face = TopoDS.Face_s(fexp.Current())
+        surf = BRepAdaptor_Surface(face)
+        if surf.GetType() == GeomAbs_Cylinder:
+            cyl = surf.Cylinder()
+            ax = cyl.Axis().Direction(); loc = cyl.Location()
+            pts = []
+            eexp = TopExp_Explorer(face, TopAbs_EDGE)
+            while eexp.More():
+                pts += _edge_points3d(TopoDS.Edge_s(eexp.Current()), deflection=0.05)
+                eexp.Next()
+            if pts:
+                cands.append((cyl.Radius(), (ax.X(), ax.Y(), ax.Z()),
+                              (loc.X(), loc.Y(), loc.Z()), pts))
+        fexp.Next()
+
+    def _unit(v):
+        n = math.sqrt(v[0] * v[0] + v[1] * v[1] + v[2] * v[2]) or 1.0
+        return (v[0] / n, v[1] / n, v[2] / n)
+
+    def _dot(a, b):
+        return a[0] * b[0] + a[1] * b[1] + a[2] * b[2]
+
+    groups = []   # dicts: d, p, e1, e2, rs, bins, t0, t1
+    for (r, a, ctr, pts) in cands:
+        if r < min_radius or not pts:
+            continue
+        d = _unit(a)
+        # canonical sign: first non-negligible component positive
+        for k in range(3):
+            if abs(d[k]) > 1e-6:
+                if d[k] < 0:
+                    d = (-d[0], -d[1], -d[2])
+                break
+        t_c = _dot(ctr, d)
+        p = (ctr[0] - t_c * d[0], ctr[1] - t_c * d[1], ctr[2] - t_c * d[2])
+        g = None
+        for gg in groups:
+            if abs(_dot(gg["d"], d)) > 0.999 and \
+               math.dist(gg["p"], p) < 0.3:
+                g = gg
+                break
+        if g is None:
+            # perpendicular basis for angular coverage
+            ref = (1.0, 0.0, 0.0) if abs(d[0]) < 0.9 else (0.0, 1.0, 0.0)
+            e1 = _unit(_cross(d, ref)); e2 = _cross(d, e1)
+            g = {"d": d, "p": p, "e1": e1, "e2": e2, "rs": [], "bins": set(),
+                 "t0": float("inf"), "t1": float("-inf")}
+            groups.append(g)
+        g["rs"].append(r)
+        angs = []
+        for q in pts:
+            t = _dot(q, g["d"])
+            g["t0"] = min(g["t0"], t); g["t1"] = max(g["t1"], t)
+            w = (q[0] - g["p"][0] - t * g["d"][0], q[1] - g["p"][1] - t * g["d"][1],
+                 q[2] - g["p"][2] - t * g["d"][2])
+            if _dot(w, w) < (0.3 * r) ** 2:
+                continue
+            angs.append(math.atan2(_dot(w, g["e2"]), _dot(w, g["e1"])))
+        for ang in angs:
+            g["bins"].add(int((ang + math.pi) / (2 * math.pi) * NBIN) % NBIN)
+        for a1, a2 in zip(angs, angs[1:]):
+            diff = (a2 - a1 + math.pi) % (2 * math.pi) - math.pi
+            if abs(diff) <= math.radians(40):
+                steps = int(abs(diff) / (2 * math.pi) * NBIN) + 1
+                for k in range(1, steps):
+                    am = a1 + diff * k / steps
+                    g["bins"].add(int((am + math.pi) / (2 * math.pi) * NBIN) % NBIN)
+    out = []
+    for g in groups:
+        cov = len(g["bins"]) / NBIN
+        if cov < min_cov_turns or g["t1"] - g["t0"] < 1e-6:
+            continue
+        out.append({"r": max(g["rs"]), "p": g["p"], "d": g["d"],
+                    "t0": g["t0"], "t1": g["t1"], "cov": round(cov, 3)})
+    return out
+
+
+def centre_marks_for_views(shape):
+    """hole_axes -> per-view centre marks for drawing.render(centre_marks=...):
+    {"view","kind":"cross","cx","cy","r"} where the axis is along the view
+    direction (true circle), {"view","kind":"axis","x0","y0","x1","y1"} where the
+    axis lies in the view plane. Coords are the view's (paper_x, paper_y) frame,
+    the same frame as project() and circles_for_views()."""
+    marks = []
+    for hx in hole_axes(shape):
+        d = hx["d"]; p = hx["p"]
+        for v in ("front", "top", "left"):
+            px = VIEWS[v]["paper_x"]; py = VIEWS[v]["paper_y"]
+            vd = _cross(px, py)
+            n = math.sqrt(vd[0] ** 2 + vd[1] ** 2 + vd[2] ** 2) or 1.0
+            along = abs(d[0] * vd[0] + d[1] * vd[1] + d[2] * vd[2]) / n
+            if along > 0.98:
+                cx = p[0] * px[0] + p[1] * px[1] + p[2] * px[2]
+                cy = p[0] * py[0] + p[1] * py[1] + p[2] * py[2]
+                marks.append({"view": v, "kind": "cross", "cx": cx, "cy": cy, "r": hx["r"]})
+            elif along < 0.02:
+                P0 = (p[0] + hx["t0"] * d[0], p[1] + hx["t0"] * d[1], p[2] + hx["t0"] * d[2])
+                P1 = (p[0] + hx["t1"] * d[0], p[1] + hx["t1"] * d[1], p[2] + hx["t1"] * d[2])
+                marks.append({"view": v, "kind": "axis",
+                              "x0": P0[0] * px[0] + P0[1] * px[1] + P0[2] * px[2],
+                              "y0": P0[0] * py[0] + P0[1] * py[1] + P0[2] * py[2],
+                              "x1": P1[0] * px[0] + P1[1] * px[1] + P1[2] * px[2],
+                              "y1": P1[0] * py[0] + P1[1] * py[1] + P1[2] * py[2]})
+    return marks

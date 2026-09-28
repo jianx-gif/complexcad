@@ -29,7 +29,11 @@ gaps:
 ComplexCAD closes these gaps on top of an inherited corpus. The 10,000 base
 programs come from the test split of Autodesk's
 [Zero-To-CAD](https://huggingface.co/datasets/ADSKAILab/Zero-To-CAD-1m), which
-already covers the complex operations. The thesis does not generate the base
+already covers the complex operations. A balancing supplement of 1,579 further
+programs that use sweep or loft is drawn from the train split of the curated
+[Zero-To-CAD-100k](https://huggingface.co/datasets/ADSKAILab/Zero-To-CAD-100k)
+release (`output_supp/`, seed 42), so that every complex operation occurs in at
+least 10 % of the released models. The thesis does not generate the base
 programs. It adds the modalities that point-cloud-to-CAD training needs and
 measures how precisely each program survives execution and export.
 
@@ -49,7 +53,7 @@ measures how precisely each program survives execution and export.
 
 | Item | Value |
 |---|---|
-| Single-part models | 10,000 |
+| Single-part models | 10,000 base + 1,579 balancing supplement (sweep/loft) |
 | Programs that execute in the pinned environment | 9,982 |
 | Models with named parameters | 8,710 |
 | Mean modelling operations per model | 24.9 |
@@ -63,6 +67,10 @@ Share of models that contain each complex operation:
 | Chamfer | Fillet | Revolve | Sweep | Loft | At least one |
 |---|---|---|---|---|---|
 | 74.6 % | 36.8 % | 18.4 % | 4.0 % | 3.8 % | 95.0 % |
+
+With the balancing supplement (11,579 models in total) sweep occurs in 10.3 % and
+loft in 10.3 % of the released models. The training and evaluation experiments of
+the thesis use the 10,000 base models only.
 
 Fixed splits in `splits/`:
 
@@ -195,23 +203,25 @@ An excerpt of `description.json`:
 
 ```json
 {
-  "operation_sequence": ["rect", "sweep", "fillet", "chamfer", "extrude", "cut",
-                         "extrude", "union", "cskHole", "rect", "rect"],
-  "operation_counts": {"rect": 3, "sweep": 1, "fillet": 1, "chamfer": 1,
-                       "extrude": 2, "cut": 1, "union": 1, "cskHole": 1},
-  "parameters": {"bracket_length": 80.0, "channel_width": 30.0,
-                 "fillet_radius": 2.0, "countersink_angle": 82.0,
-                 "chamfer_size": 1.0}
+  "operation_sequence": ["extrude", "extrude", "union", "cutBlind", "fillet",
+                         "hole", "chamfer"],
+  "operation_counts": {"extrude": 2, "union": 1, "cutBlind": 1, "fillet": 1,
+                       "hole": 1, "chamfer": 1},
+  "parameters": {"bracket_length": 80.0, "bracket_width": 30.0,
+                 "bracket_thickness": 8.0, "flange_extension": 15.0,
+                 "recess_length": 40.0, "recess_width": 20.0}
 }
 ```
 
-The matching `description.txt` begins:
+The step list follows the program order, and 2D sketch primitives (`rect`,
+`circle`, `polyline`, `polygon`) are not listed as steps. The matching
+`description.txt` begins:
 
 ```text
-The part is built in 11 modelling steps: rect; sweep a profile along a path;
-round an edge with a fillet; bevel an edge with a chamfer; ... Key dimensions --
-lengths: bracket_length=80, channel_width=30; ... The part spans 80.1 x 40.0 x
-30.0 mm and has 24 faces, 57 edges, 35 vertices.
+The part is built in 7 modelling steps: extrude a profile into a solid; extrude
+a profile into a solid; merge solids with a boolean union; cut a blind pocket;
+round an edge with a fillet; drill a through hole; bevel an edge with a chamfer.
+Key dimensions -- lengths: bracket_length=80, bracket_width=30, ...
 ```
 
 Each assembly directory holds `assembly.json`, `assembly_constraints.json`, an
@@ -323,8 +333,9 @@ precision does not improve.
 
 ## Known limitations
 
-- The drawings are ISO-inspired, not ISO-compliant. The DXF files define no line
-  types or line weights, and holes carry no centre lines.
+- The drawings are ISO-inspired, not ISO-compliant. Line types, line weights and
+  the centre lines of holes, bosses and shafts follow ISO 128; dimension placement
+  is rule-audited but not certified against the standards.
 - The text descriptions are generated from the program. A model that reads them
   is partly given the answer, so they are not independent supervision.
 - No sketch-constraint ground truth is provided.
@@ -384,3 +395,19 @@ Please also cite Zero-To-CAD, whose programs this dataset builds on:
 | `cadrecode_repro/`, `cadfit_repro/` | CC BY-NC 4.0, non-commercial |
 
 Details and attributions are in `THIRD_PARTY.md`.
+
+## Changes in v1.1
+
+- Text descriptions regenerated: the step list follows the program order and no
+  longer lists 2D sketch primitives. A human review of 200 descriptions had
+  rejected the step order of the first release in 194 cases. Parameter values,
+  geometry sentences and design-intent clauses are unchanged in 9,998 of the
+  10,000 descriptions (`_review/exp_c5_desc_diff.json`).
+- DXF sheets: the dashed and long-dashed dotted line types are defined in the
+  line-type table, every layer carries an ISO 128-20 line weight (0.50 mm
+  outlines, 0.25 mm thin lines), and part sheets carry centre lines on holes,
+  bosses and shafts. All 9,996 part sheets were regenerated; the assembly sheets
+  received the table and weights by `_review/fix_dxf_tables.py` without re-layout.
+- Balancing supplement `output_supp/`: 1,579 sweep and loft programs from the
+  upstream train split with the same modalities as the base models
+  (`_review/supp_scan_100k.py`, `supp_fetch_100k.py`, `supp_build.py`).

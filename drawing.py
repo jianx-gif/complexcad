@@ -20,6 +20,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 import ezdxf
+import math
 
 # ISO 216 paper sizes (landscape), mm. Ordered smallest->largest: the paper
 # picker walks this list and upgrades only when the content (views + dim chains +
@@ -2210,8 +2211,12 @@ def projlib_view(v):
 def render(views, uuid, out_prefix, fmts=("png", "svg", "dxf"), proj="first-angle",
            ops_count=None, matched=None, overall=None, sweep=None, section=None,
            bom=None, balloons=None, axes=None, bearings=None, threads=None,
-           mass=None, title=None):
+           mass=None, title=None, centre_marks=None):
     """bom/balloons set ASSEMBLY-drawing mode (ISO):
+    centre_marks: ISO 128 centre lines of a PART sheet (make_drawings.py builds them
+      from projlib.hole_axes): {"view","kind":"cross","cx","cy","r"} for a hole/boss
+      seen axis-on (centre cross) or {"view","kind":"axis","x0","y0","x1","y1"} for
+      a hole/shaft seen from the side (axis line), all in model-view coords.
       balloons: [{"view","x","y","item"}] feature points (model-view coords) to
                 tag with an ISO 6433 item balloon.
       bom: [{"item","qty","designation","reference","material"}] parts list
@@ -2287,6 +2292,12 @@ def render(views, uuid, out_prefix, fmts=("png", "svg", "dxf"), proj="first-angl
         x1 = px + (ax["x1"] - ext[v][0]) * sc
         y1 = py + (ax["y1"] - ext[v][1]) * sc
         centerlines.append((v, [(x0, y0), (x1, y1)]))
+    # PART centre lines (ISO 128-24): thin long-dashed dotted lines through the axis of
+    # every hole, boss and shaft, extended CL_EXT beyond the outline. Crosses in the
+    # view where the feature is a true circle, axis lines where it is seen from the
+    # side (only when the feature is at least CL_MIN_LEN long on paper, so a hole in a
+    # thin plate is marked by its cross alone).
+    centre_art = _build_centre_lines(centre_marks, ext, place, scale_map, scale)
     # SECTION VIEW overlay: hatch the cut faces, mark the cutting line A-A on the
     # adjacent view, and retitle the sectioned view "A-A" (ISO 128-40/44/50).
     marks = _build_section_marks(section, ext, place, scale_map) if section else None
@@ -2298,9 +2309,9 @@ def render(views, uuid, out_prefix, fmts=("png", "svg", "dxf"), proj="first-angl
     thread_art = _build_threads(threads, ext, place, scale_map) if threads else None
 
     if "png" in fmts or "svg" in fmts:
-        _render_mpl(segs, uuid, paper, scale, proj, pw, ph, out_prefix, fmts, results, labels, s_iso, dims, centerlines, marks, balloon_art, bom_art, bearing_art, thread_art, mass, title, table)
+        _render_mpl(segs, uuid, paper, scale, proj, pw, ph, out_prefix, fmts, results, labels, s_iso, dims, centerlines, marks, balloon_art, bom_art, bearing_art, thread_art, mass, title, table, centre_art=centre_art)
     if "dxf" in fmts:
-        _render_dxf(segs, uuid, paper, scale, proj, pw, ph, out_prefix, results, labels, s_iso, dims, centerlines, marks, bearing_art, thread_art, mass, title, table)
+        _render_dxf(segs, uuid, paper, scale, proj, pw, ph, out_prefix, results, labels, s_iso, dims, centerlines, marks, bearing_art, thread_art, mass, title, table, centre_art=centre_art)
     return paper, scale, results
 
 
@@ -3413,16 +3424,55 @@ def _proj_symbol_lines(cx, cy, r=4.0, first_angle=True):
     return thick, thin
 
 
-def _render_mpl(segs, uuid, paper, scale, proj, pw, ph, out_prefix, fmts, results, labels, s_iso=None, dims=None, centerlines=None, marks=None, balloon_art=None, bom_art=None, bearing_art=None, thread_art=None, mass=None, title=None, table=None):
+CL_EXT = 2.5        # mm a centre line runs beyond the outline (ISO 128-24)
+CL_MIN_LEN = 3.0    # mm: shorter side-view axes are left to the centre cross
+# ISO 128-20 line widths for the raster sheets (matplotlib pt; 1 pt = 0.3528 mm):
+# line group 0.25 mm -> outline 0.25 mm (0.71 pt), thin lines 0.13 mm (0.37 pt).
+LW_THICK = 0.71
+LW_THIN = 0.37
+
+
+def _build_centre_lines(centre_marks, ext, place, scale_map, scale):
+    """Model-view centre marks -> paper-space (view, x0, y0, x1, y1) segments."""
+    out = []
+    seen = set()
+    for cm in (centre_marks or []):
+        v = cm.get("view")
+        if v not in place or v not in ext:
+            continue
+        sc = scale_map.get(v, scale); px, py = place[v]
+        ox, oy = ext[v][0], ext[v][1]
+        if cm.get("kind") == "cross":
+            cx = px + (cm["cx"] - ox) * sc; cy = py + (cm["cy"] - oy) * sc
+            h = cm["r"] * sc + CL_EXT
+            segs = [(cx - h, cy, cx + h, cy), (cx, cy - h, cx, cy + h)]
+        else:
+            x0 = px + (cm["x0"] - ox) * sc; y0 = py + (cm["y0"] - oy) * sc
+            x1 = px + (cm["x1"] - ox) * sc; y1 = py + (cm["y1"] - oy) * sc
+            L = math.hypot(x1 - x0, y1 - y0)
+            if L < CL_MIN_LEN:
+                continue
+            ux, uy = (x1 - x0) / L, (y1 - y0) / L
+            segs = [(x0 - ux * CL_EXT, y0 - uy * CL_EXT, x1 + ux * CL_EXT, y1 + uy * CL_EXT)]
+        for (a, b, c, d) in segs:
+            key = (v, round(a, 1), round(b, 1), round(c, 1), round(d, 1))
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append((v, a, b, c, d))
+    return out
+
+
+def _render_mpl(segs, uuid, paper, scale, proj, pw, ph, out_prefix, fmts, results, labels, s_iso=None, dims=None, centerlines=None, marks=None, balloon_art=None, bom_art=None, bearing_art=None, thread_art=None, mass=None, title=None, table=None, centre_art=None):
     fig = plt.figure(figsize=(pw/25.4, ph/25.4))
     ax = fig.add_axes([0, 0, 1, 1])
     ax.set_xlim(0, pw); ax.set_ylim(0, ph); ax.set_aspect("equal"); ax.axis("off")
 
     for name, kind, x0, y0, x1, y1 in segs:
         if kind == "visible":
-            ax.plot([x0, x1], [y0, y1], color="black", lw=0.5, solid_capstyle="round")
+            ax.plot([x0, x1], [y0, y1], color="black", lw=LW_THICK, solid_capstyle="round")
         else:
-            ax.plot([x0, x1], [y0, y1], color="0.55", lw=0.35, ls=(0, (3, 2)))
+            ax.plot([x0, x1], [y0, y1], color="0.55", lw=LW_THIN, ls=(0, (3, 2)))
 
     frame, tb = _frame_lines(pw, ph, table)
     for (x0, y0, x1, y1) in frame:
@@ -3443,7 +3493,7 @@ def _render_mpl(segs, uuid, paper, scale, proj, pw, ph, out_prefix, fmts, result
     # centre lines (circle cross + trapezoid axis) as dash-dot (ISO centreline).
     psym_thick, psym_thin = _proj_symbol_lines(psx, psy, r=psr, first_angle=True)
     for (x0, y0, x1, y1) in psym_thin:
-        ax.plot([x0, x1], [y0, y1], color="black", lw=0.35,
+        ax.plot([x0, x1], [y0, y1], color="black", lw=LW_THIN,
                 ls=(0, (6, 1.5, 1, 1.5)))
     for (x0, y0, x1, y1) in psym_thick:
         ax.plot([x0, x1], [y0, y1], color="black", lw=0.8)
@@ -3461,7 +3511,7 @@ def _render_mpl(segs, uuid, paper, scale, proj, pw, ph, out_prefix, fmts, result
     # sight arrows (filled), 'A' letters -- ISO 128-44/50.
     if marks:
         for (x0, y0, x1, y1) in marks["hatch"]:
-            ax.plot([x0, x1], [y0, y1], color="black", lw=0.3)
+            ax.plot([x0, x1], [y0, y1], color="black", lw=LW_THIN)
         for (x0, y0, x1, y1) in marks["strokes"]:
             ax.plot([x0, x1], [y0, y1], color="black", lw=1.2)
         for (x, y, dx, dy) in marks["arrows"]:
@@ -3478,8 +3528,12 @@ def _render_mpl(segs, uuid, paper, scale, proj, pw, ph, out_prefix, fmts, result
     # so the spine still reads where it runs along the solid's own outline.
     for (_v, poly) in (centerlines or []):
         xs = [p[0] for p in poly]; ys = [p[1] for p in poly]
-        ax.plot(xs, ys, color="black", lw=0.6, ls=(0, (8, 2, 1, 2)),
+        ax.plot(xs, ys, color="black", lw=LW_THIN, ls=(0, (8, 2, 1, 2)),
                 zorder=5)
+    # PART centre lines: holes / bosses / shafts (ISO 128-24, thin long-dashed dotted)
+    for (_v, x0, y0, x1, y1) in (centre_art or []):
+        ax.plot([x0, x1], [y0, y1], color="black", lw=LW_THIN,
+                ls=(0, (8, 2, 1, 2)), zorder=5)
 
     # ISO 8826 bearing symbols (thick outline / thin centre & element symbol)
     if bearing_art:
@@ -3496,7 +3550,7 @@ def _render_mpl(segs, uuid, paper, scale, proj, pw, ph, out_prefix, fmts, result
     # ISO 129-1 dimensions
     for dm in (dims or []):
         for (x0, y0, x1, y1) in dm["thin"]:
-            ax.plot([x0, x1], [y0, y1], color="black", lw=0.25)
+            ax.plot([x0, x1], [y0, y1], color="black", lw=LW_THIN)
         for (x0, y0, x1, y1) in dm["arrow"]:
             ax.plot([x0, x1], [y0, y1], color="black", lw=0.6)
         tx, ty, txt, rot, va, ha = dm["text"]
@@ -3536,15 +3590,25 @@ def _render_mpl(segs, uuid, paper, scale, proj, pw, ph, out_prefix, fmts, result
     plt.close(fig)
 
 
-def _render_dxf(segs, uuid, paper, scale, proj, pw, ph, out_prefix, results, labels, s_iso=None, dims=None, centerlines=None, marks=None, bearing_art=None, thread_art=None, mass=None, title=None, table=None):
+def _render_dxf(segs, uuid, paper, scale, proj, pw, ph, out_prefix, results, labels, s_iso=None, dims=None, centerlines=None, marks=None, bearing_art=None, thread_art=None, mass=None, title=None, table=None, centre_art=None):
     doc = ezdxf.new("R2010")
-    doc.layers.add("VISIBLE", color=7)
-    doc.layers.add("HIDDEN", color=8, linetype="DASHED")
-    doc.layers.add("FRAME", color=5)
-    doc.layers.add("TEXT", color=3)
-    doc.layers.add("DIM", color=1)
-    doc.layers.add("CENTER", color=4, linetype="CENTER")
-    doc.layers.add("HATCH", color=7)
+    # ISO 128-20 line types, DEFINED in the LTYPE table (a name alone is drawn as a
+    # continuous line by CAD readers): dashed = 12d dash / 3d gap, long-dashed dotted
+    # = 24d dash / 3d gap / dot / 3d gap, with d = 0.35 mm resp. 0.25 mm.
+    doc.linetypes.add("DASHED", pattern=[5.25, 4.2, -1.05],
+                      description="ISO 128-20 dashed __ __ __ __ __ __")
+    doc.linetypes.add("CENTER", pattern=[7.75, 6.0, -0.75, 0.25, -0.75],
+                      description="ISO 128-20 long-dashed dotted ____ . ____ . ____")
+    # ISO 128-20 line group 0.5 mm: outlines 0.50 mm, all thin lines 0.25 mm
+    # (lineweight unit = 1/100 mm).
+    doc.layers.add("VISIBLE", color=7, lineweight=50)
+    doc.layers.add("HIDDEN", color=8, linetype="DASHED", lineweight=25)
+    doc.layers.add("FRAME", color=5, lineweight=50)
+    doc.layers.add("TEXT", color=3, lineweight=25)
+    doc.layers.add("DIM", color=1, lineweight=25)
+    doc.layers.add("CENTER", color=4, linetype="CENTER", lineweight=25)
+    doc.layers.add("HATCH", color=7, lineweight=25)
+    doc.header["$LWDISPLAY"] = 1
     msp = doc.modelspace()
     for name, kind, x0, y0, x1, y1 in segs:
         layer = "VISIBLE" if kind == "visible" else "HIDDEN"
@@ -3567,6 +3631,9 @@ def _render_dxf(segs, uuid, paper, scale, proj, pw, ph, out_prefix, results, lab
     for (_v, poly) in (centerlines or []):
         if len(poly) >= 2:
             msp.add_lwpolyline(poly, dxfattribs={"layer": "CENTER"})
+    # PART centre lines (holes / bosses / shafts) as LINE entities on the CENTER layer
+    for (_v, x0, y0, x1, y1) in (centre_art or []):
+        msp.add_line((x0, y0), (x1, y1), dxfattribs={"layer": "CENTER"})
     # ISO 8826 bearing symbols + ISO 6410 thread lines
     if bearing_art:
         for (x0, y0, x1, y1) in bearing_art["thick"]:

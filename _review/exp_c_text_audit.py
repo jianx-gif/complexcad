@@ -5,7 +5,10 @@
 import json, re, glob, os, collections
 
 ROOT = r'E:/3005/data'
-OP_RE = re.compile(r"\.(revolve|sweep|loft|fillet|chamfer|extrude|shell|cutBlind|cutThruAll|hole|cboreHole|cskHole|union|cut|intersect|rect|circle|polygon|polyline|ellipse|slot2D|box|mirror|offset2D|twistExtrude|text)\(", re.I)
+# 3D modelling operations only: 2D sketch primitives (rect, circle, polygon, polyline,
+# ellipse, slot2D, offset2D, text) define a profile and are no longer listed as steps
+# (generator fix of 2026-09-28 after the human review; see exp_c3_step_order.py).
+OP_RE = re.compile(r"\.(revolve|sweep|loft|fillet|chamfer|extrude|shell|cutBlind|cutThruAll|hole|cboreHole|cskHole|union|cut|intersect|box|mirror|twistExtrude)\(", re.I)
 PARAM_RE = re.compile(r"^([a-zA-Z_]\w*)\s*=\s*(-?\d+\.?\d*)\s*$", re.M)
 
 n = miss_op = extra_op = 0

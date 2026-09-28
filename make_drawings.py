@@ -207,10 +207,18 @@ def process(uuid, fmts=("png", "svg", "dxf"), deflection=0.1):
         part_mass = pr.Mass() * 7.85e-6 * 1000.0     # mm^3 -> g
     except Exception:
         part_mass = None
+    # ISO 128 centre lines: the axis of every hole, boss and shaft (projlib.hole_axes)
+    # becomes a centre cross where it is seen axis-on and an axis line where it is
+    # seen from the side. Model-view coords; drawing.render scales and extends them.
+    centre_marks = []
+    try:
+        centre_marks = projlib.centre_marks_for_views(shape)
+    except Exception:
+        centre_marks = []
     paper, scale, results = drawing.render(
         views, uuid, out_prefix, fmts=fmts, ops_count=ops_count,
         matched=matched, overall=overall, sweep=sweep, section=section,
-        mass=part_mass, title=uuid)
+        mass=part_mass, title=uuid, centre_marks=centre_marks)
     return paper, scale, results
 
 # `process(uuid)` is the single entry point: it loads output/<uuid>/model.step,

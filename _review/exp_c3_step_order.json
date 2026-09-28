@@ -1,0 +1,18 @@
+{
+ "n_models": 10000,
+ "exact_sequence": 10000,
+ "exact_rate": 1.0,
+ "order_ok_dedup": 10000,
+ "order_ok_rate": 1.0,
+ "same_multiset": 10000,
+ "with_sketch_primitive": 0,
+ "unparsable": 0,
+ "sample200": {
+  "n": 200,
+  "exact": 200,
+  "order_ok_dedup": 200,
+  "with_sketch_primitive": 0,
+  "same_multiset": 200
+ },
+ "examples_not_exact": []
+}

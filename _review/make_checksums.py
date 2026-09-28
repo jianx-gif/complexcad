@@ -7,7 +7,8 @@ import os, glob, hashlib
 ROOT = r'E:/3005/data'
 pats = ['splits/*.txt', 'splits/*.json', 'env/*',
         '_review/exp_*.json', '_review/brepcheck_invalid.json', '_review/grabcad_manifest.csv',
-        '_review/param_ranges.json',
+        '_review/param_ranges.json', '_review/supp_scan_stats.json', '_review/supp_selection.json',
+        '_review/supp_build_stats.json',
         '1m_Convert/precision_report/*.json', '1m_Convert/precision_report/*.jsonl',
         '_review/*_lora*/final_adapter/adapter_model.safetensors', '_review/*_lora*/final_adapter/adapter_config.json']
 files = []
@@ -18,6 +19,7 @@ lines = []
 for f in files:
     h = hashlib.sha256(open(f, 'rb').read()).hexdigest()
     lines.append('%s  %s' % (h, os.path.relpath(f, ROOT).replace('\\', '/')))
+lines = [l for l in lines if 'exp_c4_runtime_trace' not in l]
 open(os.path.join(ROOT, 'checksums.txt'), 'w', encoding='utf-8', newline='\n').write('\n'.join(lines) + '\n')
 print(len(lines), 'files hashed')
 for l in lines:

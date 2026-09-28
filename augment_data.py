@@ -12,6 +12,7 @@ but the pipeline did not yet emit:
 Self-contained, resilient (per-part errors logged & skipped), progress logged.
 Usage:  python augment_data.py [offset] [count]   (default: all of output/)
 """
+import ast
 import json
 import os
 import sys
@@ -32,6 +33,7 @@ from OCP.BRepBndLib import BRepBndLib
 
 import params as params_mod
 import iso_knowledge as iso
+import text_params
 
 OUT = "output"
 N_POINTS = 8192
@@ -130,13 +132,61 @@ _OP_PHRASE = {
 }
 
 
+# 2D sketch primitives: they define a profile but are not modelling steps. The
+# human review of 2026-09-17 rejected 194/200 step lists mainly because these
+# were listed as steps (188 of the 194). They are excluded from the sequence.
+_SKETCH_PRIMITIVES = {"circle", "rect", "polygon", "polyline"}
+
+
 def _real_ops(ops_json):
-    out = []
-    for op in ops_json or []:
+    """Modelling steps in CONSTRUCTION order.
+
+    The upstream ops log lists the outermost call of every chain first (a
+    breadth-first walk of the AST), so 'fillet' at line 67 could precede
+    'cutBlind' at line 30. Steps are therefore sorted by their source position
+    (lineno, col_offset), which is the order in which a straight-line CadQuery
+    script executes them, and 2D sketch primitives are dropped.
+    Calls of one chained expression (``.box().edges().chamfer()``) share the
+    position of the expression's start, so within a chain the depth of the call
+    in the chain (the number of dotted members of the logged ``function`` path)
+    orders the steps: the inner call executes first."""
+    rows = []
+    for i, op in enumerate(ops_json or []):
         name = op.get("op_name")
-        if name in _REAL_OPS:
-            out.append(name)
-    return out
+        if name in _REAL_OPS and name not in _SKETCH_PRIMITIVES:
+            depth = str(op.get("function") or "").count(".")
+            rows.append((op.get("lineno") or 0, op.get("col_offset") or 0, depth, i, name))
+    rows.sort()
+    return [r[4] for r in rows]
+
+
+def steps_from_source(folder, ops_json=None):
+    """Modelling steps in EXECUTION order, read from the program itself.
+
+    The program (cadquery.py) is the ground truth of the text modality, so its
+    abstract syntax tree is parsed directly: every method call whose name is a
+    3D modelling operation is taken at the position where the call CLOSES
+    (end_lineno, end_col_offset). In a chained expression the inner call closes
+    first, and a call nested in an argument -- result.union(cq.Workplane()
+    .rect(a, b).extrude(h)) -- closes before the call that consumes it, so
+    the end positions give the order in which a straight-line script executes
+    the operations. A loop body is listed once, as written. 2D sketch
+    primitives are not steps. Falls back to the upstream operation log
+    (_real_ops) when the source cannot be parsed."""
+    path = os.path.join(folder, "cadquery.py")
+    try:
+        src = open(path, encoding="utf-8", errors="replace").read()
+        tree = ast.parse(src)
+    except Exception:
+        return _real_ops(ops_json)
+    calls = []
+    for node in ast.walk(tree):
+        if isinstance(node, ast.Call) and isinstance(node.func, ast.Attribute):
+            name = node.func.attr
+            if name in _REAL_OPS and name not in _SKETCH_PRIMITIVES:
+                calls.append((node.end_lineno or 0, node.end_col_offset or 0, name))
+    calls.sort()
+    return [c[2] for c in calls] or _real_ops(ops_json)
 
 
 def _classified_params(prm):
@@ -144,7 +194,7 @@ def _classified_params(prm):
     feature/dimension text groups them the way an engineer reads a drawing."""
     groups = {}
     for name, val in prm.items():
-        c = iso.classify_param(name)
+        c = text_params.classify_param(name)
         kind = c[0] if c else "other"
         groups.setdefault(kind, []).append((name, val))
     return groups
@@ -154,8 +204,8 @@ def build_description(folder, ops_json, stats):
     """Return (structured_dict, free_text). Covers the four text sub-types the
     task lists: operation-sequence NL, feature/dimension text, design intent,
     plus a structured form."""
-    prm = params_mod.extract(folder)
-    ops = _real_ops(ops_json)
+    prm = text_params.extract(folder)
+    ops = steps_from_source(folder, ops_json)
     # operation-sequence natural language
     op_counts = {}
     for o in ops:
