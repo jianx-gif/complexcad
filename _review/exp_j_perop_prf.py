@@ -2,9 +2,11 @@
 """实验J: 五复杂操作 per-op precision/recall/F1 (批注p55).
 GT: metrics.jsonl ops; 预测: 复用 eval_predictions.parse_ops 解析各方法预测代码.
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys, json
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 sys.path.insert(0, os.path.join(ROOT, '1m_Convert', 'koor'))
 from eval_predictions import parse_ops
 

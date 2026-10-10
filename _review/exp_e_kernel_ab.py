@@ -4,9 +4,11 @@
 记录 F/E/V 计数 -> 与 metadata 参考对比 + 两 env 互相对比.
 用法: python exp_e_kernel_ab.py <tag> <n>
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import sys, os, json, glob, random, io, contextlib
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 tag, N = sys.argv[1], int(sys.argv[2])
 
 # 固定种子取分层样本: 含 sweep/loft 的全部 + 随机补足

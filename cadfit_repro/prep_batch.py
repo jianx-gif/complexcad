@@ -1,9 +1,11 @@
 """批量预处理 stl_data 中尚未处理的真实件 -> grabcad_in/(逐件子进程+600s超时)。
 已处理过的 10 个源文件(旧命名规则)直接跳过。"""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, re, subprocess, sys
 
-SRC = "E:/3005/data/stl_data"
-DST = "E:/3005/data/cadfit_repro/grabcad_in"
+SRC = _ROOT + '/stl_data'
+DST = _ROOT + '/cadfit_repro/grabcad_in'
 PY = sys.executable
 HERE = os.path.dirname(os.path.abspath(__file__))
 SKIP = {

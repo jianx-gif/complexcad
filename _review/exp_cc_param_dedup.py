@@ -5,9 +5,11 @@
   (c) 只有操作多重集相同、参数值不同 (同一模板换参数, 统计每件测试模型的同模板训练件数).
 用法: python exp_cc_param_dedup.py
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, re, json, collections, hashlib
 
-R = r'E:/3005/data'
+R = _ROOT
 PARAM_RE = re.compile(r"^([a-zA-Z_]\w*)\s*=\s*(-?\d+\.?\d*)\s*$", re.M)
 
 

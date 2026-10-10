@@ -4,8 +4,10 @@
 两步:  (1) t2cq 环境 (有 pyarrow):  python exp_dd_excluded20.py extract
        (2) cadfit-env (有 psutil):   python exp_dd_excluded20.py run
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys, json, collections
-R = r'E:/3005/data'
+R = _ROOT
 CODES = os.path.join(R, '_review', 'excluded20_codes.json')
 
 

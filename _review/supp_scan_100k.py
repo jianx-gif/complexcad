@@ -10,12 +10,14 @@ list is read from the HF API. Output:
   _review/supp_scan_stats.json    per-file counts (rows, sweep, loft, both)
 Usage (base python, needs pyarrow + fsspec):  python -X utf8 supp_scan_100k.py
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import io, json, os, sys, time, urllib.request
 
 import fsspec
 import pyarrow.parquet as pq
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 REPO = 'ADSKAILab/Zero-To-CAD-100k'
 API = 'https://huggingface.co/api/datasets/%s/tree/main/data/train?limit=1000' % REPO
 RES = 'https://huggingface.co/datasets/%s/resolve/main/' % REPO

@@ -9,11 +9,14 @@
   (e) 导出 40 件人工核验样本 (程序全文 + 两种解析器的判定) 供人工抽检.
 输出: _review/exp_m_protocol.json, _review/parser_audit/
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
+_DS = _os.environ.get('CADRECODE_DATASETS') or _ROOT + '/datasets'  # CAD-Recode dataset copies, see README
 import os, sys, re, json, glob, ast, hashlib, subprocess, random, io
 from collections import Counter
 
-ROOT = r'E:/3005/data'
-DS = r'E:/2106/datasets'
+ROOT = _ROOT
+DS = _DS
 SCRIPTS = os.path.join(ROOT, 'Dataset Distribution', 'scripts')
 OUT = os.path.join(ROOT, '_review', 'exp_m_protocol.json')
 AUDIT = os.path.join(ROOT, '_review', 'parser_audit')

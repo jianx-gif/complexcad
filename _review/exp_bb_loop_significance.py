@@ -9,9 +9,11 @@
 比较对: ComplexCAD vs 对照; ComplexCAD vs 原版(同 mm/100 输入); +文本 vs ComplexCAD; +图纸 vs ComplexCAD.
 用法 (cadfit-env): python exp_bb_loop_significance.py
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys, json, random, math
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 sys.path.insert(0, os.path.join(ROOT, '1m_Convert', 'koor'))
 from eval_predictions import parse_ops
 

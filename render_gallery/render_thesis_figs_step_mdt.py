@@ -10,13 +10,15 @@ Cases (a)-(c) are the ones of the earlier three-case figures; (d)-(f) are added:
   6.4 CAD-Recode: the two remaining prototype candidates plus a swept part
   6.5 real parts: all five GrabCAD parts of table 6.14 instead of three
 Run with cadfit-env python. Writes nothing into _rev_clone."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, re, json, sys, random
 import matplotlib; matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import render_step as R
 
-ROOT = 'E:/3005/data'
+ROOT = _ROOT
 BILD = f'{ROOT}/_mdt_clone/bilder'
 GT_C, PR_C = '#4C9BE8', '#E8975A'
 FS = 1.9                      # in-image tag size (the images are placed at the full text width)

@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """实验E分析: 两内核计数 vs metadata GT + 互相对比."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import json, os
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 gt = {}
 for line in open(os.path.join(ROOT, '1m_Convert', 'precision_report', 'metrics.jsonl'), encoding='utf-8'):
     j = json.loads(line)

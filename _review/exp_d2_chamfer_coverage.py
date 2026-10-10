@@ -12,10 +12,12 @@
 用法 (cadquery 环境): python exp_d2_chamfer_coverage.py
 输出: _review/exp_d2_chamfer_coverage.json
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, re, glob, json, math, random
 import numpy as np
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 NS = [1024, 2048, 4096, 8192]
 PARAM_RE = re.compile(r"^([a-zA-Z_]\w*)\s*=\s*(-?\d+\.?\d*)\s*$", re.M)
 

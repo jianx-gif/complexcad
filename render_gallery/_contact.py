@@ -1,4 +1,6 @@
 """Contact sheet: shaded solid previews for candidate parts."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import sys, os, tempfile
 import numpy as np, trimesh
 import matplotlib; matplotlib.use("Agg")
@@ -18,7 +20,7 @@ fig = plt.figure(figsize=(4.6*cols, 4.6*rows))
 for i, u in enumerate(uuids):
     ax = fig.add_subplot(rows, cols, i+1, projection="3d")
     try:
-        w = cq.importers.importStep(f"E:/3005/data/output/{u}/model.step")
+        w = cq.importers.importStep(f"{_ROOT}/output/{u}/model.step")
         tmp = os.path.join(tempfile.gettempdir(), f"_cs_{u[:8]}.stl")
         cq.exporters.export(w, tmp, tolerance=0.05, angularTolerance=0.12)
         m = trimesh.load(tmp, force="mesh")
@@ -36,5 +38,5 @@ for i, u in enumerate(uuids):
     ax.set_box_aspect((1,1,1)); ax.view_init(elev=ELEV,azim=AZIM); ax.set_axis_off()
     ax.set_title(u[:8], fontsize=10)
 fig.tight_layout()
-fig.savefig("E:/3005/data/render_gallery/_contact.png", dpi=110, bbox_inches="tight")
+fig.savefig(_ROOT + '/render_gallery/_contact.png', dpi=110, bbox_inches="tight")
 print("SAVED _contact.png")

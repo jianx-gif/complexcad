@@ -1,10 +1,12 @@
 """渲染 CADFit 定性图: 3个复杂件(revolve/sweep/loft), 真值(上) vs CADFit重建(下)。"""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import numpy as np, trimesh
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 
-ROOT = "E:/3005/data"
+ROOT = _ROOT
 RUNS = f"{ROOT}/cadfit_repro/cc_in_runs"
 OUT = f"{ROOT}/overleaf_thesis/bilder/cmp_cadfit_qual.png"
 

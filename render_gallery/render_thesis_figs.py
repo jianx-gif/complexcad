@@ -4,6 +4,8 @@ B cmp_real_qual   : 3真实件 输入 vs CADFit (原件不变)
 C cmp_cadrecode_qual: 3件 GT vs CAD-Recode (按原型重选, 打印CD/操作供图注)
 D cmp_retrieval_qual: 3件 GT vs 检索     (同上)
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, re, glob, json, subprocess
 import numpy as np
 import trimesh
@@ -13,7 +15,7 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 
-ROOT = "E:/3005/data"
+ROOT = _ROOT
 BILD = f"{ROOT}/overleaf_thesis/bilder"
 TMP = f"{ROOT}/render_gallery/_figtmp"
 os.makedirs(TMP, exist_ok=True)

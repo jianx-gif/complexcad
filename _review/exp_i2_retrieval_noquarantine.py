@@ -5,10 +5,12 @@ normalised Chamfer < 0.02, splits/quarantine_near_duplicates.txt) are removed fr
 otherwise identical to retrieval_baseline.py / exp_i (10^3 voxel descriptor, cosine nearest neighbour).
 Predictions -> predictions/retrieval_noq/<test_uuid>.py ; summary -> _review/exp_i2_retrieval_noquarantine.json
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, glob, json, shutil
 import numpy as np
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 OUT = os.path.join(ROOT, 'output')
 PRED = os.path.join(ROOT, 'predictions', 'retrieval_noq')
 G = 10

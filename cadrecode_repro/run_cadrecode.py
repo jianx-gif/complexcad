@@ -6,6 +6,8 @@ predictions/cadrecode/<uuid>.py。基于官方 demo.ipynb, 去掉可视化依赖
 输入预处理与 demo 一致: 归一化到边长2、中心在原点的立方体, 再 FPS 到 256 点。
 可断点续跑(跳过已有预测)。用法: python run_cadrecode.py [--limit N]
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys, argparse, time
 import numpy as np
 import torch
@@ -13,7 +15,7 @@ from torch import nn
 from transformers import AutoTokenizer, Qwen2ForCausalLM, Qwen2Model, PreTrainedModel
 from transformers.modeling_outputs import CausalLMOutputWithPast
 
-ROOT = "E:/3005/data"
+ROOT = _ROOT
 OUTDIR = os.path.join(ROOT, "output")
 SUBSET = os.path.join(ROOT, "predictions", "test_subset.txt")
 PRED = os.path.join(ROOT, "predictions", "cadrecode")

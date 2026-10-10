@@ -12,12 +12,14 @@
   5. 在新进程中执行生成脚本, 用存储位姿核对求解结果 (座面圆心/法向残差), 写 assembly_constraints.json.
 用法: conda run -n cadquery python -X utf8 exp_l_constraints.py <n_single> <n_two>
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys, glob, json, math, io, contextlib, subprocess
 import numpy as np
 import cadquery as cq
 from OCP.gp import gp_Pnt, gp_Dir, gp_Trsf, gp_Vec, gp_Ax1
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 CONV = os.path.join(ROOT, '1m_Convert')
 sys.path.insert(0, CONV)
 import fasteners as F

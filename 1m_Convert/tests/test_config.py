@@ -79,7 +79,7 @@ def test_example_config_parses_with_both_parsers(project_dir):
     assert os.path.isfile(example)
     text = open(example, encoding="utf-8").read()
     mini = config._parse_toml_minimal(text)
-    assert mini["paths"]["root"].replace("\\", "/") == "E:/3005/data"
+    assert mini["paths"]["root"] == "."          # the example uses paths relative to the cwd
     assert mini["logging"]["level"] == "INFO"
     try:
         import tomllib
@@ -87,8 +87,8 @@ def test_example_config_parses_with_both_parsers(project_dir):
         tomllib = pytest.importorskip("tomli")
     assert tomllib.loads(text) == mini
     cfg = config.load_config(path=example, env={})
-    assert os.path.normcase(cfg.output_dir) == os.path.normcase(r"E:\3005\data\output")
-    assert os.path.normcase(cfg.splits_dir) == os.path.normcase(r"E:\3005\data\splits")
+    assert os.path.isabs(cfg.output_dir) and os.path.basename(cfg.output_dir) == "output"
+    assert os.path.isabs(cfg.splits_dir) and os.path.basename(cfg.splits_dir) == "splits"
     assert cfg.explicit("root") and not cfg.explicit("names_file")
 
 

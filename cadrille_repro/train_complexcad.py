@@ -4,6 +4,8 @@
 2000 件 pilot 训练集(_review/cc_ft), pc 模式, 12GB 显存配置
 (batch1 x accum8, 梯度检查点, bf16), 断点续训 + GPU 温控.
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os
 os.environ.setdefault('PYTORCH_CUDA_ALLOC_CONF', 'expandable_segments:True')
 import time
@@ -17,8 +19,8 @@ from peft import LoraConfig, get_peft_model
 from cadrille import Cadrille, collate
 from dataset import CadRecodeDataset
 
-DATA = r'E:/3005/data/_review/cc_ft'
-OUT = r'E:/3005/data/_review/cc_ft_lora'
+DATA = _ROOT + '/_review/cc_ft'
+OUT = _ROOT + '/_review/cc_ft_lora'
 MODEL_ID = 'maksimko123/cadrille'
 MAXTEMP = 82
 

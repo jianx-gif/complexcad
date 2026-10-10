@@ -10,9 +10,11 @@ over R3's 10 % for execution or drawing failures). The base shares are counted f
 output/<uuid>/description.json (3D operation counts).
 Usage (base python, pyarrow + fsspec):  python -X utf8 supp_fetch_100k.py [--dry]
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import io, json, os, random, sys, time, collections
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 BASE = os.path.join(ROOT, 'output')
 SUPP = os.path.join(ROOT, 'output_supp')
 CAND = os.path.join(ROOT, '_review', 'supp_candidates.jsonl')

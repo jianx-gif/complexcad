@@ -6,10 +6,12 @@
       extrude/cutBlind 第1参(距离); shell 第1参(壁厚).  loft/sweep 没有标量实参, 只计次数.
 用法: python exp_ff_param_by_operation.py
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, re, json, ast, math, glob, collections
 import numpy as np
 
-R = r'E:/3005/data'
+R = _ROOT
 PARAM_RE = re.compile(r"^([a-zA-Z_]\w*)\s*=\s*(-?\d+\.?\d*)\s*$", re.M)
 ROLES = {'chamfer': [(0, 'distance')], 'fillet': [(0, 'radius')], 'revolve': [(0, 'angle (deg)')],
          'hole': [(0, 'diameter'), (1, 'depth')], 'cboreHole': [(0, 'diameter')], 'cskHole': [(0, 'diameter')],

@@ -9,9 +9,11 @@
 输出: _review/exp_t_drawing_audit.json (汇总) + exp_t_drawing_audit_records.jsonl (逐图).
 用法: conda run -n cadfit-env python exp_t_drawing_audit.py [--limit N]
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys, re, json, math, glob, collections
 import ezdxf
-ROOT = r'E:/3005/data'; OUT = os.path.join(ROOT, 'output')
+ROOT = _ROOT; OUT = os.path.join(ROOT, 'output')
 PARAM_RE = re.compile(r"^([a-zA-Z_]\w*)\s*=\s*(-?\d+\.?\d*)\s*$", re.M)
 ISO_H = (1.8, 2.5, 3.5, 5.0, 7.0, 10.0)
 ISO_SCALES = {'1:1', '1:2', '1:5', '1:10', '1:20', '1:50', '1:100', '1:200', '1:500', '1:1000', '2:1', '5:1', '10:1', '20:1', '50:1'}

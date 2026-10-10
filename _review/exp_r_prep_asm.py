@@ -7,9 +7,11 @@
   * 输入点云: 训练由 CadRecodeDataset 从 model.stl 采样 (与零件闭环同一约定 mm/100); 测试预采 8192 点存 npy.
 输出: _review/cc_asm/{train,val}.pkl, code/<name>.py, test_pc/<name>.npy, test_names.txt, prep_stats.json
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys, json, pickle, random, re
 import numpy as np
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 SRC = [os.path.join(ROOT, '1m_Convert', 'assemblies_slim'), os.path.join(ROOT, '1m_Convert', 'two_part_assemblies_slim')]
 DST = os.path.join(ROOT, '_review', 'cc_asm')
 os.makedirs(os.path.join(DST, 'code'), exist_ok=True); os.makedirs(os.path.join(DST, 'test_pc'), exist_ok=True)

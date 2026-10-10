@@ -3,11 +3,13 @@
 test = the 400-model stratified evaluation subset; quarantine = executing models whose shape is a near-duplicate of a test
 shape (same rule as exp_p_prep: 24^3 voxel-descriptor cosine > 0.90 AND normalised bidirectional Chamfer < 0.02);
 val = the 100 seeded validation models of exp_p_prep; train = every other executing model (all program lengths).
-Writes E:/3005/data/splits/*.txt + splits.json.  Run with the cadfit-env python (scipy)."""
+Writes <repo>/splits/*.txt + splits.json.  Run with the cadfit-env python (scipy)."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys, json, pickle
 import numpy as np
 from scipy.spatial import cKDTree
-ROOT = r'E:/3005/data'; OUT = os.path.join(ROOT, 'output'); D = os.path.join(ROOT, 'splits'); os.makedirs(D, exist_ok=True)
+ROOT = _ROOT; OUT = os.path.join(ROOT, 'output'); D = os.path.join(ROOT, 'splits'); os.makedirs(D, exist_ok=True)
 G = 24
 metrics = {json.loads(l)['uuid']: json.loads(l) for l in open(os.path.join(ROOT, '1m_Convert', 'precision_report', 'metrics.jsonl'), encoding='utf-8')}
 executed = sorted(u for u, r in metrics.items() if r['status'] == 'ok')
@@ -61,7 +63,7 @@ for name, lst in (('test_400', test), ('val_100', val), ('train', train), ('quar
 open(os.path.join(D, 'quarantine_pairs.json'), 'w').write(json.dumps({u: dict(test_uuid=t, cosine=s, chamfer=c) for u, (t, s, c) in excluded.items()}, indent=1))
 non_exec = sorted(u for u, r in metrics.items() if r['status'] != 'ok')
 open(os.path.join(D, 'non_executing_18.txt'), 'w', newline='\n').write('\n'.join(non_exec) + '\n')
-json.dump(dict(rule='test = stratified 400 (seeded; 200 with loft/revolve/sweep, 200 without); quarantine = executing models whose 24^3 voxel-descriptor cosine > 0.90 to a test model AND normalised bidirectional Chamfer < 0.02 (identity noise floor 0.0163); val = 100 seeded from the remaining pool; train = all other executing models, all program lengths (the training experiments of Ch. 6 additionally cap comment-stripped programs at 1500 characters for GPU memory: 6171 train / 71 val); non_executing = the 18 programs that fail in the kernel (excluded from every split); assemblies inherit the split of their base part(s), two-part assemblies whose parts fall in different splits go to test' + '; the 20 programs of the upstream test split that were missing from the release until 2026-09-13 were restored on that date, after the training arms of Ch. 6 had been run, so none of them is in any arm's training data or in any seeded audit sample',
+json.dump(dict(rule='test = stratified 400 (seeded; 200 with loft/revolve/sweep, 200 without); quarantine = executing models whose 24^3 voxel-descriptor cosine > 0.90 to a test model AND normalised bidirectional Chamfer < 0.02 (identity noise floor 0.0163); val = 100 seeded from the remaining pool; train = all other executing models, all program lengths (the training experiments of Ch. 6 additionally cap comment-stripped programs at 1500 characters for GPU memory: 6171 train / 71 val); non_executing = the 18 programs that fail in the kernel (excluded from every split); assemblies inherit the split of their base part(s), two-part assemblies whose parts fall in different splits go to test' + '; the 20 programs of the upstream test split that were missing from the release until 2026-09-13 were restored on that date, after the training arms of Ch. 6 had been run, so none of them is in any arm\'s training data or in any seeded audit sample',
                counts=dict(test=len(test), test_executing=len(test_exec), val=len(val), train=len(train), quarantine=len(dup), non_executing=len(non_exec), total=len(metrics))),
           open(os.path.join(D, 'splits.json'), 'w'), indent=1)
 print(json.load(open(os.path.join(D, 'splits.json')))['counts'])

@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 """实验A: 五复杂操作共现矩阵 (批注p40/p47)."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import json, collections, itertools
 
 OPS = ['loft', 'revolve', 'sweep', 'chamfer', 'fillet']
 pair = collections.Counter()
 single = collections.Counter()
 n = 0
-for line in open(r'E:/3005/data/1m_Convert/precision_report/metrics.jsonl', encoding='utf-8'):
+for line in open(_ROOT + '/1m_Convert/precision_report/metrics.jsonl', encoding='utf-8'):
     j = json.loads(line); n += 1
     s = set(o.lower() for o in (j.get('ops') or [])) & set(OPS)
     for o in s:
@@ -30,4 +32,4 @@ for a in OPS:
     print(row)
 json.dump({'single': dict(single),
            'pairs': {f'{a}+{b}': v for (a, b), v in pair.items()}},
-          open(r'E:/3005/data/_review/exp_a_cooccurrence.json', 'w'), indent=1)
+          open(_ROOT + '/_review/exp_a_cooccurrence.json', 'w'), indent=1)

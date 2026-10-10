@@ -95,7 +95,7 @@ params / iso_knowledge / drawing / projlib / annotate`）仍在 `data/` 根目�
 
 ```bash
 # 安装(可编辑模式, 在 cadfit-env 里)
-cd E:\3005\data\1m_Convert
+cd <repo>\1m_Convert
 python -m pip install -e .                 # 离线: 加 --no-build-isolation --no-deps
 python -m pip install -e ".[geometry,convert,test]"   # 可选: 几何/1M转换/测试依赖
 

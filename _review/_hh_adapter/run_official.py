@@ -1,7 +1,7 @@
 """Sanity check of the released cadrille checkpoint (maksimko123/cadrille) on the OFFICIAL
 evaluation data of its text and image branches.
 
-Mirrors E:/3005/data/cadrille_repro/run_cadrille.py (the script used for our arms): same
+Mirrors <repo>/cadrille_repro/run_cadrille.py (the script used for our arms): same
 processor settings, same Cadrille.from_pretrained(MODEL_ID, bf16, sdpa), same generate kwargs
 (max_new_tokens=768, checkpoint generation_config = top_k 1 / temperature 0.01), same
 batch_decode. Inputs come from the official loaders in cadrille_repro/dataset.py:
@@ -10,11 +10,13 @@ batch_decode. Inputs come from the official loaders in cadrille_repro/dataset.py
          -> 4 open3d renders, 2x2 grid, 'Generate cadquery code'
 Predictions are written as <uid>+0.py so cadrille's evaluate.py convention can be used.
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '../..'))  # repository root
 import os, sys, argparse, time, json
 import torch
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-REPRO = 'E:/3005/data/cadrille_repro'
+REPRO = _ROOT + '/cadrille_repro'
 sys.path.insert(0, HERE)
 sys.path.insert(0, REPRO)
 import o3d_stub  # noqa: F401  (isolated open3d for the official renderer)

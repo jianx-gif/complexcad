@@ -1,6 +1,8 @@
 """Fig 4.2 (smooth solid | coarse mesh | normal-coloured point cloud) + Fig 4.3 (B-rep wireframe).
 (a) is re-tessellated finely from STEP so curved faces look smooth; (b) is the coarse dataset STL
 with visible wireframe; colours contrast: silver vs blue vs RGB normals."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import sys, os, tempfile
 import numpy as np, trimesh
 import matplotlib; matplotlib.use("Agg")
@@ -16,8 +18,8 @@ from OCP.TopoDS import TopoDS
 
 uuid = sys.argv[1]
 OUTPNG = sys.argv[2] if len(sys.argv) > 2 else None   # preview path; None -> thesis bilder
-BILD = "E:/3005/data/overleaf_thesis/bilder"
-ROOT = f"E:/3005/data/output/{uuid}"
+BILD = _ROOT + '/overleaf_thesis/bilder'
+ROOT = f"{_ROOT}/output/{uuid}"
 ELEV, AZIM = 24, -58
 LIM = 0.62
 VIEW = np.array([np.cos(np.radians(AZIM))*np.cos(np.radians(ELEV)),

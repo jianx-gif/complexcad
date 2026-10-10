@@ -3,10 +3,12 @@
 对每个测试件, 在体素描述子余弦<=0.99 的池样本中取最近邻(剔除近重复),
 预测=所选池样本的GT程序 -> predictions/retrieval_dedup/<test_uuid>.py
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, glob, json, shutil
 import numpy as np
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 OUT = os.path.join(ROOT, 'output')
 PRED = os.path.join(ROOT, 'predictions', 'retrieval_dedup')
 G, THR = 10, 0.99

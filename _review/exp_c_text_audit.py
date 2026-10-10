@@ -2,9 +2,11 @@
 """实验C: 文本描述自动一致性质检 (批注p27), 全量9980.
 独立于生成器: 用正则直接扫 cadquery.py 源码得到操作集合, 与 description.json 对照;
 参数值与源码模块级赋值对照."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import json, re, glob, os, collections
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 # 3D modelling operations only: 2D sketch primitives (rect, circle, polygon, polyline,
 # ellipse, slot2D, offset2D, text) define a profile and are no longer listed as steps
 # (generator fix of 2026-09-28 after the human review; see exp_c3_step_order.py).

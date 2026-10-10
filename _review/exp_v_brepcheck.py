@@ -9,9 +9,11 @@
 输出: _review/exp_v_brepcheck.json + _records.jsonl
 用法: python exp_v_brepcheck.py [n]   (默认全部)
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import sys, os, json, math, collections
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 OUT = os.path.join(ROOT, 'output')
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 0
 

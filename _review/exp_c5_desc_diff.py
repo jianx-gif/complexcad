@@ -9,9 +9,11 @@
   * 操作多重集: 旧版去掉草图基元后 与 新版 是否相同
 用法 (cadfit-env): python -X utf8 exp_c5_desc_diff.py [output_dir]
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import collections, json, os, sys
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 sys.path.insert(0, ROOT); os.chdir(ROOT)
 import augment_data as A
 

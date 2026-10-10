@@ -4,11 +4,14 @@
 超时块二分定位挂起件并跳过(记 skipped). 汇总口径与 summarize() 完全一致
 (CD/F 对 status==ok 平均, valid 对全体平均).
 """
+import os as _os
+import sys as _sys
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys, json, subprocess, tempfile
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 KOOR = os.path.join(ROOT, '1m_Convert', 'koor')
-PY = r'E:/anzhuang/Miniconda3/envs/cadfit-env/python.exe'
+PY = (_os.environ.get('COMPLEXCAD_PY_CADFIT') or _sys.executable)
 JSONL = os.path.join(ROOT, '1m_Convert', 'precision_report', 'pred_metrics_selftest.jsonl')
 MERGED = os.path.join(ROOT, '_review', 'exp_k5_run5_records.jsonl')
 CHUNK, TO_CHUNK, TO_ONE = 500, 420, 60

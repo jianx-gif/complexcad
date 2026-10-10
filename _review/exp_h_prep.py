@@ -3,9 +3,11 @@
 选 2000 训练件(不在400测试子集, 代码<=1200字符, 已执行成功) + 50 验证件;
 复制 model.stl + cadquery.py -> _review/cc_ft/train|val/<uuid>.{stl,py}; 写 pkl.
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, json, glob, random, shutil, pickle
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 DST = os.path.join(ROOT, '_review', 'cc_ft')
 MAX_CODE = 1200
 N_TRAIN, N_VAL = 2000, 50

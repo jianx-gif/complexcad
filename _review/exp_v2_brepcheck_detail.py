@@ -3,6 +3,8 @@
 (b) 全部 9980 个释出 B-rep 的最大 面/边/顶点 容差 (批注 #86: 记录每个形状实际存储的容差).
 用法 (cadquery 环境): python exp_v2_brepcheck_detail.py
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, json, collections
 from OCP.BRep import BRep_Builder, BRep_Tool
 from OCP.BRepTools import BRepTools
@@ -11,7 +13,7 @@ from OCP.TopExp import TopExp_Explorer
 from OCP.TopAbs import TopAbs_FACE, TopAbs_EDGE, TopAbs_VERTEX, TopAbs_SHELL, TopAbs_WIRE
 from OCP.BRepCheck import BRepCheck_Analyzer, BRepCheck_NoError
 
-R = r'E:/3005/data'
+R = _ROOT
 OUT = os.path.join(R, 'output')
 invalid = set(json.load(open(os.path.join(R, '_review', 'brepcheck_invalid.json')))['uuids'])
 metrics = {json.loads(l)['uuid']: json.loads(l) for l in open(os.path.join(R, '1m_Convert', 'precision_report', 'metrics.jsonl'), encoding='utf-8')}

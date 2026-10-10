@@ -2,9 +2,11 @@
 """SHA-256 of the files a reader needs to reproduce the reported numbers:
 splits, environment specs, and every result file the thesis cites. Writes checksums.txt
 (sha256sum format) at the release root."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, glob, hashlib
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 pats = ['splits/*.txt', 'splits/*.json', 'env/*',
         '_review/exp_*.json', '_review/brepcheck_invalid.json', '_review/grabcad_manifest.csv',
         '_review/param_ranges.json', '_review/supp_scan_stats.json', '_review/supp_selection.json',

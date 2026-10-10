@@ -3,9 +3,11 @@
 回答审阅问题: 注释/字符串是否排除; 选择器链 (.edges('|Z').fillet) 如何识别; 封装函数与别名如何处理;
 循环/条件内的调用; 动态调用 getattr. 输出 _review/exp_o_detection.json.
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import sys, os, ast, json
 from collections import Counter
-sys.path.insert(0, r'E:/3005/data/_review'); sys.argv = ['x']
+sys.path.insert(0, _ROOT + '/_review'); sys.argv = ['x']
 import exp_m_protocol as M
 
 OPS = {'loft', 'revolve', 'sweep', 'chamfer', 'fillet'}
@@ -90,7 +92,7 @@ def main():
             n_prog[k] += 1
     out = dict(programs=len(ztc), totals=dict(agg), programs_with=dict(n_prog))
     print(json.dumps(out, indent=1))
-    json.dump(out, open(r'E:/3005/data/_review/exp_o_detection.json', 'w'), indent=1)
+    json.dump(out, open(_ROOT + '/_review/exp_o_detection.json', 'w'), indent=1)
 
 
 if __name__ == '__main__':

@@ -10,9 +10,11 @@
   * 可编辑性代理: 预测代码里的具名数值参数个数、以及是否含 5 种复杂操作调用.
 用法 (任意带 psutil 的 python; 子进程用 cadquery env): python exp_q_param_error.py <pred_dir_name> [<pred_dir_name> ...]
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys, json, re, math, glob, ast, signal
 import numpy as np
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 PRED = os.path.join(ROOT, 'predictions')
 OUT = os.path.join(ROOT, 'output')
 sys.path.insert(0, os.path.join(ROOT, '_review'))

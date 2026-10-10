@@ -4,6 +4,8 @@ labels and layout as before (render_thesis_figs.py / render_bmw.py). Ground trut
 predictions are CadQuery programs executed to STEP. The GrabCAD inputs of fig. 6.5 exist only as meshes and
 are rendered from their STL with the same shading (smooth normals, feature edges, no triangle lines).
 Run with cadfit-env python. Old PNGs are kept as <name>.stl_version.png in render_gallery/."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, re, json, shutil, sys
 import numpy as np
 import matplotlib; matplotlib.use('Agg')
@@ -11,7 +13,7 @@ import matplotlib.pyplot as plt
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import render_step as R
 
-ROOT = 'E:/3005/data'
+ROOT = _ROOT
 BILD = f'{ROOT}/_rev_clone/bilder'
 GT_C, PR_C = '#4C9BE8', '#E8975A'
 OPS_RE = re.compile(r"\.(revolve|sweep|loft|fillet|chamfer|extrude|shell|cut|union|add|hole|cskHole)\(", re.I)

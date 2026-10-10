@@ -16,9 +16,11 @@
 用法: python exp_u_dim_correctness.py [n_models]   (默认 600, 与 exp_g 同样本量, seed 42)
 输出: _review/exp_u_dim_correctness.json + _records.jsonl
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import sys, os, re, json, math, random, collections
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 OUT = os.path.join(ROOT, 'output')
 N_MODELS = int(sys.argv[1]) if len(sys.argv) > 1 else 600
 TOL_REL, TOL_ABS = 1e-3, 0.01

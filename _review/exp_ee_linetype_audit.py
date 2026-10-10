@@ -11,10 +11,12 @@
 另外把 drawing.py 里 PNG/SVG 渲染线宽写进结果 (matplotlib 线宽单位是 pt, 1 pt = 0.3528 mm).
 用法 (cadfit-env): python exp_ee_linetype_audit.py
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, json, collections
 from multiprocessing import Pool
 
-R = r'E:/3005/data'
+R = _ROOT
 OUT = os.path.join(R, 'output')
 PT = 25.4 / 72
 

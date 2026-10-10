@@ -2,10 +2,12 @@
 """闭环训练目标预处理: 去掉训练程序中的注释与空行 (自然语言注释不可预测且与几何无关; 变量名与结构保留),
 写到 cc_full/code/<uuid>.py; 然后只保留去注释后 <= MAX_CHARS 字符的样本 (12 GB 显存余量),
 写 train.pkl / val.pkl (train_all.pkl 保留全部长度). 报告长度统计到 strip_stats.json."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, io, pickle, tokenize, json
 import numpy as np
 
-DST = r'E:/3005/data/_review/cc_full'
+DST = _ROOT + '/_review/cc_full'
 CODE = os.path.join(DST, 'code'); os.makedirs(CODE, exist_ok=True)
 MAX_CHARS = 1500
 

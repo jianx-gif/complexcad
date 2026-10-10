@@ -12,19 +12,19 @@
 [paths]
 # Repository/data root: contains output/, splits/, predictions/ and the
 # drawing core modules match.py, make_drawings.py, ...          KOOR_ROOT
-root = "E:/3005/data"
+root = "."
 # 10 000-model dataset: output/<uuid>/{cadquery.py, metadata.json, ...}   KOOR_OUTPUT_DIR
-output_dir = "E:/3005/data/output"
+output_dir = "./output"
 # Train/val/test split lists (test_400.txt, val_100.txt, splits.json)      KOOR_SPLITS_DIR
-splits_dir = "E:/3005/data/splits"
+splits_dir = "./splits"
 # predictions/<method>/<uuid>.py written by the baselines                  KOOR_PREDICTIONS_DIR
-predictions_dir = "E:/3005/data/predictions"
+predictions_dir = "./predictions"
 # Where eval_precision / eval_predictions / quantization write reports     KOOR_REPORT_DIR
-report_dir = "E:/3005/data/1m_Convert/precision_report"
+report_dir = "./1m_Convert/precision_report"
 # Test-subset uuid list. When set it is forwarded as --names-file to
 # `koor eval-predictions` and `koor adapt-cadrecode` unless the option is
 # given on the command line.                                               KOOR_NAMES_FILE
-# names_file = "E:/3005/data/predictions/test_subset.txt"
+# names_file = "./predictions/test_subset.txt"
 
 [convert]
 # 1M conversion outputs (HPC layout). Forwarded as `koor convert --outdir`
@@ -36,4 +36,4 @@ report_dir = "E:/3005/data/1m_Convert/precision_report"
 # Log level of the CLI layer (the scripts keep their own prints).          KOOR_LOG_LEVEL
 level = "INFO"
 # Optional log file (appended, UTF-8).                                     KOOR_LOG_FILE
-# file = "E:/3005/data/1m_Convert/koor.log"
+# file = "./1m_Convert/koor.log"

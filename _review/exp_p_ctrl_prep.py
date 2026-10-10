@@ -4,10 +4,13 @@
 用同一配方微调, 用来区分"复杂操作数据"与"再训练一会儿/适应评测框架"两个效应.
 用法 (cadquery env): python exp_p_ctrl_prep.py
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
+_DS = _os.environ.get('CADRECODE_DATASETS') or _ROOT + '/datasets'  # CAD-Recode dataset copies, see README
 import os, sys, random, pickle, json, subprocess, time
 from multiprocessing import Pool
-ROOT = r'E:/3005/data'
-REPO = r'E:/2106/datasets/cadrecode_v15_train'
+ROOT = _ROOT
+REPO = _DS + '/cadrecode_v15_train'
 DST = os.path.join(ROOT, '_review', 'cc_ctrl')
 MESH = os.path.join(DST, 'mesh'); CODE = os.path.join(DST, 'code')
 N_TRAIN, N_VAL, SEED = 7768, 100, 7

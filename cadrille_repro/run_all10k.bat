@@ -1,4 +1,6 @@
 @echo off
+set ROOT=%~dp0..
+if "%COMPLEXCAD_PY_CADREC%"=="" (set PY=%ROOT%\cadrec_env\Scripts\python.exe) else (set PY=%COMPLEXCAD_PY_CADREC%)
 rem Complete re-run of the four training arms on the 10000-model corpus (2026-09-13), strictly serial on the single GPU:
 rem   C  ComplexCAD pc      : cc_full (6187 / 71)              -> cc_full_lora  -> predictions/cadrille_cc
 rem   K  control            : cc_ctrl (6187 CAD-Recode / 71)  -> cc_ctrl_lora  -> predictions/cadrille_ctrl
@@ -6,44 +8,43 @@ rem   T  pc + text          : cc_full + description.txt        -> cc_text_lora  
 rem   D  pc + drawing       : cc_full + drawing.png (520 tok)  -> cc_draw_lora  -> predictions/cadrille_cc_draw
 rem The assembly arm and the released-checkpoint baselines are not repeated: their data did not change.
 setlocal EnableDelayedExpansion
-set PY=E:\3005\data\cadrec_env\Scripts\python.exe
-set R=E:\3005\data\_review
+set R=%ROOT%\_review
 set LOG=%R%\run_all10k.log
-cd /d E:\3005\data\cadrille_repro
+cd /d %ROOT%\cadrille_repro
 echo [%date% %time%] all10k start >> %LOG%
 
 rem ---------- C: ComplexCAD ----------
 if not exist %R%\cc_full_lora\INFER_DONE (
-  call :train %R%\cc_full_lora "--data E:/3005/data/_review/cc_full --out E:/3005/data/_review/cc_full_lora --rank 16 --epochs 3"
+  call :train %R%\cc_full_lora "--data %ROOT%/_review/cc_full --out %ROOT%/_review/cc_full_lora --rank 16 --epochs 3"
   call :nopy
-  %PY% -X utf8 run_cadrille.py --mode pc --batch 4 --adapter E:/3005/data/_review/cc_full_lora/final_adapter --outdir cadrille_cc --pc-scale100 --max-new-tokens 900 > %R%\cc_full_infer.log 2>&1
+  %PY% -X utf8 run_cadrille.py --mode pc --batch 4 --adapter %ROOT%/_review/cc_full_lora/final_adapter --outdir cadrille_cc --pc-scale100 --max-new-tokens 900 > %R%\cc_full_infer.log 2>&1
   echo done > %R%\cc_full_lora\INFER_DONE
   echo [%date% %time%] C done >> %LOG%
 )
 
 rem ---------- K: control ----------
 if not exist %R%\cc_ctrl_lora\INFER_DONE (
-  call :train %R%\cc_ctrl_lora "--data E:/3005/data/_review/cc_ctrl --out E:/3005/data/_review/cc_ctrl_lora --rank 16 --epochs 3"
+  call :train %R%\cc_ctrl_lora "--data %ROOT%/_review/cc_ctrl --out %ROOT%/_review/cc_ctrl_lora --rank 16 --epochs 3"
   call :nopy
-  %PY% -X utf8 run_cadrille.py --mode pc --batch 4 --adapter E:/3005/data/_review/cc_ctrl_lora/final_adapter --outdir cadrille_ctrl --pc-scale100 --max-new-tokens 900 > %R%\cc_ctrl_infer.log 2>&1
+  %PY% -X utf8 run_cadrille.py --mode pc --batch 4 --adapter %ROOT%/_review/cc_ctrl_lora/final_adapter --outdir cadrille_ctrl --pc-scale100 --max-new-tokens 900 > %R%\cc_ctrl_infer.log 2>&1
   echo done > %R%\cc_ctrl_lora\INFER_DONE
   echo [%date% %time%] K done >> %LOG%
 )
 
 rem ---------- T: pc + text ----------
 if not exist %R%\cc_text_lora\INFER_DONE (
-  call :train %R%\cc_text_lora "--data E:/3005/data/_review/cc_full --out E:/3005/data/_review/cc_text_lora --rank 16 --epochs 3 --joint text"
+  call :train %R%\cc_text_lora "--data %ROOT%/_review/cc_full --out %ROOT%/_review/cc_text_lora --rank 16 --epochs 3 --joint text"
   call :nopy
-  %PY% -X utf8 run_cadrille.py --mode pc_text --batch 4 --adapter E:/3005/data/_review/cc_text_lora/final_adapter --outdir cadrille_cc_text --pc-scale100 --max-new-tokens 900 > %R%\cc_text_infer.log 2>&1
+  %PY% -X utf8 run_cadrille.py --mode pc_text --batch 4 --adapter %ROOT%/_review/cc_text_lora/final_adapter --outdir cadrille_cc_text --pc-scale100 --max-new-tokens 900 > %R%\cc_text_infer.log 2>&1
   echo done > %R%\cc_text_lora\INFER_DONE
   echo [%date% %time%] T done >> %LOG%
 )
 
 rem ---------- D: pc + drawing ----------
 if not exist %R%\cc_draw_lora\INFER_DONE (
-  call :train %R%\cc_draw_lora "--data E:/3005/data/_review/cc_full --out E:/3005/data/_review/cc_draw_lora --rank 16 --epochs 3 --joint drawing --draw-tokens 520"
+  call :train %R%\cc_draw_lora "--data %ROOT%/_review/cc_full --out %ROOT%/_review/cc_draw_lora --rank 16 --epochs 3 --joint drawing --draw-tokens 520"
   call :nopy
-  %PY% -X utf8 run_cadrille.py --mode pc_draw --batch 2 --adapter E:/3005/data/_review/cc_draw_lora/final_adapter --outdir cadrille_cc_draw --pc-scale100 --draw-tokens 520 --max-new-tokens 900 > %R%\cc_draw_infer.log 2>&1
+  %PY% -X utf8 run_cadrille.py --mode pc_draw --batch 2 --adapter %ROOT%/_review/cc_draw_lora/final_adapter --outdir cadrille_cc_draw --pc-scale100 --draw-tokens 520 --max-new-tokens 900 > %R%\cc_draw_infer.log 2>&1
   echo done > %R%\cc_draw_lora\INFER_DONE
   echo [%date% %time%] D done >> %LOG%
 )

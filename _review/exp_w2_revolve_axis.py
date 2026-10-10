@@ -16,9 +16,11 @@
 用法: python exp_w2_revolve_axis.py [n] [--sample N --seed 42]
 输出: _review/exp_w2_revolve_axis.json + exp_w2_revolve_axis_records.jsonl
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import sys, os, re, json, math, time, ast, random, collections
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 OUT = os.path.join(ROOT, 'output')
 REV_DIR = os.path.join(ROOT, '_review')
 

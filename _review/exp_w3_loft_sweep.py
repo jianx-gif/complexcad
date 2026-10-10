@@ -50,9 +50,11 @@ no candidate / not statically resolvable + 误差分布 + 失配归因 + 例子 
                               [--state <partial.jsonl>] [--worker <listfile>]
 输出: _review/exp_w3_loft_sweep.json + exp_w3_loft_sweep_records.jsonl (+ exp_w3_run.log)
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import sys, os, re, json, math, time, ast, random, collections, subprocess, tempfile, threading
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 OUT = os.path.join(ROOT, 'output')
 REV_DIR = os.path.join(ROOT, '_review')
 sys.path.insert(0, REV_DIR)

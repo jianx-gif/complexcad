@@ -7,6 +7,8 @@
 报告: 每模型最大偏差的中位数/P95/最大值 (mm), 以及相对包围盒对角线的比例.
 用法 (cadfit-env: 有 OCP + trimesh): python exp_z_tessellation.py
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, json, random, glob
 import numpy as np
 import trimesh
@@ -17,7 +19,7 @@ from OCP.BRepBuilderAPI import BRepBuilderAPI_MakeVertex
 from OCP.gp import gp_Pnt
 from OCP.BRepExtrema import BRepExtrema_DistShapeShape
 
-R = r'E:/3005/data'
+R = _ROOT
 rows = [json.loads(l) for l in open(os.path.join(R, '1m_Convert', 'precision_report', 'metrics.jsonl'), encoding='utf-8')]
 pool = sorted(r['uuid'] for r in rows if r.get('valid'))
 random.seed(42)

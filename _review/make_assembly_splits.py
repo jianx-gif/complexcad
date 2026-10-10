@@ -10,9 +10,11 @@ on a body outside the curated 10000-part set, or on a non-executing body, gets n
 splits go to test", which would have put training bodies inside 31 test assemblies.)
 Writes splits/assemblies.json and updates the rule text in splits/splits.json.
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, json, collections
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 S = os.path.join(ROOT, 'splits')
 split_of = {}
 for f, tag in (('test_400.txt', 'test'), ('val_100.txt', 'val'), ('train.txt', 'train'),

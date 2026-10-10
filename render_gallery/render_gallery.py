@@ -2,6 +2,8 @@
 cc_<uuid>.png   : ComplexCAD 40件, 真值(蓝) vs CADFit(橙), 标题含双方操作
 real_<name>.png : 真实5件, 输入 | CADFit | CAD-Recode | cadrille 四联
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, re, glob, json
 import numpy as np
 import trimesh
@@ -10,7 +12,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 
-ROOT = "E:/3005/data"
+ROOT = _ROOT
 GAL = os.path.dirname(os.path.abspath(__file__))   # 图库=本目录(已升级为独立任务)
 os.makedirs(GAL, exist_ok=True)
 GT_C, CF_C, M1_C, M2_C = "#4C9BE8", "#E8975A", "#7BC47F", "#C79BE8"

@@ -1,8 +1,10 @@
 """把 40 件 cc 子集的各方法预测代码执行成 STL -> cc_pred_stl/<method>/<uuid>.stl
 (逐件子进程 + 90s 超时, 跳过已存在; 执行失败/超时留空 -> 渲染时标 invalid)。"""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, glob, subprocess, sys
 
-ROOT = "E:/3005/data"
+ROOT = _ROOT
 EXEC = f"{ROOT}/real_root/exec_pred.py"
 DST = f"{ROOT}/cadfit_repro/cc_pred_stl"
 METHODS = ["cadrecode", "cadrille", "zero2cad", "retrieval"]

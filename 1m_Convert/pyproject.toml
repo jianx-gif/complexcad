@@ -3,7 +3,7 @@
 # Nothing is moved. The package "koor" is this directory's koor/ folder and the
 # drawing/annotation core modules that the scripts import by bare name
 # (match, make_drawings, augment_data, ...) stay where they are, one level up
-# in the repository root (E:\3005\data), declared here as py-modules via
+# in the repository root (<repo>), declared here as py-modules via
 # package-dir "" -> "..". Every script is still runnable as
 # "python koor/<script>.py" exactly as it was when the thesis results were made.
 #

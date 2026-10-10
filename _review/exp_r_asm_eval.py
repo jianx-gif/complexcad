@@ -8,9 +8,11 @@
 基线 (released cadrille): 输出为单实体零件程序, 不含 fastener()/place() -> 全部为 0, 仍按同一解析器评.
 用法: conda run -n cadquery python exp_r_asm_eval.py <pred_dir_name> [...]   (predictions/<name>/<asm_name>.py)
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys, ast, json, re
 import numpy as np
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 sys.path.insert(0, os.path.join(ROOT, '_review'))
 from guarded_exec import run_guarded_batch
 ASM = os.path.join(ROOT, '_review', 'cc_asm')

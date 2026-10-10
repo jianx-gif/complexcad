@@ -11,9 +11,11 @@ operation_sequence 逐项比较:
 另外对人工审查的 200 件样本 (_review/text_audit/checklist.csv) 单独汇总.
 用法 (cadfit-env): python -X utf8 exp_c3_step_order.py [output_dir]
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import ast, csv, json, os, sys, collections
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, 'output')
 OPS3D = {"extrude", "cut", "hole", "cboreHole", "cskHole", "fillet", "chamfer",
          "revolve", "sweep", "loft", "union", "intersect", "shell", "box",

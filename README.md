@@ -231,6 +231,16 @@ assembly program with and without explicit constraints, `model.step`,
 ## Regenerating the added modalities
 
 The scripts are importable modules. Paths are relative to the repository root.
+Every script locates the repository root from its own position; set `COMPLEXCAD_ROOT`
+to point the scripts at a copy of the data elsewhere. Four further variables cover
+machine-specific locations: `COMPLEXCAD_PY_CADFIT` and `COMPLEXCAD_PY_CADQUERY` (the
+interpreters of the two pipeline environments; the current interpreter is used when
+unset), `COMPLEXCAD_PY_CADREC` (the training virtual environment used by the batch
+files of `cadrille_repro/`, default `<repo>/cadrec_env/Scripts/python.exe`) and
+`CADRECODE_DATASETS` (local copies of the CAD-Recode and Fusion 360 downloads read by
+the survey scripts, default `<repo>/datasets`). `1m_Convert/koor.example.toml` uses
+paths relative to the current directory: run `koor` from the repository root or set
+`KOOR_ROOT`.
 
 ```python
 # augment one part in place: point cloud, B-rep, metadata, description
@@ -411,3 +421,18 @@ Details and attributions are in `THIRD_PARTY.md`.
 - Balancing supplement `output_supp/`: 1,579 sweep and loft programs from the
   upstream train split with the same modalities as the base models
   (`_review/supp_scan_100k.py`, `supp_fetch_100k.py`, `supp_build.py`).
+
+## Changes in v1.2
+
+Code only; the data, splits, predictions and result files are unchanged (same
+`checksums.txt`). The thesis cites v1.1 (commit `e1c243a`).
+
+- Machine paths removed: 86 Python scripts and the 10 batch files of
+  `cadrille_repro/` resolve the repository root from their own location
+  (`COMPLEXCAD_ROOT` and the variables listed under *Regenerating the added
+  modalities* override it) instead of the author's `E:/3005/data`;
+  `1m_Convert/koor.example.toml` uses relative paths.
+- `_review/make_splits.py`: an unescaped apostrophe in the rule string made the
+  file unparsable; fixed. The split files it documents were written before that
+  edit and are unchanged.
+- `LICENSE`: plain MIT text; the scope note it carried is in `THIRD_PARTY.md`.

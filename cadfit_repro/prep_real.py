@@ -4,12 +4,14 @@
 - >60k 面抽稀到 50k (与 CADFit image_to_cad 流程一致)
 - 输出后用 trimesh 验证水密性
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, glob, re, sys
 import pymeshlab
 import trimesh
 
-SRC = "E:/3005/data/stl_data"
-DST = "E:/3005/data/cadfit_repro/grabcad_in"
+SRC = _ROOT + '/stl_data'
+DST = _ROOT + '/cadfit_repro/grabcad_in'
 os.makedirs(DST, exist_ok=True)
 
 # 收集去重(Windows大小写不敏感造成 *.stl/*.STL 双计)

@@ -2,6 +2,8 @@
 """Figure 4.7 (fig:asm-trio): body A, body B and the assembled two-part assembly, rendered from
 STEP with the B-rep renderer of render_step.py (same muted palette as Figures 6.1-6.5).
 Usage: python render_fig47_trio.py <assembly model.step>  (run with cadfit-env python)"""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys
 import matplotlib
 matplotlib.use('Agg')
@@ -9,7 +11,7 @@ import matplotlib.pyplot as plt
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import render_step as R
 
-ROOT = 'E:/3005/data/'
+ROOT = _ROOT + '/'
 A = ROOT + 'output/b4003ad7-357f-6eda-915f-c7e625bb939f/model.step'
 B = ROOT + 'output/5d97e290-a077-580a-60a3-f23349f63e46/model.step'
 ASM = sys.argv[1]

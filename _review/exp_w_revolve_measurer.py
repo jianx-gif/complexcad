@@ -12,9 +12,11 @@
 用法: python exp_w_revolve_measurer.py [n]
 输出: _review/exp_w_revolve.json + _records.jsonl
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import sys, os, re, json, math, collections
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 OUT = os.path.join(ROOT, 'output')
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 0
 

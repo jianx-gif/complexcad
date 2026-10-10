@@ -6,9 +6,11 @@ r"""
 统计口径与 stat_cadrecode.py 完全一致（复用其 OP_PATTERNS / SKETCH_PATTERNS）。
 
 用法:
-    python stat_cadrecode_git.py --repo-dir "E:\2106\datasets\cadrecode_v15_train" --subdir train --split v15_train
-    python stat_cadrecode_git.py --repo-dir "E:\2106\datasets\cadrecode_v15_train" --subdir val   --split v15_validation
+    python stat_cadrecode_git.py --repo-dir "<datasets>\cadrecode_v15_train" --subdir train --split v15_train
+    python stat_cadrecode_git.py --repo-dir "<datasets>\cadrecode_v15_train" --subdir val   --split v15_validation
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '../..'))  # repository root
 import argparse, json, os, re, subprocess, sys, time
 from collections import Counter
 

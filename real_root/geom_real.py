@@ -3,12 +3,14 @@
 预测网格 = real_root/pred_stl/<method>/<name>.stl (exec_pred 产出)
 CADFit 网格 = cadfit_repro/grabcad_run_runs/<name>/best_greedy_parallel_iterative.stl
 独立归一化(与论文评分器一致) + CD/F(tau=0.02) + AST 解析操作。"""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, ast, json
 import numpy as np
 import trimesh
 from scipy.spatial import cKDTree
 
-ROOT = "E:/3005/data"
+ROOT = _ROOT
 REAL = f"{ROOT}/real_root"
 GT = f"{ROOT}/cadfit_repro/grabcad_run"
 TAU = 0.02

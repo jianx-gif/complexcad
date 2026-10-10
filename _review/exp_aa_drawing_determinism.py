@@ -8,8 +8,10 @@
 不会写 output/ 下的任何文件.
 用法 (cadfit-env, 在项目根目录): python _review/exp_aa_drawing_determinism.py
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys, json, shutil, tempfile, hashlib, random
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 sys.path.insert(0, ROOT)
 os.chdir(ROOT)
 import ezdxf

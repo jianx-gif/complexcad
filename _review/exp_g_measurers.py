@@ -8,10 +8,12 @@
 报告 attempted / exact(<=1e-6) / close(<=0.01mm) / unmatched + 残差分布.
 用法: python exp_g_measurers.py <n_models>
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import sys, os, json, glob, re, random, math
 import numpy as np
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 N_MODELS = int(sys.argv[1]) if len(sys.argv) > 1 else 600
 PARAM_RE = re.compile(r"^([a-zA-Z_]\w*)\s*=\s*(-?\d+\.?\d*)\s*$", re.M)
 

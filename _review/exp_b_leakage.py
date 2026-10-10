@@ -2,10 +2,12 @@
 """实验B: 检索池泄漏检查 (批注p55).
 1) 源码级: 规范化 cadquery.py 哈希, 测试集 vs 池 精确重复数.
 2) 几何级: 与检索基线同款体素描述子, 每个测试件最近池样本的余弦相似度分布."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, glob, json, hashlib, re
 import numpy as np
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 OUT = os.path.join(ROOT, 'output')
 G = 10
 

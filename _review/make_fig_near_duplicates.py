@@ -2,13 +2,15 @@
 """Figure for annotation #66: three quarantined near-duplicate pairs (test model next to the
 quarantined model), chosen deterministically as the pairs with the smallest normalised
 Chamfer distance, rendered from the upstream image_0.png of each model."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, json
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from PIL import Image
 
-R = r'E:/3005/data'
+R = _ROOT
 pairs = json.load(open(os.path.join(R, 'splits', 'quarantine_pairs.json'), encoding='utf-8'))
 ranked = sorted(pairs.items(), key=lambda kv: kv[1]['chamfer'])
 chosen, seen = [], set()

@@ -1,8 +1,11 @@
 """排查 cad-recode val 里没匹配到 extrude 的那 ~11% 是什么。"""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '../..'))  # repository root
+_DS = _os.environ.get('CADRECODE_DATASETS') or _ROOT + '/datasets'  # CAD-Recode dataset copies, see README
 import glob, re, os
 from collections import Counter
 
-VAL = r"E:\2106\datasets\cadrecode_val\val"
+VAL = _DS + '/cadrecode_val/val'
 files = sorted(glob.glob(os.path.join(VAL, "*.py")))
 print("总文件:", len(files))
 

@@ -5,9 +5,11 @@
 不复制文件: pkl 里放绝对路径. 输出 _review/cc_full/{train_all,val}.pkl, 统计写 cc_full/prep_stats.json.
 (2026-09-13 起的版本: 之前的版本自己算近重复; 现在近重复与划分统一由 make_splits.py 产生, 本脚本只读它.)
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, json, pickle
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 OUT = os.path.join(ROOT, 'output')
 DST = os.path.join(ROOT, '_review', 'cc_full')
 MAX_CODE = 2400

@@ -1,11 +1,13 @@
 """从 cadfit_repro/grabcad_run/*.stl 采样 8192 点+法向 ->
 real_root/output/<name>/point_cloud.npy (与 ComplexCAD 同格式), 并写 names.txt。"""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, glob
 import numpy as np
 import trimesh
 
-SRC = "E:/3005/data/cadfit_repro/grabcad_run"
-ROOT = "E:/3005/data/real_root"
+SRC = _ROOT + '/cadfit_repro/grabcad_run'
+ROOT = _ROOT + '/real_root'
 
 names = []
 for f in sorted(glob.glob(os.path.join(SRC, "*.stl"))):

@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """实验K: GrabCAD manifest (md5/大小/日期; URL/许可留待作者填) + 图纸审查包."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, glob, hashlib, csv, json, random, datetime
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 
 # ---- 1) GrabCAD manifest ----
 FIVE = ['Assem_Connecting_Rod_-_Connecting_Crank_', 'Assem_Connecting_Rod_-_Connecting_Rod_De',
@@ -52,6 +54,6 @@ open(os.path.join(adir, 'README.regen.md' if os.path.exists(os.path.join(adir, '
    文字压线/比例与标题栏), 取值 1=合格 0=不合格, notes 记录问题.
 2. 双方填完后计算逐项一致率(Cohen's kappa 或简单一致百分比)并汇总错误率.
 3. 结果填入论文 §Drawing 部分替换 'audit pending' 表述.
-drawing_path 相对 E:/3005/data/.
+drawing_path 相对 <repo>/.
 """)
 print('audit package:', adir, len(sample), 'drawings listed')

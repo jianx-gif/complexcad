@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 """严格版逐操作 F1: 不可执行的预测视为未恢复任何操作 (代码级 F1 的保守对照). 输出 exp_j_strict.json."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import json, os, sys
-sys.path.insert(0, r'E:/3005/data/1m_Convert/koor')
+sys.path.insert(0, _ROOT + '/1m_Convert/koor')
 from eval_predictions import parse_ops
-ROOT = r'E:/3005/data'; OPS = ['loft', 'revolve', 'sweep', 'chamfer', 'fillet']
+ROOT = _ROOT; OPS = ['loft', 'revolve', 'sweep', 'chamfer', 'fillet']
 gt = {}
 for line in open(os.path.join(ROOT, '1m_Convert', 'precision_report', 'metrics.jsonl'), encoding='utf-8'):
     j = json.loads(line); gt[j['uuid']] = set(o.lower() for o in (j.get('ops') or []))

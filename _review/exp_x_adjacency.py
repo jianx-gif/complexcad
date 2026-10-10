@@ -15,9 +15,11 @@
 用法 (cadquery 环境): python exp_x_adjacency.py [n]   默认 600, seed 42, 仅取可执行模型
 输出: _review/exp_x_adjacency.json + _records.jsonl
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import sys, os, json, random, hashlib
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 OUT = os.path.join(ROOT, 'output')
 
 from OCP.TopExp import TopExp

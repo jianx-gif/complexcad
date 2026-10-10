@@ -3,13 +3,16 @@
 400-model subset, draw one case at random (seed 42) from the best decile, the middle decile and the worst decile of
 Chamfer Distance; render GT vs prediction with the same lambert renderer as the other qualitative figures.
 Run with cadfit-env python (trimesh + matplotlib); the prediction is executed with the cadquery env via real_root/exec_pred.py."""
+import os as _os
+import sys as _sys
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys, json, random, subprocess
 # reuse the renderer definitions without running the module's top-level figure generation
-_src = open(r'E:/3005/data/render_gallery/render_thesis_figs.py', encoding='utf-8').read()
+_src = open(_ROOT + '/render_gallery/render_thesis_figs.py', encoding='utf-8').read()
 _src = _src[:_src.index('_rm = {')]
 exec(compile(_src, 'render_thesis_figs_defs', 'exec'))
-BILD = r'E:/3005/data/_rev_clone/bilder'
-PY = r'E:/anzhuang/Miniconda3/envs/cadquery/python.exe'
+BILD = _ROOT + '/_rev_clone/bilder'
+PY = (_os.environ.get('COMPLEXCAD_PY_CADQUERY') or _sys.executable)
 ENV = dict(os.environ)
 _root = os.path.dirname(PY)
 ENV['PATH'] = os.pathsep.join([_root, os.path.join(_root, 'Library', 'bin'), os.path.join(_root, 'Scripts'), ENV.get('PATH', '')])

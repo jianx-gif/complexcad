@@ -1,4 +1,6 @@
-"""Assemble E:/3005/data/_review/exp_hh_adapter_sanity.json and .log from the working folder."""
+"""Assemble <repo>/_review/exp_hh_adapter_sanity.json and .log from the working folder."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '../..'))  # repository root
 import os, json, time
 import numpy as np
 
@@ -85,7 +87,7 @@ paper = {
 }
 
 our_data = {
-    'source': 'E:/3005/data/1m_Convert/precision_report/pred_metrics_cadrille_{text,img,}.jsonl '
+    'source': _ROOT + '/1m_Convert/precision_report/pred_metrics_cadrille_{text,img,}.jsonl '
               '(released checkpoint on the ComplexCAD 400-item test subset, eval_predictions.py convention; '
               'thesis tab:cmp-ablation)',
     'text': {'validity_pct': 89.2, 'chamfer_bbox_norm_mean': 0.4220, 'fscore_mean': 0.044, 'op_type_recall': 0.23},
@@ -144,10 +146,10 @@ result = {
             'n_qvu014': img14['n_samples'], 'n_qvu010': img10['n_samples'],
             'overlap_with_text_subset': 5,
         },
-        'local_copy': 'E:/3005/data/_review/_hh_adapter/data/ (text2cad.zip 82.8 MB, 395 STL)',
+        'local_copy': _ROOT + '/_review/_hh_adapter/data/ (text2cad.zip 82.8 MB, 395 STL)',
     },
     'settings': {
-        'inference_script': 'E:/3005/data/_review/_hh_adapter/run_official.py = run_cadrille.py loading/generation '
+        'inference_script': _ROOT + '/_review/_hh_adapter/run_official.py = run_cadrille.py loading/generation '
                             '(AutoProcessor Qwen/Qwen2-VL-2B-Instruct min_pixels 256*28*28 max_pixels 1280*28*28 '
                             'padding_side left; Cadrille.from_pretrained bf16 attn sdpa; cadrille.collate eval=True; '
                             'max_new_tokens 768) with the official dataset.py loaders for inputs; '

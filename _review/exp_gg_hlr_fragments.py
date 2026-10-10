@@ -4,10 +4,12 @@
 统计每条直边(链)由几段组成: 被切成 >=2 段的直边占比、每条直边段数的中位数/P95/最大值.
 用法 (cadfit-env): python exp_gg_hlr_fragments.py
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, json, random, math, collections
 import ezdxf
 
-R = r'E:/3005/data'
+R = _ROOT
 OUT = os.path.join(R, 'output')
 uu = sorted(u for u in os.listdir(OUT) if os.path.isfile(os.path.join(OUT, u, 'drawing.dxf')))
 random.seed(42)

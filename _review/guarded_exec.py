@@ -6,6 +6,9 @@
       results = run_guarded_batch([(key, code), ...], fn_mod, fn_name, mem_gb=3, per_item_timeout=60)
       -> {key: (ok, payload_or_reason)}
 """
+import os as _os
+import sys as _sys
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys, time, subprocess, json, tempfile, base64
 import psutil
 
@@ -13,7 +16,7 @@ WORKER = r'''
 import sys, json, math, base64, traceback
 import cadquery as cq
 from types import SimpleNamespace
-sys.path.insert(0, r'E:/3005/data/_review')
+sys.path.insert(0, r'<repo>/_review')
 fn_mod, fn_name = sys.argv[1], sys.argv[2]
 mod = __import__(fn_mod); fn = getattr(mod, fn_name)
 batch = json.load(open(sys.argv[3], encoding='utf-8'))
@@ -37,7 +40,7 @@ for key, b64 in batch:
         print('@@R@@' + json.dumps([key, False, type(e).__name__ + ': ' + str(e)[:80]]), flush=True)
 print('@@END@@', flush=True)
 '''
-PY = r'E:/anzhuang/Miniconda3/envs/cadquery/python.exe'
+PY = (_os.environ.get('COMPLEXCAD_PY_CADQUERY') or _sys.executable)
 _ENVROOT = os.path.dirname(PY)
 # 子进程要能从任何父环境启动: conda 环境的 DLL 目录必须在 PATH 里 (否则 python.exe 直接退出 127)
 _CHILD_ENV = dict(os.environ)

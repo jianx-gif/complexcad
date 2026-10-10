@@ -1,11 +1,13 @@
 """真实件定性图: 输入网格(上) vs CADFit重建(下), 3例。"""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import numpy as np, trimesh
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 
-HERE = "E:/3005/data/cadfit_repro"
-OUT = "E:/3005/data/overleaf_thesis/bilder/cmp_real_qual.png"
+HERE = _ROOT + '/cadfit_repro'
+OUT = _ROOT + '/overleaf_thesis/bilder/cmp_real_qual.png'
 
 CASES = [
     ("Ball_Stud_throttle", "Ball stud (turned part)", "IoU 0.80, extrude + union"),

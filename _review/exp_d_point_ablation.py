@@ -7,10 +7,12 @@
 2) 实测部分: 30件 x 5种子 x 4档N, trimesh 采样验证三角形级覆盖与解析预测吻合.
 用法: python exp_d_point_ablation.py <n_models>
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import sys, os, json, glob, re, random
 import numpy as np
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 N_MODELS = int(sys.argv[1]) if len(sys.argv) > 1 else 300
 NS = [1024, 2048, 4096, 8192]
 PARAM_RE = re.compile(r"^([a-zA-Z_]\w*)\s*=\s*(-?\d+\.?\d*)\s*$", re.M)

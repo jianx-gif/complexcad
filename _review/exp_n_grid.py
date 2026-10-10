@@ -7,12 +7,15 @@ UnaryOp/BinOp 算术, 元组逐元素展开), 求值后得到 (方法名, 参数
 Wilson 95% CI (程序为独立单元). 输出 _review/exp_n_grid.json.
 用法: python exp_n_grid.py [--limit N]
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
+_DS = _os.environ.get('CADRECODE_DATASETS') or _ROOT + '/datasets'  # CAD-Recode dataset copies, see README
 import os, sys, ast, json, hashlib, math, subprocess, threading, time
 from collections import Counter, defaultdict
 
-REPO = r'E:/2106/datasets/cadrecode_v15_train'
-VAL1 = r'E:/2106/datasets/cadrecode_val/val'
-OUT = r'E:/3005/data/_review/exp_n_grid.json'
+REPO = _DS + '/cadrecode_v15_train'
+VAL1 = _DS + '/cadrecode_val/val'
+OUT = _ROOT + '/_review/exp_n_grid.json'
 LIMIT = int(sys.argv[sys.argv.index('--limit') + 1]) if '--limit' in sys.argv else None
 
 

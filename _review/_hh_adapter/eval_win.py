@@ -1,7 +1,7 @@
 """Evaluate predictions of the released cadrille checkpoint on the official DeepCAD/Text2CAD test
 subsets, on Windows, with two conventions:
 
-  --conv official : cadrille's own metrics, imported from E:/3005/data/cadrille_repro/evaluate.py
+  --conv official : cadrille's own metrics, imported from <repo>/cadrille_repro/evaluate.py
                     (py_file_to_mesh_and_brep_files -> tessellate(0.001, 0.1) -> STL; pred mesh
                     centred, scaled to unit max-extent and shifted to [0,1]^3; CD = sum of mean
                     squared NN distances on n_points=8192 samples; IoU = mesh boolean IoU;
@@ -12,7 +12,7 @@ subsets, on Windows, with two conventions:
                     persistent pool workers with a per-item timeout (default 180 s); the stale
                     global 'r' is cleared before each exec so a failed program cannot inherit the
                     previous item's solid.
-  --conv ours     : E:/3005/data/1m_Convert/koor/eval_predictions.py convention (exec_shape,
+  --conv ours     : <repo>/1m_Convert/koor/eval_predictions.py convention (exec_shape,
                     validity = >=1 solid with volume > 1e-9, sample_surface, geom_metrics with
                     per-object bbox normalisation, Chamfer = mean L1 NN both ways, F-score@0.02,
                     op_recovery vs GT CadQuery program when available). GT points: 8192 samples
@@ -20,13 +20,15 @@ subsets, on Windows, with two conventions:
 
 Run with the cadfit-env python (CadQuery 2.6.1 / trimesh 4.11.5), as eval_predictions.py is.
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '../..'))  # repository root
 import os, sys, json, time, argparse
 import multiprocessing as mp
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-REPRO = 'E:/3005/data/cadrille_repro'
-KOOR = 'E:/3005/data/1m_Convert/koor'
+REPRO = _ROOT + '/cadrille_repro'
+KOOR = _ROOT + '/1m_Convert/koor'
 GT_MESH = os.path.join(HERE, 'data', 'deepcad_test_mesh_all')
 GT_CODE = os.path.join(HERE, 'data', 'cadquery')
 

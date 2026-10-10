@@ -1,4 +1,6 @@
 """装配对比图: asm_<name>.png 四联 = GT装配 | CADFit | CAD-Recode | cadrille"""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, re
 import numpy as np
 import trimesh
@@ -8,7 +10,7 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 
-ROOT = "E:/3005/data"
+ROOT = _ROOT
 ASM = f"{ROOT}/asm_repro"
 GAL = os.path.dirname(os.path.abspath(__file__))
 GT_C, CF_C, M1_C, M2_C = "#4C9BE8", "#E8975A", "#7BC47F", "#C79BE8"

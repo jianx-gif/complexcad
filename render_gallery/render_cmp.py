@@ -1,4 +1,6 @@
 """渲染 真值STL vs CADFit重建STL 的并排对比图(headless, matplotlib)。"""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import sys, numpy as np, trimesh
 import matplotlib
 matplotlib.use("Agg")
@@ -6,9 +8,9 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 
 U = "31d4bb86-0545-3475-30fa-96ba18d87b54"
-GT = f"E:/3005/data/output/{U}/model.stl"
-PR = f"E:/3005/data/cadfit_repro/test_one_runs/{U}/best_greedy_parallel.stl"
-OUT = "E:/3005/data/render_gallery/compare_31d4bb86.png"
+GT = f"{_ROOT}/output/{U}/model.stl"
+PR = f"{_ROOT}/cadfit_repro/test_one_runs/{U}/best_greedy_parallel.stl"
+OUT = _ROOT + '/render_gallery/compare_31d4bb86.png'
 
 
 def draw(ax, path, title, color):

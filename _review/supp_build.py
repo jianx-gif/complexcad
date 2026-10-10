@@ -12,10 +12,12 @@ Per part (worker pool, cadfit-env):
 Parts that fail step 1 or 2 are moved to output_supp_rejected/. Summary in
 _review/supp_build_stats.json. Usage: python -X utf8 supp_build.py [--jobs N] [--limit N]
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import json, os, shutil, sys, time, traceback, collections
 from multiprocessing import Pool
 
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 SUPP = os.path.join(ROOT, 'output_supp')
 REJ = os.path.join(ROOT, 'output_supp_rejected')
 

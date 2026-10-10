@@ -8,6 +8,8 @@
   * 2 epoch, LoRA r=16, lr 1e-4 cosine, batch 1 x accum 8, 梯度检查点, bf16, 断点续训, GPU 温控.
 用法: python train_closed_loop.py [--data DIR] [--out DIR] [--epochs N] [--lr F]
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os
 import sys, time, argparse, subprocess
 from functools import partial
@@ -21,8 +23,8 @@ from dataset import CadRecodeDataset
 from train_closed_loop_utils import load_drawing
 
 ap = argparse.ArgumentParser()
-ap.add_argument('--data', default=r'E:/3005/data/_review/cc_full')
-ap.add_argument('--out', default=r'E:/3005/data/_review/cc_full_lora')
+ap.add_argument('--data', default=_ROOT + '/_review/cc_full')
+ap.add_argument('--out', default=_ROOT + '/_review/cc_full_lora')
 ap.add_argument('--epochs', type=float, default=2)
 ap.add_argument('--lr', type=float, default=1e-4)
 ap.add_argument('--rank', type=int, default=16)
@@ -37,7 +39,7 @@ ap.add_argument('--n-points', type=int, default=256)
 ap.add_argument('--max-steps', type=int, default=-1, help='>0: 冒烟测试, 只跑这么多步')
 ap.add_argument('--sampler', default='bucket', choices=['bucket', 'random'],
                 help='训练样本顺序: bucket = 按程序长度分桶 (09-09 起的默认); random = HF 默认随机采样 (09-08 的 ComplexCAD/对照臂所用)')
-ap.add_argument('--modal-dir', default=r'E:/3005/data/output', help='<uuid>/description.txt, drawing.png 所在目录')
+ap.add_argument('--modal-dir', default=_ROOT + '/output', help='<uuid>/description.txt, drawing.png 所在目录')
 args = ap.parse_args()
 MODEL_ID = 'maksimko123/cadrille'
 os.makedirs(args.out, exist_ok=True)

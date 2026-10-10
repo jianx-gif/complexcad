@@ -1,4 +1,6 @@
 """B-rep wireframe render (edges of the exact boundary representation) for fig:brep."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import sys, numpy as np
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -11,7 +13,7 @@ from OCP.GCPnts import GCPnts_QuasiUniformDeflection
 from OCP.TopoDS import TopoDS
 
 uuid, out = sys.argv[1], sys.argv[2]
-shape = cq.importers.importStep(f"E:/3005/data/output/{uuid}/model.step").val().wrapped
+shape = cq.importers.importStep(f"{_ROOT}/output/{uuid}/model.step").val().wrapped
 segs = []
 exp = TopExp_Explorer(shape, TopAbs_EDGE)
 while exp.More():

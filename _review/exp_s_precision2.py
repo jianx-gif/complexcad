@@ -9,9 +9,11 @@
   * 可编辑性: 取预测程序第一个尺寸类具名参数 x1.1 重新执行: 可执行率、几何随之变化率 (体积或包围盒变化 > 0.1%).
 用法: conda run -n cadfit-env python exp_s_precision2.py  (父进程要 scipy; 子进程 = cadquery env) <pred_dir_name> [...]
 """
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, sys, json, re, math, ast
 import numpy as np
-ROOT = r'E:/3005/data'
+ROOT = _ROOT
 PRED = os.path.join(ROOT, 'predictions'); OUT = os.path.join(ROOT, 'output')
 sys.path.insert(0, os.path.join(ROOT, '_review'))
 from guarded_exec import run_guarded_batch

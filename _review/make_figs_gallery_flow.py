@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """Seeded, operation-stratified random gallery (loft panel and last panel hand-picked for visibility) and a pipeline input/output diagram.
 Run with cadfit-env python (matplotlib + PIL)."""
+import os as _os
+_ROOT = _os.environ.get('COMPLEXCAD_ROOT') or _os.path.normpath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..'))  # repository root
 import os, json, random
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
@@ -9,7 +11,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 
-ROOT = r'E:/3005/data'; OUT = os.path.join(ROOT, 'output'); B = os.path.join(ROOT, '_rev_clone', 'bilder')
+ROOT = _ROOT; OUT = os.path.join(ROOT, 'output'); B = os.path.join(ROOT, '_rev_clone', 'bilder')
 rows = {json.loads(l)['uuid']: json.loads(l) for l in open(os.path.join(ROOT, '1m_Convert', 'precision_report', 'metrics.jsonl'), encoding='utf-8')}
 rng = random.Random(42)
 
