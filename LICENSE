@@ -19,9 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
--------------------------------------------------------------------------------
-Scope: this licence covers the code written for the thesis. It does not cover
-the directories cadrille_repro/, cadrecode_repro/ and cadfit_repro/, which keep
-the licences of their upstream projects, nor the inherited Zero-To-CAD data.
-See THIRD_PARTY.md.
